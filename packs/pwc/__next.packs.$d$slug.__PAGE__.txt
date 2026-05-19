@@ -1,0 +1,152 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0ka051yepewro.js"],""]
+7:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+8:"$Sreact.suspense"
+3:T294d,<h1>PwC School Leaver Programme — ApprenticeEdge Prep Pack</h1>
+<h2>The Programme</h2>
+<p><strong>What it is:</strong> PwC's School Leaver Programme is a degree apprenticeship. You work at PwC full-time while studying for a full undergraduate degree (funded by PwC). No tuition fees. You earn a salary from day one.</p>
+<p><strong>Length:</strong> 5–6 years (depending on service line)</p>
+<p><strong>Salary:</strong> £25,000–£28,000 starting (London higher). Rises each year.</p>
+<p><strong>Locations:</strong> London, Birmingham, Bristol, Edinburgh, Leeds, Manchester, and more.</p>
+<p><strong>Service lines you can apply to:</strong></p>
+<ul>
+<li>Assurance (audit)</li>
+<li>Tax</li>
+<li>Deals (M&#x26;A, valuations)</li>
+<li>Consulting</li>
+<li>Technology</li>
+</ul>
+<p><strong>Qualification you earn:</strong> Full BSc degree (partnered with top universities including Birmingham, Exeter, and others depending on line)</p>
+<p><strong>Application window:</strong> Typically opens September–November for the following September start. Apply early — roles fill before the deadline closes.</p>
+<hr>
+<h2>The Application Stages</h2>
+<h3>Stage 1 — Online Application Form</h3>
+<p>Fill in your personal details, predicted/achieved A-level grades, and answer 2–3 motivational questions (why PwC, why this service line, why now).</p>
+<p><strong>What they're looking for:</strong> Clear reasoning. Don't write "I've always loved numbers." Write about a specific moment or experience that pointed you toward this line of work.</p>
+<p><strong>Time:</strong> 30–45 minutes.</p>
+<h3>Stage 2 — Online Assessments</h3>
+<p>Two back-to-back tests, untimed but designed to be completed in one sitting:</p>
+<ul>
+<li><strong>Situational Judgement Test (SJT):</strong> Scenarios in a work context. Choose the most and least effective response. There are no trick answers — they want considered, professional judgement.</li>
+<li><strong>Cognitive/Numerical Reasoning:</strong> Basic data interpretation. Practice with SHL or Korn Ferry style questions beforehand. Speed matters as much as accuracy.</li>
+</ul>
+<p><strong>Tip:</strong> Do a full practice run the day before. Don't attempt on a slow connection.</p>
+<h3>Stage 3 — Video Interview (HireVue)</h3>
+<p>Pre-recorded. You see the question, get 30 seconds to prepare, then record a 2–3 minute answer. No interviewer — just the camera.</p>
+<p><strong>Typical questions:</strong></p>
+<ul>
+<li>Tell me about a time you worked in a team and there was a disagreement. How did you handle it?</li>
+<li>Describe a situation where you had to manage multiple deadlines. What did you do?</li>
+<li>Why PwC specifically over the other Big Four?</li>
+<li>What does good client service look like to you?</li>
+</ul>
+<p><strong>Format for every answer: STAR</strong></p>
+<ul>
+<li><strong>S</strong>ituation — set the scene briefly (1–2 sentences)</li>
+<li><strong>T</strong>ask — what was your specific responsibility</li>
+<li><strong>A</strong>ction — what YOU did (not "we") in detail</li>
+<li><strong>R</strong>esult — quantify if possible, reflect on learning</li>
+</ul>
+<p><strong>Tip:</strong> Record yourself on your phone first. Watch it back. You will cringe — that's normal. Fix the filler words and re-record.</p>
+<h3>Stage 4 — Assessment Centre (half day or full day)</h3>
+<p>The final stage. Held at a PwC office. Typically includes:</p>
+<ol>
+<li><strong>Group exercise</strong> — a business scenario (e.g. "advise a client on whether to expand into a new market"). You discuss in a group of 5–8. Assessors observe.</li>
+<li><strong>Individual presentation</strong> — given 20–30 minutes to prepare, then present for 5–10 minutes. Topic is usually a business or commercial case study.</li>
+<li><strong>Competency interview</strong> — 45 minutes, one or two interviewers. STAR answers expected throughout.</li>
+<li><strong>Written exercise</strong> — sometimes included. A short analysis or email response based on a brief.</li>
+</ol>
+<p><strong>What they score you on at AC:</strong></p>
+<ul>
+<li>Commercial awareness</li>
+<li>Communication (clarity, not jargon)</li>
+<li>Teamwork (contributing without dominating)</li>
+<li>Problem solving</li>
+<li>Resilience and motivation</li>
+</ul>
+<hr>
+<h2>PwC Core Competencies — Prep These with STAR Stories</h2>
+<p>Prepare at least one strong STAR story for each of the following. Use real examples — school, part-time jobs, sport, volunteering, Duke of Edinburgh, any leadership role.</p>
+<p>| Competency | What they want to see |
+|---|---|
+| Leadership | You influenced a group outcome without being in charge |
+| Teamwork | You contributed to a team while handling conflict or difference |
+| Communication | You explained something complex clearly, or adapted your style |
+| Problem solving | You identified a problem others hadn't noticed and fixed it |
+| Commercial awareness | You understand how businesses make money and what PwC actually does |
+| Resilience | You failed or faced setback and bounced back with a lesson |
+| Initiative | You spotted an opportunity and acted without being asked |</p>
+<hr>
+<h2>STAR Story Templates — Fill These In Before Your Interview</h2>
+<h3>Template 1 — Teamwork / Conflict</h3>
+<p><strong>Situation:</strong> During [context], I was part of a team of [X] working on [goal].
+<strong>Task:</strong> My responsibility was [specific role]. However, [conflict/challenge] arose when [what happened].
+<strong>Action:</strong> I [specific steps you took — be precise]. I chose to [why you did it that way].
+<strong>Result:</strong> As a result, [outcome]. I learned that [reflection].</p>
+<h3>Template 2 — Problem Solving</h3>
+<p><strong>Situation:</strong> While [activity], I noticed that [problem].
+<strong>Task:</strong> It was my job to [responsibility].
+<strong>Action:</strong> I [steps taken]. I prioritised [X] because [reason].
+<strong>Result:</strong> This led to [measurable outcome]. In future I would [refinement].</p>
+<h3>Template 3 — Leadership / Initiative</h3>
+<p><strong>Situation:</strong> [Context]. No one had [identified the gap / stepped up].
+<strong>Task:</strong> I decided to take responsibility for [specific thing].
+<strong>Action:</strong> I [actions]. I involved [others] by [how].
+<strong>Result:</strong> [Outcome]. The team [response]. I was recognised for [if applicable].</p>
+<hr>
+<h2>Commercial Awareness — What You Must Know About PwC</h2>
+<p><strong>Revenue (FY2024):</strong> $55bn globally. UK is one of the largest member firms.</p>
+<p><strong>The Big Four:</strong> PwC, Deloitte, KPMG, EY. PwC and Deloitte trade the #1 spot globally.</p>
+<p><strong>What PwC actually does:</strong></p>
+<ul>
+<li><strong>Assurance:</strong> Independently verifies that a company's financial statements are accurate (audit). Required by law for large companies.</li>
+<li><strong>Tax:</strong> Helps businesses and individuals pay the right amount of tax legally. Complex cross-border structures, R&#x26;D credits, transfer pricing.</li>
+<li><strong>Advisory/Deals:</strong> Advises on mergers, acquisitions, valuations, restructuring. Works alongside investment banks.</li>
+<li><strong>Consulting:</strong> Technology transformation, digital strategy, operational improvement.</li>
+</ul>
+<p><strong>Why this matters in your interview:</strong> If you can't explain what PwC does in two sentences, you won't pass the commercial awareness questions. Practice saying: <em>"PwC provides assurance, tax and advisory services to large organisations. Assurance means independently verifying financial statements; advisory means helping clients make better strategic and financial decisions."</em></p>
+<p><strong>Current PwC talking points (2025–26):</strong></p>
+<ul>
+<li>AI integration into audit and advisory services</li>
+<li>ESG reporting and sustainability assurance (growing rapidly)</li>
+<li>Regulatory pressure on Big Four independence</li>
+<li>PwC's investment in Microsoft Copilot-powered tools</li>
+</ul>
+<hr>
+<h2>Why PwC Over the Other Big Four — How to Answer This</h2>
+<p>Interviewers know you've applied to multiple firms. They don't expect exclusivity — they expect a credible reason.</p>
+<p><strong>Strong answer structure:</strong></p>
+<ol>
+<li>One specific thing about PwC's culture or approach (not generic — use their website, values page, alumni voices)</li>
+<li>One thing about the service line you've applied to</li>
+<li>One thing about how PwC's training/qualification fits your long-term goal</li>
+</ol>
+<p><strong>Example:</strong> <em>"What drew me specifically to PwC is the emphasis on building client relationships early in the programme rather than being siloed in back-office work. From speaking to current school leavers at [event/LinkedIn], it's clear that you're in front of clients from year one. Combined with the degree structure through [university], which aligns with my interest in [X], it felt like the strongest fit for how I learn."</em></p>
+<hr>
+<h2>Frequently Asked Questions</h2>
+<p><strong>Do I need A-levels in Maths or Economics?</strong>
+Not strictly — depends on service line. Assurance and Tax favour numeracy. Consulting is more flexible. Check the specific entry requirements on the PwC careers page.</p>
+<p><strong>What A-level grades do I need?</strong>
+Typically BBC–ABB at A-level, plus GCSE English and Maths at grade B/5 or above. PwC uses contextual recruitment — they factor in school performance relative to your school's average.</p>
+<p><strong>Can I reapply if I'm rejected?</strong>
+Yes, usually after 12 months. Ask for feedback and act on it specifically.</p>
+<p><strong>Is the degree real?</strong>
+Yes. Fully accredited BSc. You sit the same exams as full-time students. PwC pays all fees and gives you study leave.</p>
+<hr>
+<h2>Checklist — Before You Submit Your Application</h2>
+<ul>
+<li>[ ] Research your chosen service line specifically (not just "PwC" generically)</li>
+<li>[ ] Have at least 5 STAR stories ready covering leadership, teamwork, problem solving, communication, resilience</li>
+<li>[ ] Practice the SJT and numerical reasoning (SHL practice tests free online)</li>
+<li>[ ] Record a mock HireVue answer and watch it back</li>
+<li>[ ] Read PwC's latest annual report highlights (10 min — just the intro/CEO letter)</li>
+<li>[ ] Know what PwC does in one sentence per service line</li>
+<li>[ ] Have a genuine, specific answer to "why PwC over the others"</li>
+</ul>
+<hr>
+<p><em>ApprenticeEdge — helping UK school leavers compete on a level playing field.</em></p>
+0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"className":"max-w-3xl mx-auto px-6 py-12","children":[["$","p",null,{"className":"text-sm text-gray-500 mb-8","children":[["$","$L2",null,{"href":"/","className":"hover:underline","children":"ApprenticeEdge"}]," / ",["$","span",null,{"children":"PwC School Leaver"}]]}],["$","div",null,{"className":"inline-flex items-center gap-2 bg-blue-50 border border-blue-200 text-blue-700 text-sm px-3 py-1 rounded-full mb-6","children":["$","span",null,{"className":"font-medium","children":"Free pack"}]}],["$","div",null,{"className":"prose","dangerouslySetInnerHTML":{"__html":"$3"}}],"$L4"]}],["$L5"],"$L6"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"0oNZHggBVb4O7MGLMDQZd"}
+4:["$","div",null,{"className":"mt-16 bg-gray-900 text-white rounded-2xl p-8 text-center","children":[["$","h2",null,{"className":"text-xl font-bold mb-2","children":"Want all 10 packs?"}],["$","p",null,{"className":"text-gray-400 mb-6 text-sm","children":"Deloitte, KPMG, EY, Goldman Sachs, Google, Amazon, Civil Service, BBC, NHS — all included."}],["$","$L2",null,{"href":"/checkout","className":"inline-block bg-white text-gray-900 font-semibold px-8 py-3 rounded-lg hover:bg-gray-100 transition-colors","children":"Get the Season Pass — £29"}]]}]
+5:["$","script","script-0",{"src":"/_next/static/chunks/0ka051yepewro.js","async":true}]
+6:["$","$L7",null,{"children":["$","$8",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]
+9:null
