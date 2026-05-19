@@ -8,7 +8,7 @@ interface Props {
 }
 
 export async function generateStaticParams() {
-  return PACKS.filter((p) => p.free).map((p) => ({ slug: p.slug }));
+  return PACKS.map((p) => ({ slug: p.slug }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
