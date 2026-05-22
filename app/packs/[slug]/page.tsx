@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { PACKS, getPackBySlug, getPackContent } from "@/lib/packs";
+import { PACKS, getPackBySlug, getPackContent, getPackContentSplit } from "@/lib/packs";
+import EmailGate from "@/app/components/EmailGate";
 import type { Metadata } from "next";
 
 interface Props {
@@ -92,7 +93,7 @@ export default async function PackPage({ params }: Props) {
     );
   }
 
-  const html = await getPackContent(pack.filename);
+  const { preview, full } = await getPackContentSplit(pack.filename);
 
   return (
     <div>
@@ -111,17 +112,17 @@ export default async function PackPage({ params }: Props) {
               </svg>
               Free pack
             </span>
-            <span className="text-slate-400 text-xs">No sign-up required</span>
+            <span className="text-slate-400 text-xs">Enter your email to unlock</span>
           </div>
           <h1 className="text-3xl font-extrabold text-slate-900 tracking-tight mb-2">{pack.title} Apprenticeship</h1>
           <p className="text-slate-500">Insider prep pack — application stages, competencies, interview questions, and commercial context.</p>
         </div>
       </section>
 
-      {/* Content */}
+      {/* Content with email gate */}
       <section className="bg-white">
         <div className="max-w-3xl mx-auto px-6 py-10">
-          <div className="prose" dangerouslySetInnerHTML={{ __html: html }} />
+          <EmailGate preview={preview} full={full} />
         </div>
       </section>
 

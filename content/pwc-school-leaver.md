@@ -23,6 +23,8 @@
 
 ---
 
+<!--more-->
+
 ## The Application Stages
 
 ### Stage 1 — Online Application Form
