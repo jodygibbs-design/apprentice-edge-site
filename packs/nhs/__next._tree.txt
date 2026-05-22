@@ -1,2 +1,2 @@
-:HL["/apprentice-edge-site/_next/static/chunks/0_8d.0p95s-t~.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"packs","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"nhs","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"85AxLBsO0zT6WGFpQJ-zF"}
+:HL["/_next/static/chunks/0_8d.0p95s-t~.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"packs","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"nhs","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"aXjw756CougKKIQKXJTFM"}
