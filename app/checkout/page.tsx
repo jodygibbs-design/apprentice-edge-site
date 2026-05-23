@@ -1,5 +1,6 @@
 import { PACKS } from "@/lib/packs";
 import type { Metadata } from "next";
+import BuyButton from "@/app/components/BuyButton";
 
 export const metadata: Metadata = {
   title: "ApprenticeEdge Season Pass — £29",
@@ -32,22 +33,11 @@ export default function CheckoutPage() {
         </ul>
       </div>
 
-      {/* Stripe payment button placeholder */}
-      <div className="text-center">
-        <button
-          className="w-full bg-blue-600 text-white font-semibold py-4 rounded-xl text-lg hover:bg-blue-700 transition-colors cursor-not-allowed opacity-80"
-          disabled
-        >
-          Buy now — £29 (coming soon)
-        </button>
-        <p className="text-xs text-gray-400 mt-3">
-          Stripe payment coming soon. Email{" "}
-          <a href="mailto:hello@apprenticeedge.co.uk" className="underline">
-            hello@apprenticeedge.co.uk
-          </a>{" "}
-          to get early access.
-        </p>
-      </div>
+      <BuyButton />
+
+      <p className="text-xs text-gray-400 text-center mt-3">
+        Secure payment via Stripe. Instant access after purchase.
+      </p>
     </div>
   );
 }
