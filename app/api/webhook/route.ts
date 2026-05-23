@@ -19,9 +19,11 @@ export async function POST(req: NextRequest) {
   }
 
   if (event.type === "checkout.session.completed") {
-    // Payment confirmed — extend here to write to Supabase when ready
     const session = event.data.object as Stripe.Checkout.Session;
-    console.log("Payment confirmed:", session.customer_email, session.id);
+    const email = session.customer_email ?? session.customer_details?.email ?? "unknown";
+    const amountGBP = ((session.amount_total ?? 0) / 100).toFixed(2);
+    // TODO: write to Supabase when MPC editor auth is added — migrate ApprenticeEdge at the same time
+    console.log(`AE_PAID email=${email} session=${session.id} amount=£${amountGBP}`);
   }
 
   return NextResponse.json({ received: true });
