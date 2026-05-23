@@ -24,36 +24,30 @@ export default function PaymentGate({ content, packTitle }: Props) {
   }
 
   return (
-    <div>
-      <section className="bg-white border-b border-slate-100">
-        <div className="max-w-2xl mx-auto px-6 py-20 text-center">
-          <div className="inline-flex items-center gap-2 bg-slate-100 text-slate-500 text-xs font-semibold px-3 py-1.5 rounded-full mb-6 uppercase tracking-widest">
-            Season Pass
-          </div>
-          <h1 className="text-3xl sm:text-4xl font-extrabold text-slate-900 mb-4 tracking-tight">
-            {packTitle} Apprenticeship<br />Prep Pack
-          </h1>
-          <p className="text-slate-500 text-lg mb-8 leading-relaxed">
-            This pack is included in the ApprenticeEdge Season Pass — along with nine other
-            company-specific prep packs for the UK&apos;s most competitive apprenticeships.
-          </p>
-          <Link
-            href="/checkout"
-            className="inline-block bg-orange-500 text-white font-semibold px-10 py-4 rounded-xl hover:bg-orange-600 transition-colors text-lg shadow-md shadow-orange-500/20"
-          >
-            Get the Season Pass — £29
-          </Link>
-          <p className="text-xs text-slate-400 mt-3">All 10 packs. One payment. Instant access.</p>
-        </div>
-      </section>
-      <section className="bg-white">
-        <div className="max-w-xl mx-auto px-6 py-12 text-center">
-          <p className="text-slate-500 text-sm mb-3">Not ready to buy? Try the free PwC pack first.</p>
-          <Link href="/packs/pwc" className="text-blue-600 font-semibold text-sm hover:underline">
-            Read the free PwC pack →
-          </Link>
-        </div>
-      </section>
+    <div className="text-center py-12">
+      <div className="inline-flex items-center justify-center w-12 h-12 bg-slate-100 rounded-full mb-5">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+          <rect x="4" y="9" width="12" height="10" rx="1.5" stroke="#94A3B8" strokeWidth="1.5"/>
+          <path d="M7 9V6.5a3 3 0 016 0V9" stroke="#94A3B8" strokeWidth="1.5" strokeLinecap="round"/>
+        </svg>
+      </div>
+      <h2 className="text-xl font-bold text-slate-900 mb-2">Season Pass required</h2>
+      <p className="text-slate-500 mb-6 max-w-sm mx-auto text-sm leading-relaxed">
+        This pack is included in the ApprenticeEdge Season Pass — along with all nine other company-specific prep packs.
+      </p>
+      <Link
+        href="/checkout"
+        className="inline-block bg-orange-500 text-white font-semibold px-8 py-3.5 rounded-xl hover:bg-orange-600 transition-colors shadow-md shadow-orange-500/20"
+      >
+        Get the Season Pass — £29
+      </Link>
+      <p className="text-xs text-slate-400 mt-3 mb-6">All 10 packs. One payment. Instant access.</p>
+      <p className="text-slate-400 text-sm">
+        Not ready?{" "}
+        <Link href="/packs/pwc" className="text-blue-600 font-semibold hover:underline">
+          Try the free PwC pack first →
+        </Link>
+      </p>
     </div>
   );
 }

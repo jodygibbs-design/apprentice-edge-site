@@ -40,7 +40,31 @@ export default async function PackPage({ params }: Props) {
 
   if (!pack.free) {
     const content = await getPackContent(pack.filename);
-    return <PaymentGate content={content} packTitle={pack.title} />;
+    return (
+      <div>
+        <section className="bg-white border-b border-slate-100">
+          <div className="max-w-3xl mx-auto px-6 py-10">
+            <p className="text-sm text-slate-400 mb-6">
+              <Link href="/" className="hover:text-slate-600 transition-colors">ApprenticeEdge</Link>
+              <span className="mx-2">›</span>
+              <span className="text-slate-600">{pack.title}</span>
+            </p>
+            <div className="flex flex-wrap items-center gap-3 mb-4">
+              <span className="inline-flex items-center gap-1.5 bg-orange-50 border border-orange-200 text-orange-700 text-xs font-semibold px-3 py-1 rounded-full">
+                Season Pass
+              </span>
+            </div>
+            <h1 className="text-3xl font-extrabold text-slate-900 tracking-tight mb-2">{pack.title} Apprenticeship</h1>
+            <p className="text-slate-500">Insider prep pack — application stages, competencies, interview questions, and commercial context.</p>
+          </div>
+        </section>
+        <section className="bg-white">
+          <div className="max-w-3xl mx-auto px-6 py-10">
+            <PaymentGate content={content} packTitle={pack.title} />
+          </div>
+        </section>
+      </div>
+    );
   }
 
   const { preview, full } = await getPackContentSplit(pack.filename);
