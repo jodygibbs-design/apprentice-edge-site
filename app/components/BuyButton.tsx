@@ -15,7 +15,7 @@ export default function BuyButton() {
       if (data.url) {
         window.location.href = data.url;
       } else {
-        setError(data.error || "No checkout URL returned");
+        setError(`${data.error || "No checkout URL"} [base: ${data.base}]`);
         setLoading(false);
       }
     } catch (err) {
