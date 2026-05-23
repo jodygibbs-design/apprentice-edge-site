@@ -15,10 +15,11 @@ export default function BuyButton() {
       if (data.url) {
         window.location.href = data.url;
       } else {
-        throw new Error("No checkout URL returned");
+        setError(data.error || "No checkout URL returned");
+        setLoading(false);
       }
-    } catch {
-      setError("Something went wrong. Please try again.");
+    } catch (err) {
+      setError(err instanceof Error ? err.message : "Something went wrong.");
       setLoading(false);
     }
   }
