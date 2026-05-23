@@ -1,5 +1,7 @@
 import Link from "next/link";
 import { PACKS } from "@/lib/packs";
+import HeroActions from "@/app/components/HeroActions";
+import PacksSection from "@/app/components/PacksSection";
 
 const FEATURES = [
   { icon: "→", label: "Exact application stages", desc: "What to expect at every round, from online form to final interview" },
@@ -33,20 +35,7 @@ export default function HomePage() {
             Insider prep packs for PwC, Goldman Sachs, Google, the Civil Service, and seven more.
             Know exactly what they test, what they ask, and what a strong answer looks like.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Link
-              href={`/packs/${freePack.slug}`}
-              className="bg-blue-600 text-white px-8 py-3.5 rounded-xl font-semibold text-base hover:bg-blue-700 transition-colors shadow-sm"
-            >
-              Read the free PwC pack
-            </Link>
-            <Link
-              href="/checkout"
-              className="bg-orange-500 text-white px-8 py-3.5 rounded-xl font-semibold text-base hover:bg-orange-600 transition-colors shadow-sm"
-            >
-              Get all 10 packs — £29
-            </Link>
-          </div>
+          <HeroActions freePackSlug={freePack.slug} />
           <p className="text-xs text-slate-400 mt-4">One payment. Instant access. No subscription.</p>
         </div>
       </section>
@@ -102,42 +91,7 @@ export default function HomePage() {
       </section>
 
       {/* Pack grid */}
-      <section className="bg-white border-b border-slate-100">
-        <div className="max-w-5xl mx-auto px-6 py-16">
-          <h2 className="text-2xl font-bold text-slate-900 mb-2">All 10 programmes</h2>
-          <p className="text-slate-500 mb-8">The free PwC pack is available now. All others are included in the Season Pass.</p>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-10">
-            {/* Free pack — featured */}
-            <Link
-              href={`/packs/${freePack.slug}`}
-              className="lg:col-span-1 bg-blue-600 text-white rounded-xl p-5 hover:bg-blue-700 transition-colors"
-            >
-              <div className="flex items-center justify-between mb-2">
-                <span className="font-semibold">{freePack.title}</span>
-                <span className="text-xs bg-white text-blue-700 px-2 py-0.5 rounded font-semibold">Free</span>
-              </div>
-              <p className="text-blue-100 text-sm">Read now — no sign-up required</p>
-            </Link>
-
-            {paidPacks.map((pack) => (
-              <Link
-                key={pack.slug}
-                href={`/packs/${pack.slug}`}
-                className="bg-white border border-slate-200 rounded-xl p-5 hover:border-blue-300 hover:shadow-sm transition-all"
-              >
-                <div className="flex items-center justify-between mb-2">
-                  <span className="font-semibold text-slate-900">{pack.title}</span>
-                  <svg width="14" height="14" viewBox="0 0 14 14" fill="none" className="text-slate-400">
-                    <rect x="3" y="6" width="8" height="7" rx="1" stroke="currentColor" strokeWidth="1.5"/>
-                    <path d="M5 6V4.5a2 2 0 014 0V6" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
-                  </svg>
-                </div>
-                <p className="text-sm text-slate-400">Included in Season Pass</p>
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
+      <PacksSection freePack={freePack} paidPacks={paidPacks} />
 
       {/* Season Pass pricing card */}
       <section className="bg-slate-900">
