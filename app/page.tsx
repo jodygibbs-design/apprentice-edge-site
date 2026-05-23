@@ -122,7 +122,7 @@ export default function HomePage() {
             {paidPacks.map((pack) => (
               <Link
                 key={pack.slug}
-                href="/checkout"
+                href={`/packs/${pack.slug}`}
                 className="bg-white border border-slate-200 rounded-xl p-5 hover:border-blue-300 hover:shadow-sm transition-all"
               >
                 <div className="flex items-center justify-between mb-2">
