@@ -2,6 +2,7 @@ import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 import { remark } from "remark";
+import remarkGfm from "remark-gfm";
 import remarkHtml from "remark-html";
 
 const contentDir = path.join(process.cwd(), "content");
@@ -35,7 +36,7 @@ export async function getPackContent(filename: string): Promise<string> {
   const fullPath = path.join(contentDir, filename);
   const raw = fs.readFileSync(fullPath, "utf8");
   const { content } = matter(raw);
-  const result = await remark().use(remarkHtml).process(content);
+  const result = await remark().use(remarkGfm).use(remarkHtml).process(content);
   return result.toString();
 }
 
@@ -46,8 +47,8 @@ export async function getPackContentSplit(filename: string): Promise<{ preview: 
   const [previewMd, ...rest] = content.split("<!--more-->");
   const fullMd = rest.join("<!--more-->");
   const [previewResult, fullResult] = await Promise.all([
-    remark().use(remarkHtml).process(previewMd),
-    remark().use(remarkHtml).process(fullMd),
+    remark().use(remarkGfm).use(remarkHtml).process(previewMd),
+    remark().use(remarkGfm).use(remarkHtml).process(fullMd),
   ]);
   return { preview: previewResult.toString(), full: fullResult.toString() };
 }
