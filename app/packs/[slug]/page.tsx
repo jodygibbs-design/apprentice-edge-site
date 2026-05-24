@@ -58,7 +58,7 @@ export default async function PackPage({ params }: Props) {
             </p>
             <div className="flex flex-col sm:flex-row sm:items-center gap-5 mb-4">
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src={`/logos/${pack.logoFile}`} alt={pack.company} className="h-8 sm:h-12 w-auto" />
+              <img src={`/logos/${pack.logoFile}`} alt={pack.company} className="h-16 sm:h-14 w-auto" />
               <div>
                 <div className="flex flex-wrap items-center gap-2 mb-2">
                   <span className="inline-flex items-center gap-1.5 bg-orange-50 border border-orange-200 text-orange-700 text-xs font-semibold px-3 py-1 rounded-full">
@@ -106,7 +106,7 @@ export default async function PackPage({ params }: Props) {
           </p>
           <div className="flex flex-col sm:flex-row sm:items-center gap-5 mb-4">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src={`/logos/${pack.logoFile}`} alt={pack.company} style={{ height: "48px", width: "auto" }} />
+            <img src={`/logos/${pack.logoFile}`} alt={pack.company} className="h-16 sm:h-14 w-auto" />
             <div>
               <div className="flex flex-wrap items-center gap-2 mb-2">
                 <span className="inline-flex items-center gap-1.5 bg-green-50 border border-green-200 text-green-700 text-xs font-semibold px-3 py-1 rounded-full">
