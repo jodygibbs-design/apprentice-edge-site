@@ -4,19 +4,18 @@ import { PACKS } from "@/lib/packs";
 import HeroContent from "@/app/components/HeroContent";
 import PacksSection from "@/app/components/PacksSection";
 
-// Heights tuned so all logos have equal visual weight in the bar
-// Heights set after tight-cropping each SVG viewBox — no whitespace compensation needed
+// Heights tuned for equal visual weight — square logos (EY, Goldman) need taller heights
 const COMPANY_LOGOS = [
-  { name: "PwC", slug: "pwc", height: 28 },
-  { name: "Deloitte", slug: "deloitte", height: 22 },
-  { name: "KPMG", slug: "kpmg", height: 26 },
-  { name: "EY", slug: "ey", height: 34 },
-  { name: "Goldman Sachs", slug: "goldman-sachs", height: 22 },
-  { name: "Google", slug: "google", height: 30 },
-  { name: "Amazon", slug: "amazon", height: 28 },
-  { name: "Civil Service", slug: "civil-service", height: 28 },
-  { name: "BBC", slug: "bbc", height: 30 },
-  { name: "NHS", slug: "nhs", height: 28 },
+  { name: "PwC", file: "pwc.svg", height: 28 },
+  { name: "Deloitte", file: "deloitte.jpg", height: 28 },
+  { name: "KPMG", file: "kpmg.png", height: 26 },
+  { name: "EY", file: "ey.png", height: 40 },
+  { name: "Goldman Sachs", file: "goldman-sachs.png", height: 40 },
+  { name: "Google", file: "google.png", height: 28 },
+  { name: "Amazon", file: "amazon.png", height: 26 },
+  { name: "Civil Service", file: "civil-service.png", height: 32 },
+  { name: "BBC", file: "bbc.png", height: 30 },
+  { name: "NHS", file: "nhs.png", height: 28 },
 ];
 
 const FEATURES = [
@@ -44,10 +43,10 @@ export default function HomePage() {
             Packs available for
           </p>
           <div className="flex flex-wrap justify-center items-center gap-x-6 gap-y-4 sm:gap-x-10 sm:gap-y-5">
-            {COMPANY_LOGOS.map(({ name, slug, height }) => (
+            {COMPANY_LOGOS.map(({ name, file, height }) => (
               <Image
-                key={slug}
-                src={`/logos/${slug}.svg`}
+                key={file}
+                src={`/logos/${file}`}
                 alt={name}
                 width={0}
                 height={height}

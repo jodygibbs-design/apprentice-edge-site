@@ -58,7 +58,7 @@ export default async function PackPage({ params }: Props) {
               <span className="text-slate-600">{pack.title}</span>
             </p>
             <div className="flex flex-col sm:flex-row sm:items-center gap-5 mb-4">
-              <Image src={`/logos/${pack.slug}.svg`} alt={pack.company} width={0} height={0} className="h-8 sm:h-12 w-auto" />
+              <Image src={`/logos/${pack.logoFile}`} alt={pack.company} width={0} height={0} className="h-8 sm:h-12 w-auto" />
               <div>
                 <div className="flex flex-wrap items-center gap-2 mb-2">
                   <span className="inline-flex items-center gap-1.5 bg-orange-50 border border-orange-200 text-orange-700 text-xs font-semibold px-3 py-1 rounded-full">
