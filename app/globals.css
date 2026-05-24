@@ -140,14 +140,14 @@ body {
   }
 }
 
-/* Company logo bar — responsive heights via CSS custom property */
+/* Company logo bar — consistent height, natural width per logo */
 img.logo-bar-img {
   width: auto;
-  height: calc(var(--logo-h) * 0.75);
+  height: 22px;
 }
 @media (min-width: 640px) {
   img.logo-bar-img {
-    height: var(--logo-h);
+    height: 30px;
   }
 }
 
