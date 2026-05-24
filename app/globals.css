@@ -40,6 +40,117 @@ body {
 .prose blockquote { border-left: 3px solid #2563EB; padding-left: 1rem; font-style: italic; color: #475569; margin: 1.5rem 0; background: #EFF6FF; border-radius: 0 0.5rem 0.5rem 0; padding: 0.75rem 1rem; }
 .prose code { background: #F1F5F9; padding: 0.125rem 0.375rem; border-radius: 0.25rem; font-size: 0.875rem; font-family: ui-monospace, monospace; }
 
+/* Pack cards — h2 sections wrapped as numbered cards */
+.pack-card {
+  background: #ffffff;
+  border: 1px solid #E2E8F0;
+  border-radius: 1rem;
+  margin-bottom: 1.25rem;
+  overflow: hidden;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+}
+
+.pack-card-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.875rem;
+  padding: 1rem 1rem 0.875rem;
+  background: #F8FAFC;
+  border-bottom: 1px solid #E2E8F0;
+}
+
+.pack-card-num {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.75rem;
+  height: 1.75rem;
+  background: #2563EB;
+  color: #ffffff;
+  font-size: 0.6875rem;
+  font-weight: 700;
+  border-radius: 0.375rem;
+  letter-spacing: 0.03em;
+  margin-top: 0.1rem;
+}
+
+/* Override default prose h2 inside card headers */
+.pack-card-header h2 {
+  font-size: 1.0625rem;
+  font-weight: 700;
+  color: #1E293B;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
+  line-height: 1.4;
+}
+
+.pack-card-body {
+  padding: 1rem 1rem 1.125rem;
+}
+
+/* h3 inside card bodies — section sub-headings */
+.pack-card-body h3 {
+  font-size: 0.9375rem;
+  font-weight: 700;
+  color: #1E293B;
+  margin-top: 1.25rem;
+  margin-bottom: 0.5rem;
+  padding-left: 0.75rem;
+  border-left: 3px solid #2563EB;
+}
+
+.pack-card-body h3:first-child {
+  margin-top: 0;
+}
+
+/* Tables inside card bodies — scroll on narrow screens */
+.pack-card-body .table-wrap,
+.pack-card-body table {
+  font-size: 0.8125rem;
+}
+.pack-card-body table {
+  display: block;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Checklists in card bodies */
+.pack-card-body li input[type="checkbox"] {
+  margin-right: 0.5rem;
+}
+
+/* Wider screens — more breathing room */
+@media (min-width: 640px) {
+  .pack-card-header {
+    padding: 1.25rem 1.5rem 1.125rem;
+    gap: 1rem;
+  }
+  .pack-card-header h2 {
+    font-size: 1.125rem;
+  }
+  .pack-card-num {
+    width: 2rem;
+    height: 2rem;
+    font-size: 0.75rem;
+  }
+  .pack-card-body {
+    padding: 1.25rem 1.5rem 1.5rem;
+  }
+}
+
+/* Company logo bar — responsive heights via CSS custom property */
+img.logo-bar-img {
+  width: auto;
+  height: calc(var(--logo-h) * 0.75);
+}
+@media (min-width: 640px) {
+  img.logo-bar-img {
+    height: var(--logo-h);
+  }
+}
+
 /* Glossary tooltips on abbreviations */
 .prose abbr[title] {
   text-decoration: underline dotted #94a3b8;

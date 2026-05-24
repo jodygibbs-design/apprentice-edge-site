@@ -43,7 +43,7 @@ export default function HomePage() {
           <p className="text-xs font-semibold text-slate-400 uppercase tracking-widest text-center mb-6">
             Packs available for
           </p>
-          <div className="flex flex-wrap justify-center items-center gap-x-10 gap-y-5">
+          <div className="flex flex-wrap justify-center items-center gap-x-6 gap-y-4 sm:gap-x-10 sm:gap-y-5">
             {COMPANY_LOGOS.map(({ name, slug, height }) => (
               <Image
                 key={slug}
@@ -51,8 +51,8 @@ export default function HomePage() {
                 alt={name}
                 width={0}
                 height={height}
-                className="grayscale opacity-40 hover:grayscale-0 hover:opacity-100 transition-all duration-200"
-                style={{ width: "auto", height: `${height}px` }}
+                className="logo-bar-img grayscale opacity-40 hover:grayscale-0 hover:opacity-100 transition-all duration-200"
+                style={{ "--logo-h": `${height}px` } as React.CSSProperties}
               />
             ))}
           </div>

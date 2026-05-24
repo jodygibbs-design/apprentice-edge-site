@@ -51,6 +51,27 @@ const GLOSSARY: Record<string, string> = {
   "LPs": "Leadership Principles — Amazon's 16 core values that guide decisions, hiring, and day-to-day behaviour at the company",
 };
 
+function wrapSectionsAsCards(html: string): string {
+  // Strip the markdown h1 — the pack page header already has its own h1
+  let processed = html.replace(/^<h1[^>]*>[\s\S]*?<\/h1>\s*/m, "");
+
+  // Split at h2 boundaries, keeping the h2 tag with each section
+  const parts = processed.split(/(?=<h2[^>]*>)/);
+  let cardIndex = 0;
+
+  return parts
+    .map((section) => {
+      const h2Match = section.match(/^(<h2[^>]*>[\s\S]*?<\/h2>)([\s\S]*)$/);
+      if (!h2Match) return section; // intro content before first h2
+
+      cardIndex++;
+      const [, heading, body] = h2Match;
+      const num = String(cardIndex).padStart(2, "0");
+      return `<div class="pack-card"><div class="pack-card-header"><span class="pack-card-num">${num}</span>${heading}</div><div class="pack-card-body">${body.trim()}</div></div>`;
+    })
+    .join("");
+}
+
 function applyGlossaryTooltips(html: string): string {
   let result = html;
   for (const [abbr, definition] of Object.entries(GLOSSARY)) {
@@ -99,7 +120,7 @@ export async function getPackContent(filename: string): Promise<string> {
   const raw = fs.readFileSync(fullPath, "utf8");
   const { content } = matter(raw);
   const result = await remark().use(remarkGfm).use(remarkHtml).process(content);
-  return applyGlossaryTooltips(result.toString());
+  return wrapSectionsAsCards(applyGlossaryTooltips(result.toString()));
 }
 
 export async function getPackContentSplit(filename: string): Promise<{ preview: string; full: string }> {
@@ -113,7 +134,7 @@ export async function getPackContentSplit(filename: string): Promise<{ preview: 
     remark().use(remarkGfm).use(remarkHtml).process(fullMd),
   ]);
   return {
-    preview: applyGlossaryTooltips(previewResult.toString()),
-    full: applyGlossaryTooltips(fullResult.toString()),
+    preview: wrapSectionsAsCards(applyGlossaryTooltips(previewResult.toString())),
+    full: wrapSectionsAsCards(applyGlossaryTooltips(fullResult.toString())),
   };
 }

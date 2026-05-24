@@ -51,28 +51,28 @@ export default async function PackPage({ params }: Props) {
           className="border-b border-slate-200"
           style={{ background: `linear-gradient(160deg, ${pack.brandColorLight} 0%, #ffffff 65%)`, borderTopColor: pack.brandColor, borderTopWidth: 4, borderTopStyle: "solid" }}
         >
-          <div className="max-w-3xl mx-auto px-6 py-10">
+          <div className="max-w-3xl mx-auto px-4 sm:px-6 py-6 sm:py-10">
             <p className="text-sm text-slate-400 mb-6">
               <Link href="/" className="hover:text-slate-600 transition-colors">ApprenticeEdge</Link>
               <span className="mx-2">›</span>
               <span className="text-slate-600">{pack.title}</span>
             </p>
             <div className="flex flex-col sm:flex-row sm:items-center gap-5 mb-4">
-              <Image src={`/logos/${pack.slug}.svg`} alt={pack.company} width={0} height={48} style={{ width: "auto", height: "48px" }} />
+              <Image src={`/logos/${pack.slug}.svg`} alt={pack.company} width={0} height={0} className="h-8 sm:h-12 w-auto" />
               <div>
                 <div className="flex flex-wrap items-center gap-2 mb-2">
                   <span className="inline-flex items-center gap-1.5 bg-orange-50 border border-orange-200 text-orange-700 text-xs font-semibold px-3 py-1 rounded-full">
                     Season Pass
                   </span>
                 </div>
-                <h1 className="text-3xl font-extrabold text-slate-900 tracking-tight mb-1">{pack.title} Apprenticeship</h1>
+                <h1 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mb-1">{pack.title} Apprenticeship</h1>
                 <p className="text-slate-500 text-sm">Insider prep pack — application stages, competencies, interview questions, and commercial context.</p>
               </div>
             </div>
           </div>
         </section>
         <section className="bg-white">
-          <div className="max-w-3xl mx-auto px-6 py-10">
+          <div className="max-w-3xl mx-auto px-4 sm:px-6 py-6 sm:py-10">
             <PaymentGate content={content} packTitle={pack.title} serverPaid={serverPaid} />
           </div>
         </section>

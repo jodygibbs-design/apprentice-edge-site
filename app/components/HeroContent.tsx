@@ -25,7 +25,7 @@ export default function HeroContent({ freePackSlug }: Props) {
         borderColor: isStudents ? "#1e2d42" : "#e5e0d8",
       }}
     >
-      <div className="max-w-5xl mx-auto px-6 py-24 text-center">
+      <div className="max-w-5xl mx-auto px-5 py-14 sm:py-24 text-center">
 
         {/* Audience toggle */}
         <div
@@ -63,17 +63,17 @@ export default function HeroContent({ freePackSlug }: Props) {
               <span className="w-1.5 h-1.5 rounded-full bg-blue-400 inline-block"></span>
               Written for UK school leavers — not graduates
             </div>
-            <h1 className="text-5xl sm:text-6xl font-extrabold leading-[1.08] tracking-tight mb-6" style={{ color: "white" }}>
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-[1.1] sm:leading-[1.08] tracking-tight mb-5 sm:mb-6" style={{ color: "white" }}>
               Get into the UK&apos;s most{" "}
               <br className="hidden sm:block" />
               <span style={{ color: "#F97316" }}>competitive</span>{" "}
               apprenticeships.
             </h1>
-            <p className="text-xl mb-10 max-w-2xl mx-auto leading-relaxed" style={{ color: "#94A3B8" }}>
+            <p className="text-base sm:text-xl mb-8 sm:mb-10 max-w-2xl mx-auto leading-relaxed" style={{ color: "#94A3B8" }}>
               Insider prep packs for PwC, Goldman Sachs, Google, the Civil Service, and seven more top UK employers.
               Know exactly what they test, what they ask, and what a strong answer looks like.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-4">
+            <div className="flex flex-col gap-3 sm:flex-row sm:gap-4 justify-center items-stretch sm:items-center mb-4">
               <Link
                 href={`/packs/${freePackSlug}`}
                 className="bg-white font-semibold px-8 py-4 rounded-xl text-base hover:bg-slate-100 transition-colors shadow-lg"
@@ -100,12 +100,12 @@ export default function HeroContent({ freePackSlug }: Props) {
               <span className="w-1.5 h-1.5 rounded-full inline-block" style={{ backgroundColor: "#C4922A" }}></span>
               The same preparation as privately coached candidates
             </div>
-            <h1 className="text-5xl sm:text-6xl font-extrabold leading-[1.08] tracking-tight mb-6" style={{ color: "#0D1B2A" }}>
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-[1.1] sm:leading-[1.08] tracking-tight mb-5 sm:mb-6" style={{ color: "#0D1B2A" }}>
               Give your child a real{" "}
               <span style={{ color: "#C4922A" }}>edge</span>{" "}
               on their application.
             </h1>
-            <p className="text-xl mb-10 max-w-2xl mx-auto leading-relaxed" style={{ color: "#5C6878" }}>
+            <p className="text-base sm:text-xl mb-8 sm:mb-10 max-w-2xl mx-auto leading-relaxed" style={{ color: "#5C6878" }}>
               Most applicants turn up without knowing what questions to expect or how to answer them.
               ApprenticeEdge gives your child the same preparation as privately coached candidates — at a fraction of the cost.
             </p>
@@ -120,7 +120,7 @@ export default function HeroContent({ freePackSlug }: Props) {
               ))}
             </div>
 
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-4">
+            <div className="flex flex-col gap-3 sm:flex-row sm:gap-4 justify-center items-stretch sm:items-center mb-4">
               <Link
                 href="/checkout"
                 className="group relative overflow-hidden bg-orange-500 text-white font-semibold px-8 py-4 rounded-xl text-base shadow-lg shadow-orange-500/25 inline-flex items-center"
