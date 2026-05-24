@@ -14,6 +14,7 @@ interface Props {
 export default function EmailGate({ preview, full }: Props) {
   const [unlocked, setUnlocked] = useState(false);
   const [email, setEmail] = useState("");
+  const [marketingOptIn, setMarketingOptIn] = useState(false);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
 
@@ -32,7 +33,11 @@ export default function EmailGate({ preview, full }: Props) {
           "Content-Type": "application/json",
           Authorization: `Bearer ${API_KEY}`,
         },
-        body: JSON.stringify({ email, groups: [GROUP_ID] }),
+        body: JSON.stringify({
+          email,
+          groups: [GROUP_ID],
+          fields: { marketing_consent: marketingOptIn ? "yes" : "no" },
+        }),
       });
       if (!res.ok) {
         const data = await res.json();
@@ -84,6 +89,17 @@ export default function EmailGate({ preview, full }: Props) {
                 onChange={(e) => setEmail(e.target.value)}
                 className="w-full border border-slate-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
               />
+              <label className="flex items-start gap-2.5 cursor-pointer">
+                <input
+                  type="checkbox"
+                  checked={marketingOptIn}
+                  onChange={(e) => setMarketingOptIn(e.target.checked)}
+                  className="mt-0.5 h-4 w-4 rounded border-slate-300 text-blue-600 focus:ring-blue-500 cursor-pointer"
+                />
+                <span className="text-xs text-slate-500 leading-relaxed">
+                  I&apos;d like to hear about new packs and offers from ApprenticeEdge.
+                </span>
+              </label>
               {error && <p className="text-red-500 text-xs">{error}</p>}
               <button
                 type="submit"
@@ -93,7 +109,10 @@ export default function EmailGate({ preview, full }: Props) {
                 {loading ? "Unlocking…" : "Unlock the full pack →"}
               </button>
             </form>
-            <p className="text-xs text-slate-400 text-center mt-3">No spam. Unsubscribe any time.</p>
+            <p className="text-xs text-slate-400 text-center mt-3">
+              We&apos;ll send your access link to this address.{" "}
+              <a href="/privacy" className="underline hover:text-slate-600">Privacy policy</a>.
+            </p>
           </div>
         </div>
       </div>

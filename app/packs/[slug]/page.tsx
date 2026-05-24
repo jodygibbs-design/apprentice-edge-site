@@ -1,5 +1,7 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import Image from "next/image";
+import { cookies } from "next/headers";
 import { PACKS, getPackBySlug, getPackContent, getPackContentSplit } from "@/lib/packs";
 import EmailGate from "@/app/components/EmailGate";
 import PaymentGate from "@/app/components/PaymentGate";
@@ -38,29 +40,49 @@ export default async function PackPage({ params }: Props) {
 
   if (!pack) notFound();
 
+  const cookieStore = await cookies();
+  const serverPaid = cookieStore.get("ae_access")?.value === "paid";
+
   if (!pack.free) {
     const content = await getPackContent(pack.filename);
     return (
       <div>
-        <section className="bg-white border-b border-slate-100">
+        <section
+          className="border-b border-slate-200"
+          style={{ background: `linear-gradient(160deg, ${pack.brandColorLight} 0%, #ffffff 65%)`, borderTopColor: pack.brandColor, borderTopWidth: 4, borderTopStyle: "solid" }}
+        >
           <div className="max-w-3xl mx-auto px-6 py-10">
             <p className="text-sm text-slate-400 mb-6">
               <Link href="/" className="hover:text-slate-600 transition-colors">ApprenticeEdge</Link>
               <span className="mx-2">›</span>
               <span className="text-slate-600">{pack.title}</span>
             </p>
-            <div className="flex flex-wrap items-center gap-3 mb-4">
-              <span className="inline-flex items-center gap-1.5 bg-orange-50 border border-orange-200 text-orange-700 text-xs font-semibold px-3 py-1 rounded-full">
-                Season Pass
-              </span>
+            <div className="flex flex-col sm:flex-row sm:items-center gap-5 mb-4">
+              <Image src={`/logos/${pack.slug}.svg`} alt={pack.company} width={0} height={48} style={{ width: "auto", height: "48px" }} />
+              <div>
+                <div className="flex flex-wrap items-center gap-2 mb-2">
+                  <span className="inline-flex items-center gap-1.5 bg-orange-50 border border-orange-200 text-orange-700 text-xs font-semibold px-3 py-1 rounded-full">
+                    Season Pass
+                  </span>
+                </div>
+                <h1 className="text-3xl font-extrabold text-slate-900 tracking-tight mb-1">{pack.title} Apprenticeship</h1>
+                <p className="text-slate-500 text-sm">Insider prep pack — application stages, competencies, interview questions, and commercial context.</p>
+              </div>
             </div>
-            <h1 className="text-3xl font-extrabold text-slate-900 tracking-tight mb-2">{pack.title} Apprenticeship</h1>
-            <p className="text-slate-500">Insider prep pack — application stages, competencies, interview questions, and commercial context.</p>
           </div>
         </section>
         <section className="bg-white">
           <div className="max-w-3xl mx-auto px-6 py-10">
-            <PaymentGate content={content} packTitle={pack.title} />
+            <PaymentGate content={content} packTitle={pack.title} serverPaid={serverPaid} />
+          </div>
+        </section>
+        <section className="bg-slate-50 border-t border-slate-100">
+          <div className="max-w-3xl mx-auto px-6 py-4">
+            <p className="text-xs text-slate-400 leading-relaxed">
+              ApprenticeEdge is not affiliated with, endorsed by, or partnered with {pack.company}.
+              Content is based on publicly available information and research. Application processes change —
+              always verify with the employer&apos;s official website.
+            </p>
           </div>
         </section>
       </div>
@@ -72,24 +94,32 @@ export default async function PackPage({ params }: Props) {
   return (
     <div>
       {/* Pack header */}
-      <section className="bg-white border-b border-slate-100">
+      <section
+        className="border-b border-slate-200"
+        style={{ background: `linear-gradient(160deg, ${pack.brandColorLight} 0%, #ffffff 65%)`, borderTopColor: pack.brandColor, borderTopWidth: 4, borderTopStyle: "solid" }}
+      >
         <div className="max-w-3xl mx-auto px-6 py-10">
           <p className="text-sm text-slate-400 mb-6">
             <Link href="/" className="hover:text-slate-600 transition-colors">ApprenticeEdge</Link>
             <span className="mx-2">›</span>
             <span className="text-slate-600">{pack.title}</span>
           </p>
-          <div className="flex flex-wrap items-center gap-3 mb-4">
-            <span className="inline-flex items-center gap-1.5 bg-green-50 border border-green-200 text-green-700 text-xs font-semibold px-3 py-1 rounded-full">
-              <svg width="10" height="10" viewBox="0 0 10 10" fill="none">
-                <path d="M1.5 5L4 7.5L8.5 2.5" stroke="#16A34A" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-              </svg>
-              Free pack
-            </span>
-            <span className="text-slate-400 text-xs">Enter your email to unlock</span>
+          <div className="flex flex-col sm:flex-row sm:items-center gap-5 mb-4">
+            <Image src={`/logos/${pack.slug}.svg`} alt={pack.company} width={0} height={48} style={{ width: "auto", height: "48px" }} />
+            <div>
+              <div className="flex flex-wrap items-center gap-2 mb-2">
+                <span className="inline-flex items-center gap-1.5 bg-green-50 border border-green-200 text-green-700 text-xs font-semibold px-3 py-1 rounded-full">
+                  <svg width="10" height="10" viewBox="0 0 10 10" fill="none">
+                    <path d="M1.5 5L4 7.5L8.5 2.5" stroke="#16A34A" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                  </svg>
+                  Free pack
+                </span>
+                <span className="text-slate-400 text-xs">Enter your email to unlock</span>
+              </div>
+              <h1 className="text-3xl font-extrabold text-slate-900 tracking-tight mb-1">{pack.title} Apprenticeship</h1>
+              <p className="text-slate-500 text-sm">Insider prep pack — application stages, competencies, interview questions, and commercial context.</p>
+            </div>
           </div>
-          <h1 className="text-3xl font-extrabold text-slate-900 tracking-tight mb-2">{pack.title} Apprenticeship</h1>
-          <p className="text-slate-500">Insider prep pack — application stages, competencies, interview questions, and commercial context.</p>
         </div>
       </section>
 
@@ -97,6 +127,17 @@ export default async function PackPage({ params }: Props) {
       <section className="bg-white">
         <div className="max-w-3xl mx-auto px-6 py-10">
           <EmailGate preview={preview} full={full} />
+        </div>
+      </section>
+
+      {/* Disclaimer */}
+      <section className="bg-slate-50 border-t border-slate-100">
+        <div className="max-w-3xl mx-auto px-6 py-4">
+          <p className="text-xs text-slate-400 leading-relaxed">
+            ApprenticeEdge is not affiliated with, endorsed by, or partnered with {pack.company}.
+            Content is based on publicly available information and research. Application processes change —
+            always verify with the employer&apos;s official website.
+          </p>
         </div>
       </section>
 

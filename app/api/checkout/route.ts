@@ -21,7 +21,7 @@ export async function POST() {
         },
       ],
       mode: "payment",
-      success_url: `${base}/success?session_id={CHECKOUT_SESSION_ID}`,
+      success_url: `${base}/api/grant-access?session_id={CHECKOUT_SESSION_ID}`,
       cancel_url: `${base}/checkout`,
       automatic_tax: { enabled: true },
     });

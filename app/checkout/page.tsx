@@ -38,6 +38,10 @@ export default function CheckoutPage() {
       <p className="text-xs text-gray-400 text-center mt-3">
         Secure payment via Stripe. Instant access after purchase.
       </p>
+      <p className="text-xs text-gray-400 text-center mt-1">
+        Access is saved to this device. Need it on another device?{" "}
+        <a href="mailto:admin@deepcutindustries.com" className="underline hover:text-gray-600">Email us</a>.
+      </p>
     </div>
   );
 }

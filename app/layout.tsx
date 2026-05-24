@@ -20,10 +20,14 @@ export default function RootLayout({
     <html lang="en" className="h-full">
       <body className="min-h-full flex flex-col bg-slate-50">
         <header className="sticky top-0 z-50 bg-white border-b border-slate-200 shadow-sm">
-          <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
-            <a href="/" className="flex items-center gap-2 font-bold text-lg tracking-tight text-slate-900">
-              <span className="bg-blue-600 text-white text-xs font-bold px-1.5 py-0.5 rounded">AE</span>
-              ApprenticeEdge
+          <div className="max-w-6xl mx-auto px-6 py-3.5 flex items-center justify-between">
+            <a href="/" className="flex items-center gap-3 tracking-tight">
+              {/* AE mark: geometric A — two strokes + gold crossbar */}
+              <svg width="30" height="30" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M4 29L16 4L28 29" stroke="#0D1B2A" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round"/>
+                <path d="M8.5 20.5H23.5" stroke="#C4922A" strokeWidth="3.5" strokeLinecap="round"/>
+              </svg>
+              <span className="text-base font-semibold text-[#0D1B2A]">Apprentice<span className="font-extrabold" style={{color: "#C4922A"}}>Edge</span></span>
             </a>
             <nav className="flex items-center gap-4">
               <a href="/" className="text-sm text-slate-500 hover:text-slate-900 transition-colors hidden sm:block">
@@ -31,7 +35,7 @@ export default function RootLayout({
               </a>
               <a
                 href="/checkout"
-                className="text-sm bg-orange-500 text-white px-4 py-2 rounded-lg font-semibold hover:bg-orange-600 transition-colors"
+                className="text-sm bg-[#0D1B2A] text-white px-4 py-2 rounded-lg font-semibold hover:bg-[#1E3A5F] transition-colors"
               >
                 Season Pass — £29
               </a>
@@ -44,10 +48,19 @@ export default function RootLayout({
             <div>
               <p className="font-semibold text-white mb-1">ApprenticeEdge</p>
               <p className="max-w-xs">Helping UK school leavers compete on a level playing field with insider prep for the country&apos;s most competitive apprenticeships.</p>
+              <p className="max-w-xs mt-3 text-xs text-slate-600">
+                ApprenticeEdge is not affiliated with, endorsed by, or partnered with any of the employers listed.
+                Pack content is based on publicly available information and research. Application processes change —
+                always verify details with the employer&apos;s official website.
+              </p>
             </div>
-            <div className="text-slate-500 text-xs">
-              <p>© 2026 Deep Cut Industries Ltd</p>
-              <p className="mt-1">All 10 packs · Season Pass · £29</p>
+            <div className="text-slate-500 text-xs space-y-1">
+              <p>© 2026 Deep Cut Industries Limited</p>
+              <p>Company no. 17231642 · Registered in England &amp; Wales</p>
+              <p className="mt-2">All 10 packs · Season Pass · £29</p>
+              <p className="mt-2">
+                <a href="/privacy" className="hover:text-slate-300 transition-colors">Privacy Policy</a>
+              </p>
             </div>
           </div>
         </footer>

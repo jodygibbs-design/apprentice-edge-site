@@ -6,16 +6,19 @@ import Link from "next/link";
 interface Props {
   content: string;
   packTitle: string;
+  serverPaid: boolean;
 }
 
-export default function PaymentGate({ content, packTitle }: Props) {
-  const [paid, setPaid] = useState(false);
-  const [checked, setChecked] = useState(false);
+export default function PaymentGate({ content, packTitle, serverPaid }: Props) {
+  const [paid, setPaid] = useState(serverPaid);
+  const [checked, setChecked] = useState(serverPaid);
 
   useEffect(() => {
-    setPaid(localStorage.getItem("ae_paid") === "true");
-    setChecked(true);
-  }, []);
+    if (!serverPaid) {
+      setPaid(localStorage.getItem("ae_paid") === "true");
+      setChecked(true);
+    }
+  }, [serverPaid]);
 
   if (!checked) return null;
 
