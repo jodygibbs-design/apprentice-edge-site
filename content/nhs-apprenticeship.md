@@ -90,6 +90,12 @@ Pre-employment checks can take 4–8 weeks. This is normal — do not withdraw f
 
 ## Commercial Awareness — The NHS Context
 
+### History in Brief
+
+The NHS was founded on 5 July 1948 — a date still celebrated in the organisation's culture. Aneurin Bevan, the Health Secretary in Clement Attlee's post-war Labour government, opened the first NHS hospital at Park Hospital in Trafford, Manchester. The NHS was born from the Beveridge Report of 1942, which identified five "Giant Evils" standing in the way of social progress — Want, Disease, Ignorance, Squalor, and Idleness. The NHS tackled Disease: for the first time, healthcare in Britain was free at the point of use for everyone.
+
+Over the following decades, the NHS grew into the largest employer in the UK and one of the largest in the world. It has undergone numerous structural reforms — from the internal market introduced in the 1990s to the creation of NHS Trusts, Foundation Trusts, and most recently Integrated Care Boards (ICBs) under the Health and Care Act 2022. Amanda Pritchard became CEO of NHS England in 2021, leading the organisation through the aftermath of the pandemic and a sustained period of record waiting lists. For anyone joining the NHS, understanding this history — and what it means to patients — is central to the culture.
+
 The NHS is not a commercial organisation, but financial and operational awareness still matters — especially for non-clinical roles.
 
 **The NHS in numbers (2025–26):**

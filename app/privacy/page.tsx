@@ -92,14 +92,30 @@ export default function PrivacyPage() {
         <section>
           <h2 className="text-base font-bold text-slate-900 mb-2">Cookies and local storage</h2>
           <p>
-            This site does not use tracking or advertising cookies. To remember that you have unlocked the
-            free pack, we store a flag in your browser&apos;s localStorage (a key called <code className="text-xs bg-slate-100 px-1 py-0.5 rounded">ae_unlocked</code>).
-            This stays on your device and is never sent to our servers. You can clear it at any time by
-            clearing your browser&apos;s site data.
+            This site does not use tracking or advertising cookies. We use two types of browser storage:
           </p>
-          <p className="mt-2">
-            For paid Season Pass access, your purchase is verified via Stripe. No payment data is stored locally.
-          </p>
+          <div className="mt-3 space-y-3">
+            <div>
+              <p className="font-semibold text-slate-800">Free pack access (localStorage)</p>
+              <p>
+                When you unlock the free PwC pack by entering your email, we store a flag in your
+                browser&apos;s localStorage (key: <code className="text-xs bg-slate-100 px-1 py-0.5 rounded">ae_paid</code>).
+                This stays on your device and is not transmitted to our servers. You can clear it by
+                clearing your browser&apos;s site data.
+              </p>
+            </div>
+            <div>
+              <p className="font-semibold text-slate-800">Season Pass access (httpOnly cookie)</p>
+              <p>
+                After a successful Season Pass purchase, we set a secure httpOnly cookie
+                (named <code className="text-xs bg-slate-100 px-1 py-0.5 rounded">ae_access</code>) that
+                confirms your paid status. This cookie is sent to our servers on each page request so
+                we can verify your access — it cannot be read by JavaScript. It expires after 12 months.
+                No payment or card data is stored in this cookie; it contains only the value
+                &quot;paid&quot;.
+              </p>
+            </div>
+          </div>
         </section>
 
         <section>

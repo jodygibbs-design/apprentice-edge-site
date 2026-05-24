@@ -78,6 +78,12 @@ Full half-day at a KPMG office. Typically includes:
 
 ## Commercial Awareness — What You Must Know About KPMG
 
+### History in Brief
+
+KPMG's name is an acronym of four founding firms. Piet Klynveld founded an accounting firm in Amsterdam in 1917. William Barclay Peat and James Marwick formed Peat Marwick in the US and UK in 1911. Wilhelm Goerdeler built a major German practice in the early twentieth century. These lineages merged in 1987 to create KPMG — a truly international firm from the outset, with deep roots across Europe and North America.
+
+In the UK, KPMG has faced significant regulatory scrutiny following its audit of Carillion, the construction giant that collapsed in 2018. Carillion's failure exposed weaknesses in audit quality across the profession, and KPMG has since invested heavily in audit reform and technology. Jon Holt became UK Senior Partner in 2021 with a focus on rebuilding trust in the audit practice. Globally, KPMG operates in 143 countries and is typically the third or fourth largest of the Big Four by revenue.
+
 **Revenue (FY2024):** $38bn globally. Third or fourth largest of the Big Four.
 
 **What KPMG does:**

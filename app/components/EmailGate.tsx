@@ -2,9 +2,7 @@
 
 import { useState, useEffect } from "react";
 
-const STORAGE_KEY = "ae_unlocked";
-const API_KEY = process.env.NEXT_PUBLIC_MAILERLITE_API_KEY!;
-const GROUP_ID = process.env.NEXT_PUBLIC_MAILERLITE_GROUP_ID!;
+const STORAGE_KEY = "ae_paid";
 
 interface Props {
   preview: string;
@@ -27,21 +25,14 @@ export default function EmailGate({ preview, full }: Props) {
     setLoading(true);
     setError("");
     try {
-      const res = await fetch("https://connect.mailerlite.com/api/subscribers", {
+      const res = await fetch("/api/subscribe", {
         method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          Authorization: `Bearer ${API_KEY}`,
-        },
-        body: JSON.stringify({
-          email,
-          groups: [GROUP_ID],
-          fields: { marketing_consent: marketingOptIn ? "yes" : "no" },
-        }),
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email, marketingConsent: marketingOptIn }),
       });
       if (!res.ok) {
         const data = await res.json();
-        throw new Error(data.message ?? "Something went wrong");
+        throw new Error(data.error ?? "Something went wrong");
       }
       localStorage.setItem(STORAGE_KEY, "true");
       setUnlocked(true);

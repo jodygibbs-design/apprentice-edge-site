@@ -80,6 +80,12 @@ For apprentice roles this is usually one or two final interviews with the hiring
 
 ## Commercial Awareness — What You Must Know About Google
 
+### History in Brief
+
+Larry Page and Sergey Brin met as PhD students at Stanford University and began developing a search algorithm called PageRank — which ranked web pages by the number and quality of links pointing to them. They incorporated Google in September 1998, working initially out of a garage in Menlo Park, California. The name derived from "googol," the mathematical term for 1 followed by 100 zeros. The company's IPO in 2004 at $85 per share made Page and Brin billionaires and set the template for Silicon Valley IPOs that followed.
+
+Eric Schmidt served as CEO from 2001 to 2011, providing the management structure that allowed Page and Brin to focus on product. Larry Page returned as CEO before handing the role to Sundar Pichai in 2015 — the same year Google restructured under a new parent company, Alphabet, to separate its core advertising business from its moonshot bets (Waymo, DeepMind, Verily). Pichai became CEO of Alphabet in 2019. Today Alphabet is one of the most valuable companies in the world, with Google Search at its core.
+
 **Revenue (FY2024):** ~$350bn (Alphabet, Google's parent). Google is one of the most profitable companies ever built.
 
 **What Google does:**

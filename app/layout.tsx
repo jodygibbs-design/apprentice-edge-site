@@ -56,7 +56,7 @@ export default function RootLayout({
             </div>
             <div className="text-slate-500 text-xs space-y-1">
               <p>© 2026 Deep Cut Industries Limited</p>
-              <p>Company no. 17231642 · Registered in England &amp; Wales</p>
+              <p>Company No. 17231642 · Registered in England &amp; Wales</p>
               <p className="mt-2">All 10 packs · Season Pass · £29</p>
               <p className="mt-2">
                 <a href="/privacy" className="hover:text-slate-300 transition-colors">Privacy Policy</a>

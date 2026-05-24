@@ -80,6 +80,12 @@ Prepare one strong STAR story per competency:
 
 ## Commercial Awareness — What You Must Know About Deloitte
 
+### History in Brief
+
+William Welch Deloitte opened his London accounting practice in 1845, pioneering the concept of the independent auditor at a time when most bookkeepers worked directly for the companies they served. His work auditing the Great Western Railway helped establish audit as a profession distinct from employment. Through successive mergers — Deloitte, Haskins & Sells; Deloitte & Touche — the firm expanded globally, and in 1993 formed Deloitte Touche Tohmatsu by merging with the Tohmatsu network in Japan and Asia. The brand simplified to "Deloitte" in 2003.
+
+Today Deloitte operates as a network of independent member firms in 150+ countries, making it the largest of the Big Four by annual revenue. Punit Renjen served as Global CEO for nearly a decade before Joe Ucuzoglu succeeded him in June 2023. In the UK, CEO Richard Houston has led the firm since 2018, overseeing significant investment in technology, AI, and audit quality following industry-wide regulatory scrutiny.
+
 **Revenue (FY2024):** $67bn globally. Deloitte is the largest of the Big Four by revenue.
 
 **What Deloitte does:**

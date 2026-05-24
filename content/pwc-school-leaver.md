@@ -116,6 +116,12 @@ Prepare at least one strong STAR story for each of the following. Use real examp
 
 ## Commercial Awareness — What You Must Know About PwC
 
+### History in Brief
+
+Samuel Lowell Price founded an accounting practice in London in 1849, and William Cooper established Cooper Brothers in 1854. Across the Atlantic, Price, Waterhouse & Co grew into one of the most respected audit firms in the United States. The two lineages merged in 1998 to form PricewaterhouseCoopers — one of the largest professional services mergers in history. The brand shortened to "PwC" in 2010 as part of a global rebrand to modernise the firm's identity.
+
+Today PwC operates across 151 countries with more than 370,000 people. Mohamed Kande became Global Chairman in 2023, succeeding Bob Moritz. In the UK, Marco Amitrano became Senior Partner in 2024. PwC and Deloitte trade the top spot globally by revenue year on year — both firms sit at or above $55bn annually.
+
 **Revenue (FY2024):** $55bn globally. UK is one of the largest member firms.
 
 **The Big Four:** PwC, Deloitte, KPMG, EY. PwC and Deloitte trade the #1 spot globally.

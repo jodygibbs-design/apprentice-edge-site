@@ -95,6 +95,12 @@ Focus your preparation on these five behaviours — they appear in almost every 
 
 ## Commercial Awareness — The Civil Service Context
 
+### History in Brief
+
+The modern British Civil Service was born from the Northcote-Trevelyan Report of 1854, which recommended replacing the patronage system — where jobs went to friends of ministers — with open competitive examinations. The Civil Service Commission was established in 1855 to administer entry exams, creating a professional, politically neutral bureaucracy for the first time. This was a radical reform: for the first time, government jobs would go to the most capable candidates, not the best-connected ones.
+
+Today the Civil Service employs around 500,000 people across 24 ministerial departments and dozens of agencies. It serves whichever party is in government, providing continuity of administration across elections. The Cabinet Secretary is the most senior civil servant and acts as the head of the Civil Service — currently Sir Chris Wormald. The Fast Stream is the Civil Service's flagship graduate and school leaver development programme, fast-tracking high-potential candidates into senior roles.
+
 The Civil Service isn't a commercial business, but "awareness" still matters — they call it **"Seeing the Big Picture."**
 
 **What you need to understand:**

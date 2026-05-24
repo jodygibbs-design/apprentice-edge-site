@@ -81,6 +81,12 @@ Varies by stream. Typically includes:
 
 ## Commercial Awareness — The BBC's Context
 
+### History in Brief
+
+The British Broadcasting Company was founded in October 1922 as a consortium of radio manufacturers who wanted to grow the market for wireless sets. John Reith became General Manager and quickly set the tone: public service broadcasting with a mission to inform, educate, and entertain. In 1927 the BBC was reconstituted as a public corporation by Royal Charter — removing it from commercial control and establishing it as an independent public body. The first regular high-definition television service in the world launched from Alexandra Palace in 1936.
+
+The BBC survived World War Two as a trusted voice of the nation — its broadcasts to occupied Europe became a symbol of resistance. Post-war, it grew into a global institution: BBC World Service, Radio 4, BBC iPlayer, and the BBC Studios commercial arm all emerged over the following decades. Tim Davie became Director-General in September 2020, inheriting a BBC under intense political scrutiny over impartiality and the future of the licence fee. The Charter is renewed periodically — its next renewal is one of the most significant strategic questions facing the organisation.
+
 The BBC is not a commercial company but it operates in a highly competitive landscape.
 
 **Revenue:** ~£5.5bn/year. Funded primarily by the TV licence fee (£169.50/year). BBC Studios (the commercial arm) earns additional revenue from content sales and co-productions.

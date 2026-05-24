@@ -39,3 +39,53 @@ body {
 .prose td { padding: 0.625rem 1rem; border: 1px solid #E2E8F0; vertical-align: top; color: #334155; }
 .prose blockquote { border-left: 3px solid #2563EB; padding-left: 1rem; font-style: italic; color: #475569; margin: 1.5rem 0; background: #EFF6FF; border-radius: 0 0.5rem 0.5rem 0; padding: 0.75rem 1rem; }
 .prose code { background: #F1F5F9; padding: 0.125rem 0.375rem; border-radius: 0.25rem; font-size: 0.875rem; font-family: ui-monospace, monospace; }
+
+/* Glossary tooltips on abbreviations */
+.prose abbr[title] {
+  text-decoration: underline dotted #94a3b8;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  cursor: help;
+  position: relative;
+  font-style: normal;
+}
+
+.prose abbr[title]::after {
+  content: attr(title);
+  display: none;
+  position: absolute;
+  bottom: calc(100% + 8px);
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #1e293b;
+  color: #f8fafc;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 0.7rem;
+  line-height: 1.45;
+  max-width: 260px;
+  width: max-content;
+  white-space: normal;
+  pointer-events: none;
+  z-index: 50;
+  font-weight: 400;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.prose abbr[title]::before {
+  content: '';
+  display: none;
+  position: absolute;
+  bottom: calc(100% + 4px);
+  left: 50%;
+  transform: translateX(-50%);
+  border: 4px solid transparent;
+  border-top-color: #1e293b;
+  pointer-events: none;
+  z-index: 50;
+}
+
+.prose abbr[title]:hover::after,
+.prose abbr[title]:hover::before {
+  display: block;
+}

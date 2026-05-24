@@ -78,6 +78,12 @@ Usually a half day. Structure varies by service line but typically includes:
 
 ## Commercial Awareness — What You Must Know About EY
 
+### History in Brief
+
+Two accounting firms, founded independently in the US, eventually merged to form EY. Arthur Young established his practice in Chicago in 1906, and Alwin Ernst founded Ernst & Ernst in Cleveland in 1903. The two firms merged in 1989 to form Ernst & Young, one of the largest professional services mergers at that time. The firm rebranded as "EY" in 2013 as part of a global effort to modernise its identity and unify its brand across 150+ countries.
+
+EY made headlines in 2023 when its ambitious "Project Everest" — a plan to split the firm into two separate entities (an audit firm and a consulting/advisory firm) — collapsed after the US practice voted against the proposal. The split would have been the most significant structural change in Big Four history. Janet Truncale became EY's Global CEO in July 2024, the first woman to lead a Big Four firm globally. EY operates in over 150 countries and is typically second or third among the Big Four by annual revenue.
+
 **Revenue (FY2024):** $51bn globally. Typically second or third largest of the Big Four.
 
 **What EY does:**

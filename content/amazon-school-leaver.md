@@ -99,6 +99,12 @@ Amazon wants **specific, measurable results.** Vague outcomes ("the team was hap
 
 ## Commercial Awareness — What You Must Know About Amazon
 
+### History in Brief
+
+Jeff Bezos left his job at a New York hedge fund in 1994 and drove cross-country to Bellevue, Washington, writing the business plan in the passenger seat. He launched Amazon in July 1994 from his garage as an online bookstore — chosen because books were a product with universal demand, infinite SKUs, and no dominant online retailer. The company went public in 1997 at $18 per share. Over the following decade, Amazon expanded relentlessly into music, electronics, clothing, and ultimately everything.
+
+The pivotal moment came in 2006 with the launch of Amazon Web Services (AWS), which turned Amazon's internal infrastructure into a product. AWS is now the world's largest cloud platform and accounts for the majority of Amazon's operating profit. Bezos stepped down as CEO in July 2021, handing the role to Andy Jassy — the executive who built AWS from scratch. Amazon's scale today is extraordinary: it is simultaneously a retailer, logistics company, cloud provider, media studio, and advertising platform.
+
 **Revenue (FY2024):** ~$590bn. Amazon is one of the largest companies in history.
 
 **What Amazon does:**

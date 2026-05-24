@@ -78,6 +78,12 @@ The Goldman "Superday" is a series of back-to-back 1:1 interviews (typically 4�
 
 ## Commercial Awareness — What You Must Know About Goldman Sachs
 
+### History in Brief
+
+Marcus Goldman founded the firm in New York in 1869, operating from a basement on Pine Street and dealing in commercial paper — short-term loans to merchants. His son-in-law Samuel Sachs joined in 1882, and the firm became Goldman Sachs & Co. For over a century it operated as a private partnership, with partners personally liable for losses — a structure that shaped its famously intense, high-stakes culture. The firm went public in 1999, a controversial move that made many partners extremely wealthy but ended the partnership model.
+
+Goldman's reputation was forged through landmark deals and crises. Hank Paulson served as CEO before becoming US Treasury Secretary during the 2008 financial crisis. Lloyd Blankfein steered the firm through that crisis, famously describing Goldman as doing "God's work." David Solomon became CEO in 2018 and has refocused the firm away from consumer banking (Marcus) and back to its core strengths in investment banking, trading, and asset management.
+
 **Revenue (FY2024):** ~$47bn. Net earnings ~$8bn. Goldman is a premier investment bank.
 
 **What Goldman does:**
