@@ -217,3 +217,21 @@ img.logo-bar-img-lg {
 .prose abbr[title]:hover::before {
   display: block;
 }
+
+@media (max-width: 639px) {
+  .prose abbr[title]::after {
+    top: calc(100% + 6px);
+    bottom: auto;
+    left: 0;
+    transform: none;
+    max-width: min(220px, calc(100vw - 2rem));
+  }
+  .prose abbr[title]::before {
+    top: calc(100% + 2px);
+    bottom: auto;
+    left: 0.5rem;
+    transform: none;
+    border-top-color: transparent;
+    border-bottom-color: #1e293b;
+  }
+}
