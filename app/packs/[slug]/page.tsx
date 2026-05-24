@@ -72,7 +72,10 @@ export default async function PackPage({ params }: Props) {
           </div>
         </section>
         <section className="bg-white">
-          <div className="max-w-3xl mx-auto px-4 sm:px-6 py-6 sm:py-10">
+          <div
+            className="max-w-3xl mx-auto px-4 sm:px-6 py-6 sm:py-10"
+            style={{ "--pack-brand": pack.brandColor, "--pack-brand-light": pack.brandColorLight } as React.CSSProperties}
+          >
             <PaymentGate content={content} packTitle={pack.title} serverPaid={serverPaid} />
           </div>
         </section>
@@ -126,7 +129,10 @@ export default async function PackPage({ params }: Props) {
 
       {/* Content with email gate */}
       <section className="bg-white">
-        <div className="max-w-3xl mx-auto px-6 py-10">
+        <div
+          className="max-w-3xl mx-auto px-6 py-10"
+          style={{ "--pack-brand": pack.brandColor, "--pack-brand-light": pack.brandColorLight } as React.CSSProperties}
+        >
           <EmailGate preview={preview} full={full} />
         </div>
       </section>
