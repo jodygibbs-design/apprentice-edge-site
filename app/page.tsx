@@ -5,7 +5,7 @@ import HeroContent from "@/app/components/HeroContent";
 import PacksSection from "@/app/components/PacksSection";
 
 const COMPANY_LOGOS = [
-  { name: "PwC", file: "pwc.svg" },
+  { name: "PwC", file: "pwc.png" },
   { name: "Deloitte", file: "deloitte.jpg" },
   { name: "KPMG", file: "kpmg.png" },
   { name: "EY", file: "ey.png" },

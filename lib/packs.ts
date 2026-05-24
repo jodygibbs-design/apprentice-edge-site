@@ -100,7 +100,7 @@ export interface Pack {
 }
 
 export const PACKS: Pack[] = [
-  { slug: "pwc", title: "PwC School Leaver", company: "PwC", free: true, filename: "pwc-school-leaver.md", logoFile: "pwc.svg", brandColor: "#D93025", brandColorLight: "#FDE8E8" },
+  { slug: "pwc", title: "PwC School Leaver", company: "PwC", free: true, filename: "pwc-school-leaver.md", logoFile: "pwc.png", brandColor: "#D93025", brandColorLight: "#FDE8E8" },
   { slug: "deloitte", title: "Deloitte BrightStart", company: "Deloitte", free: false, filename: "deloitte-school-leaver.md", logoFile: "deloitte.jpg", brandColor: "#86BC25", brandColorLight: "#F0F8E6" },
   { slug: "kpmg", title: "KPMG 360°", company: "KPMG", free: false, filename: "kpmg-school-leaver.md", logoFile: "kpmg.png", brandColor: "#00338D", brandColorLight: "#E8EFF8" },
   { slug: "ey", title: "EY School Leaver", company: "EY", free: false, filename: "ey-school-leaver.md", logoFile: "ey.png", brandColor: "#FFE600", brandColorLight: "#FFFDE6" },
