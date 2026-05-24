@@ -1,6 +1,5 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import Image from "next/image";
 import { cookies } from "next/headers";
 import { PACKS, getPackBySlug, getPackContent, getPackContentSplit } from "@/lib/packs";
 import EmailGate from "@/app/components/EmailGate";
@@ -58,7 +57,8 @@ export default async function PackPage({ params }: Props) {
               <span className="text-slate-600">{pack.title}</span>
             </p>
             <div className="flex flex-col sm:flex-row sm:items-center gap-5 mb-4">
-              <Image src={`/logos/${pack.logoFile}`} alt={pack.company} width={0} height={0} className="h-8 sm:h-12 w-auto" />
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src={`/logos/${pack.logoFile}`} alt={pack.company} className="h-8 sm:h-12 w-auto" />
               <div>
                 <div className="flex flex-wrap items-center gap-2 mb-2">
                   <span className="inline-flex items-center gap-1.5 bg-orange-50 border border-orange-200 text-orange-700 text-xs font-semibold px-3 py-1 rounded-full">
@@ -105,7 +105,8 @@ export default async function PackPage({ params }: Props) {
             <span className="text-slate-600">{pack.title}</span>
           </p>
           <div className="flex flex-col sm:flex-row sm:items-center gap-5 mb-4">
-            <Image src={`/logos/${pack.slug}.svg`} alt={pack.company} width={0} height={48} style={{ width: "auto", height: "48px" }} />
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src={`/logos/${pack.logoFile}`} alt={pack.company} style={{ height: "48px", width: "auto" }} />
             <div>
               <div className="flex flex-wrap items-center gap-2 mb-2">
                 <span className="inline-flex items-center gap-1.5 bg-green-50 border border-green-200 text-green-700 text-xs font-semibold px-3 py-1 rounded-full">
