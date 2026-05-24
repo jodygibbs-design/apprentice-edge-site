@@ -4,14 +4,14 @@ import HeroContent from "@/app/components/HeroContent";
 import PacksSection from "@/app/components/PacksSection";
 
 const COMPANY_LOGOS = [
-  { name: "PwC", file: "pwc.svg" },
+  { name: "PwC", file: "pwc.svg", lg: true },
   { name: "Deloitte", file: "deloitte.svg" },
   { name: "KPMG", file: "kpmg.svg" },
-  { name: "EY", file: "ey.svg" },
-  { name: "Goldman Sachs", file: "goldman-sachs.svg" },
+  { name: "EY", file: "ey.svg", lg: true },
+  { name: "Goldman Sachs", file: "goldman-sachs.svg", lg: true },
   { name: "Google", file: "google.svg" },
   { name: "Amazon", file: "amazon.svg" },
-  { name: "Civil Service", file: "civil-service.svg" },
+  { name: "Civil Service", file: "civil-service.svg", lg: true },
   { name: "BBC", file: "bbc.svg" },
   { name: "NHS", file: "nhs.svg" },
 ];
@@ -41,13 +41,13 @@ export default function HomePage() {
             Packs available for
           </p>
           <div className="flex flex-wrap justify-center items-center gap-x-6 gap-y-4 sm:gap-x-10 sm:gap-y-5">
-            {COMPANY_LOGOS.map(({ name, file }) => (
+            {COMPANY_LOGOS.map(({ name, file, lg }) => (
               // eslint-disable-next-line @next/next/no-img-element
               <img
                 key={file}
                 src={`/logos/${file}`}
                 alt={name}
-                className="logo-bar-img grayscale opacity-40 hover:grayscale-0 hover:opacity-100 transition-all duration-200"
+                className={`${lg ? "logo-bar-img-lg" : "logo-bar-img"} grayscale opacity-40 hover:grayscale-0 hover:opacity-100 transition-all duration-200`}
               />
             ))}
           </div>

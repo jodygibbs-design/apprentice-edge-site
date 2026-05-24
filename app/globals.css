@@ -151,6 +151,16 @@ img.logo-bar-img {
   }
 }
 
+img.logo-bar-img-lg {
+  width: auto;
+  height: 28px;
+}
+@media (min-width: 640px) {
+  img.logo-bar-img-lg {
+    height: 38px;
+  }
+}
+
 /* Glossary tooltips on abbreviations */
 .prose abbr[title] {
   text-decoration: underline dotted #94a3b8;
