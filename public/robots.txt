@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://apprenticeedge.co.uk/sitemap.xml

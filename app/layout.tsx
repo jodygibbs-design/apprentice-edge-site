@@ -33,6 +33,9 @@ export default function RootLayout({
               <a href="/" className="text-sm text-slate-500 hover:text-slate-900 transition-colors hidden sm:block">
                 All packs
               </a>
+              <a href="/guides" className="text-sm text-slate-500 hover:text-slate-900 transition-colors hidden sm:block">
+                Free guides
+              </a>
               <a
                 href="/checkout"
                 className="text-sm bg-[#0D1B2A] text-white px-4 py-2 rounded-lg font-semibold hover:bg-[#1E3A5F] transition-colors"
@@ -59,6 +62,8 @@ export default function RootLayout({
               <p>Company No. 17231642 · Registered in England &amp; Wales</p>
               <p className="mt-2">All 10 packs · Season Pass · £29</p>
               <p className="mt-2">
+                <a href="/guides" className="hover:text-slate-300 transition-colors">Free guides</a>
+                {" · "}
                 <a href="/privacy" className="hover:text-slate-300 transition-colors">Privacy Policy</a>
               </p>
             </div>
