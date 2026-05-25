@@ -2,9 +2,9 @@
 
 ## The Programme
 
-**What it is:** KPMG 360° Apprenticeship — a school leaver programme combining professional qualifications with real client work from day one. One of the most structured school leaver programmes in the Big Four.
+KPMG's 360° Apprenticeship is one of the most structured Big Four school leaver programmes. The name refers to a deliberate 360-degree view of the business — you get rotations and exposure across different teams before specialising. The structured approach means less ambiguity, but also means KPMG is looking for people who fit a specific professional profile.
 
-**Length:** 3 years to first professional qualification (ACA or ATT/CTA for Tax)
+**Length:** 3 years to first professional qualification (ACA for most streams, ATT/CTA for Tax)
 
 **Salary:** £26,000–£29,000 starting (London higher)
 
@@ -18,104 +18,105 @@
 - Technology
 - Actuarial
 
-**Qualification:** ACA (Institute of Chartered Accountants), ATT/CTA (Tax), or relevant tech qualification. All funded by KPMG.
+**Qualification:** ACA (ICAEW), ATT/CTA (Tax), or relevant technology qualification. All fully funded by KPMG.
 
-**Application window:** Opens September/October annually. KPMG fills roles on a rolling basis — apply as soon as it opens, not at the deadline.
+**Application window:** Opens September/October. KPMG fills roles on a rolling basis — apply as soon as the window opens, not at the deadline.
 
 ---
 
 ## The Application Stages
 
 ### Stage 1 — Online Application
-Standard form. Grades, personal statement, motivational questions.
 
-**KPMG asks:** "Our values are: integrity, excellence, courage, together, for better. Tell us how you have demonstrated one of these." Pick one value and have a tight STAR story ready.
+Standard form with grades, personal statement, and a values question. KPMG's values: **integrity, excellence, courage, together, for better.** They will ask you to demonstrate one.
+
+The values question isn't a formality — KPMG screens on values alignment. Pick one value, have a tight STAR story, and make sure it reflects something you genuinely did rather than something you think sounds good. Integrity comes up most often and carries most weight — they have faced public scrutiny on audit quality and they mean it seriously.
 
 ### Stage 2 — Online Assessments
-- **Situational Judgement Test:** Work-based scenarios. Professional judgement required.
-- **Numerical Reasoning:** Data interpretation, percentages, ratios. 25–30 questions, timed.
-- **Logical/Abstract Reasoning:** Pattern recognition. Practise with SHL or Talent Q free samples.
 
-**Tip:** KPMG's assessments are provided by Korn Ferry. Search "Korn Ferry practice assessments" for the closest match.
+Three assessments. KPMG uses Korn Ferry as their assessment provider — search specifically for Korn Ferry practice tests, not generic SHL.
+
+- **Situational Judgement Test:** Work-based scenarios, professional judgement required. The right answers tend to reflect what a considered professional would do, not what feels instinctively efficient.
+- **Numerical Reasoning:** Data interpretation, percentages, ratios. 25–30 questions, timed. The time pressure is real — practice the format under timed conditions.
+- **Logical/Abstract Reasoning:** Pattern recognition. Familiarity with the format is half the battle.
 
 ### Stage 3 — Digital Interview
-Pre-recorded video interview. 5–6 questions.
+
+Pre-recorded video interview, 5–6 questions.
 
 **Typical questions:**
 - Why KPMG, and why this service line?
-- Describe a time you worked in a team where there was a conflict. What was your role?
+- Describe a time you worked in a team where there was conflict. What was your role?
 - Tell me about a time you went above and beyond what was expected.
 - Give an example of when you had to use data or evidence to make a decision.
 - What does integrity mean to you in a professional context?
 
-**Note:** KPMG interviewers specifically probe integrity — have a real example of a time you did the right thing when it wasn't the easiest path.
+**On the integrity question:** KPMG probes integrity more directly than the other Big Four because of the profession's history — Carillion, Rolls-Royce. Know these cases at a high level. More importantly, have a genuine example of a time you did the right thing when it would have been easier not to. "I always try to be honest" is not an answer.
 
 ### Stage 4 — Assessment Centre
-Full half-day at a KPMG office. Typically includes:
 
-1. **Group case study** — business problem, collaborative discussion, 30 mins
-2. **Written analysis** — individual task, respond to a brief
-3. **Strengths-based interview** — 45 mins. KPMG uses a strengths-based approach alongside competency. Be ready for: "What do you love doing?" and "When do you feel most energised at work?"
+Half day at a KPMG office. KPMG's AC includes a strengths-based interview alongside the standard competency format — this is different from most Big Four ACs, and most candidates don't prepare for it.
+
+**What happens:**
+1. **Group case study** — business problem, collaborative discussion, 30 minutes. KPMG assessors specifically look for people who support others' ideas and build on them, not just people who contribute their own points.
+2. **Written analysis** — individual task, respond to a brief in writing. Structured recommendation: point first, then reasoning.
+3. **Strengths-based interview** — 45 minutes. KPMG uses strengths alongside competency. This means questions like "What do you love doing?" and "When do you feel most energised?" Trying to game these by giving the "right" answer backfires — the strengths interview is designed to find genuine motivators. Answer honestly about what actually energises you.
 
 **What KPMG scores highest:**
-- Authenticity (their strengths interview is designed to find genuine motivators — don't give rehearsed answers)
-- Commercial curiosity (show you read business news)
-- Collaborative instinct (in the group exercise, support others' ideas, build on them)
+- Authenticity — the strengths interview will expose rehearsed answers. Be real.
+- Commercial curiosity — show you read business news and find it genuinely interesting
+- Collaborative instinct — in the group exercise, support and develop others' ideas, not just your own
 
 ---
 
 ## KPMG Core Competencies
 
-| Competency | What KPMG wants |
+| Competency | What KPMG actually tests |
 |---|---|
-| Integrity | Ethical decision-making, honesty under pressure |
-| Excellence | Attention to detail, high personal standards |
-| Courage | Speaking up, challenging constructively, taking on hard tasks |
-| Together | Teamwork, inclusion, listening as well as contributing |
-| For better | Long-term thinking, social impact awareness |
+| Integrity | Ethical decision-making in genuinely difficult moments — not just "I'm honest." Do you do the right thing when there's a cost to it? |
+| Excellence | Attention to detail and high personal standards — shown through real examples, not claimed as a trait. |
+| Courage | Have you challenged something or someone constructively? Have you taken on a task others avoided? |
+| Together | Listening as well as contributing. Do you make the people around you more effective? |
+| For better | Long-term thinking and awareness of wider impact. Shows up as knowing how the profession is changing. |
 
 ---
 
 ## Commercial Awareness — What You Must Know About KPMG
 
-### History in Brief
-
-KPMG's name is an acronym of four founding firms. Piet Klynveld founded an accounting firm in Amsterdam in 1917. William Barclay Peat and James Marwick formed Peat Marwick in the US and UK in 1911. Wilhelm Goerdeler built a major German practice in the early twentieth century. These lineages merged in 1987 to create KPMG — a truly international firm from the outset, with deep roots across Europe and North America.
-
-In the UK, KPMG has faced significant regulatory scrutiny following its audit of Carillion, the construction giant that collapsed in 2018. Carillion's failure exposed weaknesses in audit quality across the profession, and KPMG has since invested heavily in audit reform and technology. Jon Holt became UK Senior Partner in 2021 with a focus on rebuilding trust in the audit practice. Globally, KPMG operates in 143 countries and is typically the third or fourth largest of the Big Four by revenue.
-
 **Revenue (FY2024):** $38bn globally. Third or fourth largest of the Big Four.
 
 **What KPMG does:**
-- **Audit:** Statutory audit of listed companies and large private firms. KPMG has faced regulatory scrutiny (Carillion, Rolls-Royce) — be aware and frame as a reason the profession is improving.
+- **Audit:** Statutory audit of listed companies and large private firms. KPMG has faced significant regulatory scrutiny — Carillion (building company collapse) and Rolls-Royce (accounting concerns). Know what happened. Frame it as the reason professional standards are improving, not as a reason to criticise the firm.
 - **Tax:** Corporate tax, transfer pricing, VAT, private client.
-- **Deal Advisory:** M&A, restructuring, due diligence. Smaller than Deloitte's advisory arm but strong in mid-market.
+- **Deal Advisory:** M&A, restructuring, due diligence. Smaller than Deloitte's advisory arm but strong in the mid-market.
 - **Consulting:** Technology, operations, people and change.
-- **Technology:** Lighthouse (KPMG's innovation hub), cloud migration, data and analytics.
+- **Technology:** KPMG Lighthouse (innovation hub), cloud migration, data and analytics.
 
-**Current KPMG talking points (2025–26):**
-- KPMG's investment in AI-assisted audit (KPMG Clara platform)
-- Regulatory reform of the audit market (FRC → Audit, Reporting and Governance Authority)
-- ESG assurance as a growth area
-- KPMG's merger/alliance discussions in various markets
+**Current KPMG talking points — know at least two:**
+- KPMG Clara — AI-assisted audit platform, part of KPMG's investment in transforming how audits are done
+- Audit market reform: FRC transitioning to ARGA (Audit, Reporting and Governance Authority)
+- ESG assurance as a growing service line
+- Regulatory scrutiny and how the profession is responding
 
 ---
 
 ## Why KPMG Over the Other Big Four
 
-**Example:** *"KPMG's 360° programme stood out because of its structured rotation approach — getting exposure to different parts of the business before specialising. I'm also specifically interested in [Deal Advisory / Audit / Consulting] and KPMG's positioning in [that area] gives me access to clients I wouldn't see at a smaller firm. The values-led culture, particularly the emphasis on integrity following scrutiny of the profession, feels like the right environment to build professional foundations."*
+**The question they're really asking:** Not just "why KPMG" but "why 360°, why this stream, and why do KPMG's values match how you actually work?"
+
+**Example:** *"KPMG's 360° structure — getting genuine exposure across different parts of the business before specialising — is what drew me, specifically because I want to understand how the different service lines connect before committing to a specialism. I'm also specifically interested in [Deal Advisory / Audit / Consulting] and KPMG's positioning in [that area] gives access to clients I wouldn't see at a smaller firm. The emphasis on integrity following scrutiny of the profession also feels like the right environment to build professional foundations — I want to be somewhere the standards are being raised, not just maintained."*
 
 ---
 
 ## Checklist — Before You Submit
 
-- [ ] Know KPMG's five values and have a story for at least two
-- [ ] Understand what ACA qualification involves (ICAEW website — 15 mins)
-- [ ] Prepare for strengths-based questions (not just competency STAR)
-- [ ] Practice Korn Ferry style assessments (free samples available online)
-- [ ] Know the Carillion audit case at a high level — shows commercial awareness
-- [ ] Have your "why KPMG not Deloitte/PwC/EY" answer ready
-- [ ] 5 STAR stories covering all five competency areas
+- [ ] Know all five KPMG values by name and have a STAR story for at least two — especially integrity
+- [ ] Understand what the ACA qualification involves and why it matters (ICAEW website — 15 minutes)
+- [ ] Prepare for strengths-based questions, not just competency STAR — "what do you love doing?" requires honest self-knowledge, not a rehearsed answer
+- [ ] Practice Korn Ferry style assessments specifically — they differ from SHL
+- [ ] Know the Carillion case at a high level — what it was, what it revealed, how the profession has responded
+- [ ] A credible "why KPMG not Deloitte/PwC/EY" answer
+- [ ] Five STAR stories covering all five competency areas
 
 ---
 
