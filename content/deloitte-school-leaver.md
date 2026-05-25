@@ -20,6 +20,8 @@ Deloitte's BrightStart is a professional qualification route, not a degree. That
 
 **Qualification:** You start with AAT, then progress to ACA, ACCA, or CIMA depending on your stream. All study costs are paid by Deloitte.
 
+**Entry requirement:** On track for, or achieved, 104 UCAS points across your top 3 A-levels.
+
 **Application window:** Opens September/October for the following September start. BrightStart receives tens of thousands of applications — rolling recruitment means early applications move through faster. Apply in October, not November.
 
 ---
@@ -41,9 +43,13 @@ Deloitte's assessments are different from the Big Four standard, and most candid
 
 **What the immersive assessment is actually looking for:** How you handle competing priorities, ethical moments, and interpersonal situations in a work context. Read Deloitte's values page before you start, and let those values inform your choices. Deloitte publishes a practice version — use it.
 
-### Stage 3 — Video Interview
+### Stage 3 — Job Simulation
 
-Pre-recorded via HireVue or similar. 3–5 questions, 30 seconds preparation each.
+A separate behavioural assessment — distinct from Stage 2. Work-based scenarios where you rank options in order of preference, plus written responses and recorded video responses. Deloitte sends you a feedback report on your strengths after completion — this is not your pass/fail decision, it's development information.
+
+**What this stage is testing:** How you handle competing priorities, interpersonal friction, and judgement calls under time pressure. The correct answers consistently reflect Deloitte's values — particularly integrity and collaboration. Read the values page before you start.
+
+**The video responses:** Answer as you'd genuinely behave, not as you think Deloitte wants you to behave. The simulation is designed to detect candidates who are performing rather than responding authentically.
 
 **Typical questions:**
 - Describe a time you worked under pressure to meet a deadline.
@@ -54,14 +60,13 @@ Pre-recorded via HireVue or similar. 3–5 questions, 30 seconds preparation eac
 
 **The distribution rule for STAR answers:** Situation and Task should take 30% of your time. Action and Result should take 70%. Most candidates invert this — they spend two minutes on the setup and 20 seconds on what they actually did and why it mattered.
 
-### Stage 4 — Assessment Centre
+### Stage 4 — Final Stage Assessment
 
-Half day at a Deloitte office. Senior interviewers, genuine challenge, no coasting.
+Two back-to-back elements. No group exercise — this is 1:1 the entire time.
 
 **What happens:**
-1. **Group exercise** — business scenario, 20–30 minutes. Assessors watch specifically for how you collaborate and how you handle disagreement. Don't try to lead the group — contribute clearly and build on what others say.
-2. **Partner/Manager interview** — 45 minutes. This is the most important part. Expect to be challenged on your answers: "What would you have done differently?" and "Why did you choose that approach?" are standard follow-ups. They're not trying to trip you up — they're testing whether your answers are genuine or rehearsed.
-3. **Written task** — analysis of a business case, produce a short recommendation. Structure it: recommendation first, reasoning after. This is the consulting mindset — answer before you explain.
+1. **Topic discussion** (~30 minutes) — a mandatory preparation topic sent in advance. Read it and form a view. The discussion tests whether you can engage with a real business issue, not just recite it.
+2. **Skills and motivation interview** (~50 minutes) — the most important part. Expect to be challenged on your answers: "What would you have done differently?" and "Why did you choose that approach?" are standard follow-ups. They're not trying to trip you up — they're testing whether your answers are genuine or rehearsed.
 
 **The three things Deloitte scores highest at AC:**
 - **Intellectual curiosity** — asking a good question, not just answering questions

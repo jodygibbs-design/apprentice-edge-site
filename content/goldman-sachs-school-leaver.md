@@ -2,26 +2,22 @@
 
 ## The Programme
 
-Goldman's Higher Apprenticeship is the most selective school leaver programme in financial services. They take very few people, they interview hard, and they expect you to be across the business before you walk in. The starting salary reflects what they're demanding.
+Goldman's Degree Apprenticeship is the most selective school leaver programme in financial services. They take very few people, they interview hard, and they expect you to be across the business before you walk in. The starting salary reflects what they're demanding.
 
-**Length:** 2–3 years (varies by division)
+**Length:** 4 years (degree apprenticeship)
 
 **Salary:** £30,000–£40,000 starting. Goldman pays significantly more than the Big Four. The gap is real.
 
-**Location:** London (primary). Some divisions have an Edinburgh presence.
+**Location:** London (primary); Birmingham (Engineering pathway via University of Warwick)
 
-**Divisions you can apply to:**
-- Investment Banking (rare at school leaver level)
-- Asset Management
-- Global Markets (trading, sales)
-- Engineering (technology)
-- Operations
-- Risk
-- Finance (Controllers)
+**Three pathways:**
+- **FICC & Equities** — front-office trading and sales; degree in Applied Finance at Queen Mary University of London
+- **Engineering** — technology infrastructure; degree in Digital & Technology Solutions at Queen Mary (London) or University of Warwick (Birmingham)
+- **Operations** — trade settlements, risk controls, operational backbone; degree in BSc Finance & Investment at Walbrook Institute London
 
-**Qualification:** Level 4 or Level 6 apprenticeship depending on division. Some streams include CFA, CISI, or ICAEW study support.
+**Qualification:** Level 6 Degree Apprenticeship. You graduate with a full bachelor's degree. May be considered for full-time roles at Goldman on completion — this is the point of the programme.
 
-**Application window:** Opens October/November. Goldman opens later than the Big Four and moves quickly — watch their careers page directly. If you miss the first wave, you may not get another chance that cycle.
+**Application window:** Opens 1 October annually for September starts. Goldman moves fast — watch their careers page directly. If you miss the first wave, you may not get another chance that cycle.
 
 ---
 

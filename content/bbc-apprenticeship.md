@@ -4,7 +4,7 @@
 
 The BBC apprenticeship is one of the most competitive non-finance programmes in this guide. It attracts a lot of applicants and fills fast. What makes the BBC process different is that your communication skills are being assessed from the first word you write in your application — this is a media organisation, and they can tell immediately whether you write well or not. Generic applications don't survive the first read.
 
-**Length:** 15–18 months (Level 4); some specialist routes are longer
+**Length:** 15–18 months (Level 4 for most programmes); the Journalism Apprenticeship is Level 7 (Advanced)
 
 **Salary:** £20,000–£25,000 starting (London). BBC pays below commercial media but offers experience and a brand on your CV that opens doors elsewhere.
 
@@ -42,9 +42,11 @@ Varies significantly by programme — this is where most other employer guides m
 
 Know in advance what your stream's task is likely to be and prepare for it specifically.
 
-### Stage 3 — Interview (Phone or Video)
+### Stage 3 — Pre-Recorded Video Interview
 
-Structured competency interview, 30–45 minutes.
+This is an asynchronous video interview — not a live call. You receive questions and record your responses on your own time. Most roles allow you to re-record your responses before submitting, so use that if you need it. Some questions require video responses; others require written responses. Some technical roles skip the video interview stage entirely.
+
+Questions focus on your strengths, your motivation, and your engagement with the BBC's output.
 
 **Typical questions:**
 - Why do you want to work specifically at the BBC, not Sky, ITV, or a podcast company?
@@ -57,7 +59,7 @@ Structured competency interview, 30–45 minutes.
 
 ### Stage 4 — Assessment Centre
 
-Varies by stream. Typically includes:
+Usually held virtually. Some schemes send a pre-assessment task ahead of the day. Varies by stream. Typically includes:
 
 1. **Practical task** — journalism: write or edit a short piece; technology: coding or problem-solving exercise; production: pitch a brief or complete a creative task. This is the most differentiating element of the BBC process. Prepare specifically for your stream's task, not generically.
 2. **Group discussion or exercise** — how you collaborate and communicate under pressure
