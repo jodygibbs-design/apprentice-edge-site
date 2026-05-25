@@ -31,7 +31,14 @@ export async function POST(req: Request) {
     };
 
     if (promoCode) {
-      sessionParams.discounts = [{ coupon: promoCode }];
+      const promoCodes = await stripe.promotionCodes.list({ code: promoCode, active: true, limit: 1 });
+      if (promoCodes.data.length === 0) {
+        return NextResponse.json(
+          { error: "That promo code isn't valid. Please check and try again." },
+          { status: 400 }
+        );
+      }
+      sessionParams.discounts = [{ promotion_code: promoCodes.data[0].id }];
     }
 
     const session = await stripe.checkout.sessions.create(sessionParams);
