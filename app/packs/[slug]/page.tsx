@@ -43,7 +43,10 @@ export default async function PackPage({ params }: Props) {
   const serverPaid = cookieStore.get("ae_access")?.value === "paid";
 
   if (!pack.free) {
-    const content = await getPackContent(pack.filename);
+    // Only fetch content server-side when the cookie confirms payment.
+    // Passing full HTML to a client component serialises it into the page payload —
+    // unpaid visitors could read it via DevTools. Gate the fetch here instead.
+    const content = serverPaid ? await getPackContent(pack.filename) : "";
     return (
       <div>
         <section
@@ -76,7 +79,7 @@ export default async function PackPage({ params }: Props) {
             className="max-w-3xl mx-auto px-4 sm:px-6 py-6 sm:py-10"
             style={{ "--pack-brand": pack.brandColor, "--pack-brand-light": pack.brandColorLight } as React.CSSProperties}
           >
-            <PaymentGate content={content} packTitle={pack.title} serverPaid={serverPaid} />
+            <PaymentGate content={content} packTitle={pack.title} serverPaid={serverPaid} slug={slug} />
           </div>
         </section>
         <section className="bg-slate-50 border-t border-slate-100">

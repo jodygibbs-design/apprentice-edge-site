@@ -7,22 +7,51 @@ interface Props {
   content: string;
   packTitle: string;
   serverPaid: boolean;
+  slug?: string;
 }
 
-export default function PaymentGate({ content, packTitle, serverPaid }: Props) {
+export default function PaymentGate({ content: initialContent, packTitle, serverPaid, slug }: Props) {
   const [paid, setPaid] = useState(serverPaid);
   const [checked, setChecked] = useState(serverPaid);
+  const [content, setContent] = useState(initialContent);
 
   useEffect(() => {
-    if (!serverPaid) {
-      setPaid(localStorage.getItem("ae_paid") === "true");
+    if (serverPaid) return;
+
+    const localPaid = localStorage.getItem("ae_paid") === "true";
+    if (!localPaid) {
+      setChecked(true);
+      return;
+    }
+
+    // localStorage says paid but cookie wasn't present server-side (expired/cleared).
+    // Fetch content via API which re-checks the cookie.
+    if (slug) {
+      fetch("/api/pack-content", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ slug }),
+      })
+        .then((r) => (r.ok ? r.json() : null))
+        .then((data) => {
+          if (data?.content) {
+            setContent(data.content);
+            setPaid(true);
+          } else {
+            // Cookie genuinely expired — clear stale localStorage flag
+            localStorage.removeItem("ae_paid");
+          }
+          setChecked(true);
+        })
+        .catch(() => setChecked(true));
+    } else {
       setChecked(true);
     }
-  }, [serverPaid]);
+  }, [serverPaid, slug]);
 
   if (!checked) return null;
 
-  if (paid) {
+  if (paid && content) {
     return <div className="prose max-w-none" dangerouslySetInnerHTML={{ __html: content }} />;
   }
 
