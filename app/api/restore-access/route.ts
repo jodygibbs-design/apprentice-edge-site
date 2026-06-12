@@ -14,12 +14,19 @@ export async function POST(req: Request) {
 
   const sanitized = email.toLowerCase().trim();
 
-  const sessions = await stripe.checkout.sessions.search({
-    query: `customer_email:"${sanitized}" AND payment_status:"paid"`,
-    limit: 1,
-  });
+  // customers.search not available in v22; use list by email + session lookup
+  const customers = await stripe.customers.list({ email: sanitized, limit: 1 });
+  let hasPaid = false;
 
-  if (sessions.data.length === 0) {
+  if (customers.data.length > 0) {
+    const sessions = await stripe.checkout.sessions.list({
+      customer: customers.data[0].id,
+      limit: 10,
+    });
+    hasPaid = sessions.data.some((s) => s.payment_status === "paid");
+  }
+
+  if (!hasPaid) {
     return NextResponse.json({ error: "No purchase found for that email." }, { status: 404 });
   }
 
