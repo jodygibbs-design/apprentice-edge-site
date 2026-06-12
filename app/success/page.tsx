@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Script from "next/script";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -7,6 +8,13 @@ export const metadata: Metadata = {
 
 export default function SuccessPage() {
   return (
+    <>
+    <Script id="gtag-purchase" strategy="afterInteractive">{`
+      gtag('event', 'conversion', {
+        'send_to': 'AW-18218897830/KXgnCLnU870cEKajue9D',
+        'transaction_id': ''
+      });
+    `}</Script>
     <div className="max-w-2xl mx-auto px-6 py-20 text-center">
       <div className="inline-flex items-center justify-center w-16 h-16 bg-green-50 rounded-full mb-6">
         <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
@@ -18,12 +26,14 @@ export default function SuccessPage() {
         Your Season Pass is active. All 10 prep packs are now unlocked on this device.
       </p>
       <p className="text-sm text-amber-600 bg-amber-50 border border-amber-100 rounded-xl px-4 py-3 mb-8 max-w-md mx-auto">
-        Access is saved to this browser. If you want to read on another device, email{" "}
-        <a href="mailto:admin@deepcutindustries.com" className="underline font-medium">admin@deepcutindustries.com</a>{" "}
-        with your receipt and we&apos;ll sort it.
+        Access is saved to this browser. On another device?{" "}
+        <Link href="/restore-access" className="underline font-medium">
+          Restore access
+        </Link>{" "}
+        using your purchase email — no need to email us.
       </p>
       <Link
-        href="/"
+        href="/packs"
         className="inline-block bg-blue-600 text-white font-semibold px-8 py-3.5 rounded-xl hover:bg-blue-700 transition-colors"
       >
         Go to my packs →
@@ -33,5 +43,6 @@ export default function SuccessPage() {
         <a href="mailto:admin@deepcutindustries.com" className="underline">admin@deepcutindustries.com</a>
       </p>
     </div>
+    </>
   );
 }
