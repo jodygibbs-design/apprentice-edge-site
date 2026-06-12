@@ -40,7 +40,8 @@ export default function CheckoutPage() {
       </p>
       <p className="text-xs text-gray-400 text-center mt-1">
         Access is saved to this device. Need it on another device?{" "}
-        <a href="mailto:admin@deepcutindustries.com" className="underline hover:text-gray-600">Email us</a>.
+        <a href="/restore-access" className="underline hover:text-gray-600">Restore access</a>{" "}
+        using your purchase email.
       </p>
     </div>
   );
