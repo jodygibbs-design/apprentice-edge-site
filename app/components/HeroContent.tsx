@@ -70,8 +70,9 @@ export default function HeroContent({ freePackSlug }: Props) {
               apprenticeships.
             </h1>
             <p className="text-base sm:text-xl mb-8 sm:mb-10 max-w-2xl mx-auto leading-relaxed" style={{ color: "#94A3B8" }}>
-              Insider prep packs for PwC, Goldman Sachs, Google, the Civil Service, and seven more top UK employers.
-              Know exactly what they test, what they ask, and what a strong answer looks like.
+              Insider prep packs, AI mock interviews, and practice tests — for PwC, Goldman Sachs,
+              Google, the Civil Service, and seven more. Know exactly what they test, what they ask,
+              and what a strong answer looks like.
             </p>
             <div className="flex flex-col gap-3 sm:flex-row sm:gap-4 justify-center items-stretch sm:items-center mb-4">
               <Link
@@ -107,7 +108,8 @@ export default function HeroContent({ freePackSlug }: Props) {
             </h1>
             <p className="text-base sm:text-xl mb-8 sm:mb-10 max-w-2xl mx-auto leading-relaxed" style={{ color: "#5C6878" }}>
               Most applicants turn up without knowing what questions to expect or how to answer them.
-              ApprenticeEdge gives your child the same preparation as privately coached candidates — at a fraction of the cost.
+              ApprenticeEdge gives your child employer prep packs, AI mock interviews, and practice tests —
+              the same preparation as privately coached candidates, at a fraction of the cost.
             </p>
 
             {/* Trust signals for parents */}

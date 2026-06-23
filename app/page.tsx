@@ -72,6 +72,120 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Three feature pillars */}
+      <section className="bg-slate-50 border-b border-slate-100">
+        <div className="max-w-5xl mx-auto px-6 py-20">
+          <div className="text-center mb-14">
+            <p className="text-xs font-semibold uppercase tracking-widest mb-3" style={{ color: "#F97316" }}>
+              Everything included
+            </p>
+            <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mb-3">
+              Three ways to prepare — all for £29
+            </h2>
+            <p className="text-slate-500 max-w-lg mx-auto">
+              Most prep products give you one thing. ApprenticeEdge gives you all three.
+            </p>
+          </div>
+
+          <div className="grid lg:grid-cols-3 gap-6">
+            {/* Pillar 1: Prep Packs */}
+            <div className="bg-white rounded-2xl border border-slate-200 p-7 flex flex-col">
+              <div className="w-11 h-11 rounded-xl flex items-center justify-center mb-5 text-xl" style={{ backgroundColor: "#EEF2FF" }}>
+                📋
+              </div>
+              <h3 className="text-lg font-bold text-slate-900 mb-2">Employer Prep Packs</h3>
+              <p className="text-sm text-slate-500 leading-relaxed mb-5">
+                The insider guide for each employer — written specifically for that company, not adapted from generic advice.
+              </p>
+              <ul className="space-y-2 text-sm text-slate-600 mb-6 flex-1">
+                {[
+                  "Exact application stages — every round",
+                  "Company-specific competencies",
+                  "Real interview questions + answer guidance",
+                  "Commercial awareness context",
+                  "Pre-submission checklist",
+                  "All 10 employers covered",
+                ].map((item) => (
+                  <li key={item} className="flex items-start gap-2">
+                    <svg className="shrink-0 mt-0.5" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                      <path d="M2 7L5.5 10.5L12 3.5" stroke="#2563EB" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                    {item}
+                  </li>
+                ))}
+              </ul>
+              <a href="/packs/pwc" className="text-sm font-semibold text-blue-600 hover:text-blue-800 transition-colors">
+                Try the free PwC pack →
+              </a>
+            </div>
+
+            {/* Pillar 2: AI Mock Interviews */}
+            <div className="bg-white rounded-2xl border-2 p-7 flex flex-col relative overflow-hidden" style={{ borderColor: "#6366F1" }}>
+              <div className="absolute top-4 right-4">
+                <span className="text-xs font-bold px-2.5 py-1 rounded-full text-white" style={{ backgroundColor: "#6366F1" }}>NEW</span>
+              </div>
+              <div className="w-11 h-11 rounded-xl flex items-center justify-center mb-5 text-xl" style={{ backgroundColor: "#EEF2FF" }}>
+                🎤
+              </div>
+              <h3 className="text-lg font-bold text-slate-900 mb-2">AI Mock Interviews</h3>
+              <p className="text-sm text-slate-500 leading-relaxed mb-5">
+                An AI coach that knows your target employer. It asks real-style questions and gives structured feedback after every answer.
+              </p>
+              <ul className="space-y-2 text-sm text-slate-600 mb-6 flex-1">
+                {[
+                  "Questions drawn from your employer's pack",
+                  "Structured feedback: what worked + what to improve",
+                  "Grounded on pack content only — no hallucination",
+                  "Email your transcript to yourself",
+                  "Unlimited sessions",
+                  "All 10 employers",
+                ].map((item) => (
+                  <li key={item} className="flex items-start gap-2">
+                    <svg className="shrink-0 mt-0.5" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                      <path d="M2 7L5.5 10.5L12 3.5" stroke="#6366F1" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                    {item}
+                  </li>
+                ))}
+              </ul>
+              <p className="text-xs text-slate-400">Included in Season Pass · Not affiliated with any employer</p>
+            </div>
+
+            {/* Pillar 3: Practice Tests */}
+            <div className="bg-white rounded-2xl border-2 p-7 flex flex-col relative overflow-hidden" style={{ borderColor: "#6366F1" }}>
+              <div className="absolute top-4 right-4">
+                <span className="text-xs font-bold px-2.5 py-1 rounded-full text-white" style={{ backgroundColor: "#6366F1" }}>NEW</span>
+              </div>
+              <div className="w-11 h-11 rounded-xl flex items-center justify-center mb-5 text-xl" style={{ backgroundColor: "#EEF2FF" }}>
+                📊
+              </div>
+              <h3 className="text-lg font-bold text-slate-900 mb-2">Practice Tests</h3>
+              <p className="text-sm text-slate-500 leading-relaxed mb-5">
+                Numerical, verbal, and situational judgement tests written in the style of employer assessments — timed, scored, and explained.
+              </p>
+              <ul className="space-y-2 text-sm text-slate-600 mb-6 flex-1">
+                {[
+                  "Numerical reasoning — 15 questions",
+                  "Verbal reasoning — 8 questions",
+                  "Situational judgement (SJT) — 5 scenarios",
+                  "Timer + score + full explanations",
+                  "Unlimited retakes",
+                  "PwC, Deloitte, Goldman Sachs (more coming)",
+                ].map((item) => (
+                  <li key={item} className="flex items-start gap-2">
+                    <svg className="shrink-0 mt-0.5" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                      <path d="M2 7L5.5 10.5L12 3.5" stroke="#6366F1" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                    {item}
+                  </li>
+                ))}
+              </ul>
+              <p className="text-xs text-slate-400">Included in Season Pass · Original questions, not copied from SHL/Korn Ferry</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* What's in every pack */}
       <section className="bg-white border-b border-slate-100">
         <div className="max-w-5xl mx-auto px-6 py-20">
@@ -114,13 +228,13 @@ export default function HomePage() {
             Season Pass
           </p>
           <div className="text-6xl font-extrabold mb-3" style={{ color: "white" }}>£29</div>
-          <p className="text-xl mb-10" style={{ color: "#94A3B8" }}>One payment. All 10 packs. No subscription.</p>
+          <p className="text-xl mb-10" style={{ color: "#94A3B8" }}>One payment. 10 packs + AI interviews + practice tests. No subscription.</p>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-12 max-w-xl mx-auto">
             {[
-              { val: "10", lbl: "prep packs" },
-              { val: "∞", lbl: "re-reads" },
-              { val: "£29", lbl: "total cost" },
-              { val: "vs £500+", lbl: "tutoring" },
+              { val: "10", lbl: "employer packs" },
+              { val: "AI", lbl: "mock interviews" },
+              { val: "3", lbl: "test types" },
+              { val: "£29", lbl: "one payment" },
             ].map(({ val, lbl }) => (
               <div key={lbl} className="rounded-xl py-4 px-3" style={{ backgroundColor: "rgba(255,255,255,0.05)", border: "1px solid rgba(255,255,255,0.08)" }}>
                 <div className="text-xl font-extrabold" style={{ color: "white" }}>{val}</div>
