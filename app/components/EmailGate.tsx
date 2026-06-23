@@ -58,7 +58,7 @@ export default function EmailGate({ preview, full }: Props) {
 
       {/* Fade + gate */}
       <div className="relative">
-        <div className="prose opacity-10 pointer-events-none select-none blur-sm" dangerouslySetInnerHTML={{ __html: full }} />
+        <div className="prose opacity-10 pointer-events-none select-none blur-sm max-h-48 overflow-hidden" dangerouslySetInnerHTML={{ __html: full }} />
         <div className="absolute inset-0 bg-gradient-to-b from-white/70 via-white/95 to-white" />
         <div className="absolute inset-0 flex items-start justify-center pt-8">
           <div className="bg-white border border-slate-200 rounded-2xl shadow-xl px-8 py-8 max-w-md w-full mx-4">
