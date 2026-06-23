@@ -148,6 +148,13 @@ export async function getPackContent(filename: string): Promise<string> {
   return wrapSectionsAsCards(applyGlossaryTooltips(result.toString()));
 }
 
+export function getPackRawContent(filename: string): string {
+  const fullPath = path.join(contentDir, filename);
+  const raw = fs.readFileSync(fullPath, "utf8");
+  const { content } = matter(raw);
+  return content;
+}
+
 export async function getPackContentSplit(filename: string): Promise<{ preview: string; full: string }> {
   const fullPath = path.join(contentDir, filename);
   const raw = fs.readFileSync(fullPath, "utf8");

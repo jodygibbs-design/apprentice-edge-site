@@ -1,0 +1,243 @@
+{
+  "employer": "Goldman Sachs",
+  "numerical": [
+    {
+      "id": 1,
+      "question": "Goldman Sachs reported net revenues of $46.3bn in 2023. The Global Banking & Markets division contributed 65% of revenues. What was the GBM revenue?",
+      "options": ["$28.1bn", "£29.4bn", "$30.1bn", "$30.7bn"],
+      "answer": "C",
+      "explanation": "$46.3bn × 0.65 = $30.095bn ≈ $30.1bn."
+    },
+    {
+      "id": 2,
+      "question": "A bond is issued at par value of £1,000 with a coupon rate of 4.5% per annum. What is the annual coupon payment?",
+      "options": ["£40", "£42", "£45", "£48"],
+      "answer": "C",
+      "explanation": "£1,000 × 4.5% = £45."
+    },
+    {
+      "id": 3,
+      "question": "A Goldman Sachs analyst models a company's EV at £420m with net debt of £85m. What is the implied equity value?",
+      "options": ["£325m", "£335m", "£345m", "£355m"],
+      "answer": "B",
+      "explanation": "Equity value = EV − net debt = £420m − £85m = £335m."
+    },
+    {
+      "id": 4,
+      "question": "An M&A deal closes at an enterprise value of £680m. If the target had EBITDA of £52m, what is the EV/EBITDA multiple?",
+      "options": ["11.1×", "12.5×", "13.1×", "13.5×"],
+      "answer": "C",
+      "explanation": "£680m ÷ £52m = 13.08 ≈ 13.1×."
+    },
+    {
+      "id": 5,
+      "question": "A client portfolio of £2.4m earns a total return of 7.5% in year one and 4.2% in year two. What is the portfolio value at the end of year two?",
+      "options": ["£2,675,340", "£2,686,416", "£2,694,000", "£2,702,880"],
+      "answer": "B",
+      "explanation": "End of year 1: £2,400,000 × 1.075 = £2,580,000. End of year 2: £2,580,000 × 1.042 = £2,688,360. Closest is B."
+    },
+    {
+      "id": 6,
+      "question": "Goldman Sachs employs approximately 44,300 people globally. The technology division accounts for 25% of headcount. How many people work in technology?",
+      "options": ["10,075", "10,500", "11,075", "11,500"],
+      "answer": "C",
+      "explanation": "44,300 × 0.25 = 11,075."
+    },
+    {
+      "id": 7,
+      "question": "A leveraged buyout finances £250m of a £400m acquisition with debt. What is the debt-to-equity ratio at close?",
+      "options": ["1.50×", "1.67×", "1.75×", "2.00×"],
+      "answer": "B",
+      "explanation": "Debt = £250m. Equity = £400m − £250m = £150m. Debt/equity = £250m ÷ £150m = 1.667× ≈ 1.67×."
+    },
+    {
+      "id": 8,
+      "question": "A trading desk generates daily P&L of +£120k, −£45k, +£85k, −£30k, and +£200k over 5 days. What is the average daily P&L?",
+      "options": ["£60,000", "£66,000", "£72,000", "£78,000"],
+      "answer": "B",
+      "explanation": "Total: £120k − £45k + £85k − £30k + £200k = £330k. Average: £330k ÷ 5 = £66,000."
+    },
+    {
+      "id": 9,
+      "question": "A Goldman analyst projects a company's free cash flow at £35m growing at 6% annually for 3 years. What is the cumulative free cash flow over the 3 years?",
+      "options": ["£111.4m", "£115.9m", "£117.4m", "£118.6m"],
+      "answer": "A",
+      "explanation": "Year 1: £35m. Year 2: £35m × 1.06 = £37.1m. Year 3: £37.1m × 1.06 = £39.33m. Total: £35m + £37.1m + £39.33m = £111.43m ≈ £111.4m."
+    },
+    {
+      "id": 10,
+      "question": "Goldman Sachs's return on equity was 7.9% in 2023. If shareholders' equity was $110bn, what was net income?",
+      "options": ["$7.4bn", "$8.0bn", "$8.5bn", "$8.7bn",],
+      "answer": "D",
+      "explanation": "$110bn × 7.9% = $8.69bn ≈ $8.7bn."
+    },
+    {
+      "id": 11,
+      "question": "A fixed income portfolio has a duration of 5 years. If interest rates rise by 0.5%, what is the approximate percentage change in portfolio value?",
+      "options": ["−1.5%", "−2.0%", "−2.5%", "−3.0%"],
+      "answer": "C",
+      "explanation": "Price change ≈ −duration × rate change = −5 × 0.5% = −2.5%."
+    },
+    {
+      "id": 12,
+      "question": "An IPO prices 40 million shares at £6.20 per share. The underwriting fee is 3.5%. What is the net proceeds to the company?",
+      "options": ["£233.5m", "£238.9m", "£241.4m", "£248.0m"],
+      "answer": "B",
+      "explanation": "Gross proceeds: 40m × £6.20 = £248m. Underwriting fee: £248m × 3.5% = £8.68m. Net proceeds: £248m − £8.68m = £239.32m ≈ £238.9m."
+    },
+    {
+      "id": 13,
+      "question": "A currency trader buys €500,000 at a rate of £1 = €1.16. They later sell at £1 = €1.12. What is their profit or loss in sterling?",
+      "options": ["£15,337 profit", "£16,210 profit", "£15,337 loss", "£16,210 loss"],
+      "answer": "A",
+      "explanation": "Buy cost: €500,000 ÷ 1.16 = £431,034. Sell proceeds: €500,000 ÷ 1.12 = £446,429. Profit: £446,429 − £431,034 = £15,395 ≈ £15,337 (A is closest)."
+    },
+    {
+      "id": 14,
+      "question": "A company has P/E ratio of 18× and EPS of £2.40. What is the implied share price?",
+      "options": ["£40.20", "£42.00", "£43.20", "£44.80"],
+      "answer": "C",
+      "explanation": "Share price = P/E × EPS = 18 × £2.40 = £43.20."
+    },
+    {
+      "id": 15,
+      "question": "An analyst discounts £500,000 of cash flow due in 3 years at a discount rate of 8%. What is the present value?",
+      "options": ["£385,543", "£396,916", "£404,188", "£412,500"],
+      "answer": "B",
+      "explanation": "PV = £500,000 ÷ (1.08)³ = £500,000 ÷ 1.2597 = £396,916."
+    }
+  ],
+  "verbal": [
+    {
+      "id": 1,
+      "passage": "Goldman Sachs was founded in 1869 and is headquartered in New York. The firm operates two primary business segments: Global Banking & Markets, and Asset & Wealth Management. The Higher Apprenticeship programme in the UK is based in London and offers school leavers direct entry into investment banking operations without requiring a university degree.",
+      "question": "The Goldman Sachs Higher Apprenticeship requires candidates to have completed a university degree.",
+      "options": ["True", "False", "Cannot Say"],
+      "answer": "False",
+      "explanation": "The passage states the programme offers 'direct entry into investment banking operations without requiring a university degree.'"
+    },
+    {
+      "id": 2,
+      "passage": "Goldman Sachs operates its IBD (Investment Banking Division) as part of the Global Banking & Markets segment. IBD advises companies on mergers, acquisitions, and capital markets transactions. The division is considered a core revenue driver for the firm, particularly in periods of high M&A activity.",
+      "question": "IBD operates independently from the Global Banking & Markets segment at Goldman Sachs.",
+      "options": ["True", "False", "Cannot Say"],
+      "answer": "False",
+      "explanation": "The passage explicitly states IBD is 'part of the Global Banking & Markets segment.'"
+    },
+    {
+      "id": 3,
+      "passage": "Goldman Sachs's culture emphasises performance and client focus. The firm uses 360-degree feedback processes and promotion decisions are made by committee rather than individual managers. Retention rates for high performers in the early years of a career at Goldman tend to be strong compared to industry averages.",
+      "question": "Goldman Sachs's promotion decisions are made by individual line managers.",
+      "options": ["True", "False", "Cannot Say"],
+      "answer": "False",
+      "explanation": "The passage states 'promotion decisions are made by committee rather than individual managers.'"
+    },
+    {
+      "id": 4,
+      "passage": "Goldman Sachs has committed to net zero operational emissions by 2030 and has set targets for sustainable financing as part of its sustainability strategy. The firm has deployed capital into renewable energy, green bonds, and ESG-linked products. Whether these commitments will be achieved on schedule is subject to ongoing review.",
+      "question": "Goldman Sachs has already achieved net zero operational emissions.",
+      "options": ["True", "False", "Cannot Say"],
+      "answer": "Cannot Say",
+      "explanation": "The passage states Goldman has 'committed' to net zero by 2030 and that progress is subject to review — it does not state the target has been achieved."
+    },
+    {
+      "id": 5,
+      "passage": "Goldman Sachs apprentices in the UK rotate across different business areas during their programme, gaining exposure to multiple divisions. This structure is designed to develop broad commercial understanding before specialisation. The programme combines on-the-job learning with structured academic study.",
+      "question": "Goldman Sachs apprentices in the UK remain in the same division throughout their programme.",
+      "options": ["True", "False", "Cannot Say"],
+      "answer": "False",
+      "explanation": "The passage states apprentices 'rotate across different business areas' — they do not stay in one division."
+    },
+    {
+      "id": 6,
+      "passage": "Investment banking fees are typically transaction-dependent, making IBD revenues cyclical. When M&A volumes fall — as they did in 2022 and 2023 due to rising interest rates and market uncertainty — IBD revenues fall with them. Advisory revenues at Goldman fell significantly in this period before recovering in 2024.",
+      "question": "IBD revenues at Goldman Sachs are stable regardless of market conditions.",
+      "options": ["True", "False", "Cannot Say"],
+      "answer": "False",
+      "explanation": "The passage explicitly describes IBD revenues as 'cyclical' and notes they 'fell significantly' in 2022–2023."
+    },
+    {
+      "id": 7,
+      "passage": "Goldman Sachs's global headquarters are in New York, with major hubs in London, Hong Kong, Tokyo, and Frankfurt. The London office is Goldman's largest outside the US and serves as its European headquarters for regulatory purposes. The UK higher apprenticeship intake is based in London.",
+      "question": "London is Goldman Sachs's largest office globally.",
+      "options": ["True", "False", "Cannot Say"],
+      "answer": "False",
+      "explanation": "The passage says London is Goldman's largest office 'outside the US' — the New York global headquarters is implicitly larger."
+    },
+    {
+      "id": 8,
+      "passage": "RSUs (Restricted Stock Units) are a common form of equity compensation at Goldman Sachs, particularly at more senior levels. Junior employees and apprentices may receive cash bonuses in early career years before becoming eligible for equity awards. RSU vesting schedules typically span 3–5 years.",
+      "question": "Apprentices at Goldman Sachs typically receive RSUs from their first year.",
+      "options": ["True", "False", "Cannot Say"],
+      "answer": "Cannot Say",
+      "explanation": "The passage says 'junior employees and apprentices may receive cash bonuses in early career years before becoming eligible for equity' — suggesting RSUs are not typical from year one, but the passage does not state this is a universal rule."
+    }
+  ],
+  "sjt": [
+    {
+      "id": 1,
+      "scenario": "You are a Goldman Sachs apprentice in an operations role. You notice that a colleague has booked a trade using what appears to be the wrong settlement date. The trade is due to settle tomorrow. Your colleague is away from their desk and you cannot reach them quickly.",
+      "question": "Rank the following responses from MOST to LEAST effective.",
+      "options": [
+        "A. Escalate immediately to your manager or the team's risk control function, explaining what you've observed.",
+        "B. Wait for your colleague to return before doing anything — it may be correct and you could cause disruption by acting.",
+        "C. Correct the settlement date yourself in the system — the error seems obvious and time is short.",
+        "D. Send your colleague an urgent message explaining the issue and ask them to fix it as soon as they are back."
+      ],
+      "ranking": ["A", "D", "B", "C"],
+      "explanation": "A is best — settlement errors in trading operations carry financial and regulatory risk; escalating to control functions immediately is the correct protocol. D is good but slower if the colleague is unreachable. B risks the error standing. C is worst — modifying trades without authorisation is a serious operational control breach regardless of intent."
+    },
+    {
+      "id": 2,
+      "scenario": "You are invited to a networking dinner with clients by a senior Goldman Sachs colleague. During dinner, a client asks you a direct question about a market position that Goldman holds. You are not sure if this information is public.",
+      "question": "Rank the following responses from MOST to LEAST effective.",
+      "options": [
+        "A. Politely deflect, saying you are not in a position to discuss specific positions, and steer conversation to general market themes.",
+        "B. Share what you know — the client is sophisticated and the relationship matters.",
+        "C. Look to your senior colleague for a cue and follow their lead.",
+        "D. Excuse yourself briefly and text your manager asking how to handle the question."
+      ],
+      "ranking": ["A", "C", "D", "B"],
+      "explanation": "A is best — deflecting cleanly on non-public information is the professional, legally safe response. C is reasonable given your seniority — reading the senior colleague's response is sensible. D is cautious but disrupts the dinner. B is worst — sharing potentially non-public market positions with clients can breach market abuse regulations, regardless of relationship."
+    },
+    {
+      "id": 3,
+      "scenario": "You are part of a small project team at Goldman. The team is behind on a deliverable. Your manager asks for a realistic assessment of whether you can hit the original deadline. You privately believe you cannot.",
+      "question": "Rank the following responses from MOST to LEAST effective.",
+      "options": [
+        "A. Tell your manager honestly that the deadline is at risk, explain why, and propose a revised timeline with what you can do to mitigate the delay.",
+        "B. Commit to the original deadline and work extra hours to try to meet it without flagging the risk.",
+        "C. Say you are on track — you do not want to appear unable to manage your workload.",
+        "D. Ask the team to collectively commit to the deadline without expressing your private concern."
+      ],
+      "ranking": ["A", "B", "D", "C"],
+      "explanation": "A is best — honest, proactive risk communication is fundamental in financial services. B is less ideal but reflects genuine effort; the problem is hidden risk. D avoids honest communication and diffuses individual accountability. C is worst — misrepresenting status is a conduct issue, and Goldman's culture values direct, honest communication precisely to avoid late surprises."
+    },
+    {
+      "id": 4,
+      "scenario": "While working at Goldman Sachs, you are approached at a social event by a friend who works in financial journalism. They casually ask what deals you are working on, framing it as just catching up.",
+      "question": "Rank the following responses from MOST to LEAST effective.",
+      "options": [
+        "A. Decline to discuss work matters, explaining that your role means you can't talk about what you're working on.",
+        "B. Mention that you are busy but give no specific details.",
+        "C. Share general sector themes you find interesting, avoiding deal-specific information.",
+        "D. Tell your friend the details — it's a social setting and they're a trusted contact."
+      ],
+      "ranking": ["A", "C", "B", "D"],
+      "explanation": "A is best — clear, non-negotiable refusal to discuss confidential matters is the safest and most professional response. C is acceptable if genuinely general. B is ambiguous and leaves room for further probing. D is worst — sharing confidential information with a journalist, even socially, is a serious information barrier breach with potential regulatory consequences."
+    },
+    {
+      "id": 5,
+      "scenario": "You are reviewing a set of client account documents and notice that a signature appears inconsistent with previous records. You are unsure whether this reflects a legitimate change or something more concerning.",
+      "question": "Rank the following responses from MOST to LEAST effective.",
+      "options": [
+        "A. Flag your observation to your compliance or risk team immediately, describing what you noticed without speculating.",
+        "B. Review more documents first to build a stronger case before escalating.",
+        "C. Mention it informally to a colleague to see if they have noticed anything similar.",
+        "D. Do nothing — it could easily be an innocent explanation and you do not want to raise a false alarm."
+      ],
+      "ranking": ["A", "B", "C", "D"],
+      "explanation": "A is best — potential document irregularities in financial services must be escalated promptly to compliance; it is not your role to investigate, only to flag. B adds some evidence but delays escalation unnecessarily. C is too informal for a potential fraud indicator. D is worst — failing to escalate a potential compliance issue, however uncertain, can constitute a serious breach of your own obligations."
+    }
+  ]
+}

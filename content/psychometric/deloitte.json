@@ -1,0 +1,243 @@
+{
+  "employer": "Deloitte",
+  "numerical": [
+    {
+      "id": 1,
+      "question": "Deloitte's global revenue is $67bn. The UK practice represents approximately 7% of global revenue. What is the approximate UK revenue?",
+      "options": ["$4.1bn", "$4.4bn", "$4.7bn", "$5.0bn"],
+      "answer": "C",
+      "explanation": "$67bn × 0.07 = $4.69bn ≈ $4.7bn."
+    },
+    {
+      "id": 2,
+      "question": "A BrightStart apprentice earns £28,000 in year one. Their salary increases by 8% in year two and a further 6% in year three. What is their year-three salary?",
+      "options": ["£31,430", "£31,994", "£32,154", "£32,408"],
+      "answer": "C",
+      "explanation": "Year 2: £28,000 × 1.08 = £30,240. Year 3: £30,240 × 1.06 = £32,054. Closest is C."
+    },
+    {
+      "id": 3,
+      "question": "A client's consulting project is budgeted at £750,000 over 6 months. After 4 months, 70% of the budget has been spent. How much budget remains?",
+      "options": ["£185,000", "£200,000", "£225,000", "£250,000"],
+      "answer": "C",
+      "explanation": "Spent: 70% × £750,000 = £525,000. Remaining: £750,000 − £525,000 = £225,000."
+    },
+    {
+      "id": 4,
+      "question": "Deloitte's audit practice charges a client £420,000 per year. The client negotiates a 12.5% discount for a 3-year contract. What is the total contract value?",
+      "options": ["£1,097,500", "£1,102,500", "£1,110,000", "£1,125,000"],
+      "answer": "B",
+      "explanation": "Annual discounted fee: £420,000 × 0.875 = £367,500. 3-year total: £367,500 × 3 = £1,102,500."
+    },
+    {
+      "id": 5,
+      "question": "A company's gross profit was £2.4m on revenue of £8m. Cost of goods sold then increased by £400,000. What is the new gross margin?",
+      "options": ["23%", "25%", "27%", "29%"],
+      "answer": "B",
+      "explanation": "New gross profit: £2,400,000 − £400,000 = £2,000,000. Gross margin: £2,000,000 ÷ £8,000,000 = 25%."
+    },
+    {
+      "id": 6,
+      "question": "A restructuring project has 4 workstreams, each with a separate team. Teams have 5, 8, 6, and 7 members respectively. The average daily billing rate is £650 per person. What is the total daily cost?",
+      "options": ["£15,600", "£16,900", "£17,550", "£18,200"],
+      "answer": "B",
+      "explanation": "Total people: 5 + 8 + 6 + 7 = 26. Daily cost: 26 × £650 = £16,900."
+    },
+    {
+      "id": 7,
+      "question": "An advisory client's working capital cycle is 45 days. They want to reduce it by 20%. What is the target cycle in days?",
+      "options": ["32", "34", "36", "38"],
+      "answer": "C",
+      "explanation": "45 × 0.80 = 36 days."
+    },
+    {
+      "id": 8,
+      "question": "Deloitte's consulting practice grew revenue by 14% to £3.42bn. What was the prior year revenue?",
+      "options": ["£2.9bn", "£3.0bn", "£3.1bn", "£3.2bn"],
+      "answer": "B",
+      "explanation": "Prior year = £3.42bn ÷ 1.14 = £3.0bn."
+    },
+    {
+      "id": 9,
+      "question": "A client has 3 divisions with operating margins of 18%, 22%, and 12%, on revenues of £5m, £3m, and £4m respectively. What is the total operating profit across all divisions?",
+      "options": ["£1,860,000", "£1,980,000", "£2,040,000", "£2,160,000"],
+      "answer": "C",
+      "explanation": "Division 1: 18% × £5m = £900,000. Division 2: 22% × £3m = £660,000. Division 3: 12% × £4m = £480,000. Total: £2,040,000."
+    },
+    {
+      "id": 10,
+      "question": "A BrightStart cohort of 120 applicants is reduced after each stage: 40% pass the online assessment, 60% of those pass the job simulation, and 50% of those receive an offer. How many offers are made?",
+      "options": ["12", "14", "15", "18"],
+      "answer": "B",
+      "explanation": "After online assessment: 120 × 40% = 48. After job simulation: 48 × 60% = 28.8 ≈ 29. After final stage: 29 × 50% = 14.5 ≈ 14. Answer: B (14)."
+    },
+    {
+      "id": 11,
+      "question": "A firm's inventory turnover is 8 times per year and its cost of goods sold is £4.8m. What is the average inventory value?",
+      "options": ["£500,000", "£550,000", "£600,000", "£650,000"],
+      "answer": "C",
+      "explanation": "Average inventory = COGS ÷ turnover = £4,800,000 ÷ 8 = £600,000."
+    },
+    {
+      "id": 12,
+      "question": "A Deloitte team completes a due diligence project. Partner time: 15 hours at £400/hr. Manager time: 40 hours at £220/hr. Associate time: 80 hours at £120/hr. What is the total fee?",
+      "options": ["£24,400", "£25,200", "£26,600", "£28,000"],
+      "answer": "A",
+      "explanation": "Partner: 15 × £400 = £6,000. Manager: 40 × £220 = £8,800. Associate: 80 × £120 = £9,600. Total: £6,000 + £8,800 + £9,600 = £24,400."
+    },
+    {
+      "id": 13,
+      "question": "If a pound sterling falls 5% against the US dollar, and a UK firm had $500,000 in dollar-denominated receivables, how does their sterling value change? (Starting rate: £1 = $1.25)",
+      "options": ["Increases by £20,000", "Increases by £21,053", "Decreases by £20,000", "No change — receivables are fixed in dollars"],
+      "answer": "B",
+      "explanation": "Original sterling value: $500,000 ÷ 1.25 = £400,000. New rate: $1.25 × 0.95 = $1.1875. New sterling value: $500,000 ÷ 1.1875 = £421,053. Increase: £21,053."
+    },
+    {
+      "id": 14,
+      "question": "A client wants to achieve a net profit of £180,000. Their fixed costs are £320,000, variable costs are 40% of revenue, and they sell one product. What is the minimum revenue required?",
+      "options": ["£750,000", "£800,000", "£833,333", "£850,000"],
+      "answer": "C",
+      "explanation": "Revenue − 40% revenue − £320,000 = £180,000. 60% revenue = £500,000. Revenue = £500,000 ÷ 0.60 = £833,333."
+    },
+    {
+      "id": 15,
+      "question": "Deloitte's risk advisory practice grew headcount by 25% to 500 people. How many people were in the practice before growth?",
+      "options": ["375", "390", "400", "420"],
+      "answer": "C",
+      "explanation": "Previous headcount = 500 ÷ 1.25 = 400."
+    }
+  ],
+  "verbal": [
+    {
+      "id": 1,
+      "passage": "Deloitte's BrightStart programme is structured around professional qualification. Apprentices begin with the AAT qualification before progressing to ACA, ACCA, or CIMA depending on their service line. All study costs are funded by Deloitte, and apprentices sit professional exams alongside their day-to-day work. The programme typically takes 3–4 years to reach chartered status.",
+      "question": "BrightStart apprentices fund their own professional qualification study costs.",
+      "options": ["True", "False", "Cannot Say"],
+      "answer": "False",
+      "explanation": "The passage states 'all study costs are funded by Deloitte' — the statement is false."
+    },
+    {
+      "id": 2,
+      "passage": "Deloitte's immersive online assessment is different from traditional psychometric tests. Rather than measuring raw cognitive speed, it places candidates in a simulated work environment and asks them to navigate scenarios and make decisions. Deloitte publishes a practice version of the assessment on its website prior to application.",
+      "question": "Deloitte's immersive online assessment measures cognitive speed as its primary dimension.",
+      "options": ["True", "False", "Cannot Say"],
+      "answer": "False",
+      "explanation": "The passage explicitly says the assessment does not measure 'raw cognitive speed' — it evaluates judgement and decision-making in a simulated environment."
+    },
+    {
+      "id": 3,
+      "passage": "Deloitte is the largest of the Big Four by global revenue, generating $67bn in FY2024. The firm has significant practices in audit, consulting, financial advisory, risk advisory, and tax. Its consulting practice is one of the largest globally and encompasses strategy, operations, and technology transformation.",
+      "question": "Deloitte's consulting practice is described as the largest of the Big Four consulting arms.",
+      "options": ["True", "False", "Cannot Say"],
+      "answer": "Cannot Say",
+      "explanation": "The passage says Deloitte consulting is 'one of the largest globally' — it does not specifically rank it as the largest among Big Four consulting arms."
+    },
+    {
+      "id": 4,
+      "passage": "At the BrightStart final stage assessment, candidates complete a topic discussion and a skills and motivation interview. The topic for the discussion is sent to candidates in advance, giving them time to prepare a considered view. The assessors are specifically trained to probe responses with follow-up questions.",
+      "question": "Candidates receive the topic for the final stage discussion on the day of the assessment.",
+      "options": ["True", "False", "Cannot Say"],
+      "answer": "False",
+      "explanation": "The passage states the topic 'is sent to candidates in advance' — not on the day."
+    },
+    {
+      "id": 5,
+      "passage": "Deloitte's values — lead the way, serve with integrity, take care of each other, foster inclusion, and collaborate for measurable impact — underpin how the firm expects its people to behave. Candidates are assessed on how they demonstrate these values throughout the application process, not just at the interview stage.",
+      "question": "Deloitte only assesses candidates against its values at the final interview.",
+      "options": ["True", "False", "Cannot Say"],
+      "answer": "False",
+      "explanation": "The passage says candidates are assessed on values 'throughout the application process, not just at the interview stage.'"
+    },
+    {
+      "id": 6,
+      "passage": "Deloitte's audit practice audits many of the FTSE 100. Following a period of regulatory scrutiny across the profession, Deloitte has invested in audit quality frameworks and technology-enabled tools, including AI-assisted sampling techniques. The FRC oversees audit quality in the UK.",
+      "question": "The FRC is the body responsible for overseeing audit quality in the UK.",
+      "options": ["True", "False", "Cannot Say"],
+      "answer": "True",
+      "explanation": "The passage explicitly states 'The FRC oversees audit quality in the UK.'"
+    },
+    {
+      "id": 7,
+      "passage": "The BrightStart application process includes an online application, online assessments (including the immersive scenario), a job simulation stage, and a final stage assessment. Recruitment is rolling — candidates who apply earlier in the cycle move through the process faster and are more likely to secure a place before the cohort fills.",
+      "question": "Applying early in the BrightStart recruitment cycle increases a candidate's chances of securing a place.",
+      "options": ["True", "False", "Cannot Say"],
+      "answer": "True",
+      "explanation": "The passage states early applicants 'move through the process faster and are more likely to secure a place before the cohort fills.'"
+    },
+    {
+      "id": 8,
+      "passage": "PairD is Deloitte's internal generative AI tool, deployed across all staff globally. The tool is designed to improve productivity in tasks such as document drafting, summarisation, and research. Deloitte has positioned the rollout as part of a broader investment in AI-enabled service delivery.",
+      "question": "PairD is available to all Deloitte staff globally.",
+      "options": ["True", "False", "Cannot Say"],
+      "answer": "True",
+      "explanation": "The passage states PairD is 'deployed across all staff globally.'"
+    }
+  ],
+  "sjt": [
+    {
+      "id": 1,
+      "scenario": "You are a first-year BrightStart apprentice at Deloitte. Your manager has asked you to prepare a section of a client report by end of day. Halfway through, you realise the source data you have been given contains what appears to be an error that would significantly affect the conclusion. Your manager is travelling.",
+      "question": "Rank the following responses from MOST to LEAST effective.",
+      "options": [
+        "A. Stop working on the report, message your manager explaining the issue clearly, and wait for guidance before proceeding.",
+        "B. Complete the report using the data as given — your manager provided it and is responsible for accuracy.",
+        "C. Make your best judgement about the correct figure, adjust the data, and complete the report.",
+        "D. Flag the issue to another senior colleague who can advise while your manager is unavailable."
+      ],
+      "ranking": ["A", "D", "B", "C"],
+      "explanation": "A is best — stopping and escalating is the right response to a data integrity issue. D is a sound fallback if your manager can't be reached. B is passive; it does not absolve you of responsibility for submitting inaccurate work. C is worst — adjusting source data without authorisation is a serious integrity breach regardless of intent."
+    },
+    {
+      "id": 2,
+      "scenario": "During a team lunch, a colleague makes an off-hand comment that could be interpreted as dismissive of a more junior team member's contribution. The junior team member looks uncomfortable but says nothing. Your manager is not present.",
+      "question": "Rank the following responses from MOST to LEAST effective.",
+      "options": [
+        "A. Say nothing during lunch, but check in with the junior colleague afterwards to see how they are doing.",
+        "B. Address the comment directly and calmly in the moment, noting it came across in a way that might not have been intended.",
+        "C. Raise it with your manager after lunch so they are aware of the team dynamic.",
+        "D. Ignore it — social comments between colleagues are normal and it is not your place to intervene."
+      ],
+      "ranking": ["B", "A", "C", "D"],
+      "explanation": "B is best — Deloitte's value of 'foster inclusion' means addressing exclusionary behaviour in the moment, calmly and constructively. A shows care for the colleague but misses the chance to address the behaviour. C is appropriate as a follow-up if the pattern continues. D is worst — 'foster inclusion' explicitly asks people to act, not watch."
+    },
+    {
+      "id": 3,
+      "scenario": "You have been asked to present findings from a piece of analysis to the wider team. The night before, you discover that a key assumption underpinning your analysis was incorrect. Correcting it would change the conclusion materially, but it would also require several hours of rework.",
+      "question": "Rank the following responses from MOST to LEAST effective.",
+      "options": [
+        "A. Stay late, correct the analysis, and present the accurate findings tomorrow — even if it means a late night.",
+        "B. Present tomorrow as planned, flag the assumption issue verbally, and note the conclusion may change after review.",
+        "C. Postpone the presentation, inform your manager of the issue, and agree a revised timeline to correct it properly.",
+        "D. Present as planned and correct the analysis quietly afterwards without disclosing the error."
+      ],
+      "ranking": ["C", "A", "B", "D"],
+      "explanation": "C is best — delaying and fixing properly is more responsible than rushing or presenting known-inaccurate work. A is commendable effort but risks a tired, rushed correction being equally flawed. B is honest but presenting materially incorrect analysis is risky even with caveats. D is worst — presenting inaccurate findings without disclosure is a clear integrity failure."
+    },
+    {
+      "id": 4,
+      "scenario": "You are working on a client engagement. A member of the client's team asks if you can give them an informal view on a specific tax position — something outside your formal scope but within your knowledge. You know the answer.",
+      "question": "Rank the following responses from MOST to LEAST effective.",
+      "options": [
+        "A. Politely explain you can only provide formal advice within your engagement scope and suggest the client raises it with the engagement lead to discuss a proper scope extension.",
+        "B. Share your informal view, noting it is not formal advice — it is helpful and saves time.",
+        "C. Ignore the request and redirect the conversation to the engagement topics.",
+        "D. Escalate to your manager explaining the client has asked an out-of-scope question and ask how to handle it."
+      ],
+      "ranking": ["A", "D", "C", "B"],
+      "explanation": "A is best — setting scope boundaries clearly and directing the client through the right channel is the professional response. D is a solid alternative and may be necessary if you are unsure how to decline politely. C avoids the problem but is abrupt. B creates risk — informal out-of-scope advice can expose both you and Deloitte to liability, regardless of how well-intentioned."
+    },
+    {
+      "id": 5,
+      "scenario": "You notice that a deliverable your team submitted last week contained a formatting error that makes one table difficult to read. The client has not yet flagged it. It does not affect the accuracy of the content.",
+      "question": "Rank the following responses from MOST to LEAST effective.",
+      "options": [
+        "A. Proactively send the client a corrected version with a brief note explaining the update.",
+        "B. Wait to see if the client raises it — if they have not noticed, no action is needed.",
+        "C. Mention it to your manager and let them decide whether to send a correction.",
+        "D. Fix it in the next version of the document without mentioning it."
+      ],
+      "ranking": ["A", "C", "D", "B"],
+      "explanation": "A is best — proactive quality management and client care reflect Deloitte's values. C involves your manager appropriately and is a sound approach for a more junior person. D is low-risk but misses the transparency opportunity. B is worst in spirit — waiting for clients to find your errors before acting is not the standard Deloitte expects."
+    }
+  ]
+}

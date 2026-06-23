@@ -9,7 +9,7 @@ export default function PrivacyPage() {
   return (
     <div className="max-w-2xl mx-auto px-6 py-16">
       <h1 className="text-3xl font-bold text-slate-900 mb-2">Privacy Policy</h1>
-      <p className="text-slate-500 text-sm mb-10">Last updated: May 2026</p>
+      <p className="text-slate-500 text-sm mb-10">Last updated: June 2026</p>
 
       <div className="prose prose-slate max-w-none space-y-8 text-slate-700 text-sm leading-relaxed">
 
@@ -49,6 +49,18 @@ export default function PrivacyPage() {
               </p>
             </div>
             <div>
+              <p className="font-semibold text-slate-800">AI mock interview sessions (Season Pass)</p>
+              <p>
+                Season Pass holders can use the AI mock interview feature. When you use this feature, your
+                messages and our AI-generated responses are sent to Anthropic, Inc. for processing via their
+                API. We do not store your interview conversation on our servers — it exists only in your
+                browser session. If you choose to email your transcript to yourself, we transmit that
+                conversation to Resend (our email delivery provider) solely to deliver the email; no copy
+                is retained on our end. The legal basis for this processing is the performance of the
+                service you have requested (UK GDPR Article 6(1)(b)).
+              </p>
+            </div>
+            <div>
               <p className="font-semibold text-slate-800">Usage data</p>
               <p>
                 We use Vercel to host this site. Vercel may collect basic request logs (IP address, browser type,
@@ -64,6 +76,8 @@ export default function PrivacyPage() {
             <li><strong>MailerLite</strong> — email delivery. Your email address is stored on MailerLite&apos;s servers (EU-based). MailerLite&apos;s privacy policy: mailerlite.com/legal/privacy-policy.</li>
             <li><strong>Stripe</strong> — payment processing. Stripe&apos;s privacy policy: stripe.com/gb/privacy.</li>
             <li><strong>Vercel</strong> — website hosting. Vercel&apos;s privacy policy: vercel.com/legal/privacy-policy.</li>
+            <li><strong>Anthropic</strong> — AI processing for mock interview sessions. Messages are processed by Anthropic&apos;s API and subject to Anthropic&apos;s privacy policy at anthropic.com/privacy. We do not store interview conversations server-side.</li>
+            <li><strong>Resend</strong> — email delivery for interview transcripts (only when you request this). Resend&apos;s privacy policy: resend.com/legal/privacy-policy.</li>
           </ul>
         </section>
 

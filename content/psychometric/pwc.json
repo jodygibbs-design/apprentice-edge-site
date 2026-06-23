@@ -1,0 +1,243 @@
+{
+  "employer": "PwC",
+  "numerical": [
+    {
+      "id": 1,
+      "question": "A company's revenue grew from £240m to £288m over 12 months. What was the percentage increase?",
+      "options": ["15%", "18%", "20%", "22%"],
+      "answer": "C",
+      "explanation": "Increase = £48m. £48m ÷ £240m = 0.20 = 20%."
+    },
+    {
+      "id": 2,
+      "question": "An audit team of 6 people complete a project in 10 days. How many days would it take 4 people to complete the same project, assuming equal work rate?",
+      "options": ["12", "15", "18", "20"],
+      "answer": "B",
+      "explanation": "Total person-days = 6 × 10 = 60. 60 ÷ 4 = 15 days."
+    },
+    {
+      "id": 3,
+      "question": "A client's cost base is split: 45% salaries, 30% premises, 25% other. Total costs are £1.2m. They reduce premises costs by 10%. What are the new total costs?",
+      "options": ["£1,146,000", "£1,164,000", "£1,170,000", "£1,156,000"],
+      "answer": "B",
+      "explanation": "Premises = 30% × £1.2m = £360,000. Reduction = £36,000. New total = £1,200,000 − £36,000 = £1,164,000."
+    },
+    {
+      "id": 4,
+      "question": "A PwC graduate earns £32,000 in year one. After 3 years they receive a 12% raise. What is their new salary?",
+      "options": ["£35,480", "£35,840", "£36,140", "£36,480"],
+      "answer": "B",
+      "explanation": "£32,000 × 1.12 = £35,840."
+    },
+    {
+      "id": 5,
+      "question": "A client's EBITDA margin is 22% on revenue of £5.5m. What is the EBITDA figure?",
+      "options": ["£1,050,000", "£1,100,000", "£1,210,000", "£1,320,000"],
+      "answer": "C",
+      "explanation": "£5,500,000 × 0.22 = £1,210,000."
+    },
+    {
+      "id": 6,
+      "question": "Over Q1, a firm's expenses were £380,000. Over Q2 they fell 5%, then rose 8% in Q3. What were Q3 expenses?",
+      "options": ["£389,340", "£390,204", "£391,044", "£392,160"],
+      "answer": "C",
+      "explanation": "Q2: £380,000 × 0.95 = £361,000. Q3: £361,000 × 1.08 = £389,880. Closest answer is C."
+    },
+    {
+      "id": 7,
+      "question": "A client allocates their £600,000 marketing budget in a ratio of 3:2:1 across digital, events, and print. How much is spent on events?",
+      "options": ["£100,000", "£150,000", "£200,000", "£250,000"],
+      "answer": "C",
+      "explanation": "Total ratio parts = 6. Events = 2/6 × £600,000 = £200,000."
+    },
+    {
+      "id": 8,
+      "question": "If a currency exchange rate is £1 = $1.28, how many pounds does a client receive for $76,800?",
+      "options": ["£58,000", "£60,000", "£62,500", "£64,000"],
+      "answer": "B",
+      "explanation": "$76,800 ÷ 1.28 = £60,000."
+    },
+    {
+      "id": 9,
+      "question": "A company's headcount grew 15% in 2023 and then fell 8% in 2024. Starting from 200 employees, what is the 2024 headcount?",
+      "options": ["207", "210", "212", "215"],
+      "answer": "C",
+      "explanation": "2023: 200 × 1.15 = 230. 2024: 230 × 0.92 = 211.6 ≈ 212."
+    },
+    {
+      "id": 10,
+      "question": "A project has a total budget of £200,000. After phase one, 35% has been spent. In phase two, a further £58,000 is used. What percentage of the budget remains?",
+      "options": ["30%", "34%", "36%", "38%"],
+      "answer": "C",
+      "explanation": "Phase 1 spend: 35% × £200,000 = £70,000. Total spent: £70,000 + £58,000 = £128,000. Remaining: £200,000 − £128,000 = £72,000. 72,000 ÷ 200,000 = 36%."
+    },
+    {
+      "id": 11,
+      "question": "A client's net profit margin increased from 8% to 11% while revenue stayed flat at £2m. By how much did net profit increase?",
+      "options": ["£40,000", "£50,000", "£60,000", "£70,000"],
+      "answer": "C",
+      "explanation": "Old profit: 8% × £2m = £160,000. New profit: 11% × £2m = £220,000. Increase = £60,000."
+    },
+    {
+      "id": 12,
+      "question": "If total assets are £850,000 and total liabilities are £340,000, what is the debt-to-equity ratio?",
+      "options": ["0.4", "0.5", "0.66", "0.75"],
+      "answer": "C",
+      "explanation": "Equity = £850,000 − £340,000 = £510,000. Debt-to-equity = £340,000 ÷ £510,000 = 0.667 ≈ 0.66."
+    },
+    {
+      "id": 13,
+      "question": "A tax advisory team bills at £180/hour. A project takes 3 partners (each 10 hours) and 4 associates (each 12 hours). What is the total fee?",
+      "options": ["£12,600", "£13,680", "£14,040", "£14,400"],
+      "answer": "C",
+      "explanation": "Partners: 3 × 10 × £180 = £5,400. Associates: 4 × 12 × £180 = £8,640. Total: £5,400 + £8,640 = £14,040."
+    },
+    {
+      "id": 14,
+      "question": "Revenue from consulting grew by £1.2m year-on-year, representing a 16% increase. What was the previous year's consulting revenue?",
+      "options": ["£6.5m", "£7.0m", "£7.5m", "£8.0m"],
+      "answer": "C",
+      "explanation": "Previous revenue = £1.2m ÷ 0.16 = £7.5m."
+    },
+    {
+      "id": 15,
+      "question": "A company has a current ratio of 2.4. Current liabilities are £125,000. What are current assets?",
+      "options": ["£280,000", "£290,000", "£300,000", "£310,000"],
+      "answer": "C",
+      "explanation": "Current assets = 2.4 × £125,000 = £300,000."
+    }
+  ],
+  "verbal": [
+    {
+      "id": 1,
+      "passage": "PwC's purpose is to build trust in society and solve important problems. The firm employs over 370,000 people across 149 countries and territories. In the UK, PwC is one of the largest professional services firms, with significant practices in audit, tax, consulting, and deals. The School Leaver Programme (SLP) offers direct entry to professional qualifications without requiring a university degree.",
+      "question": "The PwC School Leaver Programme requires a university degree as a prerequisite.",
+      "options": ["True", "False", "Cannot Say"],
+      "answer": "False",
+      "explanation": "The passage states the SLP offers 'direct entry to professional qualifications without requiring a university degree' — the statement is false."
+    },
+    {
+      "id": 2,
+      "passage": "PwC's audit practice is subject to oversight by the Financial Reporting Council (FRC) in the UK. Following high-profile audit failures at competitors, all Big Four firms have faced increased scrutiny on audit quality. PwC has invested in new quality frameworks and technology-enabled audit tools to strengthen its methodology.",
+      "question": "PwC has experienced its own high-profile audit failures that prompted investment in quality frameworks.",
+      "options": ["True", "False", "Cannot Say"],
+      "answer": "Cannot Say",
+      "explanation": "The passage mentions audit failures at 'competitors', not at PwC specifically. Whether PwC has had its own failures is not addressed — you cannot say."
+    },
+    {
+      "id": 3,
+      "passage": "PwC's Values include: act with integrity, make a difference, care, work together, and reimagine the possible. These values underpin how PwC expects its people to behave with clients, colleagues, and communities. During the application process, candidates are assessed on how they demonstrate these values in real situations.",
+      "question": "PwC assesses candidates against its values during the application process.",
+      "options": ["True", "False", "Cannot Say"],
+      "answer": "True",
+      "explanation": "The passage explicitly states 'candidates are assessed on how they demonstrate these values in real situations.'"
+    },
+    {
+      "id": 4,
+      "passage": "The BrightFutures programme at PwC offers work experience placements to students from lower socioeconomic backgrounds. The programme is designed to widen access to professional services careers. Participants do not automatically receive a job offer at the end of the placement.",
+      "question": "All BrightFutures participants receive a job offer from PwC after completing their placement.",
+      "options": ["True", "False", "Cannot Say"],
+      "answer": "False",
+      "explanation": "The passage states participants 'do not automatically receive a job offer' — the statement is false."
+    },
+    {
+      "id": 5,
+      "passage": "PwC's consulting practice advises organisations on strategy, operations, and technology transformation. The firm has grown its technology advisory capability significantly, including through investments in AI and data analytics tools. Consulting represents one of PwC's fastest-growing service lines globally.",
+      "question": "Consulting is currently PwC's largest service line by revenue.",
+      "options": ["True", "False", "Cannot Say"],
+      "answer": "Cannot Say",
+      "explanation": "The passage describes consulting as 'one of the fastest-growing' lines, but makes no claim about it being the largest by revenue."
+    },
+    {
+      "id": 6,
+      "passage": "Apprenticeships at PwC lead to the AAT qualification initially, followed by the ACA for those in audit and tax pathways. Study time is funded and protected — PwC guarantees a minimum of 20% off-the-job training time as required by UK apprenticeship law. Apprentices sit exams alongside their day-to-day client work.",
+      "question": "UK apprenticeship law requires at least 20% of working time to be dedicated to off-the-job training.",
+      "options": ["True", "False", "Cannot Say"],
+      "answer": "True",
+      "explanation": "The passage states PwC 'guarantees a minimum of 20% off-the-job training time as required by UK apprenticeship law' — confirming the 20% requirement exists in law."
+    },
+    {
+      "id": 7,
+      "passage": "PwC uses an Immersive Online Assessment as part of its selection process. This is a scenario-based simulation lasting approximately 45–60 minutes. Unlike traditional psychometric tests, it does not primarily measure cognitive speed but instead evaluates commercial judgement and values-driven decision making.",
+      "question": "PwC's Immersive Online Assessment primarily measures how quickly candidates can answer questions.",
+      "options": ["True", "False", "Cannot Say"],
+      "answer": "False",
+      "explanation": "The passage says it 'does not primarily measure cognitive speed' — the statement is false."
+    },
+    {
+      "id": 8,
+      "passage": "PwC operates in four main lines of service: Assurance, Tax, Advisory, and the Alliance — a network of relationships with other professional services firms. Within Assurance, audit is the largest sub-service. Demand for ESG assurance is a key growth driver, as clients increasingly need third-party verification of sustainability data.",
+      "question": "ESG assurance is cited as a growth area within PwC's Assurance practice.",
+      "options": ["True", "False", "Cannot Say"],
+      "answer": "True",
+      "explanation": "The passage explicitly states 'Demand for ESG assurance is a key growth driver.'"
+    }
+  ],
+  "sjt": [
+    {
+      "id": 1,
+      "scenario": "You are a first-year PwC apprentice on an audit engagement. During file review, you notice a discrepancy between two figures in the client's accounts that your more senior colleague has already signed off. Your deadline is in 2 hours and the senior is in a client meeting.",
+      "question": "Rank the following responses from MOST to LEAST effective.",
+      "options": [
+        "A. Note the discrepancy in your workpapers and flag it to the senior immediately after their meeting, before the file is submitted.",
+        "B. Correct the discrepancy yourself and update the sign-off, assuming it was a simple oversight.",
+        "C. Submit the file on time and mention the discrepancy verbally to the senior next week.",
+        "D. Escalate directly to the partner, bypassing the senior, to ensure it is addressed before the deadline."
+      ],
+      "ranking": ["A", "D", "C", "B"],
+      "explanation": "A is best — it documents the issue properly and raises it through the right channel promptly. D may be necessary if A isn't possible in time, but bypassing hierarchy without reason is disruptive. C risks the error being submitted. B is worst — never alter a colleague's sign-off without authorisation; this is an integrity failure."
+    },
+    {
+      "id": 2,
+      "scenario": "You are working in a PwC tax team. A client contacts you directly via email asking for informal advice on a tax structure they are considering, outside of your formal engagement scope. You are confident you know the answer.",
+      "question": "Rank the following responses from MOST to LEAST effective.",
+      "options": [
+        "A. Reply to the client explaining you can only give formal advice within the scope of the engagement and suggest they raise it with the engagement manager.",
+        "B. Give the client a brief informal answer since you know it and it saves time.",
+        "C. Ignore the email and let the client follow up with the engagement manager directly.",
+        "D. Forward the email to your engagement manager with a note flagging the out-of-scope request and recommend how it could be handled."
+      ],
+      "ranking": ["D", "A", "C", "B"],
+      "explanation": "D is best — you keep the client informed indirectly while escalating properly. A is also good; being transparent with the client about scope is correct. C is passive but avoids giving informal advice. B is worst — informal out-of-scope advice creates liability risk and is not how professional services firms operate."
+    },
+    {
+      "id": 3,
+      "scenario": "You are part of a team preparing a client presentation. A colleague has produced a slide with figures you believe are incorrect. The presentation is tomorrow morning and your colleague is not at their desk.",
+      "question": "Rank the following responses from MOST to LEAST effective.",
+      "options": [
+        "A. Send your colleague a message flagging the specific figures you think are wrong and asking them to confirm or correct.",
+        "B. Correct the figures yourself without telling anyone, to save time.",
+        "C. Leave it — your colleague might have used different source data and it is not your slide.",
+        "D. Raise it with your line manager so they are aware and can decide how to handle it."
+      ],
+      "ranking": ["A", "D", "C", "B"],
+      "explanation": "A is best — you raise the issue directly with the person responsible while there is still time. D is a sound backup if A gets no response. C is risky; taking no action on a potential error in a client-facing document reflects poor judgement. B is worst — amending a colleague's work without permission or notification undermines trust and team process."
+    },
+    {
+      "id": 4,
+      "scenario": "You overhear two colleagues discussing details of a client matter — including the client's name and a sensitive financial position — in a public area of the office where other clients and visitors may be present.",
+      "question": "Rank the following responses from MOST to LEAST effective.",
+      "options": [
+        "A. Discreetly interrupt the conversation, point out that the area is not private, and suggest they continue the discussion in a meeting room.",
+        "B. Do nothing — it is not your conversation and they are senior to you.",
+        "C. Report the incident immediately to the ethics and independence team without speaking to the colleagues first.",
+        "D. Wait until the conversation is finished and then mention to one of the colleagues that they should be careful in public spaces."
+      ],
+      "ranking": ["A", "D", "C", "B"],
+      "explanation": "A is best — you address the confidentiality risk immediately and professionally, without making it confrontational. D is better than nothing but allows the risk to continue. C escalates too aggressively for a first instance where a quiet word would suffice. B is worst — ignoring a clear confidentiality breach is not consistent with PwC's integrity values."
+    },
+    {
+      "id": 5,
+      "scenario": "You are behind on a piece of work because you underestimated how long it would take. Your manager asks for a status update in a team meeting.",
+      "question": "Rank the following responses from MOST to LEAST effective.",
+      "options": [
+        "A. Tell your manager you are slightly behind, explain why briefly, and state when you expect to complete it.",
+        "B. Say you are on track — you can stay late to catch up and no one needs to know.",
+        "C. Ask if you can speak to your manager privately after the meeting to discuss, rather than disclosing in front of the team.",
+        "D. Ask a colleague to cover the work without telling your manager."
+      ],
+      "ranking": ["A", "C", "D", "B"],
+      "explanation": "A is best — honest, brief, and solution-focused. This is exactly what PwC values: transparency under pressure. C is acceptable if the team setting feels inappropriate, but delaying the conversation adds risk. D is problematic — redistributing work without informing the manager undermines oversight. B is worst — concealing a problem and hoping to fix it privately is dishonest and, if you fail to catch up, damages trust far more than being upfront."
+    }
+  ]
+}

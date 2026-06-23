@@ -5,6 +5,10 @@ import { PACKS, getPackBySlug, getPackContent, getPackContentSplit } from "@/lib
 import EmailGate from "@/app/components/EmailGate";
 import PaymentGate from "@/app/components/PaymentGate";
 import type { Metadata } from "next";
+import fs from "fs";
+import path from "path";
+
+const PSYCHOMETRIC_SLUGS = ["pwc", "deloitte", "goldman-sachs"];
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -47,6 +51,9 @@ export default async function PackPage({ params }: Props) {
     // Passing full HTML to a client component serialises it into the page payload —
     // unpaid visitors could read it via DevTools. Gate the fetch here instead.
     const content = serverPaid ? await getPackContent(pack.filename) : "";
+    const hasPsychometric = PSYCHOMETRIC_SLUGS.includes(slug) &&
+      fs.existsSync(path.join(process.cwd(), "content", "psychometric", `${slug}.json`));
+
     return (
       <div>
         <section
@@ -59,6 +66,28 @@ export default async function PackPage({ params }: Props) {
               <span className="mx-2">›</span>
               <span className="text-slate-600">{pack.title}</span>
             </p>
+            {/* Tab bar — only shown to paid users */}
+            {serverPaid && (
+              <div className="flex gap-1 bg-white/60 rounded-xl p-1 border border-slate-200 w-fit mb-5">
+                <span className="text-sm px-4 py-2 rounded-lg bg-white shadow-sm text-indigo-700 font-semibold border border-slate-200">
+                  Pack Guide
+                </span>
+                <Link
+                  href={`/packs/${slug}/interview`}
+                  className="text-sm px-4 py-2 rounded-lg text-slate-500 hover:text-slate-700 transition-colors font-medium"
+                >
+                  Practice Interview
+                </Link>
+                {hasPsychometric && (
+                  <Link
+                    href={`/packs/${slug}/practice-tests`}
+                    className="text-sm px-4 py-2 rounded-lg text-slate-500 hover:text-slate-700 transition-colors font-medium"
+                  >
+                    Practice Tests
+                  </Link>
+                )}
+              </div>
+            )}
             <div className="flex flex-col sm:flex-row sm:items-center gap-5 mb-4">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img src={`/logos/${pack.logoFile}`} alt={pack.company} className="h-16 sm:h-14 w-auto" />
