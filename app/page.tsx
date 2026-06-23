@@ -129,7 +129,8 @@ export default function HomePage() {
               </div>
               <h3 className="text-lg font-bold text-slate-900 mb-2">AI Mock Interviews</h3>
               <p className="text-sm text-slate-500 leading-relaxed mb-5">
-                An AI coach that knows your target employer. It asks real-style questions and gives structured feedback after every answer.
+                Not a generic AI. The coach is trained on each employer&apos;s specific pack — it knows their
+                application stages, competencies, and question formats. Every question and every piece of feedback is built around that company.
               </p>
               <ul className="space-y-2 text-sm text-slate-600 mb-6 flex-1">
                 {[

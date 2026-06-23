@@ -4,6 +4,7 @@ import { cookies } from "next/headers";
 import { PACKS, getPackBySlug, getPackContent, getPackContentSplit } from "@/lib/packs";
 import EmailGate from "@/app/components/EmailGate";
 import PaymentGate from "@/app/components/PaymentGate";
+import PackTabBar from "@/app/components/PackTabBar";
 import type { Metadata } from "next";
 import fs from "fs";
 import path from "path";
@@ -28,15 +29,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-const INCLUDED = [
-  "Application stages — what to expect at every round",
-  "Company-specific competencies and what they really test",
-  "Real interview questions with answer guidance",
-  "Commercial awareness — key numbers and context",
-  "Why this company — a model answer framework",
-  "Pre-submission checklist",
-];
-
 export default async function PackPage({ params }: Props) {
   const { slug } = await params;
   const pack = getPackBySlug(slug);
@@ -46,13 +38,11 @@ export default async function PackPage({ params }: Props) {
   const cookieStore = await cookies();
   const serverPaid = cookieStore.get("ae_access")?.value === "paid";
 
+  const hasPsychometric = PSYCHOMETRIC_SLUGS.includes(slug) &&
+    fs.existsSync(path.join(process.cwd(), "content", "psychometric", `${slug}.json`));
+
   if (!pack.free) {
-    // Only fetch content server-side when the cookie confirms payment.
-    // Passing full HTML to a client component serialises it into the page payload —
-    // unpaid visitors could read it via DevTools. Gate the fetch here instead.
     const content = serverPaid ? await getPackContent(pack.filename) : "";
-    const hasPsychometric = PSYCHOMETRIC_SLUGS.includes(slug) &&
-      fs.existsSync(path.join(process.cwd(), "content", "psychometric", `${slug}.json`));
 
     return (
       <div>
@@ -66,28 +56,13 @@ export default async function PackPage({ params }: Props) {
               <span className="mx-2">›</span>
               <span className="text-slate-600">{pack.title}</span>
             </p>
-            {/* Tab bar — only shown to paid users */}
-            {serverPaid && (
-              <div className="flex gap-1 bg-white/60 rounded-xl p-1 border border-slate-200 w-fit mb-5">
-                <span className="text-sm px-4 py-2 rounded-lg bg-white shadow-sm text-indigo-700 font-semibold border border-slate-200">
-                  Pack Guide
-                </span>
-                <Link
-                  href={`/packs/${slug}/interview`}
-                  className="text-sm px-4 py-2 rounded-lg text-slate-500 hover:text-slate-700 transition-colors font-medium"
-                >
-                  Practice Interview
-                </Link>
-                {hasPsychometric && (
-                  <Link
-                    href={`/packs/${slug}/practice-tests`}
-                    className="text-sm px-4 py-2 rounded-lg text-slate-500 hover:text-slate-700 transition-colors font-medium"
-                  >
-                    Practice Tests
-                  </Link>
-                )}
-              </div>
-            )}
+            <PackTabBar
+              slug={slug}
+              paid={serverPaid}
+              hasPsychometric={hasPsychometric}
+              companyName={pack.company}
+              activeTab="guide"
+            />
             <div className="flex flex-col sm:flex-row sm:items-center gap-5 mb-4">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img src={`/logos/${pack.logoFile}`} alt={pack.company} className="h-16 sm:h-14 w-auto" />
@@ -124,11 +99,11 @@ export default async function PackPage({ params }: Props) {
     );
   }
 
+  // Free pack (PwC)
   const { preview, full } = await getPackContentSplit(pack.filename);
 
   return (
     <div>
-      {/* Pack header */}
       <section
         className="border-b border-slate-200"
         style={{ background: `linear-gradient(160deg, ${pack.brandColorLight} 0%, #ffffff 65%)`, borderTopColor: pack.brandColor, borderTopWidth: 4, borderTopStyle: "solid" }}
@@ -139,6 +114,14 @@ export default async function PackPage({ params }: Props) {
             <span className="mx-2">›</span>
             <span className="text-slate-600">{pack.title}</span>
           </p>
+          {/* Tab bar shown to all users — locked tabs show paywall modal for non-paid */}
+          <PackTabBar
+            slug={slug}
+            paid={serverPaid}
+            hasPsychometric={hasPsychometric}
+            companyName={pack.company}
+            activeTab="guide"
+          />
           <div className="flex flex-col sm:flex-row sm:items-center gap-5 mb-4">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img src={`/logos/${pack.logoFile}`} alt={pack.company} className="h-16 sm:h-14 w-auto" />
@@ -159,7 +142,6 @@ export default async function PackPage({ params }: Props) {
         </div>
       </section>
 
-      {/* Content with email gate */}
       <section className="bg-white">
         <div
           className="max-w-3xl mx-auto px-6 py-10"
@@ -169,7 +151,6 @@ export default async function PackPage({ params }: Props) {
         </div>
       </section>
 
-      {/* Disclaimer */}
       <section className="bg-slate-50 border-t border-slate-100">
         <div className="max-w-3xl mx-auto px-6 py-4">
           <p className="text-xs text-slate-400 leading-relaxed">
@@ -180,15 +161,19 @@ export default async function PackPage({ params }: Props) {
         </div>
       </section>
 
-      {/* Season Pass CTA */}
+      {/* Season Pass CTA — update copy to sell all three features */}
       <section className="bg-slate-900">
         <div className="max-w-3xl mx-auto px-6 py-16 text-center">
-          <p className="text-slate-400 text-sm font-semibold uppercase tracking-widest mb-3">Want all 10 packs?</p>
+          <p className="text-slate-400 text-sm font-semibold uppercase tracking-widest mb-3">Want everything?</p>
           <h2 className="text-2xl font-bold text-white mb-3">Season Pass — £29</h2>
-          <p className="text-slate-400 mb-6 text-sm max-w-md mx-auto">
-            Deloitte, KPMG, EY, Goldman Sachs, Google, Amazon, Civil Service, BBC, NHS — all included.
-            One payment. Instant access.
+          <p className="text-slate-400 mb-4 text-sm max-w-md mx-auto">
+            All 10 employer packs, plus AI mock interviews and practice tests. One payment. Instant access.
           </p>
+          <div className="flex flex-wrap justify-center gap-x-6 gap-y-1 mb-8 text-xs text-slate-500">
+            <span>✓ AI interview coach built on each employer&apos;s pack</span>
+            <span>✓ Numerical, verbal &amp; SJT practice tests</span>
+            <span>✓ Deloitte, KPMG, EY, Goldman Sachs + 6 more</span>
+          </div>
           <Link
             href="/checkout"
             className="inline-block bg-orange-500 text-white font-semibold px-8 py-3.5 rounded-xl hover:bg-orange-600 transition-colors shadow-lg shadow-orange-500/20"

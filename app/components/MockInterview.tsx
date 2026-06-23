@@ -122,21 +122,38 @@ export default function MockInterview({ employer, companyName }: Props) {
 
   if (!started) {
     return (
-      <div className="text-center py-12">
+      <div className="py-10 max-w-lg mx-auto">
         <div className="text-4xl mb-4">🎤</div>
-        <h2 className="text-xl font-bold text-slate-900 mb-2">Practice Interview — {companyName}</h2>
-        <p className="text-slate-500 text-sm mb-2 max-w-md mx-auto">
-          An AI coach will ask you real-style questions based on the {companyName} pack, then give you structured feedback after each answer.
+        <h2 className="text-2xl font-bold text-slate-900 mb-3">Practice Interview — {companyName}</h2>
+        <p className="text-slate-600 text-sm leading-relaxed mb-5">
+          This is not a generic AI chatbot. The coach is trained specifically on the {companyName} prep pack —
+          it knows the exact application stages, competencies, and question formats {companyName} uses.
+          Every question it asks is grounded in that content. Every piece of feedback is specific to how {companyName} assesses candidates.
         </p>
-        <p className="text-slate-400 text-xs mb-6 max-w-md mx-auto">
-          Not affiliated with {companyName}. This is a practice tool only.
-        </p>
+        <ul className="space-y-2 mb-6">
+          {[
+            `Questions drawn from ${companyName}'s actual application process`,
+            "Structured feedback after every answer: what worked + what to improve",
+            "Push-back and follow-up questions — just like the real thing",
+            "Email your full transcript to yourself when done",
+          ].map((item) => (
+            <li key={item} className="flex items-start gap-2 text-sm text-slate-600">
+              <svg className="shrink-0 mt-0.5" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                <path d="M2 7L5.5 10.5L12 3.5" stroke="#6366F1" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
+              {item}
+            </li>
+          ))}
+        </ul>
         <button
           onClick={startSession}
-          className="bg-indigo-600 text-white font-semibold px-8 py-3 rounded-xl hover:bg-indigo-700 transition-colors"
+          className="bg-indigo-600 text-white font-semibold px-8 py-3.5 rounded-xl hover:bg-indigo-700 transition-colors w-full sm:w-auto"
         >
           Start interview
         </button>
+        <p className="text-xs text-slate-400 mt-3">
+          Not affiliated with {companyName}. This is a practice tool only.
+        </p>
       </div>
     );
   }

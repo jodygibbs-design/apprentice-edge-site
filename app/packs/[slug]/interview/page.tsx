@@ -3,7 +3,12 @@ import Link from "next/link";
 import { cookies } from "next/headers";
 import { getPackBySlug, PACKS } from "@/lib/packs";
 import MockInterview from "@/app/components/MockInterview";
+import PackTabBar from "@/app/components/PackTabBar";
 import type { Metadata } from "next";
+import fs from "fs";
+import path from "path";
+
+const PSYCHOMETRIC_SLUGS = ["pwc", "deloitte", "goldman-sachs"];
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -35,6 +40,9 @@ export default async function InterviewPage({ params }: Props) {
     redirect("/checkout");
   }
 
+  const hasPsychometric = PSYCHOMETRIC_SLUGS.includes(slug) &&
+    fs.existsSync(path.join(process.cwd(), "content", "psychometric", `${slug}.json`));
+
   return (
     <div>
       <section
@@ -54,32 +62,13 @@ export default async function InterviewPage({ params }: Props) {
             <span className="mx-2">›</span>
             <span className="text-slate-600">Practice Interview</span>
           </p>
-
-          {/* Tab bar */}
-          <div className="flex gap-1 bg-white/60 rounded-xl p-1 border border-slate-200 w-fit mb-4">
-            <Link
-              href={`/packs/${slug}`}
-              className="text-sm px-4 py-2 rounded-lg text-slate-500 hover:text-slate-700 transition-colors font-medium"
-            >
-              Pack Guide
-            </Link>
-            <span className="text-sm px-4 py-2 rounded-lg bg-white shadow-sm text-indigo-700 font-semibold border border-slate-200">
-              Practice Interview
-            </span>
-            <Link
-              href={`/packs/${slug}/practice-tests`}
-              className="text-sm px-4 py-2 rounded-lg text-slate-500 hover:text-slate-700 transition-colors font-medium"
-            >
-              Practice Tests
-            </Link>
-          </div>
-
+          <PackTabBar slug={slug} paid={true} hasPsychometric={hasPsychometric} companyName={pack.company} activeTab="interview" />
           <div className="flex items-center gap-4">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img src={`/logos/${pack.logoFile}`} alt={pack.company} className="h-10 w-auto" />
             <div>
               <h1 className="text-xl font-bold text-slate-900">{pack.company} — Practice Interview</h1>
-              <p className="text-slate-500 text-sm">AI coach grounded on the {pack.company} pack · Not affiliated with {pack.company}</p>
+              <p className="text-slate-500 text-sm">AI coach trained on the {pack.company} pack content — not a generic tool · Not affiliated with {pack.company}</p>
             </div>
           </div>
         </div>

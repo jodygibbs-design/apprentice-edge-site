@@ -3,6 +3,7 @@ import Link from "next/link";
 import { cookies } from "next/headers";
 import { getPackBySlug, PACKS } from "@/lib/packs";
 import PsychometricTest from "@/app/components/PsychometricTest";
+import PackTabBar from "@/app/components/PackTabBar";
 import type { Metadata } from "next";
 import path from "path";
 import fs from "fs";
@@ -66,25 +67,7 @@ export default async function PracticeTestsPage({ params }: Props) {
             <span className="mx-2">›</span>
             <span className="text-slate-600">Practice Tests</span>
           </p>
-
-          {/* Tab bar */}
-          <div className="flex gap-1 bg-white/60 rounded-xl p-1 border border-slate-200 w-fit mb-4">
-            <Link
-              href={`/packs/${slug}`}
-              className="text-sm px-4 py-2 rounded-lg text-slate-500 hover:text-slate-700 transition-colors font-medium"
-            >
-              Pack Guide
-            </Link>
-            <Link
-              href={`/packs/${slug}/interview`}
-              className="text-sm px-4 py-2 rounded-lg text-slate-500 hover:text-slate-700 transition-colors font-medium"
-            >
-              Practice Interview
-            </Link>
-            <span className="text-sm px-4 py-2 rounded-lg bg-white shadow-sm text-indigo-700 font-semibold border border-slate-200">
-              Practice Tests
-            </span>
-          </div>
+          <PackTabBar slug={slug} paid={true} hasPsychometric={true} companyName={pack.company} activeTab="tests" />
 
           <div className="flex items-center gap-4">
             {/* eslint-disable-next-line @next/next/no-img-element */}
