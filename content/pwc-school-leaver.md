@@ -79,6 +79,8 @@ The final gate. Half or full day at a PwC office. The people around the table ar
 
 ---
 
+<!--more-->
+
 ## PwC Core Competencies — Prep These with STAR Stories
 
 At least one strong STAR story per competency. Use real examples — school, part-time work, sport, Duke of Edinburgh, anything with real stakes and a real outcome.
