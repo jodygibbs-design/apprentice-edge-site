@@ -12,6 +12,8 @@ export default function SuccessPage() {
     <Script id="gtag-purchase" strategy="afterInteractive">{`
       gtag('event', 'conversion', {
         'send_to': 'AW-18218897830/KXgnCLnU870cEKajue9D',
+        'value': 29.0,
+        'currency': 'GBP',
         'transaction_id': ''
       });
     `}</Script>
