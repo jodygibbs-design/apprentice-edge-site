@@ -8,9 +8,11 @@ interface Props {
   packTitle: string;
   serverPaid: boolean;
   slug?: string;
+  outline?: string[];
+  companyName?: string;
 }
 
-export default function PaymentGate({ content: initialContent, packTitle, serverPaid, slug }: Props) {
+export default function PaymentGate({ content: initialContent, packTitle, serverPaid, slug, outline, companyName }: Props) {
   const [paid, setPaid] = useState(serverPaid);
   const [checked, setChecked] = useState(serverPaid);
   const [content, setContent] = useState(initialContent);
@@ -57,6 +59,25 @@ export default function PaymentGate({ content: initialContent, packTitle, server
 
   return (
     <div className="text-center py-12">
+      {outline && outline.length > 0 && (
+        <div className="max-w-md mx-auto text-left mb-10 bg-slate-50 border border-slate-200 rounded-2xl p-6">
+          <h2 className="text-sm font-bold text-slate-900 uppercase tracking-wide mb-4">
+            What&apos;s inside the {packTitle} pack
+          </h2>
+          <ol className="space-y-2.5">
+            {outline.map((title, i) => (
+              <li key={i} className="flex gap-3 text-sm text-slate-600">
+                <span className="font-semibold text-slate-400 tabular-nums">{String(i + 1).padStart(2, "0")}</span>
+                {title}
+              </li>
+            ))}
+          </ol>
+          <p className="text-xs text-slate-400 mt-4 pt-4 border-t border-slate-200">
+            Plus an AI mock interview coach trained on {companyName ?? "this employer"}&apos;s
+            process — included with the Season Pass.
+          </p>
+        </div>
+      )}
       <div className="inline-flex items-center justify-center w-12 h-12 bg-slate-100 rounded-full mb-5">
         <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
           <rect x="4" y="9" width="12" height="10" rx="1.5" stroke="#94A3B8" strokeWidth="1.5"/>
@@ -65,7 +86,8 @@ export default function PaymentGate({ content: initialContent, packTitle, server
       </div>
       <h2 className="text-xl font-bold text-slate-900 mb-2">Season Pass required</h2>
       <p className="text-slate-500 mb-6 max-w-sm mx-auto text-sm leading-relaxed">
-        This pack is included in the ApprenticeEdge Season Pass — along with all nine other company-specific prep packs.
+        This pack is included in the ApprenticeEdge Season Pass — along with all nine other company-specific
+        prep packs, AI mock interviews, and practice tests.
       </p>
       <Link
         href="/checkout"

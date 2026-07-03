@@ -155,6 +155,15 @@ export function getPackRawContent(filename: string): string {
   return content;
 }
 
+// Section titles only (## headings) — safe to show unpaid visitors as a
+// what's-inside outline without leaking pack content.
+export function getPackSectionTitles(filename: string): string[] {
+  return getPackRawContent(filename)
+    .split("\n")
+    .filter((l) => l.startsWith("## "))
+    .map((l) => l.slice(3).trim());
+}
+
 export async function getPackContentSplit(filename: string): Promise<{ preview: string; full: string }> {
   const fullPath = path.join(contentDir, filename);
   const raw = fs.readFileSync(fullPath, "utf8");

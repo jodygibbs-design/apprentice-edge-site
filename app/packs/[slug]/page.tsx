@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { cookies } from "next/headers";
-import { PACKS, getPackBySlug, getPackContent, getPackContentSplit } from "@/lib/packs";
+import { PACKS, getPackBySlug, getPackContent, getPackContentSplit, getPackSectionTitles } from "@/lib/packs";
 import EmailGate from "@/app/components/EmailGate";
 import PaymentGate from "@/app/components/PaymentGate";
 import PackTabBar from "@/app/components/PackTabBar";
@@ -43,6 +43,7 @@ export default async function PackPage({ params }: Props) {
 
   if (!pack.free) {
     const content = serverPaid ? await getPackContent(pack.filename) : "";
+    const outline = serverPaid ? [] : getPackSectionTitles(pack.filename);
 
     return (
       <div>
@@ -83,7 +84,7 @@ export default async function PackPage({ params }: Props) {
             className="max-w-3xl mx-auto px-4 sm:px-6 py-6 sm:py-10"
             style={{ "--pack-brand": pack.brandColor, "--pack-brand-light": pack.brandColorLight } as React.CSSProperties}
           >
-            <PaymentGate content={content} packTitle={pack.title} serverPaid={serverPaid} slug={slug} />
+            <PaymentGate content={content} packTitle={pack.title} serverPaid={serverPaid} slug={slug} outline={outline} companyName={pack.company} />
           </div>
         </section>
         <section className="bg-slate-50 border-t border-slate-100">
