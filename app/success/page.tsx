@@ -25,7 +25,12 @@ export default function SuccessPage() {
       </div>
       <h1 className="text-3xl font-bold text-gray-900 mb-3">You&apos;re in.</h1>
       <p className="text-gray-500 mb-2">
-        Your Season Pass is active. All 10 prep packs are now unlocked on this device.
+        Your Season Pass is active. All 10 prep packs are unlocked on this device —
+        plus <strong className="text-gray-700">AI mock interviews</strong> for every employer and{" "}
+        <strong className="text-gray-700">psychometric practice tests</strong>, all included.
+      </p>
+      <p className="text-gray-500 mb-2 text-sm">
+        Open any pack and use the <em>Practice Interview</em> and <em>Practice Tests</em> tabs to start.
       </p>
       <p className="text-sm text-amber-600 bg-amber-50 border border-amber-100 rounded-xl px-4 py-3 mb-8 max-w-md mx-auto">
         Access is saved to this browser. On another device?{" "}
