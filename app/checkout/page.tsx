@@ -31,6 +31,18 @@ export default function CheckoutPage() {
             </li>
           ))}
         </ul>
+        <div className="border-t border-gray-100 mt-4 pt-4">
+          <ul className="space-y-2">
+            <li className="flex items-center gap-3 text-gray-700">
+              <span className="text-green-500">✓</span>
+              <span>AI mock interviews — a practice coach for every employer, unlimited sessions</span>
+            </li>
+            <li className="flex items-center gap-3 text-gray-700">
+              <span className="text-green-500">✓</span>
+              <span>Practice tests — numerical, verbal &amp; situational judgement, timed and scored</span>
+            </li>
+          </ul>
+        </div>
       </div>
 
       <BuyButton />
