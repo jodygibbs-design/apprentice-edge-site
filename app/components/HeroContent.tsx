@@ -93,6 +93,9 @@ export default function HeroContent({ freePackSlug }: Props) {
               </Link>
             </div>
             <p className="text-xs mt-2" style={{ color: "#475569" }}>One payment. Instant access. No subscription.</p>
+            <p className="text-sm mt-6 font-medium tracking-wide" style={{ color: "#64748B" }}>
+              10 employer packs&nbsp;&nbsp;·&nbsp;&nbsp;AI mock interviews for every employer&nbsp;&nbsp;·&nbsp;&nbsp;200 free guides
+            </p>
           </>
         ) : (
           <>

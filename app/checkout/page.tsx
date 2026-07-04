@@ -16,6 +16,7 @@ export default function CheckoutPage() {
         <h1 className="text-3xl font-bold text-gray-900 mb-3">Season Pass</h1>
         <p className="text-5xl font-bold text-blue-600 mb-2">£29</p>
         <p className="text-gray-500">One payment. All 10 packs. Instant access.</p>
+        <p className="text-sm text-gray-400 mt-1">Valid for the full 2026/27 application season — access until 31 August 2027.</p>
       </div>
 
       <div className="border border-gray-200 rounded-2xl p-6 mb-8">
@@ -45,10 +46,18 @@ export default function CheckoutPage() {
         </div>
       </div>
 
+      <p className="text-sm text-gray-500 text-center mb-4">
+        Not sure? <a href="/packs/pwc" className="text-blue-600 underline">Read the free PwC pack first</a> —
+        the other nine are exactly this, for their employer.
+      </p>
+
       <BuyButton />
 
       <p className="text-xs text-gray-400 text-center mt-3">
         Secure payment via Stripe. Instant access after purchase.
+      </p>
+      <p className="text-xs text-gray-400 text-center mt-1">
+        By purchasing you get immediate access and agree to waive the 14-day cancellation right for digital content.
       </p>
       <p className="text-xs text-gray-400 text-center mt-1">
         Access is saved to this device. Need it on another device?{" "}

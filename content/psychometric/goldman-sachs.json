@@ -67,7 +67,7 @@
     {
       "id": 10,
       "question": "Goldman Sachs's return on equity was 7.9% in 2023. If shareholders' equity was $110bn, what was net income?",
-      "options": ["$7.4bn", "$8.0bn", "$8.5bn", "$8.7bn",],
+      "options": ["$7.4bn", "$8.0bn", "$8.5bn", "$8.7bn"],
       "answer": "D",
       "explanation": "$110bn × 7.9% = $8.69bn ≈ $8.7bn."
     },
