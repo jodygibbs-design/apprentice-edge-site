@@ -10,8 +10,7 @@ export default function SuccessPage() {
   return (
     <>
     <Script id="gtag-purchase" strategy="afterInteractive">{`
-      gtag('event', 'conversion', {
-        'send_to': 'AW-18218897830/KXgnCLnU870cEKajue9D',
+      gtag('event', 'ads_conversion_Purchase_1', {
         'value': 29.0,
         'currency': 'GBP',
         'transaction_id': ''
