@@ -28,16 +28,16 @@ export default function RootLayout({
       `}</Script>
       <body className="min-h-full flex flex-col bg-slate-50">
         <header className="sticky top-0 z-50 bg-white border-b border-slate-200 shadow-sm">
-          <div className="max-w-6xl mx-auto px-6 py-3.5 flex items-center justify-between">
-            <a href="/" className="flex items-center gap-3 tracking-tight">
+          <div className="max-w-6xl mx-auto px-4 sm:px-6 py-3 sm:py-3.5 flex items-center justify-between">
+            <a href="/" className="flex items-center gap-2 sm:gap-3 tracking-tight shrink-0">
               {/* AE mark: geometric A — two strokes + gold crossbar */}
-              <svg width="30" height="30" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <svg width="26" height="26" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" className="sm:w-[30px] sm:h-[30px]">
                 <path d="M4 29L16 4L28 29" stroke="#0D1B2A" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round"/>
                 <path d="M8.5 20.5H23.5" stroke="#C4922A" strokeWidth="3.5" strokeLinecap="round"/>
               </svg>
-              <span className="text-base font-semibold text-[#0D1B2A]">Apprentice<span className="font-extrabold" style={{color: "#C4922A"}}>Edge</span></span>
+              <span className="text-sm sm:text-base font-semibold text-[#0D1B2A] whitespace-nowrap">Apprentice<span className="font-extrabold" style={{color: "#C4922A"}}>Edge</span></span>
             </a>
-            <nav className="flex items-center gap-4">
+            <nav className="flex items-center gap-1.5 sm:gap-4">
               <a href="/" className="text-sm text-slate-500 hover:text-slate-900 transition-colors hidden sm:block">
                 All packs
               </a>
@@ -45,10 +45,17 @@ export default function RootLayout({
                 Free guides
               </a>
               <a
-                href="/checkout"
-                className="text-sm bg-[#0D1B2A] text-white px-4 py-2 rounded-lg font-semibold hover:bg-[#1E3A5F] transition-colors"
+                href="/packs/pwc"
+                className="text-xs sm:text-sm text-[#0D1B2A] border border-slate-200 px-2.5 sm:px-4 py-1.5 sm:py-2 rounded-lg font-semibold hover:bg-slate-50 transition-colors whitespace-nowrap"
               >
-                Season Pass — £29
+                Free pack
+              </a>
+              <a
+                href="/checkout"
+                className="text-xs sm:text-sm bg-[#0D1B2A] text-white px-2.5 sm:px-4 py-1.5 sm:py-2 rounded-lg font-semibold hover:bg-[#1E3A5F] transition-colors whitespace-nowrap"
+              >
+                <span className="sm:hidden">£29</span>
+                <span className="hidden sm:inline">Season Pass — £29</span>
               </a>
             </nav>
           </div>

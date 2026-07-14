@@ -25,11 +25,11 @@ export default function HeroContent({ freePackSlug }: Props) {
         borderColor: isStudents ? "#1e2d42" : "#e5e0d8",
       }}
     >
-      <div className="max-w-5xl mx-auto px-5 py-14 sm:py-24 text-center">
+      <div className="max-w-5xl mx-auto px-5 py-8 sm:py-24 text-center">
 
         {/* Audience toggle */}
         <div
-          className="inline-flex items-center rounded-full p-1 mb-10"
+          className="inline-flex items-center rounded-full p-1 mb-6 sm:mb-10"
           style={{ backgroundColor: isStudents ? "rgba(255,255,255,0.08)" : "rgba(13,27,42,0.08)" }}
         >
           <button
@@ -59,17 +59,17 @@ export default function HeroContent({ freePackSlug }: Props) {
         {isStudents ? (
           <>
             {/* Student: dark, energetic, aspirational */}
-            <div className="inline-flex items-center gap-2 border text-sm font-medium px-3 py-1.5 rounded-full mb-8" style={{ borderColor: "rgba(255,255,255,0.15)", color: "#93C5FD", backgroundColor: "rgba(255,255,255,0.05)" }}>
+            <div className="inline-flex items-center gap-2 border text-sm font-medium px-3 py-1.5 rounded-full mb-5 sm:mb-8" style={{ borderColor: "rgba(255,255,255,0.15)", color: "#93C5FD", backgroundColor: "rgba(255,255,255,0.05)" }}>
               <span className="w-1.5 h-1.5 rounded-full bg-blue-400 inline-block"></span>
               Written for UK school leavers — not graduates
             </div>
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-[1.1] sm:leading-[1.08] tracking-tight mb-5 sm:mb-6" style={{ color: "white" }}>
+            <h1 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold leading-[1.1] sm:leading-[1.08] tracking-tight mb-4 sm:mb-6" style={{ color: "white" }}>
               Get into the UK&apos;s most{" "}
               <br className="hidden sm:block" />
               <span style={{ color: "#F97316" }}>competitive</span>{" "}
               apprenticeships.
             </h1>
-            <p className="text-base sm:text-xl mb-8 sm:mb-10 max-w-2xl mx-auto leading-relaxed" style={{ color: "#94A3B8" }}>
+            <p className="text-base sm:text-xl mb-5 sm:mb-10 max-w-2xl mx-auto leading-relaxed" style={{ color: "#94A3B8" }}>
               Insider prep packs, AI mock interviews, and practice tests — for PwC, Goldman Sachs,
               Google, the Civil Service, and seven more. Know exactly what they test, what they ask,
               and what a strong answer looks like.
@@ -100,23 +100,23 @@ export default function HeroContent({ freePackSlug }: Props) {
         ) : (
           <>
             {/* Parent: light, warm, trustworthy, investment framing */}
-            <div className="inline-flex items-center gap-2 border text-sm font-medium px-3 py-1.5 rounded-full mb-8" style={{ borderColor: "#D4C5A9", color: "#78604A", backgroundColor: "rgba(196,146,42,0.08)" }}>
+            <div className="inline-flex items-center gap-2 border text-sm font-medium px-3 py-1.5 rounded-full mb-5 sm:mb-8" style={{ borderColor: "#D4C5A9", color: "#78604A", backgroundColor: "rgba(196,146,42,0.08)" }}>
               <span className="w-1.5 h-1.5 rounded-full inline-block" style={{ backgroundColor: "#C4922A" }}></span>
               The same preparation as privately coached candidates
             </div>
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-[1.1] sm:leading-[1.08] tracking-tight mb-5 sm:mb-6" style={{ color: "#0D1B2A" }}>
+            <h1 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold leading-[1.1] sm:leading-[1.08] tracking-tight mb-4 sm:mb-6" style={{ color: "#0D1B2A" }}>
               Give your child a real{" "}
               <span style={{ color: "#C4922A" }}>edge</span>{" "}
               on their application.
             </h1>
-            <p className="text-base sm:text-xl mb-8 sm:mb-10 max-w-2xl mx-auto leading-relaxed" style={{ color: "#5C6878" }}>
+            <p className="text-base sm:text-xl mb-5 sm:mb-10 max-w-2xl mx-auto leading-relaxed" style={{ color: "#5C6878" }}>
               Most applicants turn up without knowing what questions to expect or how to answer them.
               ApprenticeEdge gives your child employer prep packs, AI mock interviews, and practice tests —
               the same preparation as privately coached candidates, at a fraction of the cost.
             </p>
 
             {/* Trust signals for parents */}
-            <div className="flex flex-col sm:flex-row justify-center gap-6 mb-10">
+            <div className="flex flex-col sm:flex-row justify-center gap-6 mb-6 sm:mb-10">
               {TRUST_SIGNALS.map(({ stat, label }) => (
                 <div key={label} className="text-center">
                   <div className="text-2xl font-extrabold" style={{ color: "#0D1B2A" }}>{stat}</div>
