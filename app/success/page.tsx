@@ -6,14 +6,22 @@ export const metadata: Metadata = {
   title: "Payment Successful — ApprenticeEdge",
 };
 
-export default function SuccessPage() {
+export default async function SuccessPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ [key: string]: string | string[] | undefined }>;
+}) {
+  const { session_id } = await searchParams;
+  const rawSessionId = Array.isArray(session_id) ? session_id[0] : session_id;
+  const transactionId = rawSessionId && /^[a-zA-Z0-9_]+$/.test(rawSessionId) ? rawSessionId : "";
+
   return (
     <>
     <Script id="gtag-purchase" strategy="afterInteractive">{`
       gtag('event', 'ads_conversion_Purchase_1', {
         'value': 29.0,
         'currency': 'GBP',
-        'transaction_id': ''
+        'transaction_id': '${transactionId}'
       });
     `}</Script>
     <div className="max-w-2xl mx-auto px-6 py-20 text-center">

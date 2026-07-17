@@ -36,7 +36,7 @@ export async function GET(request: Request) {
       maxAge: ONE_YEAR,
     });
 
-    return NextResponse.redirect(`${getBaseUrl()}/success`);
+    return NextResponse.redirect(`${getBaseUrl()}/success?session_id=${encodeURIComponent(sessionId)}`);
   } catch {
     return NextResponse.redirect(`${getBaseUrl()}/checkout`);
   }
