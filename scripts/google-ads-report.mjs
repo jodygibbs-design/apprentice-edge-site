@@ -89,6 +89,7 @@ async function main() {
     accessToken,
     customerId,
     `SELECT campaign.id, campaign.name, campaign.status, campaign.advertising_channel_type,
+            campaign.start_date_time, campaign.end_date_time,
             campaign_budget.amount_micros,
             metrics.cost_micros, metrics.impressions, metrics.clicks, metrics.conversions, metrics.conversions_value
      FROM campaign
@@ -102,6 +103,7 @@ async function main() {
     const b = row.campaignBudget;
     const m = row.metrics;
     console.log(`\n${c.name} [${c.status}] (${c.advertisingChannelType})`);
+    console.log(`  Start date: ${c.startDateTime ?? "n/a"}  End date: ${c.endDateTime ?? "none set"}`);
     console.log(`  Daily budget: £${micros(b?.amountMicros)}`);
     console.log(`  Spend: £${micros(m?.costMicros)}  Impressions: ${m?.impressions ?? 0}  Clicks: ${m?.clicks ?? 0}`);
     console.log(`  Conversions: ${m?.conversions ?? 0}  Conversion value: £${Number(m?.conversionsValue ?? 0).toFixed(2)}`);
