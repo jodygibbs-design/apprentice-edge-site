@@ -35,7 +35,7 @@ for (const key of required) {
   }
 }
 
-const API_VERSION = "v18";
+const API_VERSION = "v24";
 
 async function getAccessToken() {
   const res = await fetch("https://oauth2.googleapis.com/token", {
@@ -107,15 +107,16 @@ async function main() {
     console.log(`  Conversions: ${m?.conversions ?? 0}  Conversion value: £${Number(m?.conversionsValue ?? 0).toFixed(2)}`);
   }
 
+  const today = new Date().toISOString().slice(0, 10);
   const totalRows = await gaqlSearch(
     accessToken,
     customerId,
     `SELECT metrics.cost_micros, metrics.conversions, metrics.conversions_value
      FROM customer
-     WHERE segments.date DURING ALL_TIME`
+     WHERE segments.date BETWEEN '2026-01-01' AND '${today}'`
   );
   const total = totalRows[0]?.metrics;
-  console.log("\n=== Account totals (all time) ===");
+  console.log("\n=== Account totals (year to date) ===");
   console.log(`  Total spend: £${micros(total?.costMicros)}`);
   console.log(`  Total conversions: ${total?.conversions ?? 0}`);
   console.log(`  Total conversion value: £${Number(total?.conversionsValue ?? 0).toFixed(2)}`);
