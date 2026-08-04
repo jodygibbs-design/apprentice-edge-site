@@ -41,8 +41,9 @@ export default function RootLayout({
               <a href="/" className="text-sm text-slate-500 hover:text-slate-900 transition-colors hidden sm:block">
                 All packs
               </a>
-              <a href="/guides" className="text-sm text-slate-500 hover:text-slate-900 transition-colors hidden sm:block">
-                Free guides
+              <a href="/guides" className="text-xs sm:text-sm text-slate-500 hover:text-slate-900 transition-colors whitespace-nowrap">
+                <span className="sm:hidden">Guides</span>
+                <span className="hidden sm:inline">Free guides</span>
               </a>
               <a
                 href="/packs/pwc"
