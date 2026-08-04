@@ -53,7 +53,7 @@ Deloitte's assessments are different from the Big Four standard, and most candid
 
 ### Stage 3 — Job Simulation
 
-A separate behavioural assessment, distinct from Stage 2, delivered in the HireVue-style platform. It's a single timed block of roughly 40 minutes that combines several things back to back: reports and emails to analyse, colleague messages to respond to in writing, rating scales for how you'd react to work scenarios, and video questions you record yourself answering. Because it's one continuous timed session rather than separate stages, pacing matters: don't spend so long on the written analysis that you're rushed on the video questions at the end. Deloitte sends you a feedback report on your strengths after completion. This is not your pass/fail decision, it's development information.
+A separate behavioural assessment from Stage 2, on the HireVue-style platform: one continuous ~40-minute block mixing reports and emails to analyse, colleague messages to answer in writing, scenario rating scales, and recorded video questions. Pace yourself, it's a single timed session rather than separate stages, so don't burn time on the written analysis and rush the videos. Deloitte sends a feedback report afterward; it's development information, not the pass/fail decision.
 
 **What this stage is testing:** How you handle competing priorities, interpersonal friction, and judgement calls under time pressure. The correct answers consistently reflect Deloitte's values — particularly integrity and collaboration. Read the values page before you start.
 
