@@ -55,7 +55,7 @@ export default function RootLayout({
                 className="text-xs sm:text-sm bg-[#0D1B2A] text-white px-2.5 sm:px-4 py-1.5 sm:py-2 rounded-lg font-semibold hover:bg-[#1E3A5F] transition-colors whitespace-nowrap"
               >
                 <span className="sm:hidden">£29</span>
-                <span className="hidden sm:inline">Season Pass — £29</span>
+                <span className="hidden sm:inline">Season Pass · £29</span>
               </a>
             </nav>
           </div>

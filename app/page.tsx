@@ -80,7 +80,7 @@ export default function HomePage() {
               Everything included
             </p>
             <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mb-3">
-              Three ways to prepare — all for £29
+              Three ways to prepare, all for £29
             </h2>
             <p className="text-slate-500 max-w-lg mx-auto">
               Most prep products give you one thing. ApprenticeEdge gives you all three.
@@ -248,7 +248,7 @@ export default function HomePage() {
             className="inline-block bg-orange-500 text-white font-bold px-12 py-5 rounded-xl hover:bg-orange-400 transition-colors text-lg"
             style={{ boxShadow: "0 8px 32px rgba(249,115,22,0.35)" }}
           >
-            Buy Season Pass — £29
+            Buy Season Pass · £29
           </Link>
           <p className="text-xs mt-5" style={{ color: "#475569" }}>Less than the cost of one hour of careers tutoring.</p>
         </div>

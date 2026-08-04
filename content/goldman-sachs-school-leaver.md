@@ -29,7 +29,20 @@ CV, grades, and a motivational statement. Goldman reads for precision — no waf
 
 Generic answers — "Goldman is the most prestigious bank" — are rejected at screening. You need a specific, researched reason that demonstrates you understand what the division actually does, not just that you've heard of the firm. The answer to this question should be the most carefully written paragraph of your application.
 
-### Stage 2 — HireVue Video Interview
+### Stage 2 — Psychometric / Online Assessment
+
+After the application form, most candidates sit an online assessment hosted on HackerRank — around 90 minutes, multiple choice, with negative marking (wrong answers cost you, so guessing carries real risk).
+
+**What it tests:**
+- Numerical reasoning — arithmetic, percentages, ratios, and interpreting data from tables and charts under time pressure
+- Logical/pattern reasoning — probability, sequences, and quantitative puzzle questions
+- For Engineering applicants: 2–3 coding questions on top of the numerical and logical sections
+
+**Division-specific warning:** Engineering candidates get coding questions added to the standard reasoning sections — know this going in, not as a surprise. FICC & Equities and Operations candidates sit the numerical/logical sections only.
+
+The pass bar is high (roughly 75% correct). This stage eliminates a large share of candidates before a human ever watches their HireVue — practise with real numerical and logical reasoning providers beforehand rather than treating it as a formality.
+
+### Stage 3 — HireVue Video Interview
 
 Usually first-round screening. 5–7 questions, no prep time, immediate recording. Goldman's questions are harder than the Big Four's — they mix competency with technical and motivational in the same interview.
 
@@ -44,7 +57,7 @@ Usually first-round screening. 5–7 questions, no prep time, immediate recordin
 
 **Division-specific warning:** Goldman asks technical questions early. For Engineering, expect basic logic or coding. For Markets, expect questions on financial instruments. Don't arrive at a video interview in a finance role without knowing what a bond is.
 
-### Stage 3 — Superday
+### Stage 4 — Superday
 
 Goldman's Superday is back-to-back 1:1 interviews — typically four to six — with different staff ranging from analyst to Managing Director. It is a full day of sustained performance.
 
@@ -137,6 +150,7 @@ This is non-negotiable prep. Arriving at a Goldman Superday without division-spe
 
 - [ ] Know which Goldman division you're applying to and why — the specific division, not just "Goldman"
 - [ ] Read Goldman's latest earnings call summary (investor relations page — 20 minutes). Know the revenue split.
+- [ ] Practise numerical and logical reasoning questions under timed conditions before the HackerRank assessment — Engineering applicants should also drill basic coding questions
 - [ ] Prepare for the technical questions specific to your division — this is not optional
 - [ ] Five STAR stories plus a strong "walk me through your CV" narrative and a "tell me about a mistake" answer
 - [ ] Prepare five different questions to ask interviewers at Superday — one per interviewer, each tailored

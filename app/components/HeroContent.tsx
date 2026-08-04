@@ -61,7 +61,7 @@ export default function HeroContent({ freePackSlug }: Props) {
             {/* Student: dark, energetic, aspirational */}
             <div className="inline-flex items-center gap-2 border text-sm font-medium px-3 py-1.5 rounded-full mb-5 sm:mb-8" style={{ borderColor: "rgba(255,255,255,0.15)", color: "#93C5FD", backgroundColor: "rgba(255,255,255,0.05)" }}>
               <span className="w-1.5 h-1.5 rounded-full bg-blue-400 inline-block"></span>
-              Written for UK school leavers — not graduates
+              Written for UK school leavers, not graduates
             </div>
             <h1 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold leading-[1.1] sm:leading-[1.08] tracking-tight mb-4 sm:mb-6" style={{ color: "white" }}>
               Get into the UK&apos;s most{" "}
@@ -70,8 +70,9 @@ export default function HeroContent({ freePackSlug }: Props) {
               apprenticeships.
             </h1>
             <p className="text-base sm:text-xl mb-5 sm:mb-10 max-w-2xl mx-auto leading-relaxed" style={{ color: "#94A3B8" }}>
-              Insider prep packs, AI mock interviews, and practice tests — for PwC, Goldman Sachs,
-              Google, the Civil Service, and seven more. Know exactly what they test, what they ask,
+              Insider prep packs, AI mock interviews, and practice tests, covering everything from the
+              application form and online tests to the final interview, for PwC, Goldman Sachs,
+              Google, the Civil Service, and seven more. Know exactly what to write, what they test,
               and what a strong answer looks like.
             </p>
             <div className="flex flex-col gap-3 sm:flex-row sm:gap-4 justify-center items-stretch sm:items-center mb-4">
@@ -86,7 +87,7 @@ export default function HeroContent({ freePackSlug }: Props) {
                 href="/checkout"
                 className="group relative overflow-hidden bg-orange-500 text-white font-semibold px-8 py-4 rounded-xl text-base shadow-lg shadow-orange-500/25 inline-flex items-center"
               >
-                <span className="pr-8 transition-opacity duration-300 group-hover:opacity-0">Get all 10 packs — £29</span>
+                <span className="pr-8 transition-opacity duration-300 group-hover:opacity-0">Get all 10 packs · £29</span>
                 <i className="absolute right-1 top-1 bottom-1 rounded-lg not-italic grid place-items-center w-10 transition-all duration-300 group-hover:w-[calc(100%-0.5rem)] group-active:scale-95" style={{ backgroundColor: "rgba(0,0,0,0.15)" }}>
                   <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M6 3.5L12 9L6 14.5" stroke="white" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"/></svg>
                 </i>
@@ -110,9 +111,10 @@ export default function HeroContent({ freePackSlug }: Props) {
               on their application.
             </h1>
             <p className="text-base sm:text-xl mb-5 sm:mb-10 max-w-2xl mx-auto leading-relaxed" style={{ color: "#5C6878" }}>
-              Most applicants turn up without knowing what questions to expect or how to answer them.
-              ApprenticeEdge gives your child employer prep packs, AI mock interviews, and practice tests —
-              the same preparation as privately coached candidates, at a fraction of the cost.
+              Most applicants turn up without knowing how to complete the application, pass the online
+              tests, or answer the interview questions. ApprenticeEdge gives your child employer prep packs,
+              AI mock interviews, and practice tests, the same preparation as privately coached candidates,
+              at a fraction of the cost.
             </p>
 
             {/* Trust signals for parents */}
@@ -130,7 +132,7 @@ export default function HeroContent({ freePackSlug }: Props) {
                 href="/checkout"
                 className="group relative overflow-hidden bg-orange-500 text-white font-semibold px-8 py-4 rounded-xl text-base shadow-lg shadow-orange-500/25 inline-flex items-center"
               >
-                <span className="pr-8 transition-opacity duration-300 group-hover:opacity-0">Buy Season Pass — £29</span>
+                <span className="pr-8 transition-opacity duration-300 group-hover:opacity-0">Buy Season Pass · £29</span>
                 <i className="absolute right-1 top-1 bottom-1 rounded-lg not-italic grid place-items-center w-10 transition-all duration-300 group-hover:w-[calc(100%-0.5rem)] group-active:scale-95" style={{ backgroundColor: "rgba(0,0,0,0.15)" }}>
                   <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M6 3.5L12 9L6 14.5" stroke="white" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"/></svg>
                 </i>
