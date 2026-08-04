@@ -45,6 +45,8 @@ The Civil Service uses its own bespoke assessments, not standard SHL or Korn Fer
 
 **One thing that trips people up:** The Judgement Test specifically rewards politically neutral, procedure-respecting answers. Instincts shaped by private sector or business thinking can point you wrong. Read the Civil Service values before you start.
 
+**On the e-tray exercise:** Some streams and Assessment Centres include an e-tray exercise instead of, or alongside, the written exercise at Stage 4: a simulated inbox of emails, documents, and requests that you have to triage and respond to within a set time. It's testing the same thing as the written exercise (structured judgement under time pressure) but adds prioritisation: some items in the inbox are urgent and unimportant, others are important but not urgent, and knowing which to act on first is what's actually being assessed. Check your specific stream's process page for whether it's included, since it isn't universal across every Civil Service route.
+
 ### Stage 3 — Video Interview or Telephone Interview
 
 Structured around Civil Service Behaviours. You will be told in advance which behaviours are being assessed — prepare specific stories for exactly those behaviours, not general prep.
@@ -125,6 +127,7 @@ This question distinguishes candidates who've made a deliberate choice from thos
 - [ ] Read the Civil Service Success Profiles guidance on GOV.UK — it explains the framework you're being assessed against
 - [ ] Read the specific stream guidance on GOV.UK
 - [ ] Practice writing in Civil Service briefing note format: Purpose → Key Points → Recommendation → Risks
+- [ ] Check your stream's process page for an e-tray exercise and, if included, practice triaging a simulated inbox against urgency vs. importance, not just working through it top to bottom
 - [ ] Know the four Civil Service values: integrity, honesty, objectivity, impartiality
 - [ ] Know which government department your chosen stream sits within and what it does
 

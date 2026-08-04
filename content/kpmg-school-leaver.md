@@ -40,6 +40,8 @@ Three assessments. KPMG uses Korn Ferry as their assessment provider — search 
 - **Numerical Reasoning:** Data interpretation, percentages, ratios. 25–30 questions, timed. The time pressure is real — practice the format under timed conditions.
 - **Logical/Abstract Reasoning:** Pattern recognition. Familiarity with the format is half the battle.
 
+**Why the Korn Ferry distinction matters:** Korn Ferry's question style and interface differ enough from SHL that practising on the wrong provider's tests wastes prep time and gives you false confidence on timing. Korn Ferry's SJT scenarios in particular tend to be longer and more narrative than SHL's. Read the whole scenario before jumping to the answer options, because the detail that changes the "correct" response is often in the second or third sentence, not the first.
+
 ### Stage 3 — Digital Interview
 
 Pre-recorded video interview, 5–6 questions.
@@ -113,7 +115,7 @@ Half day at a KPMG office. KPMG's AC includes a strengths-based interview alongs
 - [ ] Know all five KPMG values by name and have a STAR story for at least two — especially integrity
 - [ ] Understand what the ACA qualification involves and why it matters (ICAEW website — 15 minutes)
 - [ ] Prepare for strengths-based questions, not just competency STAR — "what do you love doing?" requires honest self-knowledge, not a rehearsed answer
-- [ ] Practice Korn Ferry style assessments specifically — they differ from SHL
+- [ ] Practice Korn Ferry style assessments specifically. They differ from SHL, especially the longer, more narrative SJT scenarios
 - [ ] Know the Carillion case at a high level — what it was, what it revealed, how the profession has responded
 - [ ] A credible "why KPMG not Deloitte/PwC/EY" answer
 - [ ] Five STAR stories covering all five competency areas

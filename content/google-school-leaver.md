@@ -43,6 +43,8 @@ Google's process varies by role. Some routes include a recruiter phone screen be
 
 **On the phone screen:** Ask a smart question about the team or the role. "What does a typical week look like for someone in this apprenticeship?" signals real engagement. Recruiters notice.
 
+**Why Google's Stage 2 varies so much:** unlike the Big Four or Amazon, Google doesn't run every apprentice applicant through the same standard psychometric battery. What you get depends on the specific role and business area. Don't assume you know your assessment format from a generic "Google interview questions" guide written for software engineering roles; check what your specific route actually involves, and if you're not told in advance, ask your recruiter directly what to expect. It's a reasonable question, not a red flag.
+
 ### Stage 3 — Interviews (1–3 rounds)
 
 Structured interviews. Depending on the role, you'll face some combination of:
@@ -122,6 +124,7 @@ This question gets asked because Google competes for talent against Amazon, Meta
 - [ ] Have a specific, detailed answer to "what Google product would you improve and how?" — prepare this, it's almost certain to come up
 - [ ] Prepare for ambiguity questions — real examples of moving forward without a complete brief
 - [ ] Understand what the specific role you're applying for does day-to-day — not just the team name
+- [ ] Ask your recruiter directly what Stage 2 involves for your specific route rather than assuming it matches a generic "Google interview" guide, since the assessment format genuinely varies by role at Google
 - [ ] Five STAR stories including one that demonstrates learning independently
 - [ ] One smart question about the team or business that shows you've thought beyond the job description
 - [ ] Know the difference between Google Ads, Google Cloud, and gTech — and which one is most relevant to the role you're applying for

@@ -45,7 +45,7 @@ Deloitte's assessments are different from the Big Four standard, and most candid
 
 ### Stage 3 — Job Simulation
 
-A separate behavioural assessment — distinct from Stage 2. Work-based scenarios where you rank options in order of preference, plus written responses and recorded video responses. Deloitte sends you a feedback report on your strengths after completion — this is not your pass/fail decision, it's development information.
+A separate behavioural assessment, distinct from Stage 2, delivered in the HireVue-style platform. It's a single timed block of roughly 40 minutes that combines several things back to back: reports and emails to analyse, colleague messages to respond to in writing, rating scales for how you'd react to work scenarios, and video questions you record yourself answering. Because it's one continuous timed session rather than separate stages, pacing matters: don't spend so long on the written analysis that you're rushed on the video questions at the end. Deloitte sends you a feedback report on your strengths after completion. This is not your pass/fail decision, it's development information.
 
 **What this stage is testing:** How you handle competing priorities, interpersonal friction, and judgement calls under time pressure. The correct answers consistently reflect Deloitte's values — particularly integrity and collaboration. Read the values page before you start.
 
@@ -127,6 +127,7 @@ The question interviewers are actually asking: why did you choose BrightStart ra
 - [ ] Understand what BrightStart leads to — AAT to ACA/ACCA/CIMA — and be able to explain why professional qualification over degree suits you
 - [ ] Five STAR stories covering all six core competencies
 - [ ] Practice Deloitte's immersive online assessment specifically — use their published practice version
+- [ ] Do a timed run of a mixed-format assessment (written analysis plus a recorded video answer) so you know how to pace yourself across a single 40-minute block rather than running out of time before the video questions
 - [ ] Read Deloitte's purpose statement and annual report introduction
 - [ ] Know the difference between each of Deloitte's service lines
 - [ ] A credible "why Deloitte, not PwC/KPMG/EY" answer that references something verifiable

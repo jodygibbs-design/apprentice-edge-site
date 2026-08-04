@@ -42,6 +42,8 @@ Varies significantly by programme — this is where most other employer guides m
 
 Know in advance what your stream's task is likely to be and prepare for it specifically.
 
+**What the BBC is actually scoring at this stage, whichever task you get:** clarity under time pressure, editorial judgement (can you tell what matters most in a pile of information), and whether your instincts default toward the audience or toward yourself. A journalism candidate who writes a technically accurate summary that buries the real story scores worse than one who leads with the right line and misses a smaller detail. Time yourself on practice tasks. The BBC's tasks are almost always shorter than candidates expect, and running out of time before you've made your key point is the most common failure at this stage.
+
 ### Stage 3 — Pre-Recorded Video Interview
 
 This is an asynchronous video interview — not a live call. You receive questions and record your responses on your own time. Most roles allow you to re-record your responses before submitting, so use that if you need it. Some questions require video responses; others require written responses. Some technical roles skip the video interview stage entirely.
@@ -128,6 +130,7 @@ This is the most important question in any BBC application. It's the one questio
 - [ ] Know the TV licence fee debate and what it means for the BBC's future funding model
 - [ ] Have a specific, substantive answer to "why BBC not a commercial broadcaster"
 - [ ] Prepare for the practical task specific to your stream — a journalism candidate should practice writing news summaries; a production candidate should practice pitching
+- [ ] Time yourself on every practice task. Most candidates run out of time before making their key point, not before finishing the task
 - [ ] Five STAR stories including one about creative collaboration and one about meeting a deadline under genuine pressure
 - [ ] Know the difference between BBC Public Service and BBC Studios (the commercial arm)
 

@@ -51,6 +51,8 @@ Clinical programmes will additionally require:
 - Health declaration
 - Occupational health screening
 
+**On the situational judgement test:** because every Trust recruits independently, there's no single NHS-wide SJT provider or format. Some use SHL, some use NHS Shared Business Services' own bank of scenarios, and the exact platform will be named in your invite email. What's consistent across all of them is the underlying logic: scenarios almost always involve a conflict between speed and correct process, or between a colleague's preference and the patient's or service user's interest. The "correct" answer is nearly always the one that escalates appropriately rather than the one that resolves things quietly and quickly. If a scenario option involves not telling anyone, it's very rarely the top-scoring choice.
+
 ### Stage 3 — Interview
 
 NHS interviews use a structured competency format. NHS values are central to every question — not as background colour, but as the explicit framework interviewers assess against.
@@ -144,6 +146,7 @@ NHS interviews test how you'd behave in real NHS situations. Prepare a specific 
 - [ ] Know what an Integrated Care Board (ICB) does and how it relates to the Trust you're applying to
 - [ ] Consent to an Enhanced DBS check early in the process — it takes time
 - [ ] Prepare STAR answers that include a patient or service user dimension, even for non-clinical roles
+- [ ] On situational judgement questions, default to the option that escalates or reports rather than the one that resolves things quietly. That's what NHS SJTs consistently reward
 - [ ] Know the NHS waiting list situation and what the current government policy response is
 - [ ] Five STAR stories including one about compassion or empathy and one about raising a concern
 - [ ] Have two references confirmed and ready — school plus any employer, volunteer, or work experience contact

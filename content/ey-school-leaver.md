@@ -36,7 +36,7 @@ Standard form with a service line selection. Research your chosen service line b
 
 EY's assessment suite is different from standard Big Four psychometric tests, and most candidates don't prepare specifically for it.
 
-- **EY Strengths Assessment:** This is not a pass/fail test — EY uses it to match you to teams and understand your profile. The critical instruction is to answer honestly. Candidates who try to game it by selecting what they think EY wants end up with an incoherent profile that flags during the human review. Know your genuine top three strengths before you start and let those come through.
+- **EY Strengths Assessment:** Around 28 strengths-based questions, plus a further set of situational judgement questions layered in. Apprentice-level candidates typically sit a shorter version, around 60 minutes in total rather than the full graduate version. Expect a mix of formats within that time: short video clips to watch and respond to, written scenarios (emails, short articles), and data tables or graphs to interpret alongside the strengths questions. This is not a pass/fail test, since EY uses it to match you to teams and understand your profile. The critical instruction is to answer honestly. Candidates who try to game it by selecting what they think EY wants end up with an incoherent profile that flags during the human review. Know your genuine top three strengths before you start and let those come through.
 - **Numerical Reasoning:** Data tables, graphs, percentages. Standard timed format.
 - **Situational Judgement Test:** Professional scenarios. Values alignment matters more than speed.
 
@@ -116,6 +116,7 @@ Usually a half day. Structure varies by service line.
 
 - [ ] Know EY's six values and which ones genuinely match your strengths — the Strengths Assessment will be more coherent if you're already clear on this
 - [ ] Understand what ACA means and why it matters (ICAEW website — 15 minutes)
+- [ ] Practice a mixed-format assessment under time pressure. The Strengths Assessment moves between video, written, and data-table questions inside one ~60-minute block, so switching mode quickly matters as much as any individual answer
 - [ ] Know the Project Everest story at a high level — what it was, why it failed, what it reveals about Big Four governance
 - [ ] Five STAR stories plus three strengths-based answers — "when do you feel most energised?" requires genuine self-knowledge
 - [ ] Research your chosen service line on EY's careers site

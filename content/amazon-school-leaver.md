@@ -32,8 +32,10 @@ CV and application form. Amazon's ATS screens for keywords from the job descript
 
 ### Stage 2 — Online Assessments
 
-- **Work Style Assessment:** A personality and values alignment tool. Answer as you would actually behave, not as you think Amazon wants you to behave. The assessment is designed to detect inconsistency — trying to optimise your answers creates an incoherent profile that gets flagged.
-- **Technical Assessment** (for tech roles): Coding problems in your language of choice. LeetCode easy to medium difficulty. Python is the safest choice — Amazon uses it heavily.
+- **Work Style Assessment:** Around 38 forced-choice items. You're shown pairs (or small groups) of statements and asked which best describes you, not asked to rate them on a scale. This "ipsative" format exists specifically to stop candidates picking the answer that sounds best; because you're always choosing between options rather than scoring each one independently, over-optimising in one direction drags your profile out of shape elsewhere. Budget 20–30 minutes. Every statement maps back to a Leadership Principle, so the honest answer and the "prepared" answer should already be close together if your STAR stories are genuine.
+- **Technical Assessment** (for tech roles): Coding problems in your language of choice. LeetCode easy to medium difficulty. Python is the safest choice, since Amazon uses it heavily.
+
+**Why the Work Style Assessment trips people up:** candidates who've over-rehearsed the Leadership Principles for the interview stage sometimes answer this assessment like a test to pass rather than a genuine self-report, and the forced-choice format makes that inconsistency visible in the results before a human ever reads your STAR stories. Answer instinctively.
 
 ### Stage 3 — Phone or Video Screen
 
@@ -141,6 +143,7 @@ If your result doesn't tell the interviewer what concretely changed because of y
 - [ ] For tech roles: practice LeetCode easy problems in Python. Be comfortable explaining your approach out loud.
 - [ ] Know AWS revenue and why it matters to Amazon's overall business model
 - [ ] Prepare specifically for the Bar Raiser question type: "Tell me about a time you disagreed with a decision and were right"
+- [ ] Do a timed practice run of a forced-choice ipsative personality test before the Work Style Assessment. The format (choosing between statements, not rating them) trips up people who've only practised standard psychometrics
 
 ---
 
