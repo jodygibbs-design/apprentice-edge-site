@@ -17,7 +17,7 @@ const COMPANY_LOGOS = [
 ];
 
 const FEATURES = [
-  { label: "Exact application stages", desc: "What to expect at every round, from online form to final interview" },
+  { label: "Exact application stages", desc: "What to expect at every round, from online form to final interview, with weak vs. strong worked examples for the killer application question" },
   { label: "Company-specific competencies", desc: "What each employer actually tests for — and what they don't" },
   { label: "Real interview questions", desc: "Questions they actually ask, with notes on what a strong answer looks like" },
   { label: "Commercial awareness", desc: "The numbers and context that impress interviewers, not generic business chat" },
@@ -100,6 +100,7 @@ export default function HomePage() {
               <ul className="space-y-2 text-sm text-slate-600 mb-6 flex-1">
                 {[
                   "Exact application stages — every round",
+                  "Weak vs. strong worked examples for the killer application question",
                   "Company-specific competencies",
                   "Real interview questions + answer guidance",
                   "Commercial awareness context",
