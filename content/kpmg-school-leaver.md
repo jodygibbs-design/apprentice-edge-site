@@ -32,6 +32,14 @@ Standard form with grades, personal statement, and a values question. KPMG's val
 
 The values question isn't a formality — KPMG screens on values alignment. Pick one value, have a tight STAR story, and make sure it reflects something you genuinely did rather than something you think sounds good. Integrity comes up most often and carries most weight — they have faced public scrutiny on audit quality and they mean it seriously.
 
+**Weak vs. strong, an integrity answer:**
+
+**Weak:** *"I believe honesty is important in any profession, so I always tell the truth."*
+
+**Strong:** *"When a group coursework partner wanted to submit a source we hadn't actually verified because it 'probably' said what we needed, I pushed back and we spent an extra evening re-checking it properly, even though it meant less sleep before the deadline. Integrity, to me, is choosing the slower right answer over the fast convenient one."*
+
+**Why it works:** the weak version is a generic value statement. The strong version shows a real decision under pressure, with a cost attached, which is what KPMG's scrutiny of the audit profession makes them specifically look for.
+
 ### Stage 2 — Online Assessments
 
 Three assessments. KPMG uses Korn Ferry as their assessment provider — search specifically for Korn Ferry practice tests, not generic SHL.
@@ -113,6 +121,7 @@ Half day at a KPMG office. KPMG's AC includes a strengths-based interview alongs
 ## Checklist — Before You Submit
 
 - [ ] Know all five KPMG values by name and have a STAR story for at least two — especially integrity
+- [ ] Check your integrity story shows a genuine trade-off you accepted, not just a statement that you value honesty
 - [ ] Understand what the ACA qualification involves and why it matters (ICAEW website — 15 minutes)
 - [ ] Prepare for strengths-based questions, not just competency STAR — "what do you love doing?" requires honest self-knowledge, not a rehearsed answer
 - [ ] Practice Korn Ferry style assessments specifically. They differ from SHL, especially the longer, more narrative SJT scenarios

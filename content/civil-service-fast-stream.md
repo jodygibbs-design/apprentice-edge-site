@@ -35,6 +35,14 @@ The Civil Service uses the **Success Profiles** framework for all applications. 
 
 **At apprentice level, Behaviours and Strengths are weighted most heavily.** Know all 10 Civil Service Behaviours before you write a single word of your application (listed below). The application will tell you which behaviours are being assessed — prepare specific STAR examples for each one named.
 
+**Weak vs. strong, a Working Together answer:**
+
+**Weak:** *"I worked in a team on a school project and we all contributed to get it finished."*
+
+**Strong:** *"On a Duke of Edinburgh expedition, two team members disagreed on our route with the deadline closing in. I proposed we timebox a five-minute decision using both people's concerns, then took responsibility for relaying it to the group so it wasn't re-litigated on the trail. We finished on time and both people said afterwards they'd felt heard."*
+
+**Why it works:** the weak version describes an outcome with no visible action from you. The strong version shows a specific mechanism you introduced and closes with a verifiable result, which is what Success Profiles assessors are actually scoring.
+
 ### Stage 2 — Online Tests (Civil Service Judgement Test)
 
 The Civil Service uses its own bespoke assessments, not standard SHL or Korn Ferry tests. You cannot usefully practice SHL and expect the same format.
@@ -123,6 +131,7 @@ This question distinguishes candidates who've made a deliberate choice from thos
 ## Checklist — Before You Submit
 
 - [ ] Know all 10 Civil Service Behaviours — print them out and annotate with a specific STAR example for each
+- [ ] Check each Behaviour story shows an action you specifically took, not just a group outcome you were part of
 - [ ] Add "what would I do differently next time?" to every story — this is a standard question, not an optional follow-up
 - [ ] Read the Civil Service Success Profiles guidance on GOV.UK — it explains the framework you're being assessed against
 - [ ] Read the specific stream guidance on GOV.UK

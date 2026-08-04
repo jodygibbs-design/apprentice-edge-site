@@ -32,6 +32,14 @@ Standard form with a service line selection. Research your chosen service line b
 
 **EY's values:** integrity, respect, teaming, inclusiveness, energy, enthusiasm. Know them. EY places more emphasis on "teaming" than the other Big Four — it reflects a genuine cultural priority, and it will show up in every stage.
 
+**Weak vs. strong, the "why this service line" answer:**
+
+**Weak:** *"I chose Assurance because I'm good at maths and it seemed like a safe, sensible option."*
+
+**Strong:** *"I chose Assurance because I want to understand how the numbers behind a company's public claims actually get verified. The idea of being the check on financial credibility, rather than just producing the numbers, is what specifically draws me to this over Tax or Consulting."*
+
+**Why it works:** "good at maths" could justify almost any numerate career. The strong version explains why the function of Assurance specifically, not the general idea of accountancy, fits what you want to do.
+
 ### Stage 2 — EY Online Assessments
 
 EY's assessment suite is different from standard Big Four psychometric tests, and most candidates don't prepare specifically for it.
@@ -120,6 +128,7 @@ Usually a half day. Structure varies by service line.
 - [ ] Know the Project Everest story at a high level — what it was, why it failed, what it reveals about Big Four governance
 - [ ] Five STAR stories plus three strengths-based answers — "when do you feel most energised?" requires genuine self-knowledge
 - [ ] Research your chosen service line on EY's careers site
+- [ ] Check your "why this service line" answer explains that service line's actual function, not just that you're numerate or hardworking in general
 - [ ] Prepare a smart, specific question for your partner interviewer — not something answerable with a Google search
 - [ ] A credible "why EY not PwC/Deloitte/KPMG" answer that names something specific
 

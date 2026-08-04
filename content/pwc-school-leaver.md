@@ -31,6 +31,14 @@ This is where most candidates undersell themselves. Two to three motivational qu
 
 Write about a specific moment or experience that pointed you toward this line of work. One concrete thing beats three vague things every time. Spend more time on this than the form makes it feel like you should.
 
+**Weak vs. strong, the "why this service line" answer:**
+
+**Weak:** *"I've always been interested in accounting and PwC is a leading firm, so it felt like the right choice."*
+
+**Strong:** *"I want Consulting specifically because of a case study I read on how PwC restructured a retailer's supply chain during a period of disruption. The mix of financial modelling and client-facing problem solving, rather than either one alone, is what pulled me toward this over a pure accounting route."*
+
+**Why it works:** the weak version could be submitted to any Big Four firm unchanged. The strong version names something specific to Consulting as a discipline and gives a reason that would sound wrong if you swapped it into a Tax or Audit application.
+
 **Time:** 30–45 minutes on the form, but the research behind the motivational questions should take longer.
 
 ### Stage 2 — Online Assessments
@@ -180,6 +188,7 @@ Yes. Fully accredited BSc. You sit the same exams as full-time students. PwC pay
 ## Checklist — Before You Submit Your Application
 
 - [ ] Know your chosen service line specifically — what it does, what clients it works with, what qualification it leads to
+- [ ] Write your "why this service line" answer, then check it would sound wrong if you swapped in a different service line's name. If it still reads fine, it's too generic
 - [ ] Five STAR stories covering leadership, teamwork, problem solving, communication, resilience — each with a real, concrete outcome
 - [ ] Practice run on the SJT and numerical reasoning (free SHL samples online) — format familiarity genuinely matters
 - [ ] Record a mock HireVue answer. Watch it back. Fix the filler words.

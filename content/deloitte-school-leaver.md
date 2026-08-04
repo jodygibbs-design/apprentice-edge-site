@@ -34,6 +34,14 @@ Standard form: grades, personal details, motivational questions. The key questio
 
 Know the values before you write a single word: **lead the way, serve with integrity, take care of each other, foster inclusion, collaborate for measurable impact.** Pick one and have a tight STAR story that genuinely connects to it. Don't pick integrity and then describe a story about being honest about a minor mistake — the bar for integrity needs to involve real stakes.
 
+**Weak vs. strong, an integrity answer:**
+
+**Weak:** *"I always try to be honest with people, which is why I chose integrity."*
+
+**Strong:** *"I noticed a group project mark had been calculated using an old, more generous rubric that worked in our favour, and told the teacher rather than staying quiet, even though it meant our grade dropped a band. Integrity isn't the comfortable choice, it's the one you make when nobody would have known otherwise."*
+
+**Why it works:** the weak version is a value statement anyone could write without evidence. The strong version shows an actual cost paid for doing the right thing, which is the bar Deloitte is checking for.
+
 ### Stage 2 — Online Assessments
 
 Deloitte's assessments are different from the Big Four standard, and most candidates don't prepare specifically for them — which is why they fail here.
@@ -124,6 +132,7 @@ The question interviewers are actually asking: why did you choose BrightStart ra
 ## Checklist — Before You Submit
 
 - [ ] Know all five Deloitte values by name and have a STAR story that links to at least two of them
+- [ ] Check your values story shows a real cost or trade-off you accepted, not just a description of behaving well
 - [ ] Understand what BrightStart leads to — AAT to ACA/ACCA/CIMA — and be able to explain why professional qualification over degree suits you
 - [ ] Five STAR stories covering all six core competencies
 - [ ] Practice Deloitte's immersive online assessment specifically — use their published practice version

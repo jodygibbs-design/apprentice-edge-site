@@ -30,6 +30,14 @@ CV and application form. Amazon's ATS screens for keywords from the job descript
 
 **The Amazon-specific requirement:** Some applications include questions framed directly around Amazon's Leadership Principles. Before you write anything, read all 16 LPs and know them by name and meaning. This is not optional preparation — it's the baseline for the entire process.
 
+**Weak vs. strong, a Customer Obsession answer:**
+
+**Weak:** *"I always try to make sure the people I'm helping are happy with what I do."*
+
+**Strong:** *"Volunteering at a food bank, I noticed the sign-in process left elderly visitors waiting outside in the cold. I redesigned the queue so vulnerable visitors could wait inside instead, even though it wasn't part of my role. Average outdoor wait time dropped from 12 minutes to under 2."*
+
+**Why it works:** the weak version is a value statement with no evidence behind it. The strong version has a specific problem noticed, an action taken without being asked, and a measured result, exactly what Amazon interviewers are listening for when they ask you to demonstrate an LP.
+
 ### Stage 2 — Online Assessments
 
 - **Work Style Assessment:** Around 38 forced-choice items. You're shown pairs (or small groups) of statements and asked which best describes you, not asked to rate them on a scale. This "ipsative" format exists specifically to stop candidates picking the answer that sounds best; because you're always choosing between options rather than scoring each one independently, over-optimising in one direction drags your profile out of shape elsewhere. Budget 20–30 minutes. Every statement maps back to a Leadership Principle, so the honest answer and the "prepared" answer should already be close together if your STAR stories are genuine.
@@ -139,6 +147,7 @@ If your result doesn't tell the interviewer what concretely changed because of y
 - [ ] Memorise all 16 Leadership Principles — not just the names, but what each means in practice
 - [ ] Prepare at least seven STAR stories, each linked to a specific LP with a measurable result
 - [ ] Check every STAR result — if it's vague, rewrite it until it's specific
+- [ ] Check each LP story has a measured result, not just a value statement. "I try to be customer obsessed" is not evidence, a number or a concrete outcome is
 - [ ] Research your specific programme (SDE, Finance, Operations) and know what you'd actually do day-to-day
 - [ ] For tech roles: practice LeetCode easy problems in Python. Be comfortable explaining your approach out loud.
 - [ ] Know AWS revenue and why it matters to Amazon's overall business model

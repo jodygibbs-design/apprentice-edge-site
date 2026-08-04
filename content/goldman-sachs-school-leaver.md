@@ -29,6 +29,14 @@ CV, grades, and a motivational statement. Goldman reads for precision — no waf
 
 Generic answers — "Goldman is the most prestigious bank" — are rejected at screening. You need a specific, researched reason that demonstrates you understand what the division actually does, not just that you've heard of the firm. The answer to this question should be the most carefully written paragraph of your application.
 
+**Weak vs. strong, the "why this division" answer:**
+
+**Weak:** *"Goldman is the most prestigious bank and I want to work somewhere that pushes me to be the best."*
+
+**Strong:** *"Engineering specifically, because Goldman builds and owns its trading infrastructure end to end rather than buying it off the shelf. I want to work somewhere the code I write is the thing making split-second trading decisions possible, not a layer removed from it."*
+
+**Why it works:** "prestigious" is a word every rejected applicant also used. The strong version names a real structural fact about how Goldman's Engineering division actually works, and it would be wrong if you tried to reuse it for FICC & Equities or Operations.
+
 ### Stage 2 — Psychometric / Online Assessment
 
 After the application form, most candidates sit an online assessment hosted on HackerRank — around 90 minutes, multiple choice, with negative marking (wrong answers cost you, so guessing carries real risk).
@@ -149,6 +157,7 @@ This is non-negotiable prep. Arriving at a Goldman Superday without division-spe
 ## Checklist — Before You Submit
 
 - [ ] Know which Goldman division you're applying to and why — the specific division, not just "Goldman"
+- [ ] Write your "why this division" answer, then check it would be wrong if applied to a different Goldman division. If it still works, it isn't specific enough yet
 - [ ] Read Goldman's latest earnings call summary (investor relations page — 20 minutes). Know the revenue split.
 - [ ] Practise numerical and logical reasoning questions under timed conditions before the HackerRank assessment — Engineering applicants should also drill basic coding questions
 - [ ] Prepare for the technical questions specific to your division — this is not optional

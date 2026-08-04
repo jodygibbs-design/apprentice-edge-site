@@ -37,6 +37,14 @@ Every NHS apprenticeship is advertised on **NHS Jobs (jobs.nhs.uk)**. The applic
 
 **NHS values (NHS Constitution):** Compassion, Respect, Dignity, Inclusion, Improvement. Know these by name. More importantly, know the values of the specific Trust you're applying to — Google "[Trust name] values" before you write a single sentence of your supporting statement.
 
+**Weak vs. strong, a supporting statement opener:**
+
+**Weak:** *"I am applying for this apprenticeship because I have always wanted to work in healthcare and I believe the NHS would be a great place to develop my skills."*
+
+**Strong:** *"[Trust name]'s stated value of 'improvement through learning' is exactly why I want to start my career here rather than in a private setting. I've read your latest CQC report and noticed the Trust's specific focus on [named initiative], and my experience organising [specific example] gives me a direct way to contribute to that from day one."*
+
+**Why it works:** the weak version could be submitted to any Trust in the country unchanged. The strong version names the Trust's own language and a specific, checkable fact about it, then ties your evidence directly to it, which is what a supporting statement reviewer is scanning for in the first two lines.
+
 **The mistake most people make:** Submitting a generic supporting statement. Trusts can identify one immediately, and it signals that you haven't done basic research about where you're applying to work.
 
 ### Stage 2 — Assessments (varies by role and Trust)
@@ -142,6 +150,7 @@ NHS interviews test how you'd behave in real NHS situations. Prepare a specific 
 
 - [ ] Read the NHS Constitution (short — available on GOV.UK) and know the six NHS values
 - [ ] Look up the specific Trust's values and mirror their language in your supporting statement
+- [ ] Check your supporting statement opener names the Trust specifically, not a sentence that could be sent to any Trust unchanged
 - [ ] Go through the person specification line by line and address every essential criterion in your supporting statement
 - [ ] Know what an Integrated Care Board (ICB) does and how it relates to the Trust you're applying to
 - [ ] Consent to an Enhanced DBS check early in the process — it takes time

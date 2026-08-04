@@ -29,6 +29,14 @@ CV, cover letter, and motivational questions. The BBC reads the cover letter. Th
 
 **The question that filters most applications:** "Why the BBC, and why this specific programme?" Generic answers about "wanting to work in media" are rejected at screening. The BBC wants to know what specifically draws you to public service broadcasting rather than Sky, ITV, a podcast company, or YouTube. That distinction is the BBC's entire identity.
 
+**Weak vs. strong, the "why the BBC" answer:**
+
+**Weak:** *"I've always wanted to work in media and the BBC is a great place to start my career."*
+
+**Strong:** *"A Radio 4 documentary I listened to on [a specific issue] showed reporting that held power to account rather than just filling airtime. That's the standard of journalism I want to be trained in, which is why I'm applying to the BBC and not a commercial broadcaster chasing ratings."*
+
+**Why it works:** the weak version would work as an application to any media company. The strong version names something you actually consumed and ties it directly to the public-service distinction the BBC is screening for.
+
 **BBC values:** Creativity, audiences first, public service, accountability, respect. The BBC exists to serve the public, not shareholders. Every answer you give — in the application, in the interview, in the AC — should reflect an understanding of that mandate and a genuine alignment with it.
 
 ### Stage 2 — Online Assessments or Task
@@ -129,6 +137,7 @@ This is the most important question in any BBC application. It's the one questio
 - [ ] Watch, read, or listen to at least three recent BBC pieces relevant to your stream and form genuine opinions about them — you will be asked
 - [ ] Know the TV licence fee debate and what it means for the BBC's future funding model
 - [ ] Have a specific, substantive answer to "why BBC not a commercial broadcaster"
+- [ ] Name one specific piece of BBC content you actually engaged with in your "why the BBC" answer. Generic enthusiasm for "media" reads the same as every rejected application
 - [ ] Prepare for the practical task specific to your stream — a journalism candidate should practice writing news summaries; a production candidate should practice pitching
 - [ ] Time yourself on every practice task. Most candidates run out of time before making their key point, not before finishing the task
 - [ ] Five STAR stories including one about creative collaboration and one about meeting a deadline under genuine pressure

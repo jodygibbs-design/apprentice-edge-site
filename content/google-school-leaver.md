@@ -34,6 +34,14 @@ The implicit question across everything you submit: "Why Google, and why this ro
 
 **The thing that kills most cover letters:** General enthusiasm for technology and Google's mission. What works: a specific Google product you use and have thought about, a specific business area that connects to the role, and a clear reason why this role at Google makes sense for you at this point.
 
+**Weak vs. strong, the "why Google" answer:**
+
+**Weak:** *"I've always used Google products and I'm passionate about technology and innovation."*
+
+**Strong:** *"I use Google Sheets daily to track my own coursework, and became curious about how Google balances simplicity for casual users against power features like App Script. That specific tension between accessibility and depth is what draws me to this Operations role, not technology in general."*
+
+**Why it works:** "passionate about technology" is what every rejected applicant also wrote. The strong version names a product you actually use and a specific tension that connects to the role you're applying for.
+
 ### Stage 2 — Online Assessments or Phone Screen
 
 Google's process varies by role. Some routes include a recruiter phone screen before assessments. Treat that call as an interview — recruiters at Google have genuine influence over whether you move forward.
@@ -122,6 +130,7 @@ This question gets asked because Google competes for talent against Amazon, Meta
 
 - [ ] Know Alphabet's revenue split — Search, YouTube, Cloud — and the approximate numbers
 - [ ] Have a specific, detailed answer to "what Google product would you improve and how?" — prepare this, it's almost certain to come up
+- [ ] Check your "why Google" answer names a specific product you actually use, not just general enthusiasm for technology
 - [ ] Prepare for ambiguity questions — real examples of moving forward without a complete brief
 - [ ] Understand what the specific role you're applying for does day-to-day — not just the team name
 - [ ] Ask your recruiter directly what Stage 2 involves for your specific route rather than assuming it matches a generic "Google interview" guide, since the assessment format genuinely varies by role at Google
