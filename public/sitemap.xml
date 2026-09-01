@@ -2,6 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://apprenticeedge.co.uk/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
   <url><loc>https://apprenticeedge.co.uk/checkout/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://apprenticeedge.co.uk/apprenticeship-interview-preparation/</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://apprenticeedge.co.uk/apprenticeship-online-assessments/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://apprenticeedge.co.uk/packs/pwc/</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://apprenticeedge.co.uk/packs/goldman-sachs/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://apprenticeedge.co.uk/packs/deloitte/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>

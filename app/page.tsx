@@ -223,6 +223,44 @@ export default function HomePage() {
       {/* Pack grid */}
       <PacksSection freePack={freePack} paidPacks={paidPacks} />
 
+      {/* Free guides strip */}
+      <section className="bg-white border-t border-slate-100">
+        <div className="max-w-5xl mx-auto px-6 py-14">
+          <p className="text-xs font-semibold uppercase tracking-widest text-blue-600 mb-2">Free guides</p>
+          <h2 className="text-2xl font-extrabold text-slate-900 tracking-tight mb-6">
+            Start here, no email needed
+          </h2>
+          <div className="grid sm:grid-cols-3 gap-4">
+            {[
+              {
+                href: "/apprenticeship-interview-preparation",
+                title: "How to prepare for an apprenticeship interview",
+                desc: "A four week plan, the questions employers actually ask, and how to build answers that score.",
+              },
+              {
+                href: "/apprenticeship-online-assessments",
+                title: "Online assessments and psychometric tests",
+                desc: "Situational judgement, numerical and verbal reasoning, with worked example questions.",
+              },
+              {
+                href: "/guides",
+                title: "200 employer-specific guides",
+                desc: "Every stage of the application, written for each of the ten schemes individually.",
+              },
+            ].map(({ href, title, desc }) => (
+              <Link
+                key={href}
+                href={href}
+                className="border border-slate-200 rounded-xl p-5 hover:border-blue-300 hover:shadow-md transition-all group"
+              >
+                <p className="font-bold text-slate-900 text-sm mb-2 group-hover:text-blue-700 transition-colors">{title}</p>
+                <p className="text-sm text-slate-500 leading-relaxed">{desc}</p>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Season Pass pricing — bold dark section */}
       <section style={{ background: "linear-gradient(160deg, #0A1628 0%, #0F2340 100%)" }}>
         <div className="max-w-3xl mx-auto px-6 py-24 text-center">

@@ -39,6 +39,34 @@ export default function GuidesIndexPage() {
         </p>
       </div>
 
+      {/* General guides — not employer-specific */}
+      <div className="mb-10 grid gap-3 sm:grid-cols-2">
+        <a
+          href="/apprenticeship-interview-preparation"
+          className="bg-white rounded-xl border border-slate-200 p-5 hover:border-blue-300 hover:shadow-md transition-all group"
+        >
+          <p className="font-bold text-slate-900 mb-1 group-hover:text-blue-700 transition-colors">
+            How to prepare for an apprenticeship interview
+          </p>
+          <p className="text-sm text-slate-500">
+            The general guide: a four week plan, the four question types, STAR, video interviews and
+            assessment centres. Start here if you are not sure which employer yet.
+          </p>
+        </a>
+        <a
+          href="/apprenticeship-online-assessments"
+          className="bg-white rounded-xl border border-slate-200 p-5 hover:border-blue-300 hover:shadow-md transition-all group"
+        >
+          <p className="font-bold text-slate-900 mb-1 group-hover:text-blue-700 transition-colors">
+            Online assessments and psychometric tests
+          </p>
+          <p className="text-sm text-slate-500">
+            Situational judgement, numerical and verbal reasoning, with worked examples and the
+            reasoning written out.
+          </p>
+        </a>
+      </div>
+
       {/* Company grid */}
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-2">
         {COMPANIES.map((company) => (
