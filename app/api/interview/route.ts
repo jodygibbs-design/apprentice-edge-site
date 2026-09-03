@@ -36,7 +36,7 @@ export async function POST(request: Request) {
   // Rate limit by IP
   const ip = request.headers.get("x-forwarded-for")?.split(",")[0]?.trim() ?? "unknown";
   if (!checkRateLimit(ip)) {
-    return NextResponse.json({ error: "Rate limit reached — try again tomorrow" }, { status: 429 });
+    return NextResponse.json({ error: "Rate limit reached: try again tomorrow" }, { status: 429 });
   }
 
   const body = await request.json();
@@ -68,7 +68,7 @@ export async function POST(request: Request) {
 
   const systemPrompt = `You are a practice interview coach helping candidates prepare for ${pack.company} apprenticeship applications.
 
-IMPORTANT: You are NOT affiliated with ${pack.company}. You are a practice tool only — make this clear if asked.
+IMPORTANT: You are NOT affiliated with ${pack.company}. You are a practice tool only: make this clear if asked.
 
 Use ONLY the following information about the ${pack.company} programme when asking questions or giving feedback. Do not invent stages, tests, competencies, or processes not mentioned below.
 
@@ -84,7 +84,7 @@ HOW TO RUN THE SESSION:
   → Try again with: [one concrete suggestion for how to sharpen the answer]
 - Then ask your next question
 - Vary question types: competency-based (STAR), motivational ("why ${pack.company}?"), and commercial awareness
-- Keep your responses concise — 4–6 sentences maximum
+- Keep your responses concise: 4–6 sentences maximum
 - If the candidate asks something outside your scope (e.g. admin processes, salary negotiation), say you can only help with interview preparation`;
 
   const stream = await client.messages.stream({

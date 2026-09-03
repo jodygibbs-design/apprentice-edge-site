@@ -1,8 +1,8 @@
-# Deloitte School Leaver Programme — ApprenticeEdge Prep Pack
+# Deloitte School Leaver Programme: ApprenticeEdge Prep Pack
 
 ## The Programme
 
-Deloitte's BrightStart is a professional qualification route, not a degree. That distinction matters — you reach chartered status in three to four years rather than five to six, which puts you ahead of degree apprentices on the professional qualification timeline. Deloitte is the largest of the Big Four and takes thousands of applications per cycle.
+Deloitte's BrightStart is a professional qualification route, not a degree. That distinction matters: you reach chartered status in three to four years rather than five to six, which puts you ahead of degree apprentices on the professional qualification timeline. Deloitte is the largest of the Big Four and takes thousands of applications per cycle.
 
 **Length:** 3–4 years to chartered status
 
@@ -22,17 +22,17 @@ Deloitte's BrightStart is a professional qualification route, not a degree. That
 
 **Entry requirement:** On track for, or achieved, 104 UCAS points across your top 3 A-levels.
 
-**Application window:** Opens September/October for the following September start. BrightStart receives tens of thousands of applications — rolling recruitment means early applications move through faster. Apply in October, not November.
+**Application window:** Opens September/October for the following September start. BrightStart receives tens of thousands of applications: rolling recruitment means early applications move through faster. Apply in October, not November.
 
 ---
 
 ## The Application Stages
 
-### Stage 1 — Online Application
+### Stage 1: Online Application
 
 Standard form: grades, personal details, motivational questions. The key question is "Tell us about a time you demonstrated one of Deloitte's values."
 
-Know the values before you write a single word: **lead the way, serve with integrity, take care of each other, foster inclusion, collaborate for measurable impact.** Pick one and have a tight STAR story that genuinely connects to it. Don't pick integrity and then describe a story about being honest about a minor mistake — the bar for integrity needs to involve real stakes.
+Know the values before you write a single word: **lead the way, serve with integrity, take care of each other, foster inclusion, collaborate for measurable impact.** Pick one and have a tight STAR story that genuinely connects to it. Don't pick integrity and then describe a story about being honest about a minor mistake: the bar for integrity needs to involve real stakes.
 
 **Weak vs. strong, an integrity answer:**
 
@@ -42,44 +42,44 @@ Know the values before you write a single word: **lead the way, serve with integ
 
 **Why it works:** the weak version is a value statement anyone could write without evidence. The strong version shows an actual cost paid for doing the right thing, which is the bar Deloitte is checking for.
 
-### Stage 2 — Online Assessments
+### Stage 2: Online Assessments
 
-Deloitte's assessments are different from the Big Four standard, and most candidates don't prepare specifically for them — which is why they fail here.
+Deloitte's assessments are different from the Big Four standard, and most candidates don't prepare specifically for them, which is why they fail here.
 
-- **Immersive Online Assessment:** Deloitte uses a scenario-based simulation (not a traditional psychometric test). You navigate a work environment and make decisions as you go. It takes 45–60 minutes. The mistake is approaching it like a standard test — it's testing judgement and values alignment, not just cognitive ability.
+- **Immersive Online Assessment:** Deloitte uses a scenario-based simulation (not a traditional psychometric test). You navigate a work environment and make decisions as you go. It takes 45–60 minutes. The mistake is approaching it like a standard test: it's testing judgement and values alignment, not just cognitive ability.
 - **Numerical and verbal reasoning:** May be included depending on stream.
 
-**What the immersive assessment is actually looking for:** How you handle competing priorities, ethical moments, and interpersonal situations in a work context. Read Deloitte's values page before you start, and let those values inform your choices. Deloitte publishes a practice version — use it.
+**What the immersive assessment is actually looking for:** How you handle competing priorities, ethical moments, and interpersonal situations in a work context. Read Deloitte's values page before you start, and let those values inform your choices. Deloitte publishes a practice version: use it.
 
-### Stage 3 — Job Simulation
+### Stage 3: Job Simulation
 
 A separate behavioural assessment from Stage 2, on the HireVue-style platform: one continuous ~40-minute block mixing reports and emails to analyse, colleague messages to answer in writing, scenario rating scales, and recorded video questions. Pace yourself, it's a single timed session rather than separate stages, so don't burn time on the written analysis and rush the videos. Deloitte sends a feedback report afterward; it's development information, not the pass/fail decision.
 
-**What this stage is testing:** How you handle competing priorities, interpersonal friction, and judgement calls under time pressure. The correct answers consistently reflect Deloitte's values — particularly integrity and collaboration. Read the values page before you start.
+**What this stage is testing:** How you handle competing priorities, interpersonal friction, and judgement calls under time pressure. The correct answers consistently reflect Deloitte's values, particularly integrity and collaboration. Read the values page before you start.
 
 **The video responses:** Answer as you'd genuinely behave, not as you think Deloitte wants you to behave. The simulation is designed to detect candidates who are performing rather than responding authentically.
 
 **Typical questions:**
 - Describe a time you worked under pressure to meet a deadline.
 - Give an example of when you showed initiative.
-- Why Deloitte — what specifically attracts you to BrightStart?
+- Why Deloitte: what specifically attracts you to BrightStart?
 - Tell me about a time you had to adapt your communication style.
 - Describe a situation where you had to analyse information to make a decision.
 
-**The distribution rule for STAR answers:** Situation and Task should take 30% of your time. Action and Result should take 70%. Most candidates invert this — they spend two minutes on the setup and 20 seconds on what they actually did and why it mattered.
+**The distribution rule for STAR answers:** Situation and Task should take 30% of your time. Action and Result should take 70%. Most candidates invert this: they spend two minutes on the setup and 20 seconds on what they actually did and why it mattered.
 
-### Stage 4 — Final Stage Assessment
+### Stage 4: Final Stage Assessment
 
-Two back-to-back elements. No group exercise — this is 1:1 the entire time.
+Two back-to-back elements. No group exercise: this is 1:1 the entire time.
 
 **What happens:**
-1. **Topic discussion** (~30 minutes) — a mandatory preparation topic sent in advance. Read it and form a view. The discussion tests whether you can engage with a real business issue, not just recite it.
-2. **Skills and motivation interview** (~50 minutes) — the most important part. Expect to be challenged on your answers: "What would you have done differently?" and "Why did you choose that approach?" are standard follow-ups. They're not trying to trip you up — they're testing whether your answers are genuine or rehearsed.
+1. **Topic discussion** (~30 minutes): a mandatory preparation topic sent in advance. Read it and form a view. The discussion tests whether you can engage with a real business issue, not just recite it.
+2. **Skills and motivation interview** (~50 minutes): the most important part. Expect to be challenged on your answers: "What would you have done differently?" and "Why did you choose that approach?" are standard follow-ups. They're not trying to trip you up: they're testing whether your answers are genuine or rehearsed.
 
 **The three things Deloitte scores highest at AC:**
-- **Intellectual curiosity** — asking a good question, not just answering questions
-- **Structured thinking** — answer first, explain after. Every single time.
-- **Humility with confidence** — know your strengths, acknowledge gaps. "I'm not sure, but I'd approach it by..." is a better answer than a confident wrong one.
+- **Intellectual curiosity**: asking a good question, not just answering questions
+- **Structured thinking**: answer first, explain after. Every single time.
+- **Humility with confidence**: know your strengths, acknowledge gaps. "I'm not sure, but I'd approach it by..." is a better answer than a confident wrong one.
 
 ---
 
@@ -89,16 +89,16 @@ Prepare one strong STAR story per competency:
 
 | Competency | What Deloitte actually penalises |
 |---|---|
-| Integrity | Stories where the ethical choice was obvious and cost nothing. Integrity under real pressure — where doing the right thing had a downside — is what scores. |
+| Integrity | Stories where the ethical choice was obvious and cost nothing. Integrity under real pressure, where doing the right thing had a downside, is what scores. |
 | Collaboration | "We all got along well" without any friction or difference. Show you bridged a genuine gap. |
 | Innovation | Incremental changes presented as innovation. New approaches to genuinely stuck problems. |
 | Resilience | Recoveries from minor setbacks. The harder the challenge, the more credible the story. |
 | Commercial thinking | Vague awareness that businesses need to make money. Show you understand how value is actually created in a specific context. |
-| Client focus | Prioritising someone else's needs when it was inconvenient — not just being helpful when it was easy. |
+| Client focus | Prioritising someone else's needs when it was inconvenient, not just being helpful when it was easy. |
 
 ---
 
-## Commercial Awareness — What You Must Know About Deloitte
+## Commercial Awareness: What You Must Know About Deloitte
 
 **Revenue (FY2024):** $67bn globally. Deloitte is the largest of the Big Four by revenue.
 
@@ -110,11 +110,11 @@ Prepare one strong STAR story per competency:
 - **Tax & Legal:** Corporate tax, transfer pricing, indirect taxes, legal services.
 - **Technology (Deloitte Digital):** A large tech delivery arm handling digital transformation.
 
-**Current Deloitte talking points — know at least two:**
-- Deloitte's AI tool "PairD" — rolled out to all staff for productivity
+**Current Deloitte talking points: know at least two:**
+- Deloitte's AI tool "PairD": rolled out to all staff for productivity
 - GenAI integration into audit and consulting delivery
 - Sustainability and climate reporting assurance as a growing service line
-- Big Four regulatory scrutiny following audit scandals at competitors — Deloitte positioning on quality
+- Big Four regulatory scrutiny following audit scandals at competitors: Deloitte positioning on quality
 
 ---
 
@@ -125,17 +125,17 @@ The question interviewers are actually asking: why did you choose BrightStart ra
 **The weak version:** "Deloitte is the largest firm and offers great training."  
 **The strong version:** One specific structural reason BrightStart fits you, one thing about Deloitte's market position in your chosen service line, and something you've verified from someone who works there.
 
-**Example:** *"BrightStart's route to chartered status in three to four years is faster than the degree apprenticeship routes, and getting to ACA quickly matters for where I want to be in my early career. I'm also specifically drawn to Deloitte's [service line] — the scale of clients in that area means more complex, varied work from early on. I spoke to a current BrightStart associate at [event/LinkedIn] who confirmed that the client responsibility from year one is genuine."*
+**Example:** *"BrightStart's route to chartered status in three to four years is faster than the degree apprenticeship routes, and getting to ACA quickly matters for where I want to be in my early career. I'm also specifically drawn to Deloitte's [service line]: the scale of clients in that area means more complex, varied work from early on. I spoke to a current BrightStart associate at [event/LinkedIn] who confirmed that the client responsibility from year one is genuine."*
 
 ---
 
-## Checklist — Before You Submit
+## Checklist, Before You Submit
 
 - [ ] Know all five Deloitte values by name and have a STAR story that links to at least two of them
 - [ ] Check your values story shows a real cost or trade-off you accepted, not just a description of behaving well
-- [ ] Understand what BrightStart leads to — AAT to ACA/ACCA/CIMA — and be able to explain why professional qualification over degree suits you
+- [ ] Understand what BrightStart leads to, AAT to ACA/ACCA/CIMA, and be able to explain why professional qualification over degree suits you
 - [ ] Five STAR stories covering all six core competencies
-- [ ] Practice Deloitte's immersive online assessment specifically — use their published practice version
+- [ ] Practice Deloitte's immersive online assessment specifically: use their published practice version
 - [ ] Do a timed run of a mixed-format assessment (written analysis plus a recorded video answer) so you know how to pace yourself across a single 40-minute block rather than running out of time before the video questions
 - [ ] Read Deloitte's purpose statement and annual report introduction
 - [ ] Know the difference between each of Deloitte's service lines
@@ -143,4 +143,4 @@ The question interviewers are actually asking: why did you choose BrightStart ra
 
 ---
 
-*ApprenticeEdge — helping UK school leavers compete on a level playing field.*
+*ApprenticeEdge: helping UK school leavers compete on a level playing field.*

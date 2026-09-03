@@ -36,10 +36,10 @@ function StarBox() {
     <div className="bg-blue-50 border border-blue-100 rounded-xl p-5 my-6">
       <h3 className="font-bold text-slate-900 mb-3 text-sm">The STAR Framework</h3>
       <div className="space-y-2 text-sm text-slate-700">
-        <p><span className="font-semibold text-blue-700">S — Situation:</span> Set the scene briefly (1–2 sentences). Enough context, no more.</p>
-        <p><span className="font-semibold text-blue-700">T — Task:</span> What was your specific responsibility? What was expected of you?</p>
-        <p><span className="font-semibold text-blue-700">A — Action:</span> What YOU did — not "we". Be specific. This is 60% of the answer.</p>
-        <p><span className="font-semibold text-blue-700">R — Result:</span> Quantify if possible. What changed? What did you learn?</p>
+        <p><span className="font-semibold text-blue-700">S · Situation:</span> Set the scene briefly (1–2 sentences). Enough context, no more.</p>
+        <p><span className="font-semibold text-blue-700">T · Task:</span> What was your specific responsibility? What was expected of you?</p>
+        <p><span className="font-semibold text-blue-700">A · Action:</span> What YOU did, not "we". Be specific. This is 60% of the answer.</p>
+        <p><span className="font-semibold text-blue-700">R · Result:</span> Quantify if possible. What changed? What did you learn?</p>
       </div>
     </div>
   );
@@ -52,7 +52,7 @@ function PackCTA({ company }: { company: CompanyData }) {
       <p className="text-slate-400 text-xs font-semibold uppercase tracking-widest mb-2">Want the full prep pack?</p>
       <h3 className="text-xl font-bold text-white mb-2">{company.name} Apprenticeship Prep Pack</h3>
       <p className="text-slate-400 text-sm mb-5">
-        Application stages, competencies, real interview questions, commercial awareness, and a pre-submission checklist — in one complete pack.
+        Application stages, competencies, real interview questions, commercial awareness, and a pre-submission checklist: in one complete pack.
       </p>
       {isFree ? (
         <Link
@@ -67,7 +67,7 @@ function PackCTA({ company }: { company: CompanyData }) {
             href="/checkout"
             className="inline-block bg-orange-500 text-white font-semibold px-7 py-3 rounded-xl hover:bg-orange-600 transition-colors shadow-lg shadow-orange-500/20"
           >
-            Get the Season Pass — £29
+            Get the Season Pass, £29
           </Link>
           <Link href="/packs/pwc" className="text-slate-400 text-sm hover:text-white transition-colors">
             Try the free PwC pack first →
@@ -106,7 +106,7 @@ function renderContent(company: CompanyData, topic: TopicMeta): React.ReactNode 
 
           <h2 className="text-xl font-bold text-slate-900 mt-8 mb-4">Motivational Questions</h2>
           <div className="space-y-3 text-sm text-slate-700">
-            <p className="border-l-4 border-blue-200 pl-4 py-1">Why {company.name} specifically — not just the sector?</p>
+            <p className="border-l-4 border-blue-200 pl-4 py-1">Why {company.name} specifically, not just the sector?</p>
             <p className="border-l-4 border-blue-200 pl-4 py-1">Why an apprenticeship over university?</p>
             <p className="border-l-4 border-blue-200 pl-4 py-1">Where do you see yourself in five years?</p>
             <p className="border-l-4 border-blue-200 pl-4 py-1">What do you know about the challenges {company.name} faces right now?</p>
@@ -127,18 +127,18 @@ function renderContent(company: CompanyData, topic: TopicMeta): React.ReactNode 
         <>
           <p className="text-slate-600 leading-relaxed">
             The {company.programmeName} receives thousands of applications each cycle.
-            Here&apos;s what separates candidates who progress from those who don&apos;t — at every stage.
+            Here&apos;s what separates candidates who progress from those who don&apos;t: at every stage.
           </p>
 
           <h2 className="text-xl font-bold text-slate-900 mt-8 mb-4">Before You Apply</h2>
           <ul className="space-y-3 text-sm text-slate-700">
             <li className="flex items-start gap-3">
               <span className="text-blue-600 font-bold mt-0.5">1.</span>
-              <span>Research {company.name}&apos;s current business priorities — not just what they do. Candidates who cite recent news, reports, or strategic announcements stand out.</span>
+              <span>Research {company.name}&apos;s current business priorities, not just what they do. Candidates who cite recent news, reports, or strategic announcements stand out.</span>
             </li>
             <li className="flex items-start gap-3">
               <span className="text-blue-600 font-bold mt-0.5">2.</span>
-              <span>Prepare a genuine answer to &ldquo;Why {company.name}?&rdquo; — not just &ldquo;because it&apos;s a great company.&rdquo; {company.whyThisCompanyHook}</span>
+              <span>Prepare a genuine answer to &ldquo;Why {company.name}?&rdquo;, not just &ldquo;because it&apos;s a great company.&rdquo; {company.whyThisCompanyHook}</span>
             </li>
             <li className="flex items-start gap-3">
               <span className="text-blue-600 font-bold mt-0.5">3.</span>
@@ -152,25 +152,25 @@ function renderContent(company: CompanyData, topic: TopicMeta): React.ReactNode 
               <span className="font-semibold">When to apply:</span> {company.applicationWindow}.
             </p>
             <p className="text-sm text-slate-600 mt-2">
-              Apply early. {company.name} fills roles on a rolling basis — waiting until the deadline closes means competing against a much smaller pool of remaining spots.
+              Apply early. {company.name} fills roles on a rolling basis: waiting until the deadline closes means competing against a much smaller pool of remaining spots.
             </p>
           </div>
 
           <h2 className="text-xl font-bold text-slate-900 mt-8 mb-4">Online Assessment Tips</h2>
           <p className="text-slate-600 text-sm mb-3">{company.onlineTests}</p>
           <ul className="space-y-2 text-sm text-slate-700 list-disc pl-5">
-            <li>Complete the tests in one sitting when you&apos;re alert — not late at night.</li>
+            <li>Complete the tests in one sitting when you&apos;re alert, not late at night.</li>
             <li>Use a fast, stable internet connection and a quiet space.</li>
             <li>Do practice versions first (SHL, Korn Ferry, and Cubiks publish free samples).</li>
-            <li>Read each question fully before answering — rushing is the most common error.</li>
+            <li>Read each question fully before answering: rushing is the most common error.</li>
           </ul>
 
           <h2 className="text-xl font-bold text-slate-900 mt-8 mb-4">The Most Common Rejection Reasons</h2>
           <div className="space-y-3">
             {[
-              "Generic motivational answers — not specific to " + company.name,
+              "Generic motivational answers, not specific to " + company.name,
               "STAR stories that describe what 'we' did, not what you did",
-              "No commercial awareness — can't explain what " + company.name + " does in simple terms",
+              "No commercial awareness: can't explain what " + company.name + " does in simple terms",
               "Failing the online tests without any preparation",
             ].map((reason) => (
               <div key={reason} className="flex items-start gap-3 text-sm text-slate-700">
@@ -186,7 +186,7 @@ function renderContent(company: CompanyData, topic: TopicMeta): React.ReactNode 
       return (
         <>
           <p className="text-slate-600 leading-relaxed">
-            {company.name} tests school leavers against a specific set of competencies at every stage — from the online assessment through to the final interview.
+            {company.name} tests school leavers against a specific set of competencies at every stage: from the online assessment through to the final interview.
             Here&apos;s exactly what they test and how to prepare for each one.
           </p>
 
@@ -213,7 +213,7 @@ function renderContent(company: CompanyData, topic: TopicMeta): React.ReactNode 
 
           <h2 className="text-xl font-bold text-slate-900 mt-8 mb-4">Where to Find Your Examples</h2>
           <p className="text-slate-600 text-sm mb-4">
-            You don&apos;t need impressive examples — you need specific ones. Strong STAR stories come from:
+            You don&apos;t need impressive examples: you need specific ones. Strong STAR stories come from:
           </p>
           <ul className="space-y-2 text-sm text-slate-700 list-disc pl-5">
             <li>Part-time jobs (customer complaints, covering a shift, managing a task alone)</li>
@@ -228,7 +228,7 @@ function renderContent(company: CompanyData, topic: TopicMeta): React.ReactNode 
       return (
         <>
           <p className="text-slate-600 leading-relaxed">
-            The {company.name} assessment centre is the final stage of the application process — and the most intensive.
+            The {company.name} assessment centre is the final stage of the application process, and the most intensive.
             Here&apos;s exactly what happens, how you&apos;re scored, and what the best candidates do differently.
           </p>
 
@@ -253,25 +253,25 @@ function renderContent(company: CompanyData, topic: TopicMeta): React.ReactNode 
             ))}
           </div>
 
-          <h2 className="text-xl font-bold text-slate-900 mt-8 mb-4">Group Exercise — What to Know</h2>
+          <h2 className="text-xl font-bold text-slate-900 mt-8 mb-4">Group Exercise: What to Know</h2>
           <p className="text-slate-600 text-sm mb-4">
-            In the group exercise, assessors are watching how you behave in a team — not whether you &apos;win&apos; the discussion.
+            In the group exercise, assessors are watching how you behave in a team, not whether you &apos;win&apos; the discussion.
             They&apos;re looking for contribution without domination, listening, building on others&apos; ideas, and keeping the group on track.
           </p>
           <div className="bg-amber-50 border border-amber-100 rounded-xl p-5">
             <h3 className="font-bold text-slate-900 mb-2 text-sm">The biggest mistake</h3>
             <p className="text-sm text-slate-700">
-              Staying quiet to avoid saying something wrong. Assessors need to see you in action — silence is a fail.
+              Staying quiet to avoid saying something wrong. Assessors need to see you in action: silence is a fail.
               Say something early, even if it&apos;s just to summarise where the group has got to.
             </p>
           </div>
 
           <h2 className="text-xl font-bold text-slate-900 mt-8 mb-4">Practical Preparation</h2>
           <ul className="space-y-2 text-sm text-slate-700 list-disc pl-5">
-            <li>Prepare 5–7 STAR stories before the day — you&apos;ll draw on them across multiple exercises</li>
-            <li>Read {company.name}&apos;s latest news and annual report — commercial awareness comes up in case studies</li>
-            <li>Practice speaking clearly under time pressure — most exercises have tight deadlines</li>
-            <li>Dress professionally and arrive 15 minutes early — the assessment starts the moment you walk in</li>
+            <li>Prepare 5–7 STAR stories before the day: you&apos;ll draw on them across multiple exercises</li>
+            <li>Read {company.name}&apos;s latest news and annual report: commercial awareness comes up in case studies</li>
+            <li>Practice speaking clearly under time pressure: most exercises have tight deadlines</li>
+            <li>Dress professionally and arrive 15 minutes early: the assessment starts the moment you walk in</li>
           </ul>
         </>
       );
@@ -300,11 +300,11 @@ function renderContent(company: CompanyData, topic: TopicMeta): React.ReactNode 
 
           <h2 className="text-xl font-bold text-slate-900 mt-8 mb-4">Recording Tips</h2>
           <ul className="space-y-2 text-sm text-slate-700 list-disc pl-5">
-            <li>Record a practice answer on your phone and watch it back — fix filler words and posture</li>
-            <li>Look at the camera lens, not your own face on screen — it reads as eye contact</li>
+            <li>Record a practice answer on your phone and watch it back: fix filler words and posture</li>
+            <li>Look at the camera lens, not your own face on screen: it reads as eye contact</li>
             <li>Use your prep time to structure your answer (Situation → Task → Action → Result), not to write it word for word</li>
-            <li>Speak slightly slower than feels natural — the recording will sound more measured</li>
-            <li>Quiet room, good lighting, plain background — technical setup matters more than you think</li>
+            <li>Speak slightly slower than feels natural: the recording will sound more measured</li>
+            <li>Quiet room, good lighting, plain background: technical setup matters more than you think</li>
           </ul>
 
           <div className="bg-amber-50 border border-amber-100 rounded-xl p-5 my-6">
@@ -322,7 +322,7 @@ function renderContent(company: CompanyData, topic: TopicMeta): React.ReactNode 
         <>
           <p className="text-slate-600 leading-relaxed">
             {company.name} uses competency-based interviewing throughout its school leaver application process.
-            Every stage — from the video interview to the assessment centre — requires you to give structured examples using the STAR method.
+            Every stage, from the video interview to the assessment centre, requires you to give structured examples using the STAR method.
           </p>
 
           <StarBox />
@@ -335,7 +335,7 @@ function renderContent(company: CompanyData, topic: TopicMeta): React.ReactNode 
                 <div className="space-y-2 text-sm text-slate-700">
                   <p><span className="font-semibold text-blue-700">S:</span> Describe a specific context where {comp.toLowerCase()} was required.</p>
                   <p><span className="font-semibold text-blue-700">T:</span> What was your specific role or responsibility in this situation?</p>
-                  <p><span className="font-semibold text-blue-700">A:</span> List the specific steps you took — use &ldquo;I&rdquo; throughout. What did you decide? What did you do first?</p>
+                  <p><span className="font-semibold text-blue-700">A:</span> List the specific steps you took: use &ldquo;I&rdquo; throughout. What did you decide? What did you do first?</p>
                   <p><span className="font-semibold text-blue-700">R:</span> What was the outcome? Quantify if possible. What would you do differently?</p>
                 </div>
               </div>
@@ -348,19 +348,19 @@ function renderContent(company: CompanyData, topic: TopicMeta): React.ReactNode 
             They&apos;re looking for genuine reflection, not corporate experience.
           </p>
           <ul className="space-y-2 text-sm text-slate-700 list-disc pl-5">
-            <li>Part-time or Saturday jobs — customer complaints, working under pressure, managing a task independently</li>
-            <li>School — group projects, leading a presentation, a difficult deadline</li>
-            <li>Extracurricular — captaining a team, organising an event, resolving a conflict</li>
+            <li>Part-time or Saturday jobs: customer complaints, working under pressure, managing a task independently</li>
+            <li>School: group projects, leading a presentation, a difficult deadline</li>
+            <li>Extracurricular: captaining a team, organising an event, resolving a conflict</li>
             <li>Volunteering, DofE, prefect or leadership roles</li>
           </ul>
 
           <div className="bg-amber-50 border border-amber-100 rounded-xl p-5 my-6">
             <h3 className="font-bold text-slate-900 mb-2 text-sm">STAR mistakes to avoid</h3>
             <ul className="space-y-1 text-sm text-slate-700 list-disc pl-4">
-              <li>Using &ldquo;we&rdquo; — always say &ldquo;I&rdquo;</li>
+              <li>Using &ldquo;we&rdquo;: always say &ldquo;I&rdquo;</li>
               <li>Spending too long on S and T, rushing A and R</li>
-              <li>Vague results: &ldquo;it went well&rdquo; — be specific</li>
-              <li>No reflection — the R should always include what you learned</li>
+              <li>Vague results: &ldquo;it went well&rdquo;: be specific</li>
+              <li>No reflection: the R should always include what you learned</li>
             </ul>
           </div>
         </>
@@ -371,7 +371,7 @@ function renderContent(company: CompanyData, topic: TopicMeta): React.ReactNode 
         <>
           <p className="text-slate-600 leading-relaxed">
             The {company.name} online tests are: {company.onlineTests}.
-            This stage filters out a significant proportion of applicants — preparation makes a real difference.
+            This stage filters out a significant proportion of applicants: preparation makes a real difference.
           </p>
 
           <h2 className="text-xl font-bold text-slate-900 mt-8 mb-4">What the Tests Involve</h2>
@@ -383,7 +383,7 @@ function renderContent(company: CompanyData, topic: TopicMeta): React.ReactNode 
           <ul className="space-y-3 text-sm text-slate-700">
             <li className="flex items-start gap-3">
               <span className="text-blue-600 font-bold shrink-0">1.</span>
-              <span><span className="font-semibold">Practice with real test providers.</span> SHL, Korn Ferry, Cubiks, and Talent Q all publish free sample tests. The interface and question format varies by provider — know what to expect.</span>
+              <span><span className="font-semibold">Practice with real test providers.</span> SHL, Korn Ferry, Cubiks, and Talent Q all publish free sample tests. The interface and question format varies by provider: know what to expect.</span>
             </li>
             <li className="flex items-start gap-3">
               <span className="text-blue-600 font-bold shrink-0">2.</span>
@@ -395,16 +395,16 @@ function renderContent(company: CompanyData, topic: TopicMeta): React.ReactNode 
             </li>
             <li className="flex items-start gap-3">
               <span className="text-blue-600 font-bold shrink-0">4.</span>
-              <span><span className="font-semibold">For SJTs: think like a professional.</span> Situational judgement tests have no trick answers — but they reward considered, measured responses over impulsive ones. Read each scenario fully before selecting.</span>
+              <span><span className="font-semibold">For SJTs: think like a professional.</span> Situational judgement tests have no trick answers, but they reward considered, measured responses over impulsive ones. Read each scenario fully before selecting.</span>
             </li>
           </ul>
 
           <h2 className="text-xl font-bold text-slate-900 mt-8 mb-4">Common Mistakes</h2>
           <div className="space-y-3">
             {[
-              "Attempting without any preparation — practice tests exist for a reason",
+              "Attempting without any preparation: practice tests exist for a reason",
               "Taking the test on a mobile or slow connection",
-              "Rushing through to finish quickly — accuracy matters more than speed in most sections",
+              "Rushing through to finish quickly: accuracy matters more than speed in most sections",
               "For SJTs: choosing the answer you personally prefer rather than the most professionally appropriate one",
             ].map((mistake) => (
               <div key={mistake} className="flex items-start gap-3 text-sm text-slate-700">
@@ -420,7 +420,7 @@ function renderContent(company: CompanyData, topic: TopicMeta): React.ReactNode 
       return (
         <>
           <p className="text-slate-600 leading-relaxed">
-            Commercial awareness is tested at every stage of the {company.name} application — from motivational questions on the form through to
+            Commercial awareness is tested at every stage of the {company.name} application: from motivational questions on the form through to
             case studies and interviews at the assessment centre. Here&apos;s what you need to know.
           </p>
 
@@ -455,7 +455,7 @@ function renderContent(company: CompanyData, topic: TopicMeta): React.ReactNode 
           <div className="bg-blue-50 border border-blue-100 rounded-xl p-5 my-6">
             <h3 className="font-bold text-slate-900 mb-2 text-sm">How to build commercial awareness fast</h3>
             <ul className="space-y-2 text-sm text-slate-700 list-disc pl-4">
-              <li>Read {company.name}&apos;s latest annual report introduction (10 minutes — just the CEO letter)</li>
+              <li>Read {company.name}&apos;s latest annual report introduction (10 minutes, just the CEO letter)</li>
               <li>Set a Google Alert for &ldquo;{company.name}&rdquo; and read one article per week</li>
               <li>Read the FT, BBC Business, or The Economist for 10 minutes each morning in the 4 weeks before your assessment</li>
               <li>Be able to explain what {company.name} does in two sentences without using industry jargon</li>
@@ -468,7 +468,7 @@ function renderContent(company: CompanyData, topic: TopicMeta): React.ReactNode 
       return (
         <>
           <p className="text-slate-600 leading-relaxed">
-            &ldquo;Why {company.name}?&rdquo; is one of the most important questions in any apprenticeship interview — and one of the most commonly answered poorly.
+            &ldquo;Why {company.name}?&rdquo; is one of the most important questions in any apprenticeship interview, and one of the most commonly answered poorly.
             Here&apos;s what interviewers want to hear, and how to build an answer that actually lands.
           </p>
 
@@ -489,12 +489,12 @@ function renderContent(company: CompanyData, topic: TopicMeta): React.ReactNode 
               {
                 n: "2",
                 title: "The programme itself",
-                body: `Why the ${company.programmeName} specifically? What about the structure, service lines, or training model fits how you want to develop? Be honest — this is where candidates who've done real research stand out.`,
+                body: `Why the ${company.programmeName} specifically? What about the structure, service lines, or training model fits how you want to develop? Be honest: this is where candidates who've done real research stand out.`,
               },
               {
                 n: "3",
                 title: "Your long-term direction",
-                body: "How does this apprenticeship fit where you want to be in 5–10 years? You don't need a precise plan — you need to show you've thought about it seriously.",
+                body: "How does this apprenticeship fit where you want to be in 5–10 years? You don't need a precise plan: you need to show you've thought about it seriously.",
               },
             ].map(({ n, title, body }) => (
               <div key={n} className="border border-slate-200 rounded-xl p-5">
@@ -510,9 +510,9 @@ function renderContent(company: CompanyData, topic: TopicMeta): React.ReactNode 
           <h2 className="text-xl font-bold text-slate-900 mt-8 mb-4">What to Avoid</h2>
           <div className="space-y-3">
             {[
-              `"I've always wanted to work in ${company.name}'s sector" — too generic`,
-              `"You're one of the best companies to work for" — flattery, not substance`,
-              `"I applied to several companies and this seemed like a good fit" — honest, but fatal`,
+              `"I've always wanted to work in ${company.name}'s sector": too generic`,
+              `"You're one of the best companies to work for": flattery, not substance`,
+              `"I applied to several companies and this seemed like a good fit": honest, but fatal`,
               "Anything that could apply equally to a competitor",
             ].map((avoid) => (
               <div key={avoid} className="flex items-start gap-3 text-sm text-slate-700">
@@ -564,7 +564,7 @@ function renderContent(company: CompanyData, topic: TopicMeta): React.ReactNode 
                 className={`flex items-center justify-between border rounded-lg px-4 py-3 text-sm ${c.slug === company.slug ? "border-blue-300 bg-blue-50" : "border-slate-200"}`}
               >
                 <span className={`font-medium ${c.slug === company.slug ? "text-blue-900" : "text-slate-700"}`}>
-                  {c.name} — {c.programmeName}
+                  {c.name}: {c.programmeName}
                 </span>
                 <span className={`font-semibold ${c.slug === company.slug ? "text-blue-700" : "text-slate-500"}`}>{c.salary}</span>
               </div>
@@ -575,7 +575,7 @@ function renderContent(company: CompanyData, topic: TopicMeta): React.ReactNode 
             <h3 className="font-bold text-slate-900 mb-2 text-sm">Salary isn&apos;t everything</h3>
             <p className="text-sm text-slate-700">
               The best school leaver apprenticeships offer qualifications, training, mentorship, and career progression that can be worth far more than a starting salary difference of a few thousand pounds.
-              Consider the full package — not just year-one pay.
+              Consider the full package, not just year-one pay.
             </p>
           </div>
         </>
@@ -586,13 +586,13 @@ function renderContent(company: CompanyData, topic: TopicMeta): React.ReactNode 
         <>
           <p className="text-slate-600 leading-relaxed">
             The {company.programmeName} has an acceptance rate of around {company.acceptanceRate}.
-            Here&apos;s exactly how to go from application to offer — stage by stage.
+            Here&apos;s exactly how to go from application to offer: stage by stage.
           </p>
 
           <h2 className="text-xl font-bold text-slate-900 mt-8 mb-4">The Process, In Order</h2>
           <div className="space-y-4">
             {[
-              { stage: "Online Application", detail: `Complete the application form — personal details, grades, and motivational questions. Application window: ${company.applicationWindow}.` },
+              { stage: "Online Application", detail: `Complete the application form: personal details, grades, and motivational questions. Application window: ${company.applicationWindow}.` },
               { stage: "Online Assessments", detail: company.onlineTests },
               { stage: "Video Interview", detail: company.videoInterviewFormat },
               ...company.assessmentCentreStages.map((s) => ({ stage: "Assessment Centre", detail: s })),
@@ -619,19 +619,19 @@ function renderContent(company: CompanyData, topic: TopicMeta): React.ReactNode 
           <ul className="space-y-3 text-sm text-slate-700">
             <li className="flex items-start gap-3">
               <span className="text-green-500 font-bold mt-0.5 shrink-0">✓</span>
-              <span>Apply in the first two weeks of the window opening — roles fill on a rolling basis</span>
+              <span>Apply in the first two weeks of the window opening: roles fill on a rolling basis</span>
             </li>
             <li className="flex items-start gap-3">
               <span className="text-green-500 font-bold mt-0.5 shrink-0">✓</span>
-              <span>Prepare 5–7 STAR stories before starting the application — you&apos;ll need them at multiple stages</span>
+              <span>Prepare 5–7 STAR stories before starting the application: you&apos;ll need them at multiple stages</span>
             </li>
             <li className="flex items-start gap-3">
               <span className="text-green-500 font-bold mt-0.5 shrink-0">✓</span>
-              <span>Know {company.name}&apos;s business in detail — not just the sector. {company.whyThisCompanyHook}</span>
+              <span>Know {company.name}&apos;s business in detail, not just the sector. {company.whyThisCompanyHook}</span>
             </li>
             <li className="flex items-start gap-3">
               <span className="text-green-500 font-bold mt-0.5 shrink-0">✓</span>
-              <span>Practice the online tests with the actual provider formats — not generic aptitude apps</span>
+              <span>Practice the online tests with the actual provider formats, not generic aptitude apps</span>
             </li>
             <li className="flex items-start gap-3">
               <span className="text-green-500 font-bold mt-0.5 shrink-0">✓</span>
@@ -646,7 +646,7 @@ function renderContent(company: CompanyData, topic: TopicMeta): React.ReactNode 
         <>
           <p className="text-slate-600 leading-relaxed">
             The {company.programmeName} has an estimated acceptance rate of {company.acceptanceRate}.
-            Here&apos;s what those numbers actually mean — and what it takes to be in the cohort that gets an offer.
+            Here&apos;s what those numbers actually mean, and what it takes to be in the cohort that gets an offer.
           </p>
 
           <h2 className="text-xl font-bold text-slate-900 mt-8 mb-4">How Competitive Is It?</h2>
@@ -677,7 +677,7 @@ function renderContent(company: CompanyData, topic: TopicMeta): React.ReactNode 
           <h2 className="text-xl font-bold text-slate-900 mt-8 mb-4">What Actually Gets You In</h2>
           <p className="text-slate-600 text-sm mb-4">
             Acceptance rate is a measure of competition, not a measure of how qualified you need to be.
-            Most rejected candidates don&apos;t fail on ability — they fail on preparation.
+            Most rejected candidates don&apos;t fail on ability: they fail on preparation.
           </p>
           <ul className="space-y-2 text-sm text-slate-700 list-disc pl-5">
             <li>Passing the online tests (most candidates don&apos;t practice enough)</li>
@@ -693,7 +693,7 @@ function renderContent(company: CompanyData, topic: TopicMeta): React.ReactNode 
         <>
           <p className="text-slate-600 leading-relaxed">
             The {company.programmeName} application window is: {company.applicationWindow}.
-            Here&apos;s how to plan your timeline so you&apos;re prepared at every stage — not scrambling.
+            Here&apos;s how to plan your timeline so you&apos;re prepared at every stage, not scrambling.
           </p>
 
           <h2 className="text-xl font-bold text-slate-900 mt-8 mb-4">When to Apply</h2>
@@ -701,7 +701,7 @@ function renderContent(company: CompanyData, topic: TopicMeta): React.ReactNode 
             <p className="text-sm font-semibold text-slate-900 mb-1">Application window</p>
             <p className="text-sm text-slate-700">{company.applicationWindow}</p>
             <p className="text-sm text-slate-500 mt-3">
-              Apply in the first two weeks of the window opening. {company.name} makes rolling offers — seats fill before the official deadline closes.
+              Apply in the first two weeks of the window opening. {company.name} makes rolling offers: seats fill before the official deadline closes.
             </p>
           </div>
 
@@ -709,7 +709,7 @@ function renderContent(company: CompanyData, topic: TopicMeta): React.ReactNode 
           <div className="space-y-3">
             {[
               { week: "Week 0", event: "Application form submitted" },
-              { week: "Week 1–2", event: "Online assessments — SJT, numerical, and cognitive tests" },
+              { week: "Week 1–2", event: "Online assessments: SJT, numerical, and cognitive tests" },
               { week: "Week 3–4", event: "Video interview invitation sent" },
               { week: "Week 4–6", event: "Assessment centre invitation (if passed video stage)" },
               { week: "Week 6–10", event: "Offer or rejection" },
@@ -722,13 +722,13 @@ function renderContent(company: CompanyData, topic: TopicMeta): React.ReactNode 
           </div>
           <p className="text-xs text-slate-400 mt-2">Timeline is approximate. Actual timings vary by cohort and service line.</p>
 
-          <h2 className="text-xl font-bold text-slate-900 mt-8 mb-4">Preparation Timeline — Work Backwards</h2>
+          <h2 className="text-xl font-bold text-slate-900 mt-8 mb-4">Preparation Timeline: Work Backwards</h2>
           <div className="space-y-3">
             {[
-              { time: "4 weeks before applying", task: "Research " + company.name + " — annual report, recent news, service lines" },
+              { time: "4 weeks before applying", task: "Research " + company.name + ": annual report, recent news, service lines" },
               { time: "3 weeks before applying", task: "Draft 5–7 STAR stories covering all key competencies" },
               { time: "2 weeks before applying", task: "Practice online tests with real providers (SHL, Korn Ferry)" },
-              { time: "1 week before applying", task: "Write and refine motivational answers — Why " + company.name + "?, Why now?" },
+              { time: "1 week before applying", task: "Write and refine motivational answers: Why " + company.name + "?, Why now?" },
               { time: "Before video interview", task: "Record and watch back a practice video interview" },
               { time: "Before assessment centre", task: "Read " + company.name + "'s latest news and know your STAR stories cold" },
             ].map(({ time, task }) => (
@@ -752,8 +752,8 @@ function renderContent(company: CompanyData, topic: TopicMeta): React.ReactNode 
           <h2 className="text-xl font-bold text-slate-900 mt-8 mb-4">What Actually Gets Scored</h2>
           <div className="space-y-3">
             {[
-              { title: "Contribution without domination", desc: "Speak early and regularly — but listen more than you talk. Assessors need to see you engage. Silence is not being safe; it's a fail." },
-              { title: "Building on others", desc: "Reference what others have said: 'Building on what Alex said...' or 'That's a good point — and I'd add...' This shows collaboration, not just performance." },
+              { title: "Contribution without domination", desc: "Speak early and regularly, but listen more than you talk. Assessors need to see you engage. Silence is not being safe; it's a fail." },
+              { title: "Building on others", desc: "Reference what others have said: 'Building on what Alex said...' or 'That's a good point, and I'd add...' This shows collaboration, not just performance." },
               { title: "Moving the group forward", desc: "If the discussion stalls or goes in circles, step in to summarise or refocus. This is often the highest-scoring single behaviour in a group exercise." },
               { title: "Clarity under pressure", desc: "When asked to present or summarise, speak clearly and avoid jargon. The group exercise is also a communication test." },
             ].map(({ title, desc }) => (
@@ -766,22 +766,22 @@ function renderContent(company: CompanyData, topic: TopicMeta): React.ReactNode 
 
           <h2 className="text-xl font-bold text-slate-900 mt-8 mb-4">The Scenario Format</h2>
           <p className="text-slate-600 text-sm mb-4">
-            Group exercises typically involve a business case — a client situation, a strategic decision, or a resource allocation problem.
+            Group exercises typically involve a business case: a client situation, a strategic decision, or a resource allocation problem.
             You&apos;ll be given materials to read before the discussion starts (usually 10–15 minutes).
           </p>
           <ul className="space-y-2 text-sm text-slate-700 list-disc pl-5">
-            <li>Read the brief properly — candidates who miss key details in the brief score poorly</li>
+            <li>Read the brief properly: candidates who miss key details in the brief score poorly</li>
             <li>Identify the 2–3 most important issues before the discussion starts</li>
-            <li>Have a position ready — but be open to changing it based on the group discussion</li>
+            <li>Have a position ready, but be open to changing it based on the group discussion</li>
           </ul>
 
           <div className="bg-amber-50 border border-amber-100 rounded-xl p-5 my-6">
             <h3 className="font-bold text-slate-900 mb-2 text-sm">The most common group exercise failures</h3>
             <ul className="space-y-2 text-sm text-slate-700 list-disc pl-4">
-              <li>Talking over others — being the loudest is not the same as being the best</li>
+              <li>Talking over others: being the loudest is not the same as being the best</li>
               <li>Staying quiet to avoid saying something wrong</li>
               <li>Focusing on being right rather than helping the group reach a good outcome</li>
-              <li>Not listening — giving an answer that ignores what was just said</li>
+              <li>Not listening: giving an answer that ignores what was just said</li>
             </ul>
           </div>
         </>
@@ -792,12 +792,12 @@ function renderContent(company: CompanyData, topic: TopicMeta): React.ReactNode 
         <>
           <p className="text-slate-600 leading-relaxed">
             {company.name}&apos;s situational judgement test (SJT) assesses how you respond to workplace scenarios.
-            It&apos;s not a personality test — it&apos;s a judgement test, and preparation makes a real difference.
+            It&apos;s not a personality test: it&apos;s a judgement test, and preparation makes a real difference.
           </p>
 
           <h2 className="text-xl font-bold text-slate-900 mt-8 mb-4">How It Works</h2>
           <p className="text-slate-600 text-sm mb-4">
-            You&apos;re presented with a series of workplace scenarios and asked to rate the effectiveness of several possible responses — or choose the most and least effective option.
+            You&apos;re presented with a series of workplace scenarios and asked to rate the effectiveness of several possible responses, or choose the most and least effective option.
           </p>
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-5">
             <p className="text-sm text-slate-700">{company.onlineTests}</p>
@@ -808,7 +808,7 @@ function renderContent(company: CompanyData, topic: TopicMeta): React.ReactNode 
             {[
               {
                 title: "Think like a professional, not a person",
-                body: "Your instinct might be to go to a friend for advice or handle something privately. The SJT rewards professional, measured responses — escalating appropriately, communicating clearly, and maintaining integrity.",
+                body: "Your instinct might be to go to a friend for advice or handle something privately. The SJT rewards professional, measured responses: escalating appropriately, communicating clearly, and maintaining integrity.",
               },
               {
                 title: "There are no trick answers",
@@ -832,10 +832,10 @@ function renderContent(company: CompanyData, topic: TopicMeta): React.ReactNode 
 
           <h2 className="text-xl font-bold text-slate-900 mt-8 mb-4">How to Practice</h2>
           <ul className="space-y-2 text-sm text-slate-700 list-disc pl-5">
-            <li>SHL and Korn Ferry publish free SJT sample questions — use them</li>
-            <li>Practice on a laptop, not a phone — the interface is designed for desktop</li>
-            <li>Time yourself — even if the test isn&apos;t strictly timed, slow responses can affect your result on some platforms</li>
-            <li>After each practice question, check why the &apos;best&apos; answer was scored highest — this builds intuition</li>
+            <li>SHL and Korn Ferry publish free SJT sample questions: use them</li>
+            <li>Practice on a laptop, not a phone: the interface is designed for desktop</li>
+            <li>Time yourself, even if the test isn&apos;t strictly timed, slow responses can affect your result on some platforms</li>
+            <li>After each practice question, check why the &apos;best&apos; answer was scored highest: this builds intuition</li>
           </ul>
         </>
       );
@@ -844,7 +844,7 @@ function renderContent(company: CompanyData, topic: TopicMeta): React.ReactNode 
       return (
         <>
           <p className="text-slate-600 leading-relaxed">
-            Here is every stage of the {company.programmeName} application process — what happens, in what order, and what you need to do to pass each one.
+            Here is every stage of the {company.programmeName} application process: what happens, in what order, and what you need to do to pass each one.
           </p>
 
           <div className="space-y-6 mt-8">
@@ -853,7 +853,7 @@ function renderContent(company: CompanyData, topic: TopicMeta): React.ReactNode 
                 n: 1,
                 title: "Online Application Form",
                 content: `Complete your personal details, academic grades, and motivational questions. This is where you answer why ${company.name} and why this programme. Application window: ${company.applicationWindow}.`,
-                tip: "Answer motivational questions specifically — not generically. A specific reason for choosing " + company.name + " over a generic 'I want to work in the sector' answer makes an immediate difference.",
+                tip: "Answer motivational questions specifically, not generically. A specific reason for choosing " + company.name + " over a generic 'I want to work in the sector' answer makes an immediate difference.",
               },
               {
                 n: 2,
@@ -871,7 +871,7 @@ function renderContent(company: CompanyData, topic: TopicMeta): React.ReactNode 
                 n: 4,
                 title: "Assessment Centre",
                 content: `Held at a ${company.name} office. Typically includes: ${company.assessmentCentreStages.join(", ")}.`,
-                tip: "Prepare STAR stories for all competencies before the day. The assessment starts when you walk in — be professional with everyone you meet.",
+                tip: "Prepare STAR stories for all competencies before the day. The assessment starts when you walk in: be professional with everyone you meet.",
               },
             ].map(({ n, title, content, tip }) => (
               <div key={n} className="border border-slate-200 rounded-2xl overflow-hidden">
@@ -896,7 +896,7 @@ function renderContent(company: CompanyData, topic: TopicMeta): React.ReactNode 
       return (
         <>
           <p className="text-slate-600 leading-relaxed">
-            {company.schoolLeaver} Here&apos;s an honest comparison of the school leaver route versus the graduate scheme — what each offers, who each suits, and how to decide.
+            {company.schoolLeaver} Here&apos;s an honest comparison of the school leaver route versus the graduate scheme: what each offers, who each suits, and how to decide.
           </p>
 
           <h2 className="text-xl font-bold text-slate-900 mt-8 mb-4">At a Glance</h2>
@@ -912,7 +912,7 @@ function renderContent(company: CompanyData, topic: TopicMeta): React.ReactNode 
               <tbody className="divide-y divide-slate-100">
                 {[
                   { factor: "Entry point", leaver: "After A-levels / Year 13", grad: "After university (3–4 years later)" },
-                  { factor: "Degree", leaver: "Funded by " + company.name + " while you work", grad: "Already completed — self-funded" },
+                  { factor: "Degree", leaver: "Funded by " + company.name + " while you work", grad: "Already completed: self-funded" },
                   { factor: "Earnings by age 22", leaver: "3+ years of salary + no debt", grad: "Graduating with student loans" },
                   { factor: "Career start", leaver: company.length + " programme", grad: "Typically 2–3 year grad scheme" },
                   { factor: "Programme", leaver: company.programmeName, grad: company.name + " Graduate Programme" },
@@ -930,10 +930,10 @@ function renderContent(company: CompanyData, topic: TopicMeta): React.ReactNode 
 
           <h2 className="text-xl font-bold text-slate-900 mt-8 mb-4">The Case for the School Leaver Route</h2>
           <ul className="space-y-2 text-sm text-slate-700 list-disc pl-5">
-            <li>No tuition fees — the degree is funded by {company.name}</li>
+            <li>No tuition fees: the degree is funded by {company.name}</li>
             <li>Earning from 18 instead of 21–22: typically £80–120k more by age 25 when you factor in tuition debt</li>
             <li>3+ years of professional experience before peers have graduated</li>
-            <li>Earlier career trajectory — reaching senior roles years ahead of graduate entry peers</li>
+            <li>Earlier career trajectory: reaching senior roles years ahead of graduate entry peers</li>
           </ul>
 
           <h2 className="text-xl font-bold text-slate-900 mt-8 mb-4">Who the Graduate Scheme Suits</h2>
@@ -956,7 +956,7 @@ function renderContent(company: CompanyData, topic: TopicMeta): React.ReactNode 
         <>
           <p className="text-slate-600 leading-relaxed">
             These are the most important things to know before applying to the {company.programmeName}.
-            Most of these aren&apos;t obvious — they come from analysing what the top candidates do at every stage.
+            Most of these aren&apos;t obvious: they come from analysing what the top candidates do at every stage.
           </p>
 
           <div className="space-y-5 mt-8">
@@ -964,16 +964,16 @@ function renderContent(company: CompanyData, topic: TopicMeta): React.ReactNode 
               {
                 n: "01",
                 tip: "Apply early",
-                detail: `The window is ${company.applicationWindow}. ${company.name} makes rolling offers — candidates who apply in week one of the window are competing against hundreds. Candidates who apply in the final week are competing against tens of thousands.`,
+                detail: `The window is ${company.applicationWindow}. ${company.name} makes rolling offers: candidates who apply in week one of the window are competing against hundreds. Candidates who apply in the final week are competing against tens of thousands.`,
               },
               {
                 n: "02",
                 tip: "Prepare your STAR stories before you start the form",
-                detail: `The motivational questions and video interview both require specific examples. Have at least 5–7 stories ready — covering ${company.keyCompetencies.slice(0, 3).join(", ")} at minimum — before you open the application.`,
+                detail: `The motivational questions and video interview both require specific examples. Have at least 5–7 stories ready: covering ${company.keyCompetencies.slice(0, 3).join(", ")} at minimum, before you open the application.`,
               },
               {
                 n: "03",
-                tip: 'Know ' + company.name + ' — not just the sector',
+                tip: 'Know ' + company.name + ', not just the sector',
                 detail: company.whyThisCompanyHook,
               },
               {
@@ -984,12 +984,12 @@ function renderContent(company: CompanyData, topic: TopicMeta): React.ReactNode 
               {
                 n: "05",
                 tip: "Record your video interview practice",
-                detail: "Record yourself answering a practice question on your phone and watch it back. You will immediately see what to fix — filler words, pace, eye contact, posture. Do this at least twice before the real interview.",
+                detail: "Record yourself answering a practice question on your phone and watch it back. You will immediately see what to fix: filler words, pace, eye contact, posture. Do this at least twice before the real interview.",
               },
               {
                 n: "06",
                 tip: "The assessment centre starts when you walk in",
-                detail: `Be professional from the moment you arrive — with the receptionist, other candidates, and during breaks. Assessors at ${company.name} are watching throughout the day, not just during formal exercises.`,
+                detail: `Be professional from the moment you arrive, with the receptionist, other candidates, and during breaks. Assessors at ${company.name} are watching throughout the day, not just during formal exercises.`,
               },
               {
                 n: "07",
@@ -1015,7 +1015,7 @@ function renderContent(company: CompanyData, topic: TopicMeta): React.ReactNode 
       return (
         <>
           <p className="text-slate-600 leading-relaxed">
-            Here&apos;s an honest guide to what the {company.programmeName} application process actually looks like — the full picture, from opening the form to getting an offer.
+            Here&apos;s an honest guide to what the {company.programmeName} application process actually looks like: the full picture, from opening the form to getting an offer.
           </p>
 
           <h2 className="text-xl font-bold text-slate-900 mt-8 mb-4">Overview</h2>
@@ -1055,12 +1055,12 @@ function renderContent(company: CompanyData, topic: TopicMeta): React.ReactNode 
 
           <h2 className="text-xl font-bold text-slate-900 mt-8 mb-4">The Honest Reality</h2>
           <p className="text-slate-600 text-sm mb-4">
-            The {company.programmeName} is genuinely competitive — {company.acceptanceRate} acceptance rate.
+            The {company.programmeName} is genuinely competitive: {company.acceptanceRate} acceptance rate.
             But the majority of rejected candidates don&apos;t fail because they weren&apos;t capable enough.
             They fail because they didn&apos;t prepare specifically enough for {company.name}&apos;s process.
           </p>
           <p className="text-slate-600 text-sm">
-            The candidates who get offers are not necessarily the smartest in the room — they&apos;re the ones who treated the application as seriously as the job itself.
+            The candidates who get offers are not necessarily the smartest in the room: they&apos;re the ones who treated the application as seriously as the job itself.
           </p>
         </>
       );
@@ -1070,7 +1070,7 @@ function renderContent(company: CompanyData, topic: TopicMeta): React.ReactNode 
         <>
           <p className="text-slate-600 leading-relaxed">
             {company.name} uses competency-based questions at the video interview and assessment centre stages.
-            Here are the questions to expect, mapped to the competencies they test — with guidance on what strong answers look like.
+            Here are the questions to expect, mapped to the competencies they test, with guidance on what strong answers look like.
           </p>
 
           <h2 className="text-xl font-bold text-slate-900 mt-8 mb-4">Competency Questions by Area</h2>
@@ -1104,7 +1104,7 @@ function renderContent(company: CompanyData, topic: TopicMeta): React.ReactNode 
           <h2 className="text-xl font-bold text-slate-900 mt-8 mb-4">Preparing Your Stories</h2>
           <p className="text-slate-600 text-sm mb-4">
             Aim for 5–7 strong STAR stories before your first interview. You should be able to adapt each story to answer
-            multiple different competency questions — a good teamwork story can often be reframed to show communication or resilience too.
+            multiple different competency questions: a good teamwork story can often be reframed to show communication or resilience too.
           </p>
           <p className="text-slate-600 text-sm">
             Examples can come from school, part-time work, sport, volunteering, or any other experience where you had a genuine individual responsibility.
@@ -1170,7 +1170,7 @@ export default async function GuidePage({ params }: Props) {
         </div>
       </section>
 
-      {/* Related guides — same company, different topics */}
+      {/* Related guides: same company, different topics */}
       <section className="bg-slate-50 border-t border-slate-100">
         <div className="max-w-3xl mx-auto px-6 py-12">
           <h2 className="text-lg font-bold text-slate-900 mb-5">More {company.name} guides</h2>
@@ -1188,7 +1188,7 @@ export default async function GuidePage({ params }: Props) {
         </div>
       </section>
 
-      {/* Related guides — same topic, other companies */}
+      {/* Related guides: same topic, other companies */}
       <section className="bg-white border-t border-slate-100">
         <div className="max-w-3xl mx-auto px-6 py-12">
           <h2 className="text-lg font-bold text-slate-900 mb-5">{topic.label} guides for other companies</h2>

@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 
-// Distinct from "ae_paid" — that flag means a completed Season Pass purchase.
+// Distinct from "ae_paid": that flag means a completed Season Pass purchase.
 // An email capture unlocks this pack only, and must never look like a payment.
 const STORAGE_KEY = "ae_email_captured";
 
@@ -78,7 +78,7 @@ export default function EmailGate({ preview, full }: Props) {
                 </svg>
               </div>
               <h2 className="text-xl font-bold text-slate-900 mb-1">Get the full pack free</h2>
-              <p className="text-slate-500 text-sm">Application stages, competencies, real interview questions, and commercial awareness — all of it.</p>
+              <p className="text-slate-500 text-sm">Application stages, competencies, real interview questions, and commercial awareness: all of it.</p>
             </div>
             <form onSubmit={handleSubmit} className="space-y-3">
               <input

@@ -3,10 +3,10 @@ import Script from "next/script";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "ApprenticeEdge — UK Apprenticeship Prep Packs",
+  title: "ApprenticeEdge: UK Apprenticeship Prep Packs",
   description: "Insider prep packs for UK school leavers applying to PwC, Deloitte, KPMG, EY, Goldman Sachs, Google, Amazon, Civil Service, BBC, and NHS apprenticeships.",
   openGraph: {
-    title: "ApprenticeEdge — UK Apprenticeship Prep Packs",
+    title: "ApprenticeEdge: UK Apprenticeship Prep Packs",
     description: "Level the playing field. Prep packs for the UK's most competitive school leaver apprenticeships.",
     type: "website",
   },
@@ -30,7 +30,7 @@ export default function RootLayout({
         <header className="sticky top-0 z-50 bg-white border-b border-slate-200 shadow-sm">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 py-3 sm:py-3.5 flex items-center justify-between">
             <a href="/" className="flex items-center gap-2 sm:gap-3 tracking-tight shrink-0">
-              {/* AE mark: geometric A — two strokes + gold crossbar */}
+              {/* AE mark: geometric A · two strokes + gold crossbar */}
               <svg width="26" height="26" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" className="sm:w-[30px] sm:h-[30px]">
                 <path d="M4 29L16 4L28 29" stroke="#0D1B2A" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round"/>
                 <path d="M8.5 20.5H23.5" stroke="#C4922A" strokeWidth="3.5" strokeLinecap="round"/>
@@ -69,7 +69,7 @@ export default function RootLayout({
               <p className="max-w-xs">Helping UK school leavers compete on a level playing field with insider prep for the country&apos;s most competitive apprenticeships.</p>
               <p className="max-w-xs mt-3 text-xs text-slate-600">
                 ApprenticeEdge is not affiliated with, endorsed by, or partnered with any of the employers listed.
-                Pack content is based on publicly available information and research. Application processes change —
+                Pack content is based on publicly available information and research. Application processes change: 
                 always verify details with the employer&apos;s official website.
               </p>
             </div>

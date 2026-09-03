@@ -114,10 +114,10 @@ export default function PsychometricTest({ bank, companyName }: { bank: Question
   if (phase === "select") {
     return (
       <div className="py-8">
-        <h2 className="text-xl font-bold text-slate-900 mb-1">Practice Tests — {companyName}</h2>
+        <h2 className="text-xl font-bold text-slate-900 mb-1">Practice Tests: {companyName}</h2>
         <p className="text-slate-500 text-sm mb-6">
           Original questions written in the style of {companyName}&apos;s assessments. Not a copy of any real test.
-          Unlimited retakes — each attempt generates the same question set.
+          Unlimited retakes: each attempt generates the same question set.
         </p>
         <div className="grid gap-4 sm:grid-cols-3">
           {(["numerical", "verbal", "sjt"] as TestType[]).map((type) => {
@@ -161,11 +161,11 @@ export default function PsychometricTest({ bank, companyName }: { bank: Question
             <p className="text-sm text-slate-500 mt-1">{correct} / {total} correct</p>
           </div>
           <div>
-            <h2 className="text-xl font-bold text-slate-900">{LABELS[testType]} — Results</h2>
+            <h2 className="text-xl font-bold text-slate-900">{LABELS[testType]}: Results</h2>
             <p className="text-slate-500 text-sm mt-1">
-              {pct >= 80 ? "Strong performance — you are in the competitive range." :
+              {pct >= 80 ? "Strong performance: you are in the competitive range." :
                pct >= 60 ? "Good start. Review the explanations below and retake to improve." :
-               "Keep practising — read each explanation carefully before retaking."}
+               "Keep practising: read each explanation carefully before retaking."}
             </p>
             <button
               onClick={retake}

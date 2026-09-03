@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy — ApprenticeEdge",
+  title: "Privacy Policy: ApprenticeEdge",
   description: "How ApprenticeEdge (Deep Cut Industries Limited) collects, uses, and protects your personal data under UK GDPR.",
 };
 
@@ -53,7 +53,7 @@ export default function PrivacyPage() {
               <p>
                 Season Pass holders can use the AI mock interview feature. When you use this feature, your
                 messages and our AI-generated responses are sent to Anthropic, Inc. for processing via their
-                API. We do not store your interview conversation on our servers — it exists only in your
+                API. We do not store your interview conversation on our servers: it exists only in your
                 browser session. If you choose to email your transcript to yourself, we transmit that
                 conversation to Resend (our email delivery provider) solely to deliver the email; no copy
                 is retained on our end. The legal basis for this processing is the performance of the
@@ -73,11 +73,11 @@ export default function PrivacyPage() {
         <section>
           <h2 className="text-base font-bold text-slate-900 mb-2">Third-party services</h2>
           <ul className="list-disc list-inside space-y-1">
-            <li><strong>MailerLite</strong> — email delivery. Your email address is stored on MailerLite&apos;s servers (EU-based). MailerLite&apos;s privacy policy: mailerlite.com/legal/privacy-policy.</li>
-            <li><strong>Stripe</strong> — payment processing. Stripe&apos;s privacy policy: stripe.com/gb/privacy.</li>
-            <li><strong>Vercel</strong> — website hosting. Vercel&apos;s privacy policy: vercel.com/legal/privacy-policy.</li>
-            <li><strong>Anthropic</strong> — AI processing for mock interview sessions. Messages are processed by Anthropic&apos;s API and subject to Anthropic&apos;s privacy policy at anthropic.com/privacy. We do not store interview conversations server-side.</li>
-            <li><strong>Resend</strong> — email delivery for interview transcripts (only when you request this). Resend&apos;s privacy policy: resend.com/legal/privacy-policy.</li>
+            <li><strong>MailerLite</strong>: email delivery. Your email address is stored on MailerLite&apos;s servers (EU-based). MailerLite&apos;s privacy policy: mailerlite.com/legal/privacy-policy.</li>
+            <li><strong>Stripe</strong>: payment processing. Stripe&apos;s privacy policy: stripe.com/gb/privacy.</li>
+            <li><strong>Vercel</strong>: website hosting. Vercel&apos;s privacy policy: vercel.com/legal/privacy-policy.</li>
+            <li><strong>Anthropic</strong>: AI processing for mock interview sessions. Messages are processed by Anthropic&apos;s API and subject to Anthropic&apos;s privacy policy at anthropic.com/privacy. We do not store interview conversations server-side.</li>
+            <li><strong>Resend</strong>: email delivery for interview transcripts (only when you request this). Resend&apos;s privacy policy: resend.com/legal/privacy-policy.</li>
           </ul>
         </section>
 
@@ -124,7 +124,7 @@ export default function PrivacyPage() {
                 After a successful Season Pass purchase, we set a secure httpOnly cookie
                 (named <code className="text-xs bg-slate-100 px-1 py-0.5 rounded">ae_access</code>) that
                 confirms your paid status. This cookie is sent to our servers on each page request so
-                we can verify your access — it cannot be read by JavaScript. It expires after 12 months.
+                we can verify your access: it cannot be read by JavaScript. It expires after 12 months.
                 No payment or card data is stored in this cookie; it contains only the value
                 &quot;paid&quot;.
               </p>

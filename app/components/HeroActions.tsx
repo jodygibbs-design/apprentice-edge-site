@@ -45,7 +45,7 @@ export default function HeroActions({ freePackSlug }: Props) {
         href="/checkout"
         className="bg-orange-500 text-white px-8 py-3.5 rounded-xl font-semibold text-base hover:bg-orange-600 transition-colors shadow-sm"
       >
-        Get all 10 packs — £29
+        Get all 10 packs, £29
       </Link>
     </div>
   );

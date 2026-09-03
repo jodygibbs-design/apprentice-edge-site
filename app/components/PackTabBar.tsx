@@ -84,16 +84,16 @@ export default function PackTabBar({ slug, paid, hasPsychometric, companyName, a
             <h2 className="text-xl font-bold text-slate-900 mb-2">Season Pass feature</h2>
             <p className="text-sm text-slate-500 mb-5 leading-relaxed">
               The AI mock interview and practice tests are included in the Season Pass.
-              Unlike generic AI tools, these are built specifically for {companyName} —
+              Unlike generic AI tools, these are built specifically for {companyName}: 
               the interview coach is trained on the {companyName} pack content and only
               asks questions relevant to that company&apos;s actual application process.
             </p>
 
             <ul className="space-y-2.5 mb-6">
               {[
-                `AI interview coach grounded on the ${companyName} prep pack — not generic advice`,
+                `AI interview coach grounded on the ${companyName} prep pack, not generic advice`,
                 "Structured feedback after every answer: what worked + what to improve",
-                "Practice tests in the style of employer assessments — timed, scored, explained",
+                "Practice tests in the style of employer assessments: timed, scored, explained",
                 "All 10 employers included. One payment.",
               ].map((item) => (
                 <li key={item} className="flex items-start gap-2.5 text-sm text-slate-700">
@@ -109,7 +109,7 @@ export default function PackTabBar({ slug, paid, hasPsychometric, companyName, a
               href="/checkout"
               className="block w-full text-center bg-orange-500 text-white font-bold px-6 py-3.5 rounded-xl hover:bg-orange-400 transition-colors shadow-lg shadow-orange-500/20 mb-3"
             >
-              Get Season Pass — £29
+              Get Season Pass, £29
             </Link>
             <p className="text-xs text-center text-slate-400">One payment. Instant access. No subscription.</p>
           </div>

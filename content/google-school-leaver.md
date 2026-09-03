@@ -1,8 +1,8 @@
-# Google Apprenticeship — ApprenticeEdge Prep Pack
+# Google Apprenticeship: ApprenticeEdge Prep Pack
 
 ## The Programme
 
-Google's UK Higher Apprenticeships are less visible than the Big Four programmes — fewer places, less publicised, and they attract a different kind of candidate. The competition is intense precisely because the pool is smaller and the people applying have usually done serious research. You cannot get through on brand recognition alone; Google wants people who are genuinely curious about how the business works.
+Google's UK Higher Apprenticeships are less visible than the Big Four programmes: fewer places, less publicised, and they attract a different kind of candidate. The competition is intense precisely because the pool is smaller and the people applying have usually done serious research. You cannot get through on brand recognition alone; Google wants people who are genuinely curious about how the business works.
 
 **Length:** 13–18 months (Level 4 Higher Apprenticeship)
 
@@ -20,17 +20,17 @@ Google's UK Higher Apprenticeships are less visible than the Big Four programmes
 
 **Qualification:** Level 4 Higher Apprenticeship in the relevant area. Not a degree.
 
-**Application window:** Google doesn't follow a fixed academic calendar. Applications often open January–March for September starts, but this changes year to year. Watch Google Careers and RateMyApprenticeship — set up alerts.
+**Application window:** Google doesn't follow a fixed academic calendar. Applications often open January–March for September starts, but this changes year to year. Watch Google Careers and RateMyApprenticeship: set up alerts.
 
 ---
 
 ## The Application Stages
 
-### Stage 1 — Online Application
+### Stage 1: Online Application
 
-CV and cover letter. Google actually reads the cover letter. This is not a firm that processes applications purely through ATS keyword matching — a recruiter's eyes will be on your application.
+CV and cover letter. Google actually reads the cover letter. This is not a firm that processes applications purely through ATS keyword matching: a recruiter's eyes will be on your application.
 
-The implicit question across everything you submit: "Why Google, and why this role?" Not "why tech" — why Google specifically. The candidates who make it are the ones who can name specific Google products, business areas, or initiatives and explain why they're drawn to working on them.
+The implicit question across everything you submit: "Why Google, and why this role?" Not "why tech": why Google specifically. The candidates who make it are the ones who can name specific Google products, business areas, or initiatives and explain why they're drawn to working on them.
 
 **The thing that kills most cover letters:** General enthusiasm for technology and Google's mission. What works: a specific Google product you use and have thought about, a specific business area that connects to the role, and a clear reason why this role at Google makes sense for you at this point.
 
@@ -42,24 +42,24 @@ The implicit question across everything you submit: "Why Google, and why this ro
 
 **Why it works:** "passionate about technology" is what every rejected applicant also wrote. The strong version names a product you actually use and a specific tension that connects to the role you're applying for.
 
-### Stage 2 — Online Assessments or Phone Screen
+### Stage 2: Online Assessments or Phone Screen
 
-Google's process varies by role. Some routes include a recruiter phone screen before assessments. Treat that call as an interview — recruiters at Google have genuine influence over whether you move forward.
+Google's process varies by role. Some routes include a recruiter phone screen before assessments. Treat that call as an interview: recruiters at Google have genuine influence over whether you move forward.
 
 - **Cognitive assessments** (SHL-style numerical and logical) for some roles
-- **Work sample tasks** — for Sales roles, possibly a mock outreach email; for Operations, a data task in Google Sheets
+- **Work sample tasks**: for Sales roles, possibly a mock outreach email; for Operations, a data task in Google Sheets
 
 **On the phone screen:** Ask a smart question about the team or the role. "What does a typical week look like for someone in this apprenticeship?" signals real engagement. Recruiters notice.
 
 **Why Google's Stage 2 varies so much:** unlike the Big Four or Amazon, Google doesn't run every apprentice applicant through the same standard psychometric battery. What you get depends on the specific role and business area. Don't assume you know your assessment format from a generic "Google interview questions" guide written for software engineering roles; check what your specific route actually involves, and if you're not told in advance, ask your recruiter directly what to expect. It's a reasonable question, not a red flag.
 
-### Stage 3 — Interviews (1–3 rounds)
+### Stage 3: Interviews (1–3 rounds)
 
 Structured interviews. Depending on the role, you'll face some combination of:
 
-- **Behavioural interviews** — STAR format, but Google also asks "Googleyness" questions (see below)
-- **Technical screen** — for technical roles: basic problem solving, may involve spreadsheets or SQL
-- **Case-style questions** — for Sales and Operations: "How would you approach X problem?"
+- **Behavioural interviews**: STAR format, but Google also asks "Googleyness" questions (see below)
+- **Technical screen**: for technical roles: basic problem solving, may involve spreadsheets or SQL
+- **Case-style questions**: for Sales and Operations: "How would you approach X problem?"
 
 **Typical questions:**
 - Tell me about a time you had to figure something out without any guidance.
@@ -68,9 +68,9 @@ Structured interviews. Depending on the role, you'll face some combination of:
 - What is a Google product you think could be improved, and how would you improve it?
 - Describe a situation where you used data to make a decision.
 
-**On the product improvement question:** This one comes up almost every time, across almost every role. Prepare a specific answer about a real Google product — one you actually use — and think about what the improvement would need to achieve and why it matters to the user. Generic improvements ("Google Search could be more personalised") are forgettable. Specific, reasoned improvements with a clear user benefit are memorable.
+**On the product improvement question:** This one comes up almost every time, across almost every role. Prepare a specific answer about a real Google product, one you actually use, and think about what the improvement would need to achieve and why it matters to the user. Generic improvements ("Google Search could be more personalised") are forgettable. Specific, reasoned improvements with a clear user benefit are memorable.
 
-### Stage 4 — Final Interview or Panel
+### Stage 4: Final Interview or Panel
 
 For apprentice roles, usually one or two final interviews with the hiring manager and a team member. Conversational in tone but still structured underneath.
 
@@ -89,25 +89,25 @@ For apprentice roles, usually one or two final interviews with the hiring manage
 | Collaboration | Do you share credit and work well across difference? Stories where someone else's perspective changed your approach. |
 | Humility | Do you take feedback well and admit mistakes? Without defensiveness or over-qualification. |
 | Drive | Have you pushed further than required without being told to? Specific examples with outcomes. |
-| Comfort with ambiguity | Can you move forward when the brief is unclear? Show you've done this — not just that you'd be fine with it in theory. |
+| Comfort with ambiguity | Can you move forward when the brief is unclear? Show you've done this, not just that you'd be fine with it in theory. |
 | Impact orientation | Do you care whether your work actually changes something? What happened as a result of what you did? |
 
 ---
 
-## Commercial Awareness — What You Must Know About Google
+## Commercial Awareness: What You Must Know About Google
 
 **Revenue (FY2024):** ~$350bn (Alphabet, Google's parent). One of the most profitable businesses ever built.
 
-**The revenue split — know this:**
+**The revenue split, know this:**
 - **Search advertising:** ~$175bn/year. The core engine of everything.
 - **YouTube:** Second-largest search engine globally. $35bn+ in ad revenue.
 - **Google Cloud:** Fast-growing, competing directly with AWS and Azure. ~$40bn revenue. This is the fastest-growing part of the business.
 - **Google Ads/gTech:** The sales and technology arm that helps businesses advertise. This is what many of the apprenticeship roles sit within.
 - **Android:** Powers 72% of smartphones globally.
-- **Google Workspace:** Gmail, Docs, Drive, Meet — enterprise productivity.
+- **Google Workspace:** Gmail, Docs, Drive, Meet: enterprise productivity.
 - **Moonshots:** Waymo (autonomous vehicles), DeepMind (AI research), Verily (life sciences).
 
-**Current Google talking points — know at least two:**
+**Current Google talking points: know at least two:**
 - Gemini AI and its integration across Search, Workspace, and Cloud
 - US and EU antitrust cases against Google's dominance of Search
 - Google's competitive response to ChatGPT and Perplexity in AI-powered search
@@ -118,26 +118,26 @@ For apprentice roles, usually one or two final interviews with the hiring manage
 
 ## Why Google Over Other Tech Companies
 
-This question gets asked because Google competes for talent against Amazon, Meta, Apple, and others. The generic answer — "Google's scale and impact" — describes all of them.
+This question gets asked because Google competes for talent against Amazon, Meta, Apple, and others. The generic answer, "Google's scale and impact", describes all of them.
 
-**What works:** Name the specific intersection of business area, role type, and Google's particular approach to it. Broad scope is a Google-specific advantage — the fact that Search, Cloud, YouTube, Android, and hardware all sit under one roof is genuinely different.
+**What works:** Name the specific intersection of business area, role type, and Google's particular approach to it. Broad scope is a Google-specific advantage: the fact that Search, Cloud, YouTube, Android, and hardware all sit under one roof is genuinely different.
 
-**Example:** *"What draws me to Google specifically is the breadth of the business — and for a [Sales/Operations/Finance] role, that means exposure to a portfolio of products that doesn't exist anywhere else. I'm particularly interested in how Google approaches [Cloud / gTech / Workspace] because [specific reason]. Google is also distinctive in how analytically it makes decisions — I want to work somewhere where data and clear thinking are the default, not the exception."*
+**Example:** *"What draws me to Google specifically is the breadth of the business, and for a [Sales/Operations/Finance] role, that means exposure to a portfolio of products that doesn't exist anywhere else. I'm particularly interested in how Google approaches [Cloud / gTech / Workspace] because [specific reason]. Google is also distinctive in how analytically it makes decisions: I want to work somewhere where data and clear thinking are the default, not the exception."*
 
 ---
 
-## Checklist — Before You Submit
+## Checklist, Before You Submit
 
-- [ ] Know Alphabet's revenue split — Search, YouTube, Cloud — and the approximate numbers
-- [ ] Have a specific, detailed answer to "what Google product would you improve and how?" — prepare this, it's almost certain to come up
+- [ ] Know Alphabet's revenue split: Search, YouTube, Cloud, and the approximate numbers
+- [ ] Have a specific, detailed answer to "what Google product would you improve and how?": prepare this, it's almost certain to come up
 - [ ] Check your "why Google" answer names a specific product you actually use, not just general enthusiasm for technology
-- [ ] Prepare for ambiguity questions — real examples of moving forward without a complete brief
-- [ ] Understand what the specific role you're applying for does day-to-day — not just the team name
+- [ ] Prepare for ambiguity questions: real examples of moving forward without a complete brief
+- [ ] Understand what the specific role you're applying for does day-to-day, not just the team name
 - [ ] Ask your recruiter directly what Stage 2 involves for your specific route rather than assuming it matches a generic "Google interview" guide, since the assessment format genuinely varies by role at Google
 - [ ] Five STAR stories including one that demonstrates learning independently
 - [ ] One smart question about the team or business that shows you've thought beyond the job description
-- [ ] Know the difference between Google Ads, Google Cloud, and gTech — and which one is most relevant to the role you're applying for
+- [ ] Know the difference between Google Ads, Google Cloud, and gTech, and which one is most relevant to the role you're applying for
 
 ---
 
-*ApprenticeEdge — helping UK school leavers compete on a level playing field.*
+*ApprenticeEdge: helping UK school leavers compete on a level playing field.*

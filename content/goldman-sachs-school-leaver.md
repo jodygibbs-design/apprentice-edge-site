@@ -1,4 +1,4 @@
-# Goldman Sachs School Leaver Programme — ApprenticeEdge Prep Pack
+# Goldman Sachs School Leaver Programme: ApprenticeEdge Prep Pack
 
 ## The Programme
 
@@ -11,23 +11,23 @@ Goldman's Degree Apprenticeship is the most selective school leaver programme in
 **Location:** London (primary); Birmingham (Engineering pathway via University of Warwick)
 
 **Three pathways:**
-- **FICC & Equities** — front-office trading and sales; degree in Applied Finance at Queen Mary University of London
-- **Engineering** — technology infrastructure; degree in Digital & Technology Solutions at Queen Mary (London) or University of Warwick (Birmingham)
-- **Operations** — trade settlements, risk controls, operational backbone; degree in BSc Finance & Investment at Walbrook Institute London
+- **FICC & Equities**: front-office trading and sales; degree in Applied Finance at Queen Mary University of London
+- **Engineering**: technology infrastructure; degree in Digital & Technology Solutions at Queen Mary (London) or University of Warwick (Birmingham)
+- **Operations**: trade settlements, risk controls, operational backbone; degree in BSc Finance & Investment at Walbrook Institute London
 
-**Qualification:** Level 6 Degree Apprenticeship. You graduate with a full bachelor's degree. May be considered for full-time roles at Goldman on completion — this is the point of the programme.
+**Qualification:** Level 6 Degree Apprenticeship. You graduate with a full bachelor's degree. May be considered for full-time roles at Goldman on completion: this is the point of the programme.
 
-**Application window:** Opens 1 October annually for September starts. Goldman moves fast — watch their careers page directly. If you miss the first wave, you may not get another chance that cycle.
+**Application window:** Opens 1 October annually for September starts. Goldman moves fast: watch their careers page directly. If you miss the first wave, you may not get another chance that cycle.
 
 ---
 
 ## The Application Stages
 
-### Stage 1 — Online Application
+### Stage 1: Online Application
 
-CV, grades, and a motivational statement. Goldman reads for precision — no waffle, no generic ambition. The one question that determines whether you pass or fail at this stage: "Why Goldman Sachs, and why this division?"
+CV, grades, and a motivational statement. Goldman reads for precision: no waffle, no generic ambition. The one question that determines whether you pass or fail at this stage: "Why Goldman Sachs, and why this division?"
 
-Generic answers — "Goldman is the most prestigious bank" — are rejected at screening. You need a specific, researched reason that demonstrates you understand what the division actually does, not just that you've heard of the firm. The answer to this question should be the most carefully written paragraph of your application.
+Generic answers, "Goldman is the most prestigious bank", are rejected at screening. You need a specific, researched reason that demonstrates you understand what the division actually does, not just that you've heard of the firm. The answer to this question should be the most carefully written paragraph of your application.
 
 **Weak vs. strong, the "why this division" answer:**
 
@@ -37,22 +37,22 @@ Generic answers — "Goldman is the most prestigious bank" — are rejected at s
 
 **Why it works:** "prestigious" is a word every rejected applicant also used. The strong version names a real structural fact about how Goldman's Engineering division actually works, and it would be wrong if you tried to reuse it for FICC & Equities or Operations.
 
-### Stage 2 — Psychometric / Online Assessment
+### Stage 2: Psychometric / Online Assessment
 
-After the application form, most candidates sit an online assessment hosted on HackerRank — around 90 minutes, multiple choice, with negative marking (wrong answers cost you, so guessing carries real risk).
+After the application form, most candidates sit an online assessment hosted on HackerRank: around 90 minutes, multiple choice, with negative marking (wrong answers cost you, so guessing carries real risk).
 
 **What it tests:**
-- Numerical reasoning — arithmetic, percentages, ratios, and interpreting data from tables and charts under time pressure
-- Logical/pattern reasoning — probability, sequences, and quantitative puzzle questions
+- Numerical reasoning: arithmetic, percentages, ratios, and interpreting data from tables and charts under time pressure
+- Logical/pattern reasoning: probability, sequences, and quantitative puzzle questions
 - For Engineering applicants: 2–3 coding questions on top of the numerical and logical sections
 
-**Division-specific warning:** Engineering candidates get coding questions added to the standard reasoning sections — know this going in, not as a surprise. FICC & Equities and Operations candidates sit the numerical/logical sections only.
+**Division-specific warning:** Engineering candidates get coding questions added to the standard reasoning sections: know this going in, not as a surprise. FICC & Equities and Operations candidates sit the numerical/logical sections only.
 
-The pass bar is high (roughly 75% correct). This stage eliminates a large share of candidates before a human ever watches their HireVue — practise with real numerical and logical reasoning providers beforehand rather than treating it as a formality.
+The pass bar is high (roughly 75% correct). This stage eliminates a large share of candidates before a human ever watches their HireVue: practise with real numerical and logical reasoning providers beforehand rather than treating it as a formality.
 
-### Stage 3 — HireVue Video Interview
+### Stage 3: HireVue Video Interview
 
-Usually first-round screening. 5–7 questions, no prep time, immediate recording. Goldman's questions are harder than the Big Four's — they mix competency with technical and motivational in the same interview.
+Usually first-round screening. 5–7 questions, no prep time, immediate recording. Goldman's questions are harder than the Big Four's: they mix competency with technical and motivational in the same interview.
 
 **Typical questions:**
 - Walk me through your CV.
@@ -65,21 +65,21 @@ Usually first-round screening. 5–7 questions, no prep time, immediate recordin
 
 **Division-specific warning:** Goldman asks technical questions early. For Engineering, expect basic logic or coding. For Markets, expect questions on financial instruments. Don't arrive at a video interview in a finance role without knowing what a bond is.
 
-### Stage 4 — Superday
+### Stage 4: Superday
 
-Goldman's Superday is back-to-back 1:1 interviews — typically four to six — with different staff ranging from analyst to Managing Director. It is a full day of sustained performance.
+Goldman's Superday is back-to-back 1:1 interviews, typically four to six, with different staff ranging from analyst to Managing Director. It is a full day of sustained performance.
 
 **What to expect:**
 - Each interview runs 30–45 minutes
 - Mix of competency, motivational, and technical questions throughout
-- No group exercise — Goldman is entirely individual-focused
+- No group exercise: Goldman is entirely individual-focused
 - Interviewers compare notes after the day. Consistency across all five interviews matters more than any single perfect answer
 
 **Where most candidates lose it:**
-- Their "why Goldman, why this division" story drifts slightly across interviews — interviewers notice inconsistency
+- Their "why Goldman, why this division" story drifts slightly across interviews: interviewers notice inconsistency
 - They run out of energy by interview four or five. The last interview is a test of exactly that.
 - They go quiet when asked a technical question they don't know. The right move: "I don't know the precise answer, but here's how I'd work it out." Goldman values intellectual honesty above confident bluffing.
-- They ask the same question to every interviewer at the end. Prepare a different, tailored question for each person — it signals genuine engagement.
+- They ask the same question to every interviewer at the end. Prepare a different, tailored question for each person: it signals genuine engagement.
 
 ---
 
@@ -89,27 +89,27 @@ Goldman's Superday is back-to-back 1:1 interviews — typically four to six — 
 |---|---|
 | Analytical rigour | Can you break a problem down logically and work with data, not just describe the outcome? |
 | Intellectual curiosity | Do you ask good questions and read beyond what's required, or do you just know the curriculum? |
-| Resilience | Can you stay calibrated under pressure — not just survive it, but perform through it? |
+| Resilience | Can you stay calibrated under pressure, not just survive it, but perform through it? |
 | Integrity | How do you handle genuinely grey situations where the right answer isn't obvious? |
 | Drive | Have you ever done more than required without being asked? What was the result? |
 | Communication | Can you adapt from an analyst conversation to an MD conversation in the same day? |
 
 ---
 
-## Commercial Awareness — What You Must Know About Goldman Sachs
+## Commercial Awareness: What You Must Know About Goldman Sachs
 
 **Revenue (FY2024):** ~$47bn. Net earnings ~$8bn. Goldman is a premier global investment bank.
 
-The divisions matter more at Goldman than anywhere else — different divisions have completely different cultures, risk profiles, and exit routes. Know which one you applied to and why.
+The divisions matter more at Goldman than anywhere else: different divisions have completely different cultures, risk profiles, and exit routes. Know which one you applied to and why.
 
 **What Goldman actually does:**
 - **Investment Banking Division:** Advises companies on M&A, IPOs, debt and equity raising. Works with the world's largest corporations and governments. Highly visible, highly competitive.
 - **Global Markets:** Trading equities, fixed income, currencies, commodities. Historically Goldman's biggest revenue engine. High pressure, fast-moving.
 - **Asset Management:** Manages money for institutional investors, sovereign wealth funds, pension funds, and ultra-high-net-worth individuals.
 - **Engineering:** Builds the technology infrastructure behind everything Goldman does. Employs more engineers than many dedicated tech companies.
-- **Operations and Controllers:** Settlements, risk controls, financial accounting — the operational backbone that keeps the trades running.
+- **Operations and Controllers:** Settlements, risk controls, financial accounting: the operational backbone that keeps the trades running.
 
-**Current Goldman talking points — know at least two:**
+**Current Goldman talking points: know at least two:**
 - Goldman's strategic pull-back from consumer banking (Marcus scale-down)
 - AI and machine learning applications in trading and risk
 - Goldman's dominant position in M&A advisory (ranked number one or two globally most years)
@@ -120,14 +120,14 @@ The divisions matter more at Goldman than anywhere else — different divisions 
 
 ## Why Goldman Over Other Banks
 
-Goldman school leavers face harder pushback on this question than Big Four candidates, because Goldman's reputation is so visible. "Because it's the best bank" is not an answer — it's a signal that you haven't thought about it.
+Goldman school leavers face harder pushback on this question than Big Four candidates, because Goldman's reputation is so visible. "Because it's the best bank" is not an answer: it's a signal that you haven't thought about it.
 
 **The structure that works:**
-1. Something about the specific division — what it does and why it fits your interests
-2. Something about Goldman's particular positioning in that area — not just that Goldman is "prestigious"
+1. Something about the specific division: what it does and why it fits your interests
+2. Something about Goldman's particular positioning in that area, not just that Goldman is "prestigious"
 3. One sentence about the people or problems you'd be working on from day one
 
-**Example:** *"Goldman's position in Global Markets specifically is what draws me. The scale and complexity of the trading infrastructure — I've read about Goldman's investment in its own technology stack — means I'd be working with financial systems that don't exist anywhere else at this level. I want to be somewhere the problems are genuinely hard, and Goldman is where those problems concentrate."*
+**Example:** *"Goldman's position in Global Markets specifically is what draws me. The scale and complexity of the trading infrastructure, I've read about Goldman's investment in its own technology stack, means I'd be working with financial systems that don't exist anywhere else at this level. I want to be somewhere the problems are genuinely hard, and Goldman is where those problems concentrate."*
 
 ---
 
@@ -136,36 +136,36 @@ Goldman school leavers face harder pushback on this question than Big Four candi
 This is non-negotiable prep. Arriving at a Goldman Superday without division-specific knowledge is a disqualifying error.
 
 ### Engineering
-- Basic Python or any scripting language — Goldman uses Python heavily in its infrastructure
+- Basic Python or any scripting language: Goldman uses Python heavily in its infrastructure
 - Understand what APIs are and how systems communicate
 - Know what latency means in a trading context (why milliseconds matter)
 - Warm up with Leetcode easy to medium problems
 
 ### Global Markets
-- What is a bond, a stock, a derivative (options, futures) — define each clearly
+- What is a bond, a stock, a derivative (options, futures): define each clearly
 - What does "long" and "short" mean in a trading context?
 - What is the yield curve, and what does an inverted yield curve signal about economic expectations?
 - What is the Fed funds rate and why do central bank rate decisions move markets?
 
 ### Asset Management / Risk / Controllers
-- Basic accounting: assets, liabilities, P&L — what each means
+- Basic accounting: assets, liabilities, P&L: what each means
 - What is NAV (Net Asset Value) and how is it calculated?
 - The difference between market risk, credit risk, and operational risk
 
 ---
 
-## Checklist — Before You Submit
+## Checklist, Before You Submit
 
-- [ ] Know which Goldman division you're applying to and why — the specific division, not just "Goldman"
+- [ ] Know which Goldman division you're applying to and why: the specific division, not just "Goldman"
 - [ ] Write your "why this division" answer, then check it would be wrong if applied to a different Goldman division. If it still works, it isn't specific enough yet
-- [ ] Read Goldman's latest earnings call summary (investor relations page — 20 minutes). Know the revenue split.
-- [ ] Practise numerical and logical reasoning questions under timed conditions before the HackerRank assessment — Engineering applicants should also drill basic coding questions
-- [ ] Prepare for the technical questions specific to your division — this is not optional
+- [ ] Read Goldman's latest earnings call summary (investor relations page: 20 minutes). Know the revenue split.
+- [ ] Practise numerical and logical reasoning questions under timed conditions before the HackerRank assessment: Engineering applicants should also drill basic coding questions
+- [ ] Prepare for the technical questions specific to your division: this is not optional
 - [ ] Five STAR stories plus a strong "walk me through your CV" narrative and a "tell me about a mistake" answer
-- [ ] Prepare five different questions to ask interviewers at Superday — one per interviewer, each tailored
+- [ ] Prepare five different questions to ask interviewers at Superday: one per interviewer, each tailored
 - [ ] Know the major Goldman news stories of the past 12 months
-- [ ] Practice precision — Goldman interviewers actively cut off vague or rambling answers
+- [ ] Practice precision: Goldman interviewers actively cut off vague or rambling answers
 
 ---
 
-*ApprenticeEdge — helping UK school leavers compete on a level playing field.*
+*ApprenticeEdge: helping UK school leavers compete on a level playing field.*

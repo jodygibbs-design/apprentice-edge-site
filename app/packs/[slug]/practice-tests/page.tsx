@@ -24,7 +24,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const pack = getPackBySlug(slug);
   if (!pack) return {};
   return {
-    title: `${pack.company} Practice Tests — ApprenticeEdge`,
+    title: `${pack.company} Practice Tests: ApprenticeEdge`,
     description: `Numerical, verbal, and situational judgement practice tests for the ${pack.company} apprenticeship application.`,
   };
 }
@@ -41,7 +41,7 @@ export default async function PracticeTestsPage({ params }: Props) {
     redirect("/checkout");
   }
 
-  // Load question bank — 404 if no bank exists for this employer
+  // Load question bank: 404 if no bank exists for this employer
   const bankPath = path.join(process.cwd(), "content", "psychometric", `${slug}.json`);
   if (!fs.existsSync(bankPath)) {
     notFound();
@@ -73,7 +73,7 @@ export default async function PracticeTestsPage({ params }: Props) {
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img src={`/logos/${pack.logoFile}`} alt={pack.company} className="h-10 w-auto" />
             <div>
-              <h1 className="text-xl font-bold text-slate-900">{pack.company} — Practice Tests</h1>
+              <h1 className="text-xl font-bold text-slate-900">{pack.company}: Practice Tests</h1>
               <p className="text-slate-500 text-sm">Numerical · Verbal · Situational Judgement · Not affiliated with {pack.company}</p>
             </div>
           </div>

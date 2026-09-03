@@ -138,7 +138,7 @@
       "question": "Goldman Sachs has already achieved net zero operational emissions.",
       "options": ["True", "False", "Cannot Say"],
       "answer": "Cannot Say",
-      "explanation": "The passage states Goldman has 'committed' to net zero by 2030 and that progress is subject to review — it does not state the target has been achieved."
+      "explanation": "The passage states Goldman has 'committed' to net zero by 2030 and that progress is subject to review: it does not state the target has been achieved."
     },
     {
       "id": 5,
@@ -146,11 +146,11 @@
       "question": "Goldman Sachs apprentices in the UK remain in the same division throughout their programme.",
       "options": ["True", "False", "Cannot Say"],
       "answer": "False",
-      "explanation": "The passage states apprentices 'rotate across different business areas' — they do not stay in one division."
+      "explanation": "The passage states apprentices 'rotate across different business areas': they do not stay in one division."
     },
     {
       "id": 6,
-      "passage": "Investment banking fees are typically transaction-dependent, making IBD revenues cyclical. When M&A volumes fall — as they did in 2022 and 2023 due to rising interest rates and market uncertainty — IBD revenues fall with them. Advisory revenues at Goldman fell significantly in this period before recovering in 2024.",
+      "passage": "Investment banking fees are typically transaction-dependent, making IBD revenues cyclical. When M&A volumes fall: as they did in 2022 and 2023 due to rising interest rates and market uncertainty: IBD revenues fall with them. Advisory revenues at Goldman fell significantly in this period before recovering in 2024.",
       "question": "IBD revenues at Goldman Sachs are stable regardless of market conditions.",
       "options": ["True", "False", "Cannot Say"],
       "answer": "False",
@@ -162,7 +162,7 @@
       "question": "London is Goldman Sachs's largest office globally.",
       "options": ["True", "False", "Cannot Say"],
       "answer": "False",
-      "explanation": "The passage says London is Goldman's largest office 'outside the US' — the New York global headquarters is implicitly larger."
+      "explanation": "The passage says London is Goldman's largest office 'outside the US': the New York global headquarters is implicitly larger."
     },
     {
       "id": 8,
@@ -170,7 +170,7 @@
       "question": "Apprentices at Goldman Sachs typically receive RSUs from their first year.",
       "options": ["True", "False", "Cannot Say"],
       "answer": "Cannot Say",
-      "explanation": "The passage says 'junior employees and apprentices may receive cash bonuses in early career years before becoming eligible for equity' — suggesting RSUs are not typical from year one, but the passage does not state this is a universal rule."
+      "explanation": "The passage says 'junior employees and apprentices may receive cash bonuses in early career years before becoming eligible for equity': suggesting RSUs are not typical from year one, but the passage does not state this is a universal rule."
     }
   ],
   "sjt": [
@@ -180,12 +180,12 @@
       "question": "Rank the following responses from MOST to LEAST effective.",
       "options": [
         "A. Escalate immediately to your manager or the team's risk control function, explaining what you've observed.",
-        "B. Wait for your colleague to return before doing anything — it may be correct and you could cause disruption by acting.",
-        "C. Correct the settlement date yourself in the system — the error seems obvious and time is short.",
+        "B. Wait for your colleague to return before doing anything: it may be correct and you could cause disruption by acting.",
+        "C. Correct the settlement date yourself in the system: the error seems obvious and time is short.",
         "D. Send your colleague an urgent message explaining the issue and ask them to fix it as soon as they are back."
       ],
       "ranking": ["A", "D", "B", "C"],
-      "explanation": "A is best — settlement errors in trading operations carry financial and regulatory risk; escalating to control functions immediately is the correct protocol. D is good but slower if the colleague is unreachable. B risks the error standing. C is worst — modifying trades without authorisation is a serious operational control breach regardless of intent."
+      "explanation": "A is best: settlement errors in trading operations carry financial and regulatory risk; escalating to control functions immediately is the correct protocol. D is good but slower if the colleague is unreachable. B risks the error standing. C is worst: modifying trades without authorisation is a serious operational control breach regardless of intent."
     },
     {
       "id": 2,
@@ -193,12 +193,12 @@
       "question": "Rank the following responses from MOST to LEAST effective.",
       "options": [
         "A. Politely deflect, saying you are not in a position to discuss specific positions, and steer conversation to general market themes.",
-        "B. Share what you know — the client is sophisticated and the relationship matters.",
+        "B. Share what you know: the client is sophisticated and the relationship matters.",
         "C. Look to your senior colleague for a cue and follow their lead.",
         "D. Excuse yourself briefly and text your manager asking how to handle the question."
       ],
       "ranking": ["A", "C", "D", "B"],
-      "explanation": "A is best — deflecting cleanly on non-public information is the professional, legally safe response. C is reasonable given your seniority — reading the senior colleague's response is sensible. D is cautious but disrupts the dinner. B is worst — sharing potentially non-public market positions with clients can breach market abuse regulations, regardless of relationship."
+      "explanation": "A is best: deflecting cleanly on non-public information is the professional, legally safe response. C is reasonable given your seniority: reading the senior colleague's response is sensible. D is cautious but disrupts the dinner. B is worst: sharing potentially non-public market positions with clients can breach market abuse regulations, regardless of relationship."
     },
     {
       "id": 3,
@@ -207,11 +207,11 @@
       "options": [
         "A. Tell your manager honestly that the deadline is at risk, explain why, and propose a revised timeline with what you can do to mitigate the delay.",
         "B. Commit to the original deadline and work extra hours to try to meet it without flagging the risk.",
-        "C. Say you are on track — you do not want to appear unable to manage your workload.",
+        "C. Say you are on track: you do not want to appear unable to manage your workload.",
         "D. Ask the team to collectively commit to the deadline without expressing your private concern."
       ],
       "ranking": ["A", "B", "D", "C"],
-      "explanation": "A is best — honest, proactive risk communication is fundamental in financial services. B is less ideal but reflects genuine effort; the problem is hidden risk. D avoids honest communication and diffuses individual accountability. C is worst — misrepresenting status is a conduct issue, and Goldman's culture values direct, honest communication precisely to avoid late surprises."
+      "explanation": "A is best: honest, proactive risk communication is fundamental in financial services. B is less ideal but reflects genuine effort; the problem is hidden risk. D avoids honest communication and diffuses individual accountability. C is worst: misrepresenting status is a conduct issue, and Goldman's culture values direct, honest communication precisely to avoid late surprises."
     },
     {
       "id": 4,
@@ -221,10 +221,10 @@
         "A. Decline to discuss work matters, explaining that your role means you can't talk about what you're working on.",
         "B. Mention that you are busy but give no specific details.",
         "C. Share general sector themes you find interesting, avoiding deal-specific information.",
-        "D. Tell your friend the details — it's a social setting and they're a trusted contact."
+        "D. Tell your friend the details: it's a social setting and they're a trusted contact."
       ],
       "ranking": ["A", "C", "B", "D"],
-      "explanation": "A is best — clear, non-negotiable refusal to discuss confidential matters is the safest and most professional response. C is acceptable if genuinely general. B is ambiguous and leaves room for further probing. D is worst — sharing confidential information with a journalist, even socially, is a serious information barrier breach with potential regulatory consequences."
+      "explanation": "A is best: clear, non-negotiable refusal to discuss confidential matters is the safest and most professional response. C is acceptable if genuinely general. B is ambiguous and leaves room for further probing. D is worst: sharing confidential information with a journalist, even socially, is a serious information barrier breach with potential regulatory consequences."
     },
     {
       "id": 5,
@@ -234,10 +234,10 @@
         "A. Flag your observation to your compliance or risk team immediately, describing what you noticed without speculating.",
         "B. Review more documents first to build a stronger case before escalating.",
         "C. Mention it informally to a colleague to see if they have noticed anything similar.",
-        "D. Do nothing — it could easily be an innocent explanation and you do not want to raise a false alarm."
+        "D. Do nothing: it could easily be an innocent explanation and you do not want to raise a false alarm."
       ],
       "ranking": ["A", "B", "C", "D"],
-      "explanation": "A is best — potential document irregularities in financial services must be escalated promptly to compliance; it is not your role to investigate, only to flag. B adds some evidence but delays escalation unnecessarily. C is too informal for a potential fraud indicator. D is worst — failing to escalate a potential compliance issue, however uncertain, can constitute a serious breach of your own obligations."
+      "explanation": "A is best: potential document irregularities in financial services must be escalated promptly to compliance; it is not your role to investigate, only to flag. B adds some evidence but delays escalation unnecessarily. C is too informal for a potential fraud indicator. D is worst: failing to escalate a potential compliance issue, however uncertain, can constitute a serious breach of your own obligations."
     }
   ]
 }

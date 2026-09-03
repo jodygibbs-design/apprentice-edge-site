@@ -88,7 +88,7 @@
     {
       "id": 13,
       "question": "If a pound sterling falls 5% against the US dollar, and a UK firm had $500,000 in dollar-denominated receivables, how does their sterling value change? (Starting rate: £1 = $1.25)",
-      "options": ["Increases by £20,000", "Increases by £21,053", "Decreases by £20,000", "No change — receivables are fixed in dollars"],
+      "options": ["Increases by £20,000", "Increases by £21,053", "Decreases by £20,000", "No change: receivables are fixed in dollars"],
       "answer": "B",
       "explanation": "Original sterling value: $500,000 ÷ 1.25 = £400,000. New rate: $1.25 × 0.95 = $1.1875. New sterling value: $500,000 ÷ 1.1875 = £421,053. Increase: £21,053."
     },
@@ -114,7 +114,7 @@
       "question": "BrightStart apprentices fund their own professional qualification study costs.",
       "options": ["True", "False", "Cannot Say"],
       "answer": "False",
-      "explanation": "The passage states 'all study costs are funded by Deloitte' — the statement is false."
+      "explanation": "The passage states 'all study costs are funded by Deloitte': the statement is false."
     },
     {
       "id": 2,
@@ -122,7 +122,7 @@
       "question": "Deloitte's immersive online assessment measures cognitive speed as its primary dimension.",
       "options": ["True", "False", "Cannot Say"],
       "answer": "False",
-      "explanation": "The passage explicitly says the assessment does not measure 'raw cognitive speed' — it evaluates judgement and decision-making in a simulated environment."
+      "explanation": "The passage explicitly says the assessment does not measure 'raw cognitive speed': it evaluates judgement and decision-making in a simulated environment."
     },
     {
       "id": 3,
@@ -130,7 +130,7 @@
       "question": "Deloitte's consulting practice is described as the largest of the Big Four consulting arms.",
       "options": ["True", "False", "Cannot Say"],
       "answer": "Cannot Say",
-      "explanation": "The passage says Deloitte consulting is 'one of the largest globally' — it does not specifically rank it as the largest among Big Four consulting arms."
+      "explanation": "The passage says Deloitte consulting is 'one of the largest globally': it does not specifically rank it as the largest among Big Four consulting arms."
     },
     {
       "id": 4,
@@ -138,11 +138,11 @@
       "question": "Candidates receive the topic for the final stage discussion on the day of the assessment.",
       "options": ["True", "False", "Cannot Say"],
       "answer": "False",
-      "explanation": "The passage states the topic 'is sent to candidates in advance' — not on the day."
+      "explanation": "The passage states the topic 'is sent to candidates in advance', not on the day."
     },
     {
       "id": 5,
-      "passage": "Deloitte's values — lead the way, serve with integrity, take care of each other, foster inclusion, and collaborate for measurable impact — underpin how the firm expects its people to behave. Candidates are assessed on how they demonstrate these values throughout the application process, not just at the interview stage.",
+      "passage": "Deloitte's values: lead the way, serve with integrity, take care of each other, foster inclusion, and collaborate for measurable impact: underpin how the firm expects its people to behave. Candidates are assessed on how they demonstrate these values throughout the application process, not just at the interview stage.",
       "question": "Deloitte only assesses candidates against its values at the final interview.",
       "options": ["True", "False", "Cannot Say"],
       "answer": "False",
@@ -158,7 +158,7 @@
     },
     {
       "id": 7,
-      "passage": "The BrightStart application process includes an online application, online assessments (including the immersive scenario), a job simulation stage, and a final stage assessment. Recruitment is rolling — candidates who apply earlier in the cycle move through the process faster and are more likely to secure a place before the cohort fills.",
+      "passage": "The BrightStart application process includes an online application, online assessments (including the immersive scenario), a job simulation stage, and a final stage assessment. Recruitment is rolling: candidates who apply earlier in the cycle move through the process faster and are more likely to secure a place before the cohort fills.",
       "question": "Applying early in the BrightStart recruitment cycle increases a candidate's chances of securing a place.",
       "options": ["True", "False", "Cannot Say"],
       "answer": "True",
@@ -180,12 +180,12 @@
       "question": "Rank the following responses from MOST to LEAST effective.",
       "options": [
         "A. Stop working on the report, message your manager explaining the issue clearly, and wait for guidance before proceeding.",
-        "B. Complete the report using the data as given — your manager provided it and is responsible for accuracy.",
+        "B. Complete the report using the data as given: your manager provided it and is responsible for accuracy.",
         "C. Make your best judgement about the correct figure, adjust the data, and complete the report.",
         "D. Flag the issue to another senior colleague who can advise while your manager is unavailable."
       ],
       "ranking": ["A", "D", "B", "C"],
-      "explanation": "A is best — stopping and escalating is the right response to a data integrity issue. D is a sound fallback if your manager can't be reached. B is passive; it does not absolve you of responsibility for submitting inaccurate work. C is worst — adjusting source data without authorisation is a serious integrity breach regardless of intent."
+      "explanation": "A is best: stopping and escalating is the right response to a data integrity issue. D is a sound fallback if your manager can't be reached. B is passive; it does not absolve you of responsibility for submitting inaccurate work. C is worst: adjusting source data without authorisation is a serious integrity breach regardless of intent."
     },
     {
       "id": 2,
@@ -195,36 +195,36 @@
         "A. Say nothing during lunch, but check in with the junior colleague afterwards to see how they are doing.",
         "B. Address the comment directly and calmly in the moment, noting it came across in a way that might not have been intended.",
         "C. Raise it with your manager after lunch so they are aware of the team dynamic.",
-        "D. Ignore it — social comments between colleagues are normal and it is not your place to intervene."
+        "D. Ignore it: social comments between colleagues are normal and it is not your place to intervene."
       ],
       "ranking": ["B", "A", "C", "D"],
-      "explanation": "B is best — Deloitte's value of 'foster inclusion' means addressing exclusionary behaviour in the moment, calmly and constructively. A shows care for the colleague but misses the chance to address the behaviour. C is appropriate as a follow-up if the pattern continues. D is worst — 'foster inclusion' explicitly asks people to act, not watch."
+      "explanation": "B is best: Deloitte's value of 'foster inclusion' means addressing exclusionary behaviour in the moment, calmly and constructively. A shows care for the colleague but misses the chance to address the behaviour. C is appropriate as a follow-up if the pattern continues. D is worst: 'foster inclusion' explicitly asks people to act, not watch."
     },
     {
       "id": 3,
       "scenario": "You have been asked to present findings from a piece of analysis to the wider team. The night before, you discover that a key assumption underpinning your analysis was incorrect. Correcting it would change the conclusion materially, but it would also require several hours of rework.",
       "question": "Rank the following responses from MOST to LEAST effective.",
       "options": [
-        "A. Stay late, correct the analysis, and present the accurate findings tomorrow — even if it means a late night.",
+        "A. Stay late, correct the analysis, and present the accurate findings tomorrow, even if it means a late night.",
         "B. Present tomorrow as planned, flag the assumption issue verbally, and note the conclusion may change after review.",
         "C. Postpone the presentation, inform your manager of the issue, and agree a revised timeline to correct it properly.",
         "D. Present as planned and correct the analysis quietly afterwards without disclosing the error."
       ],
       "ranking": ["C", "A", "B", "D"],
-      "explanation": "C is best — delaying and fixing properly is more responsible than rushing or presenting known-inaccurate work. A is commendable effort but risks a tired, rushed correction being equally flawed. B is honest but presenting materially incorrect analysis is risky even with caveats. D is worst — presenting inaccurate findings without disclosure is a clear integrity failure."
+      "explanation": "C is best: delaying and fixing properly is more responsible than rushing or presenting known-inaccurate work. A is commendable effort but risks a tired, rushed correction being equally flawed. B is honest but presenting materially incorrect analysis is risky even with caveats. D is worst: presenting inaccurate findings without disclosure is a clear integrity failure."
     },
     {
       "id": 4,
-      "scenario": "You are working on a client engagement. A member of the client's team asks if you can give them an informal view on a specific tax position — something outside your formal scope but within your knowledge. You know the answer.",
+      "scenario": "You are working on a client engagement. A member of the client's team asks if you can give them an informal view on a specific tax position: something outside your formal scope but within your knowledge. You know the answer.",
       "question": "Rank the following responses from MOST to LEAST effective.",
       "options": [
         "A. Politely explain you can only provide formal advice within your engagement scope and suggest the client raises it with the engagement lead to discuss a proper scope extension.",
-        "B. Share your informal view, noting it is not formal advice — it is helpful and saves time.",
+        "B. Share your informal view, noting it is not formal advice: it is helpful and saves time.",
         "C. Ignore the request and redirect the conversation to the engagement topics.",
         "D. Escalate to your manager explaining the client has asked an out-of-scope question and ask how to handle it."
       ],
       "ranking": ["A", "D", "C", "B"],
-      "explanation": "A is best — setting scope boundaries clearly and directing the client through the right channel is the professional response. D is a solid alternative and may be necessary if you are unsure how to decline politely. C avoids the problem but is abrupt. B creates risk — informal out-of-scope advice can expose both you and Deloitte to liability, regardless of how well-intentioned."
+      "explanation": "A is best: setting scope boundaries clearly and directing the client through the right channel is the professional response. D is a solid alternative and may be necessary if you are unsure how to decline politely. C avoids the problem but is abrupt. B creates risk: informal out-of-scope advice can expose both you and Deloitte to liability, regardless of how well-intentioned."
     },
     {
       "id": 5,
@@ -232,12 +232,12 @@
       "question": "Rank the following responses from MOST to LEAST effective.",
       "options": [
         "A. Proactively send the client a corrected version with a brief note explaining the update.",
-        "B. Wait to see if the client raises it — if they have not noticed, no action is needed.",
+        "B. Wait to see if the client raises it: if they have not noticed, no action is needed.",
         "C. Mention it to your manager and let them decide whether to send a correction.",
         "D. Fix it in the next version of the document without mentioning it."
       ],
       "ranking": ["A", "C", "D", "B"],
-      "explanation": "A is best — proactive quality management and client care reflect Deloitte's values. C involves your manager appropriately and is a sound approach for a more junior person. D is low-risk but misses the transparency opportunity. B is worst in spirit — waiting for clients to find your errors before acting is not the standard Deloitte expects."
+      "explanation": "A is best: proactive quality management and client care reflect Deloitte's values. C involves your manager appropriately and is a sound approach for a more junior person. D is low-risk but misses the transparency opportunity. B is worst in spirit: waiting for clients to find your errors before acting is not the standard Deloitte expects."
     }
   ]
 }

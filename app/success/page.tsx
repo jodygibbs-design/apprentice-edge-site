@@ -3,7 +3,7 @@ import Script from "next/script";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Payment Successful — ApprenticeEdge",
+  title: "Payment Successful: ApprenticeEdge",
 };
 
 export default async function SuccessPage({
@@ -32,7 +32,7 @@ export default async function SuccessPage({
       </div>
       <h1 className="text-3xl font-bold text-gray-900 mb-3">You&apos;re in.</h1>
       <p className="text-gray-500 mb-2">
-        Your Season Pass is active. All 10 prep packs are unlocked on this device —
+        Your Season Pass is active. All 10 prep packs are unlocked on this device, 
         plus <strong className="text-gray-700">AI mock interviews</strong> for every employer and{" "}
         <strong className="text-gray-700">psychometric practice tests</strong>, all included.
       </p>
@@ -44,7 +44,7 @@ export default async function SuccessPage({
         <Link href="/restore-access" className="underline font-medium">
           Restore access
         </Link>{" "}
-        using your purchase email — no need to email us.
+        using your purchase email: no need to email us.
       </p>
       <Link
         href="/packs"

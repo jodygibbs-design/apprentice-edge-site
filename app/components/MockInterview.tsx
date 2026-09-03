@@ -86,7 +86,7 @@ export default function MockInterview({ employer, companyName }: Props) {
     setInput("");
 
     if (newMessages.length >= MAX_MESSAGES) {
-      setError("Session complete — you've reached the 20-message limit. Email your transcript below or start a new session.");
+      setError("Session complete: you've reached the 20-message limit. Email your transcript below or start a new session.");
       setShowTranscript(true);
       return;
     }
@@ -113,7 +113,7 @@ export default function MockInterview({ employer, companyName }: Props) {
     if (res.ok) {
       setSent(true);
     } else {
-      setError("Failed to send transcript — check your email address and try again.");
+      setError("Failed to send transcript: check your email address and try again.");
     }
   }
 
@@ -124,9 +124,9 @@ export default function MockInterview({ employer, companyName }: Props) {
     return (
       <div className="py-10 max-w-lg mx-auto">
         <div className="text-4xl mb-4">🎤</div>
-        <h2 className="text-2xl font-bold text-slate-900 mb-3">Practice Interview — {companyName}</h2>
+        <h2 className="text-2xl font-bold text-slate-900 mb-3">Practice Interview: {companyName}</h2>
         <p className="text-slate-600 text-sm leading-relaxed mb-5">
-          This is not a generic AI chatbot. The coach is trained specifically on the {companyName} prep pack —
+          This is not a generic AI chatbot. The coach is trained specifically on the {companyName} prep pack: 
           it knows the exact application stages, competencies, and question formats {companyName} uses.
           Every question it asks is grounded in that content. Every piece of feedback is specific to how {companyName} assesses candidates.
         </p>
@@ -134,7 +134,7 @@ export default function MockInterview({ employer, companyName }: Props) {
           {[
             `Questions drawn from ${companyName}'s actual application process`,
             "Structured feedback after every answer: what worked + what to improve",
-            "Push-back and follow-up questions — just like the real thing",
+            "Push-back and follow-up questions, just like the real thing",
             "Email your full transcript to yourself when done",
           ].map((item) => (
             <li key={item} className="flex items-start gap-2 text-sm text-slate-600">
@@ -187,7 +187,7 @@ export default function MockInterview({ employer, companyName }: Props) {
         <p className="text-sm text-red-600 bg-red-50 border border-red-100 rounded-lg px-4 py-2 mb-2">{error}</p>
       )}
 
-      {/* Transcript email form — appears after session or at limit */}
+      {/* Transcript email form: appears after session or at limit */}
       {(showTranscript || atLimit) && messages.length > 2 && (
         <div className="border border-slate-200 rounded-xl p-4 mb-3 bg-slate-50">
           {sent ? (

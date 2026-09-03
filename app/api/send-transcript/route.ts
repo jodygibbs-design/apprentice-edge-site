@@ -98,7 +98,7 @@ export async function POST(request: Request) {
   const { error } = await resend.emails.send({
     from: process.env.RESEND_FROM_EMAIL ?? "noreply@apprenticeedge.co.uk",
     to: email,
-    subject: `Your ${pack.company} mock interview — ApprenticeEdge`,
+    subject: `Your ${pack.company} mock interview: ApprenticeEdge`,
     html,
   });
 

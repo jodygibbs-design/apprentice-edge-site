@@ -40,7 +40,7 @@ export default function PaymentGate({ content: initialContent, packTitle, server
             setContent(data.content);
             setPaid(true);
           } else {
-            // Cookie genuinely expired — clear stale localStorage flag
+            // Cookie genuinely expired: clear stale localStorage flag
             localStorage.removeItem("ae_paid");
           }
           setChecked(true);
@@ -74,7 +74,7 @@ export default function PaymentGate({ content: initialContent, packTitle, server
           </ol>
           <p className="text-xs text-slate-400 mt-4 pt-4 border-t border-slate-200">
             Plus an AI mock interview coach trained on {companyName ?? "this employer"}&apos;s
-            process — included with the Season Pass.
+            process: included with the Season Pass.
           </p>
         </div>
       )}
@@ -86,14 +86,14 @@ export default function PaymentGate({ content: initialContent, packTitle, server
       </div>
       <h2 className="text-xl font-bold text-slate-900 mb-2">Season Pass required</h2>
       <p className="text-slate-500 mb-6 max-w-sm mx-auto text-sm leading-relaxed">
-        This pack is included in the ApprenticeEdge Season Pass — along with all nine other company-specific
+        This pack is included in the ApprenticeEdge Season Pass: along with all nine other company-specific
         prep packs, AI mock interviews, and practice tests.
       </p>
       <Link
         href="/checkout"
         className="inline-block bg-orange-500 text-white font-semibold px-8 py-3.5 rounded-xl hover:bg-orange-600 transition-colors shadow-md shadow-orange-500/20"
       >
-        Get the Season Pass — £29
+        Get the Season Pass, £29
       </Link>
       <p className="text-xs text-slate-400 mt-3 mb-6">All 10 packs. One payment. Instant access.</p>
       <p className="text-slate-400 text-sm">

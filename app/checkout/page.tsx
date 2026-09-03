@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import BuyButton from "@/app/components/BuyButton";
 
 export const metadata: Metadata = {
-  title: "ApprenticeEdge Season Pass — £29",
+  title: "ApprenticeEdge Season Pass, £29",
   description: "All 10 UK apprenticeship prep packs for £29. PwC, Deloitte, KPMG, EY, Goldman Sachs, Google, Amazon, Civil Service, BBC, NHS.",
 };
 
@@ -16,7 +16,7 @@ export default function CheckoutPage() {
         <h1 className="text-3xl font-bold text-gray-900 mb-3">Season Pass</h1>
         <p className="text-5xl font-bold text-blue-600 mb-2">£29</p>
         <p className="text-gray-500">One payment. All 10 packs. Instant access.</p>
-        <p className="text-sm text-gray-400 mt-1">Valid for the full 2026/27 application season — access until 31 August 2027.</p>
+        <p className="text-sm text-gray-400 mt-1">Valid for the full 2026/27 application season: access until 31 August 2027.</p>
       </div>
 
       <div className="border border-gray-200 rounded-2xl p-6 mb-8">
@@ -36,18 +36,18 @@ export default function CheckoutPage() {
           <ul className="space-y-2">
             <li className="flex items-center gap-3 text-gray-700">
               <span className="text-green-500">✓</span>
-              <span>AI mock interviews — a practice coach for every employer, unlimited sessions</span>
+              <span>AI mock interviews: a practice coach for every employer, unlimited sessions</span>
             </li>
             <li className="flex items-center gap-3 text-gray-700">
               <span className="text-green-500">✓</span>
-              <span>Practice tests — numerical, verbal &amp; situational judgement, timed and scored</span>
+              <span>Practice tests: numerical, verbal &amp; situational judgement, timed and scored</span>
             </li>
           </ul>
         </div>
       </div>
 
       <p className="text-sm text-gray-500 text-center mb-4">
-        Not sure? <a href="/packs/pwc" className="text-blue-600 underline">Read the free PwC pack first</a> —
+        Not sure? <a href="/packs/pwc" className="text-blue-600 underline">Read the free PwC pack first</a>: 
         the other nine are exactly this, for their employer.
       </p>
 

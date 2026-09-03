@@ -22,7 +22,7 @@ export async function POST(req: NextRequest) {
     const session = event.data.object as Stripe.Checkout.Session;
     const email = session.customer_email ?? session.customer_details?.email ?? "unknown";
     const amountGBP = ((session.amount_total ?? 0) / 100).toFixed(2);
-    // TODO: write to Supabase when MPC editor auth is added — migrate ApprenticeEdge at the same time
+    // TODO: write to Supabase when MPC editor auth is added: migrate ApprenticeEdge at the same time
     console.log(`AE_PAID email=${email} session=${session.id} amount=£${amountGBP}`);
   }
 

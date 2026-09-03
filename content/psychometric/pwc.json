@@ -114,7 +114,7 @@
       "question": "The PwC School Leaver Programme requires a university degree as a prerequisite.",
       "options": ["True", "False", "Cannot Say"],
       "answer": "False",
-      "explanation": "The passage states the SLP offers 'direct entry to professional qualifications without requiring a university degree' — the statement is false."
+      "explanation": "The passage states the SLP offers 'direct entry to professional qualifications without requiring a university degree': the statement is false."
     },
     {
       "id": 2,
@@ -122,7 +122,7 @@
       "question": "PwC has experienced its own high-profile audit failures that prompted investment in quality frameworks.",
       "options": ["True", "False", "Cannot Say"],
       "answer": "Cannot Say",
-      "explanation": "The passage mentions audit failures at 'competitors', not at PwC specifically. Whether PwC has had its own failures is not addressed — you cannot say."
+      "explanation": "The passage mentions audit failures at 'competitors', not at PwC specifically. Whether PwC has had its own failures is not addressed: you cannot say."
     },
     {
       "id": 3,
@@ -138,7 +138,7 @@
       "question": "All BrightFutures participants receive a job offer from PwC after completing their placement.",
       "options": ["True", "False", "Cannot Say"],
       "answer": "False",
-      "explanation": "The passage states participants 'do not automatically receive a job offer' — the statement is false."
+      "explanation": "The passage states participants 'do not automatically receive a job offer': the statement is false."
     },
     {
       "id": 5,
@@ -150,11 +150,11 @@
     },
     {
       "id": 6,
-      "passage": "Apprenticeships at PwC lead to the AAT qualification initially, followed by the ACA for those in audit and tax pathways. Study time is funded and protected — PwC guarantees a minimum of 20% off-the-job training time as required by UK apprenticeship law. Apprentices sit exams alongside their day-to-day client work.",
+      "passage": "Apprenticeships at PwC lead to the AAT qualification initially, followed by the ACA for those in audit and tax pathways. Study time is funded and protected: PwC guarantees a minimum of 20% off-the-job training time as required by UK apprenticeship law. Apprentices sit exams alongside their day-to-day client work.",
       "question": "UK apprenticeship law requires at least 20% of working time to be dedicated to off-the-job training.",
       "options": ["True", "False", "Cannot Say"],
       "answer": "True",
-      "explanation": "The passage states PwC 'guarantees a minimum of 20% off-the-job training time as required by UK apprenticeship law' — confirming the 20% requirement exists in law."
+      "explanation": "The passage states PwC 'guarantees a minimum of 20% off-the-job training time as required by UK apprenticeship law': confirming the 20% requirement exists in law."
     },
     {
       "id": 7,
@@ -162,11 +162,11 @@
       "question": "PwC's Immersive Online Assessment primarily measures how quickly candidates can answer questions.",
       "options": ["True", "False", "Cannot Say"],
       "answer": "False",
-      "explanation": "The passage says it 'does not primarily measure cognitive speed' — the statement is false."
+      "explanation": "The passage says it 'does not primarily measure cognitive speed': the statement is false."
     },
     {
       "id": 8,
-      "passage": "PwC operates in four main lines of service: Assurance, Tax, Advisory, and the Alliance — a network of relationships with other professional services firms. Within Assurance, audit is the largest sub-service. Demand for ESG assurance is a key growth driver, as clients increasingly need third-party verification of sustainability data.",
+      "passage": "PwC operates in four main lines of service: Assurance, Tax, Advisory, and the Alliance: a network of relationships with other professional services firms. Within Assurance, audit is the largest sub-service. Demand for ESG assurance is a key growth driver, as clients increasingly need third-party verification of sustainability data.",
       "question": "ESG assurance is cited as a growth area within PwC's Assurance practice.",
       "options": ["True", "False", "Cannot Say"],
       "answer": "True",
@@ -185,7 +185,7 @@
         "D. Escalate directly to the partner, bypassing the senior, to ensure it is addressed before the deadline."
       ],
       "ranking": ["A", "D", "C", "B"],
-      "explanation": "A is best — it documents the issue properly and raises it through the right channel promptly. D may be necessary if A isn't possible in time, but bypassing hierarchy without reason is disruptive. C risks the error being submitted. B is worst — never alter a colleague's sign-off without authorisation; this is an integrity failure."
+      "explanation": "A is best: it documents the issue properly and raises it through the right channel promptly. D may be necessary if A isn't possible in time, but bypassing hierarchy without reason is disruptive. C risks the error being submitted. B is worst: never alter a colleague's sign-off without authorisation; this is an integrity failure."
     },
     {
       "id": 2,
@@ -198,7 +198,7 @@
         "D. Forward the email to your engagement manager with a note flagging the out-of-scope request and recommend how it could be handled."
       ],
       "ranking": ["D", "A", "C", "B"],
-      "explanation": "D is best — you keep the client informed indirectly while escalating properly. A is also good; being transparent with the client about scope is correct. C is passive but avoids giving informal advice. B is worst — informal out-of-scope advice creates liability risk and is not how professional services firms operate."
+      "explanation": "D is best: you keep the client informed indirectly while escalating properly. A is also good; being transparent with the client about scope is correct. C is passive but avoids giving informal advice. B is worst: informal out-of-scope advice creates liability risk and is not how professional services firms operate."
     },
     {
       "id": 3,
@@ -207,24 +207,24 @@
       "options": [
         "A. Send your colleague a message flagging the specific figures you think are wrong and asking them to confirm or correct.",
         "B. Correct the figures yourself without telling anyone, to save time.",
-        "C. Leave it — your colleague might have used different source data and it is not your slide.",
+        "C. Leave it: your colleague might have used different source data and it is not your slide.",
         "D. Raise it with your line manager so they are aware and can decide how to handle it."
       ],
       "ranking": ["A", "D", "C", "B"],
-      "explanation": "A is best — you raise the issue directly with the person responsible while there is still time. D is a sound backup if A gets no response. C is risky; taking no action on a potential error in a client-facing document reflects poor judgement. B is worst — amending a colleague's work without permission or notification undermines trust and team process."
+      "explanation": "A is best: you raise the issue directly with the person responsible while there is still time. D is a sound backup if A gets no response. C is risky; taking no action on a potential error in a client-facing document reflects poor judgement. B is worst: amending a colleague's work without permission or notification undermines trust and team process."
     },
     {
       "id": 4,
-      "scenario": "You overhear two colleagues discussing details of a client matter — including the client's name and a sensitive financial position — in a public area of the office where other clients and visitors may be present.",
+      "scenario": "You overhear two colleagues discussing details of a client matter, including the client's name and a sensitive financial position, in a public area of the office where other clients and visitors may be present.",
       "question": "Rank the following responses from MOST to LEAST effective.",
       "options": [
         "A. Discreetly interrupt the conversation, point out that the area is not private, and suggest they continue the discussion in a meeting room.",
-        "B. Do nothing — it is not your conversation and they are senior to you.",
+        "B. Do nothing: it is not your conversation and they are senior to you.",
         "C. Report the incident immediately to the ethics and independence team without speaking to the colleagues first.",
         "D. Wait until the conversation is finished and then mention to one of the colleagues that they should be careful in public spaces."
       ],
       "ranking": ["A", "D", "C", "B"],
-      "explanation": "A is best — you address the confidentiality risk immediately and professionally, without making it confrontational. D is better than nothing but allows the risk to continue. C escalates too aggressively for a first instance where a quiet word would suffice. B is worst — ignoring a clear confidentiality breach is not consistent with PwC's integrity values."
+      "explanation": "A is best: you address the confidentiality risk immediately and professionally, without making it confrontational. D is better than nothing but allows the risk to continue. C escalates too aggressively for a first instance where a quiet word would suffice. B is worst: ignoring a clear confidentiality breach is not consistent with PwC's integrity values."
     },
     {
       "id": 5,
@@ -232,12 +232,12 @@
       "question": "Rank the following responses from MOST to LEAST effective.",
       "options": [
         "A. Tell your manager you are slightly behind, explain why briefly, and state when you expect to complete it.",
-        "B. Say you are on track — you can stay late to catch up and no one needs to know.",
+        "B. Say you are on track: you can stay late to catch up and no one needs to know.",
         "C. Ask if you can speak to your manager privately after the meeting to discuss, rather than disclosing in front of the team.",
         "D. Ask a colleague to cover the work without telling your manager."
       ],
       "ranking": ["A", "C", "D", "B"],
-      "explanation": "A is best — honest, brief, and solution-focused. This is exactly what PwC values: transparency under pressure. C is acceptable if the team setting feels inappropriate, but delaying the conversation adds risk. D is problematic — redistributing work without informing the manager undermines oversight. B is worst — concealing a problem and hoping to fix it privately is dishonest and, if you fail to catch up, damages trust far more than being upfront."
+      "explanation": "A is best: honest, brief, and solution-focused. This is exactly what PwC values: transparency under pressure. C is acceptable if the team setting feels inappropriate, but delaying the conversation adds risk. D is problematic: redistributing work without informing the manager undermines oversight. B is worst: concealing a problem and hoping to fix it privately is dishonest and, if you fail to catch up, damages trust far more than being upfront."
     }
   ]
 }

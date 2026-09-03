@@ -4,7 +4,7 @@ import PacksSection from "@/app/components/PacksSection";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "All Apprenticeship Prep Packs — ApprenticeEdge",
+  title: "All Apprenticeship Prep Packs: ApprenticeEdge",
   description: "Insider prep packs for PwC, Goldman Sachs, Deloitte, KPMG, EY, Google, Amazon, Civil Service, BBC, and NHS apprenticeships. Free PwC pack available now.",
 };
 
@@ -26,7 +26,7 @@ export default function PacksPage() {
           </h1>
           <p className="text-slate-500 max-w-xl">
             PwC, Goldman Sachs, Deloitte, KPMG, EY, Google, Amazon, Civil Service, BBC, and NHS.
-            Start with the free PwC pack — or get all 10 with a Season Pass.
+            Start with the free PwC pack, or get all 10 with a Season Pass.
           </p>
         </div>
       </section>
@@ -45,7 +45,7 @@ export default function PacksPage() {
             className="inline-block bg-orange-500 text-white font-bold px-10 py-4 rounded-xl hover:bg-orange-400 transition-colors text-lg"
             style={{ boxShadow: "0 8px 32px rgba(249,115,22,0.35)" }}
           >
-            Buy Season Pass — £29
+            Buy Season Pass, £29
           </Link>
         </div>
       </section>

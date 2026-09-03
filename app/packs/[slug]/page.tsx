@@ -24,8 +24,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const pack = getPackBySlug(slug);
   if (!pack) return {};
   return {
-    title: `${pack.title} Apprenticeship Prep Pack — ApprenticeEdge`,
-    description: `Prep pack for the ${pack.title} apprenticeship. Application stages, interview questions, competencies, and commercial awareness — everything a UK school leaver needs.`,
+    title: `${pack.title} Apprenticeship Prep Pack: ApprenticeEdge`,
+    description: `Prep pack for the ${pack.title} apprenticeship. Application stages, interview questions, competencies, and commercial awareness: everything a UK school leaver needs.`,
   };
 }
 
@@ -74,7 +74,7 @@ export default async function PackPage({ params }: Props) {
                   </span>
                 </div>
                 <h1 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mb-1">{pack.title} Apprenticeship</h1>
-                <p className="text-slate-500 text-sm">Insider prep pack — application stages, competencies, interview questions, and commercial context.</p>
+                <p className="text-slate-500 text-sm">Insider prep pack: application stages, competencies, interview questions, and commercial context.</p>
               </div>
             </div>
           </div>
@@ -91,7 +91,7 @@ export default async function PackPage({ params }: Props) {
           <div className="max-w-3xl mx-auto px-6 py-4">
             <p className="text-xs text-slate-400 leading-relaxed">
               ApprenticeEdge is not affiliated with, endorsed by, or partnered with {pack.company}.
-              Content is based on publicly available information and research. Application processes change —
+              Content is based on publicly available information and research. Application processes change: 
               always verify with the employer&apos;s official website.
             </p>
           </div>
@@ -115,7 +115,7 @@ export default async function PackPage({ params }: Props) {
             <span className="mx-2">›</span>
             <span className="text-slate-600">{pack.title}</span>
           </p>
-          {/* Tab bar shown to all users — locked tabs show paywall modal for non-paid */}
+          {/* Tab bar shown to all users: locked tabs show paywall modal for non-paid */}
           <PackTabBar
             slug={slug}
             paid={serverPaid}
@@ -137,7 +137,7 @@ export default async function PackPage({ params }: Props) {
                 <span className="text-slate-400 text-xs">Enter your email to unlock</span>
               </div>
               <h1 className="text-3xl font-extrabold text-slate-900 tracking-tight mb-1">{pack.title} Apprenticeship</h1>
-              <p className="text-slate-500 text-sm">Insider prep pack — application stages, competencies, interview questions, and commercial context.</p>
+              <p className="text-slate-500 text-sm">Insider prep pack: application stages, competencies, interview questions, and commercial context.</p>
             </div>
           </div>
         </div>
@@ -156,17 +156,17 @@ export default async function PackPage({ params }: Props) {
         <div className="max-w-3xl mx-auto px-6 py-4">
           <p className="text-xs text-slate-400 leading-relaxed">
             ApprenticeEdge is not affiliated with, endorsed by, or partnered with {pack.company}.
-            Content is based on publicly available information and research. Application processes change —
+            Content is based on publicly available information and research. Application processes change: 
             always verify with the employer&apos;s official website.
           </p>
         </div>
       </section>
 
-      {/* Season Pass CTA — update copy to sell all three features */}
+      {/* Season Pass CTA: update copy to sell all three features */}
       <section className="bg-slate-900">
         <div className="max-w-3xl mx-auto px-6 py-16 text-center">
           <p className="text-slate-400 text-sm font-semibold uppercase tracking-widest mb-3">Want everything?</p>
-          <h2 className="text-2xl font-bold text-white mb-3">Season Pass — £29</h2>
+          <h2 className="text-2xl font-bold text-white mb-3">Season Pass, £29</h2>
           <p className="text-slate-400 mb-4 text-sm max-w-md mx-auto">
             All 10 employer packs, plus AI mock interviews and practice tests. One payment. Instant access.
           </p>
@@ -179,7 +179,7 @@ export default async function PackPage({ params }: Props) {
             href="/checkout"
             className="inline-block bg-orange-500 text-white font-semibold px-8 py-3.5 rounded-xl hover:bg-orange-600 transition-colors shadow-lg shadow-orange-500/20"
           >
-            Get the Season Pass — £29
+            Get the Season Pass, £29
           </Link>
         </div>
       </section>

@@ -6,7 +6,7 @@
  *   node scripts/gdpr.mjs lookup user@email.com
  *   node scripts/gdpr.mjs delete user@email.com
  *
- * Requires NEXT_PUBLIC_MAILERLITE_API_KEY in .env.local
+ * Requires MAILERLITE_API_KEY in .env.local
  */
 
 import { readFileSync } from "fs";
@@ -31,9 +31,9 @@ function loadEnv() {
 
 loadEnv();
 
-const API_KEY = process.env.NEXT_PUBLIC_MAILERLITE_API_KEY;
+const API_KEY = process.env.MAILERLITE_API_KEY;
 if (!API_KEY) {
-  console.error("NEXT_PUBLIC_MAILERLITE_API_KEY not found in .env.local");
+  console.error("MAILERLITE_API_KEY not found in .env.local");
   process.exit(1);
 }
 

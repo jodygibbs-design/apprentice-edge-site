@@ -18,10 +18,10 @@ const COMPANY_LOGOS = [
 
 const FEATURES = [
   { label: "Exact application stages", desc: "What to expect at every round, from online form to final interview, with weak vs. strong worked examples for the killer application question" },
-  { label: "Company-specific competencies", desc: "What each employer actually tests for — and what they don't" },
+  { label: "Company-specific competencies", desc: "What each employer actually tests for, and what they don't" },
   { label: "Real interview questions", desc: "Questions they actually ask, with notes on what a strong answer looks like" },
   { label: "Commercial awareness", desc: "The numbers and context that impress interviewers, not generic business chat" },
-  { label: "Why this company — model answer", desc: "A framework for the hardest question that catches most candidates off guard" },
+  { label: "Why this company: model answer", desc: "A framework for the hardest question that catches most candidates off guard" },
   { label: "Pre-submission checklist", desc: "A final-pass checklist so nothing gets submitted half-prepared" },
 ];
 
@@ -31,7 +31,7 @@ export default function HomePage() {
 
   return (
     <div>
-      {/* Hero — self-contained with dark/light toggle */}
+      {/* Hero: self-contained with dark/light toggle */}
       <HeroContent freePackSlug={freePack.slug} />
 
       {/* Company logos bar */}
@@ -54,7 +54,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Problem statement — dark impact band */}
+      {/* Problem statement: dark impact band */}
       <section style={{ backgroundColor: "#0A1628" }}>
         <div className="max-w-3xl mx-auto px-6 py-20 text-center">
           <p className="text-xs font-semibold uppercase tracking-widest mb-4" style={{ color: "#F97316" }}>
@@ -65,7 +65,7 @@ export default function HomePage() {
           </h2>
           <p className="text-lg leading-relaxed max-w-2xl mx-auto" style={{ color: "#94A3B8" }}>
             Apprentices who are offered PwC or Goldman Sachs places didn&apos;t get lucky.
-            They knew the application process inside-out — the exact competencies, the situational judgement format,
+            They knew the application process inside-out: the exact competencies, the situational judgement format,
             the commercial context. ApprenticeEdge gives you that same knowledge,
             without the £500 tutoring sessions.
           </p>
@@ -95,11 +95,11 @@ export default function HomePage() {
               </div>
               <h3 className="text-lg font-bold text-slate-900 mb-2">Employer Prep Packs</h3>
               <p className="text-sm text-slate-500 leading-relaxed mb-5">
-                The insider guide for each employer — written specifically for that company, not adapted from generic advice.
+                The insider guide for each employer: written specifically for that company, not adapted from generic advice.
               </p>
               <ul className="space-y-2 text-sm text-slate-600 mb-6 flex-1">
                 {[
-                  "Exact application stages — every round",
+                  "Exact application stages: every round",
                   "Weak vs. strong worked examples for the killer application question",
                   "Company-specific competencies",
                   "Real interview questions + answer guidance",
@@ -130,14 +130,14 @@ export default function HomePage() {
               </div>
               <h3 className="text-lg font-bold text-slate-900 mb-2">AI Mock Interviews</h3>
               <p className="text-sm text-slate-500 leading-relaxed mb-5">
-                Not a generic AI. The coach is trained on each employer&apos;s specific pack — it knows their
+                Not a generic AI. The coach is trained on each employer&apos;s specific pack: it knows their
                 application stages, competencies, and question formats. Every question and every piece of feedback is built around that company.
               </p>
               <ul className="space-y-2 text-sm text-slate-600 mb-6 flex-1">
                 {[
                   "Questions drawn from your employer's pack",
                   "Structured feedback: what worked + what to improve",
-                  "Grounded on pack content only — no hallucination",
+                  "Grounded on pack content only: no hallucination",
                   "Email your transcript to yourself",
                   "Unlimited sessions",
                   "All 10 employers",
@@ -163,13 +163,13 @@ export default function HomePage() {
               </div>
               <h3 className="text-lg font-bold text-slate-900 mb-2">Practice Tests</h3>
               <p className="text-sm text-slate-500 leading-relaxed mb-5">
-                Numerical, verbal, and situational judgement tests written in the style of employer assessments — timed, scored, and explained.
+                Numerical, verbal, and situational judgement tests written in the style of employer assessments: timed, scored, and explained.
               </p>
               <ul className="space-y-2 text-sm text-slate-600 mb-6 flex-1">
                 {[
-                  "Numerical reasoning — 15 questions",
-                  "Verbal reasoning — 8 questions",
-                  "Situational judgement (SJT) — 5 scenarios",
+                  "Numerical reasoning: 15 questions",
+                  "Verbal reasoning: 8 questions",
+                  "Situational judgement (SJT): 5 scenarios",
                   "Timer + score + full explanations",
                   "Unlimited retakes",
                   "PwC, Deloitte, Goldman Sachs (more coming)",
@@ -261,7 +261,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Season Pass pricing — bold dark section */}
+      {/* Season Pass pricing: bold dark section */}
       <section style={{ background: "linear-gradient(160deg, #0A1628 0%, #0F2340 100%)" }}>
         <div className="max-w-3xl mx-auto px-6 py-24 text-center">
           <p className="text-xs font-semibold uppercase tracking-widest mb-5" style={{ color: "#C4922A" }}>

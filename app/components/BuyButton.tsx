@@ -45,7 +45,7 @@ export default function BuyButton() {
         disabled={loading}
         className="w-full bg-blue-600 text-white font-semibold py-4 rounded-xl text-lg hover:bg-blue-700 transition-colors disabled:opacity-60"
       >
-        {loading ? "Loading…" : "Buy now — £29"}
+        {loading ? "Loading…" : "Buy now, £29"}
       </button>
       {error && <p className="text-red-500 text-sm mt-2">{error}</p>}
     </div>

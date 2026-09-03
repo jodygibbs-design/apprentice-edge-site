@@ -2,9 +2,9 @@ import { COMPANIES, TOPICS } from "@/lib/seo-guides";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Free Apprenticeship Guides — ApprenticeEdge",
+  title: "Free Apprenticeship Guides: ApprenticeEdge",
   description:
-    "Free, detailed guides for every stage of the UK's most competitive school leaver apprenticeship applications — PwC, Goldman Sachs, Deloitte, KPMG, EY, Google, Amazon, Civil Service, BBC, and NHS.",
+    "Free, detailed guides for every stage of the UK's most competitive school leaver apprenticeship applications: PwC, Goldman Sachs, Deloitte, KPMG, EY, Google, Amazon, Civil Service, BBC, and NHS.",
 };
 
 const FEATURED_TOPICS = [
@@ -34,12 +34,12 @@ export default function GuidesIndexPage() {
         </h1>
         <p className="text-lg text-slate-600 max-w-2xl">
           Company-specific prep guides for every stage of the UK&apos;s most competitive
-          school leaver applications — interview questions, assessment centres, competencies,
+          school leaver applications: interview questions, assessment centres, competencies,
           and more. All free.
         </p>
       </div>
 
-      {/* General guides — not employer-specific */}
+      {/* General guides, not employer-specific */}
       <div className="mb-10 grid gap-3 sm:grid-cols-2">
         <a
           href="/apprenticeship-interview-preparation"
@@ -139,7 +139,7 @@ export default function GuidesIndexPage() {
       <div className="mt-14 bg-[#0D1B2A] rounded-2xl p-8 text-center">
         <p className="text-white font-bold text-xl mb-2">Want the full prep pack?</p>
         <p className="text-slate-400 text-sm mb-6 max-w-md mx-auto">
-          Guides give you the framework. Prep packs give you the insider detail — worked STAR
+          Guides give you the framework. Prep packs give you the insider detail: worked STAR
           examples, mock questions, company-specific tips, and the exact things assessors mark
           you on.
         </p>
@@ -147,7 +147,7 @@ export default function GuidesIndexPage() {
           href="/checkout"
           className="inline-block bg-[#C4922A] text-white font-bold px-8 py-3 rounded-lg text-sm hover:bg-[#B07E20] transition-colors"
         >
-          Get all 10 packs — Season Pass £29
+          Get all 10 packs: Season Pass £29
         </a>
       </div>
     </div>

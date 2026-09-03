@@ -38,7 +38,7 @@ export default function PacksSection({ freePack, paidPacks }: Props) {
               <span className="font-semibold">{freePack.title}</span>
               <span className="text-xs bg-white text-blue-700 px-2 py-0.5 rounded font-semibold">Free</span>
             </div>
-            <p className="text-blue-100 text-sm">Free preview — email unlocks the full pack</p>
+            <p className="text-blue-100 text-sm">Free preview: email unlocks the full pack</p>
           </Link>
 
           {paidPacks.map((pack) => (

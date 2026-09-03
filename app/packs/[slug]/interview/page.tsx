@@ -23,7 +23,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const pack = getPackBySlug(slug);
   if (!pack) return {};
   return {
-    title: `${pack.company} Practice Interview — ApprenticeEdge`,
+    title: `${pack.company} Practice Interview: ApprenticeEdge`,
     description: `AI mock interview coach for ${pack.company} apprenticeship applications. Grounded on the ${pack.company} prep pack.`,
   };
 }
@@ -67,8 +67,8 @@ export default async function InterviewPage({ params }: Props) {
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img src={`/logos/${pack.logoFile}`} alt={pack.company} className="h-10 w-auto" />
             <div>
-              <h1 className="text-xl font-bold text-slate-900">{pack.company} — Practice Interview</h1>
-              <p className="text-slate-500 text-sm">AI coach trained on the {pack.company} pack content — not a generic tool · Not affiliated with {pack.company}</p>
+              <h1 className="text-xl font-bold text-slate-900">{pack.company}: Practice Interview</h1>
+              <p className="text-slate-500 text-sm">AI coach trained on the {pack.company} pack content, not a generic tool · Not affiliated with {pack.company}</p>
             </div>
           </div>
         </div>
