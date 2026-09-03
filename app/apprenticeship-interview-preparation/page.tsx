@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { COMPANIES } from "@/lib/seo-guides";
-import PrepCTA from "@/app/components/PrepCTA";
+import PrepCapture from "@/app/components/PrepCapture";
 
 export const metadata: Metadata = {
   title: "How to Prepare for an Apprenticeship Interview (2026 Guide) · ApprenticeEdge",
@@ -290,7 +290,7 @@ export default function ApprenticeshipInterviewPreparationPage() {
             </div>
           </Section>
 
-          <PrepCTA context="Want to see all of this applied to a real employer?" />
+          <PrepCapture context="Want to see all of this applied to a real employer?" />
 
           <Section id="video-interview" title="The pre-recorded video interview">
             <p className="text-slate-600 leading-relaxed mb-6">
@@ -477,7 +477,7 @@ export default function ApprenticeshipInterviewPreparationPage() {
             </div>
           </Section>
 
-          <PrepCTA context="Start with the free pack, then decide" />
+          <PrepCapture context="Start with the free pack, then decide" />
 
         </div>
       </section>

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import PrepCTA from "@/app/components/PrepCTA";
+import PrepCapture from "@/app/components/PrepCapture";
 
 export const metadata: Metadata = {
   title: "Apprenticeship Online Assessments and Psychometric Tests · Free Guide",
@@ -180,7 +180,7 @@ export default function ApprenticeshipOnlineAssessmentsPage() {
             ))}
           </div>
 
-          <PrepCTA context="Practising is the whole game here" />
+          <PrepCapture context="Practising is the whole game here" />
 
           <h2 className="text-2xl font-extrabold text-slate-900 tracking-tight mt-12 mb-4">
             How to prepare, in order
