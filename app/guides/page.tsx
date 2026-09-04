@@ -5,6 +5,7 @@ export const metadata: Metadata = {
   title: "Free Apprenticeship Guides: ApprenticeEdge",
   description:
     "Free, detailed guides for every stage of the UK's most competitive school leaver apprenticeship applications: PwC, Goldman Sachs, Deloitte, KPMG, EY, Google, Amazon, Civil Service, BBC, and NHS.",
+  alternates: { canonical: "/guides" },
 };
 
 const FEATURED_TOPICS = [

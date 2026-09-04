@@ -6,6 +6,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "All Apprenticeship Prep Packs: ApprenticeEdge",
   description: "Insider prep packs for PwC, Goldman Sachs, Deloitte, KPMG, EY, Google, Amazon, Civil Service, BBC, and NHS apprenticeships. Free PwC pack available now.",
+  alternates: { canonical: "/packs" },
 };
 
 export default function PacksPage() {

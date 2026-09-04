@@ -26,6 +26,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${pack.title} Apprenticeship Prep Pack: ApprenticeEdge`,
     description: `Prep pack for the ${pack.title} apprenticeship. Application stages, interview questions, competencies, and commercial awareness: everything a UK school leaver needs.`,
+    alternates: { canonical: `/packs/${slug}` },
   };
 }
 

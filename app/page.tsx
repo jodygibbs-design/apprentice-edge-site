@@ -1,7 +1,14 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 import { PACKS } from "@/lib/packs";
 import HeroContent from "@/app/components/HeroContent";
 import PacksSection from "@/app/components/PacksSection";
+
+// Only alternates is set here. Title, description and openGraph are deliberately left to the
+// root layout, which already carries the homepage's copy, and unset fields are inherited.
+export const metadata: Metadata = {
+  alternates: { canonical: "/" },
+};
 
 const COMPANY_LOGOS = [
   { name: "PwC", file: "pwc.svg", lg: true },

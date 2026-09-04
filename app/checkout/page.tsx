@@ -5,6 +5,7 @@ import BuyButton from "@/app/components/BuyButton";
 export const metadata: Metadata = {
   title: "ApprenticeEdge Season Pass, £29",
   description: "All 10 UK apprenticeship prep packs for £29. PwC, Deloitte, KPMG, EY, Goldman Sachs, Google, Amazon, Civil Service, BBC, NHS.",
+  alternates: { canonical: "/checkout" },
 };
 
 export default function CheckoutPage() {

@@ -3,6 +3,14 @@ import Script from "next/script";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  // Lets every page declare its canonical as a relative path ("/guides") instead of repeating
+  // the origin. It also fixes the www/non-www split: Google has been indexing both hostnames,
+  // which divides the ranking signal for the same page across two URLs.
+  //
+  // Deliberately NOT setting alternates.canonical here. Metadata fields are inherited by any
+  // page that does not set its own, so a canonical on the layout would stamp every page in the
+  // app with the homepage URL, which is worse than having none at all.
+  metadataBase: new URL("https://www.apprenticeedge.co.uk"),
   title: "ApprenticeEdge: UK Apprenticeship Prep Packs",
   description: "Insider prep packs for UK school leavers applying to PwC, Deloitte, KPMG, EY, Goldman Sachs, Google, Amazon, Civil Service, BBC, and NHS apprenticeships.",
   openGraph: {

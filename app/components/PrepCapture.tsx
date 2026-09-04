@@ -22,7 +22,23 @@ const STORAGE_KEY = "ae_email_captured";
 // Google Ads "Lead - Email Signup" conversion action (7742297650).
 const ADS_LEAD_SEND_TO = "AW-18218897830/uacECLKs6OscEKajue9D";
 
-export default function PrepCapture({ context }: { context: string }) {
+export default function PrepCapture({
+  context,
+  body,
+  trackAdsConversion = true,
+}: {
+  context: string;
+  /** Overrides the default PwC-pack pitch. Used by the organic guide pages. */
+  body?: React.ReactNode;
+  /**
+   * Whether to fire the Google Ads conversion on success. True for the paid landing pages,
+   * which is where it belongs. The guide pages pass false: their traffic is organic, so a
+   * conversion fired from there has no GCLID for Google to attribute, and it would inflate
+   * the conversion action's total while the paid signup rate is still being measured against
+   * a 50-100 click checkpoint. Keeping organic out of that number keeps the checkpoint honest.
+   */
+  trackAdsConversion?: boolean;
+}) {
   const [email, setEmail] = useState("");
   const [marketingOptIn, setMarketingOptIn] = useState(false);
   const [loading, setLoading] = useState(false);
@@ -44,9 +60,11 @@ export default function PrepCapture({ context }: { context: string }) {
         throw new Error(data.error ?? "Something went wrong");
       }
       localStorage.setItem(STORAGE_KEY, "true");
-      const gtag = (window as unknown as { gtag?: (...args: unknown[]) => void }).gtag;
-      if (typeof gtag === "function") {
-        gtag("event", "conversion", { send_to: ADS_LEAD_SEND_TO });
+      if (trackAdsConversion) {
+        const gtag = (window as unknown as { gtag?: (...args: unknown[]) => void }).gtag;
+        if (typeof gtag === "function") {
+          gtag("event", "conversion", { send_to: ADS_LEAD_SEND_TO });
+        }
       }
       setDone(true);
     } catch (err) {
@@ -81,9 +99,13 @@ export default function PrepCapture({ context }: { context: string }) {
       ) : (
         <>
           <p className="text-slate-400 text-sm mb-6 max-w-md mx-auto">
-            The full PwC School Leaver pack is free: application stages, the competencies they score,
-            real interview questions, commercial awareness, and a pre-submission checklist. The process
-            it walks through is close enough to the other big schemes to prep you for all of them.
+            {body ?? (
+              <>
+                The full PwC School Leaver pack is free: application stages, the competencies they score,
+                real interview questions, commercial awareness, and a pre-submission checklist. The process
+                it walks through is close enough to the other big schemes to prep you for all of them.
+              </>
+            )}
           </p>
 
           <form onSubmit={handleSubmit} className="max-w-md mx-auto space-y-3 text-left">

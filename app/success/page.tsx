@@ -4,6 +4,9 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Payment Successful: ApprenticeEdge",
+  // A post-checkout receipt page, reached only with a Stripe session_id. It has no search
+  // value and should never be a landing page, so it gets noindex rather than a canonical.
+  robots: { index: false, follow: false },
 };
 
 export default async function SuccessPage({

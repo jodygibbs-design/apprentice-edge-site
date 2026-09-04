@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Privacy Policy: ApprenticeEdge",
   description: "How ApprenticeEdge (Deep Cut Industries Limited) collects, uses, and protects your personal data under UK GDPR.",
+  alternates: { canonical: "/privacy" },
 };
 
 export default function PrivacyPage() {

@@ -26,6 +26,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${pack.company} Practice Tests: ApprenticeEdge`,
     description: `Numerical, verbal, and situational judgement practice tests for the ${pack.company} apprenticeship application.`,
+    alternates: { canonical: `/packs/${slug}/practice-tests` },
   };
 }
 

@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
+import PrepCapture from "@/app/components/PrepCapture";
 import {
   COMPANIES,
   TOPICS,
@@ -28,6 +29,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: fillTemplate(topic.titleTemplate, company),
     description: fillTemplate(topic.descriptionTemplate, company),
+    alternates: { canonical: `/guides/${companySlug}/${topicSlug}` },
   };
 }
 
@@ -45,36 +47,82 @@ function StarBox() {
   );
 }
 
+/**
+ * The company-specific paid ask.
+ *
+ * Restyled from a dark slab to a light bordered card because it now sits directly beneath
+ * GuideCapture, which is dark. Two dark blocks back to back read as one undifferentiated
+ * slab and the free offer stops being the focal point, which is the wrong way round for a
+ * cold organic reader who has never heard of the site.
+ */
 function PackCTA({ company }: { company: CompanyData }) {
   const isFree = company.packSlug === "pwc";
   return (
-    <div className="bg-slate-900 rounded-2xl p-8 my-10 text-center">
-      <p className="text-slate-400 text-xs font-semibold uppercase tracking-widest mb-2">Want the full prep pack?</p>
-      <h3 className="text-xl font-bold text-white mb-2">{company.name} Apprenticeship Prep Pack</h3>
-      <p className="text-slate-400 text-sm mb-5">
+    <div className="border border-slate-200 rounded-2xl p-6 my-8 bg-white">
+      <p className="text-slate-400 text-xs font-semibold uppercase tracking-widest mb-2">
+        Want the {company.name} pack specifically?
+      </p>
+      <h3 className="text-lg font-bold text-slate-900 mb-2">{company.name} Apprenticeship Prep Pack</h3>
+      <p className="text-slate-600 text-sm mb-5">
         Application stages, competencies, real interview questions, commercial awareness, and a pre-submission checklist: in one complete pack.
       </p>
       {isFree ? (
         <Link
           href={`/packs/${company.packSlug}`}
-          className="inline-block bg-blue-600 text-white font-semibold px-7 py-3 rounded-xl hover:bg-blue-700 transition-colors"
+          className="inline-block bg-blue-600 text-white font-semibold px-6 py-2.5 rounded-xl hover:bg-blue-700 transition-colors text-sm"
         >
           Read the free {company.name} pack →
         </Link>
       ) : (
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
+        <div className="flex flex-wrap items-center gap-4">
           <Link
             href="/checkout"
-            className="inline-block bg-orange-500 text-white font-semibold px-7 py-3 rounded-xl hover:bg-orange-600 transition-colors shadow-lg shadow-orange-500/20"
+            className="inline-block bg-[#0D1B2A] text-white font-semibold px-6 py-2.5 rounded-xl hover:bg-[#1E3A5F] transition-colors text-sm"
           >
             Get the Season Pass, £29
           </Link>
-          <Link href="/packs/pwc" className="text-slate-400 text-sm hover:text-white transition-colors">
-            Try the free PwC pack first →
-          </Link>
+          <span className="text-slate-500 text-sm">All 10 employers included</span>
         </div>
       )}
     </div>
+  );
+}
+
+/**
+ * Free email capture for the 200 organic guide pages.
+ *
+ * Until now these pages were link-only: PackCTA was the sole conversion path, and for any
+ * company except PwC its primary button went to /packs/<company>, which renders PaymentGate.
+ * A cold reader arriving from a Google search met a £29 wall and had no free way to hand over
+ * an email address at all.
+ *
+ * Wraps PrepCapture rather than duplicating it, so guide signups land in the same MailerLite
+ * group and unlock the pack through the same localStorage key the paid landing pages use.
+ * The Ads conversion is switched off here: see the prop's comment in PrepCapture.
+ */
+function GuideCapture({ company }: { company: CompanyData }) {
+  const isFree = company.packSlug === "pwc";
+  return (
+    <PrepCapture
+      trackAdsConversion={false}
+      context={`Preparing for ${company.name}? Get a full pack free`}
+      body={
+        isFree ? (
+          <>
+            The full {company.name} School Leaver pack is free: application stages, the competencies
+            they score, real interview questions, commercial awareness, and a pre-submission checklist.
+            No payment, just an email address.
+          </>
+        ) : (
+          <>
+            The full PwC School Leaver pack is free: application stages, the competencies they score,
+            real interview questions, commercial awareness, and a pre-submission checklist. The process
+            it walks through is close enough to the other big schemes, {company.name} included, to prep
+            you for all of them.
+          </>
+        )
+      }
+    />
   );
 }
 
@@ -1166,6 +1214,7 @@ export default async function GuidePage({ params }: Props) {
       <section className="bg-white">
         <div className="max-w-3xl mx-auto px-6 py-10">
           {renderContent(company, topic)}
+          <GuideCapture company={company} />
           <PackCTA company={company} />
         </div>
       </section>

@@ -255,7 +255,10 @@ export const TOPICS: TopicMeta[] = [
     slug: "application-tips",
     label: "Application Tips",
     keywordTemplate: "{{company}} apprenticeship application tips",
-    titleTemplate: "{{company}} {{programme}} Application Tips 2026: ApprenticeEdge",
+    // {{programme}} only. Every programmeName above already begins with the company name
+    // ("Deloitte BrightStart", "KPMG 360° Apprenticeship"), so pairing it with {{company}}
+    // produced "Deloitte Deloitte BrightStart Application Tips" on all 10 of these pages.
+    titleTemplate: "{{programme}} Application Tips 2026: ApprenticeEdge",
     descriptionTemplate: "Practical tips for the {{company}} apprenticeship application: what they're looking for at every stage, and the mistakes that get candidates rejected.",
     h1Template: "{{company}} Apprenticeship Application Tips 2026",
   },
