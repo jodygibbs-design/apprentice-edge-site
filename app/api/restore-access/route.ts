@@ -162,11 +162,16 @@ export async function POST(req: Request) {
 
   if (!LINK_SECRET) {
     console.error("AE_RESTORE_FAIL reason=no-secret");
-    await notifyOwner("ApprenticeEdge restore is BROKEN (config)", {
-      Problem:
-        "No RESTORE_LINK_SECRET / ADMIN_KEY is set, so the restore endpoint is returning a 500 to every buyer.",
-      Fix: "Set ADMIN_KEY (or RESTORE_LINK_SECRET) in the Vercel project env and redeploy.",
-    });
+    // No buyer email in scope here (this fires before the body is parsed), so
+    // the timestamp keeps repeat alerts from threading together in a mail client.
+    await notifyOwner(
+      `ApprenticeEdge restore is BROKEN (config) - ${new Date().toISOString().slice(0, 16)}`,
+      {
+        Problem:
+          "No RESTORE_LINK_SECRET / ADMIN_KEY is set, so the restore endpoint is returning a 500 to every buyer.",
+        Fix: "Set ADMIN_KEY (or RESTORE_LINK_SECRET) in the Vercel project env and redeploy.",
+      }
+    );
     return NextResponse.json({ error: "Restore is temporarily unavailable." }, { status: 500 });
   }
 
@@ -191,7 +196,7 @@ export async function POST(req: Request) {
     paid = await hasPaidPurchase(sanitized);
   } catch (err) {
     console.error("AE_RESTORE_FAIL reason=stripe-lookup", err);
-    await notifyOwner("ApprenticeEdge restore FAILED (Stripe lookup)", {
+    await notifyOwner(`ApprenticeEdge restore FAILED (Stripe lookup) - ${sanitized}`, {
       Email: sanitized,
       Problem:
         "hasPaidPurchase() threw - a Stripe API error. If you see a run of these, restore is down for everyone; check STRIPE_SECRET_KEY.",
@@ -205,7 +210,7 @@ export async function POST(req: Request) {
 
   if (!paid) {
     logLine("AE_RESTORE_NOPURCHASE", { ip, email: sanitized });
-    await notifyOwner("ApprenticeEdge restore: no purchase found", {
+    await notifyOwner(`ApprenticeEdge restore: no purchase found - ${sanitized}`, {
       Email: sanitized,
       Note:
         "No paid Stripe purchase matched this email - usually a typo or the wrong address. A run of these can also mean the Stripe lookup is failing; check STRIPE_SECRET_KEY.",
@@ -250,7 +255,7 @@ export async function POST(req: Request) {
     });
     if (error) {
       console.error("AE_RESTORE_FAIL reason=resend-error", error);
-      await notifyOwner("ApprenticeEdge restore FAILED (email send)", {
+      await notifyOwner(`ApprenticeEdge restore FAILED (email send) - ${sanitized}`, {
         Email: sanitized,
         Problem:
           "The buyer has a valid purchase but Resend rejected the link email. If this repeats, nobody can restore access.",
@@ -263,7 +268,7 @@ export async function POST(req: Request) {
     }
   } catch (err) {
     console.error("AE_RESTORE_FAIL reason=resend-threw", err);
-    await notifyOwner("ApprenticeEdge restore FAILED (email send)", {
+    await notifyOwner(`ApprenticeEdge restore FAILED (email send) - ${sanitized}`, {
       Email: sanitized,
       Problem:
         "The buyer has a valid purchase but the Resend call threw. If this repeats, nobody can restore access.",
@@ -276,7 +281,7 @@ export async function POST(req: Request) {
   }
 
   logLine("AE_RESTORE_SENT", { ip, email: sanitized });
-  await notifyOwner("ApprenticeEdge restore link sent", {
+  await notifyOwner(`ApprenticeEdge restore link sent - ${sanitized}`, {
     Email: sanitized,
     Status: "A signed 7-day link was emailed successfully. The buyer clicks it to unlock a device.",
     Time: new Date().toISOString().replace("T", " ").slice(0, 16) + " UTC",
