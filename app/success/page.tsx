@@ -56,7 +56,7 @@ export default async function SuccessPage({
         Go to my packs →
       </Link>
       <p className="text-xs text-gray-400 mt-6">
-        Receipt sent to your email by Stripe. Questions? Email{" "}
+        A confirmation email and a Stripe payment receipt are on their way to your inbox. Questions? Email{" "}
         <a href="mailto:admin@deepcutindustries.com" className="underline">admin@deepcutindustries.com</a>
       </p>
     </div>

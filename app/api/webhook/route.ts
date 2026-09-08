@@ -9,7 +9,7 @@ const FROM_EMAIL = process.env.RESEND_FROM_EMAIL ?? "noreply@apprenticeedge.co.u
 const SALES_NOTIFY_EMAIL = process.env.SALES_NOTIFY_EMAIL ?? "admin@deepcutindustries.com";
 const SITE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "https://www.apprenticeedge.co.uk";
 
-function buyerConfirmationHtml(email: string): string {
+function buyerConfirmationHtml(email: string, receiptUrl: string | null): string {
   const restoreUrl = `${SITE_URL}/restore-access`;
   return `<!DOCTYPE html>
 <html>
@@ -30,8 +30,13 @@ function buyerConfirmationHtml(email: string): string {
         <p style="margin:24px 0 0;">
           <a href="${SITE_URL}/packs" style="display:inline-block; background:#4f46e5; color:#fff; font-weight:600; padding:12px 24px; border-radius:10px; text-decoration:none;">Go to my packs</a>
         </p>
+        ${
+          receiptUrl
+            ? `<p style="margin:16px 0 0; font-size:14px;"><a href="${receiptUrl}" style="color:#4f46e5;">View your payment receipt</a></p>`
+            : ""
+        }
         <p style="font-size:12px; color:#94a3b8; margin:24px 0 0; border-top:1px solid #f1f5f9; padding-top:16px;">
-          Your payment receipt is sent separately by Stripe. Questions? Reply to this email or contact
+          Stripe also emails you a payment receipt separately. Questions? Reply to this email or contact
           <a href="mailto:admin@deepcutindustries.com" style="color:#94a3b8;">admin@deepcutindustries.com</a>.
         </p>
       </div>
@@ -84,6 +89,19 @@ async function sendSaleEmails(session: Stripe.Checkout.Session) {
       : (session.payment_intent?.id ?? "");
   const discountGBP = ((session.total_details?.amount_discount ?? 0) / 100).toFixed(2);
 
+  // Pull the Stripe-hosted receipt URL so the confirmation email can link it directly.
+  // Best-effort: if the lookup fails the email just omits the link.
+  let receiptUrl: string | null = null;
+  if (paymentIntent) {
+    try {
+      const pi = await stripe.paymentIntents.retrieve(paymentIntent, { expand: ["latest_charge"] });
+      const charge = pi.latest_charge as Stripe.Charge | null;
+      receiptUrl = charge?.receipt_url ?? null;
+    } catch (err) {
+      console.error("AE_RECEIPT_URL lookup failed:", err);
+    }
+  }
+
   const resend = new Resend(process.env.RESEND_API_KEY);
 
   // 1. Always alert the shop owner, even if we somehow have no buyer email.
@@ -112,7 +130,7 @@ async function sendSaleEmails(session: Stripe.Checkout.Session) {
         from: FROM_EMAIL,
         to: buyerEmail,
         subject: "Your ApprenticeEdge Season Pass is active",
-        html: buyerConfirmationHtml(buyerEmail),
+        html: buyerConfirmationHtml(buyerEmail, receiptUrl),
       });
       if (error) console.error("AE_BUYER_CONFIRM resend error:", error);
     } catch (err) {
