@@ -25,6 +25,10 @@ export async function POST(req: Request) {
         },
       ],
       mode: "payment",
+      // Always persist a Customer so /api/restore-access can find the purchase by
+      // email on a different device. Without this, guest checkouts leave no Customer
+      // object and restore-access falls back to a slower session scan.
+      customer_creation: "always",
       success_url: `${base}/api/grant-access?session_id={CHECKOUT_SESSION_ID}`,
       cancel_url: `${base}/checkout`,
       automatic_tax: { enabled: true },
