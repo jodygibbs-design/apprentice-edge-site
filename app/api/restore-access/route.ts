@@ -15,6 +15,10 @@ const LINK_TTL_SECONDS = 7 * 24 * 60 * 60;
 
 const FROM_EMAIL = process.env.RESEND_FROM_EMAIL ?? "noreply@apprenticeedge.co.uk";
 
+// Owner alerts (restore audit trail + failure notification) go to the same
+// address as the sale alerts in app/api/webhook/route.ts.
+const NOTIFY_EMAIL = process.env.SALES_NOTIFY_EMAIL ?? "admin@deepcutindustries.com";
+
 // HMAC key for the signed link. A dedicated RESTORE_LINK_SECRET is preferred;
 // we fall back to ADMIN_KEY (already provisioned) so this works without a new
 // env var. Rotating either value instantly invalidates outstanding links.
@@ -116,10 +120,53 @@ function grantCookie(cookieStore: Awaited<ReturnType<typeof cookies>>) {
   });
 }
 
+// --- Observability -------------------------------------------------------
+// This endpoint runs with no database, so the record of who restored (and
+// whether the flow is healthy) is: (1) structured `AE_RESTORE_*` lines in the
+// Vercel function logs, greppable after the fact; (2) an email to the owner on
+// every outcome, so a broad outage - Resend down, Stripe key wrong, a
+// regression - lands in the inbox instead of failing silently. Restore volume
+// is single digits a month, so per-request email is not noise.
+
+function logLine(tag: string, fields: Record<string, string>) {
+  const parts = Object.entries(fields)
+    .map(([k, v]) => `${k}=${v}`)
+    .join(" ");
+  console.log(`${tag} ${parts}`);
+}
+
+// Best-effort: a failure to send this alert is only logged, it never changes
+// the response the caller gets.
+async function notifyOwner(subject: string, rows: Record<string, string>) {
+  const body = Object.entries(rows)
+    .map(
+      ([k, v]) =>
+        `<p style="margin:0 0 6px;"><span style="color:#64748b;">${k}:</span> ${v.replace(/</g, "&lt;")}</p>`
+    )
+    .join("\n");
+  const html = `<div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; font-size:14px; color:#1e293b; line-height:1.6;">
+${body}
+</div>`;
+  try {
+    const resend = new Resend(process.env.RESEND_API_KEY);
+    const { error } = await resend.emails.send({ from: FROM_EMAIL, to: NOTIFY_EMAIL, subject, html });
+    if (error) console.error("AE_RESTORE_NOTIFY resend error:", error);
+  } catch (err) {
+    console.error("AE_RESTORE_NOTIFY threw:", err);
+  }
+}
+
 // --- POST: request a sign-in link --------------------------------------------
 export async function POST(req: Request) {
+  const ip = req.headers.get("x-forwarded-for")?.split(",")[0]?.trim() || "unknown";
+
   if (!LINK_SECRET) {
-    console.error("restore-access: no RESTORE_LINK_SECRET / ADMIN_KEY configured");
+    console.error("AE_RESTORE_FAIL reason=no-secret");
+    await notifyOwner("ApprenticeEdge restore is BROKEN (config)", {
+      Problem:
+        "No RESTORE_LINK_SECRET / ADMIN_KEY is set, so the restore endpoint is returning a 500 to every buyer.",
+      Fix: "Set ADMIN_KEY (or RESTORE_LINK_SECRET) in the Vercel project env and redeploy.",
+    });
     return NextResponse.json({ error: "Restore is temporarily unavailable." }, { status: 500 });
   }
 
@@ -130,9 +177,9 @@ export async function POST(req: Request) {
   }
 
   const sanitized = email.toLowerCase().trim();
-  const ip = req.headers.get("x-forwarded-for")?.split(",")[0]?.trim() || "unknown";
 
-  if (isRateLimited(`${ip}`)) {
+  if (isRateLimited(ip)) {
+    logLine("AE_RESTORE_RATELIMIT", { ip, email: sanitized });
     return NextResponse.json(
       { error: "Too many attempts. Please wait a few minutes and try again." },
       { status: 429 }
@@ -143,7 +190,13 @@ export async function POST(req: Request) {
   try {
     paid = await hasPaidPurchase(sanitized);
   } catch (err) {
-    console.error("restore-access lookup failed:", err);
+    console.error("AE_RESTORE_FAIL reason=stripe-lookup", err);
+    await notifyOwner("ApprenticeEdge restore FAILED (Stripe lookup)", {
+      Email: sanitized,
+      Problem:
+        "hasPaidPurchase() threw - a Stripe API error. If you see a run of these, restore is down for everyone; check STRIPE_SECRET_KEY.",
+      Error: err instanceof Error ? err.message : String(err),
+    });
     return NextResponse.json(
       { error: "Couldn't check your purchase right now. Please try again in a moment." },
       { status: 502 }
@@ -151,6 +204,12 @@ export async function POST(req: Request) {
   }
 
   if (!paid) {
+    logLine("AE_RESTORE_NOPURCHASE", { ip, email: sanitized });
+    await notifyOwner("ApprenticeEdge restore: no purchase found", {
+      Email: sanitized,
+      Note:
+        "No paid Stripe purchase matched this email - usually a typo or the wrong address. A run of these can also mean the Stripe lookup is failing; check STRIPE_SECRET_KEY.",
+    });
     return NextResponse.json({ error: "No purchase found for that email." }, { status: 404 });
   }
 
@@ -190,33 +249,60 @@ export async function POST(req: Request) {
 </html>`,
     });
     if (error) {
-      console.error("restore-access resend error:", error);
+      console.error("AE_RESTORE_FAIL reason=resend-error", error);
+      await notifyOwner("ApprenticeEdge restore FAILED (email send)", {
+        Email: sanitized,
+        Problem:
+          "The buyer has a valid purchase but Resend rejected the link email. If this repeats, nobody can restore access.",
+        Error: JSON.stringify(error),
+      });
       return NextResponse.json(
         { error: "Couldn't send the link right now. Please try again in a moment." },
         { status: 502 }
       );
     }
   } catch (err) {
-    console.error("restore-access resend threw:", err);
+    console.error("AE_RESTORE_FAIL reason=resend-threw", err);
+    await notifyOwner("ApprenticeEdge restore FAILED (email send)", {
+      Email: sanitized,
+      Problem:
+        "The buyer has a valid purchase but the Resend call threw. If this repeats, nobody can restore access.",
+      Error: err instanceof Error ? err.message : String(err),
+    });
     return NextResponse.json(
       { error: "Couldn't send the link right now. Please try again in a moment." },
       { status: 502 }
     );
   }
 
+  logLine("AE_RESTORE_SENT", { ip, email: sanitized });
+  await notifyOwner("ApprenticeEdge restore link sent", {
+    Email: sanitized,
+    Status: "A signed 7-day link was emailed successfully. The buyer clicks it to unlock a device.",
+    Time: new Date().toISOString().replace("T", " ").slice(0, 16) + " UTC",
+  });
+
   return NextResponse.json({ sent: true });
 }
 
 // --- GET: verify a link click, set the cookie, bounce to the app ------------
+// No owner email here: mail clients and corporate link-scanners pre-fetch the
+// URL before the human clicks, so a per-GET alert would be noise. The
+// `AE_RESTORE_CLAIMED` log line still gives a trail (and flags a link being
+// passed around if one email shows many claims).
 export async function GET(req: Request) {
   const base = getBaseUrl();
   const token = new URL(req.url).searchParams.get("token");
+  const ip = req.headers.get("x-forwarded-for")?.split(",")[0]?.trim() || "unknown";
 
-  if (!token || !LINK_SECRET || !verifyToken(token)) {
+  const claim = token && LINK_SECRET ? verifyToken(token) : null;
+  if (!claim) {
+    logLine("AE_RESTORE_BADTOKEN", { ip, hasToken: String(Boolean(token)) });
     return NextResponse.redirect(`${base}/restore-access?error=link`);
   }
 
   const cookieStore = await cookies();
   grantCookie(cookieStore);
+  logLine("AE_RESTORE_CLAIMED", { ip, email: claim.email });
   return NextResponse.redirect(`${base}/restore-access?restored=1`);
 }
