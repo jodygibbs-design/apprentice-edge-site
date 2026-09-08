@@ -9,6 +9,55 @@ const FROM_EMAIL = process.env.RESEND_FROM_EMAIL ?? "noreply@apprenticeedge.co.u
 const SALES_NOTIFY_EMAIL = process.env.SALES_NOTIFY_EMAIL ?? "admin@deepcutindustries.com";
 const SITE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "https://www.apprenticeedge.co.uk";
 
+// The MailerLite group that marks someone as having bought. Deliberately NOT
+// MAILERLITE_GROUP_ID: that one is the free-capture list, and joining it is the
+// trigger for the "Free pack nurture" automation. Adding a buyer there would
+// start pitching them the pack they just paid for.
+const MAILERLITE_CUSTOMERS_GROUP_ID = process.env.MAILERLITE_CUSTOMERS_GROUP_ID;
+
+/**
+ * Records the purchase on the buyer's MailerLite record by putting them in the
+ * Customers group. Two problems this solves:
+ *
+ *   1. Buyers who came in through the free email gate stay queued in the nurture
+ *      sequence and keep getting sold a pack they already own. MailerLite has no
+ *      way to know a purchase happened unless we tell it. The automation carries a
+ *      "not in Customers" condition so this membership stops the remaining emails.
+ *   2. Buyers who went straight to checkout were never on the list at all, so there
+ *      was no way to contact them again. This adds them.
+ *
+ * POST /subscribers upserts and is ADDITIVE on groups: verified 2026-09-08 against
+ * the live account with a throwaway address. An existing subscriber keeps their
+ * current groups and their marketing_consent field. Do not switch this to a custom
+ * field: fields that have not been created in MailerLite first are silently dropped
+ * (a `purchased` field written this way came back undefined).
+ *
+ * Never throws. A MailerLite outage must not fail the webhook, or Stripe retries
+ * the whole thing and the buyer gets duplicate emails.
+ */
+async function recordPurchaseInMailerLite(email: string) {
+  const apiKey = process.env.MAILERLITE_API_KEY;
+  if (!apiKey || !MAILERLITE_CUSTOMERS_GROUP_ID) {
+    console.error("AE_ML_CUSTOMER skipped: MAILERLITE_API_KEY or MAILERLITE_CUSTOMERS_GROUP_ID not set");
+    return;
+  }
+
+  try {
+    const res = await fetch("https://connect.mailerlite.com/api/subscribers", {
+      method: "POST",
+      headers: { "Content-Type": "application/json", Authorization: `Bearer ${apiKey}` },
+      body: JSON.stringify({ email, groups: [MAILERLITE_CUSTOMERS_GROUP_ID] }),
+    });
+    if (!res.ok) {
+      console.error(`AE_ML_CUSTOMER failed status=${res.status} body=${(await res.text()).slice(0, 300)}`);
+      return;
+    }
+    console.log(`AE_ML_CUSTOMER ok email=${email}`);
+  } catch (err) {
+    console.error("AE_ML_CUSTOMER threw:", err);
+  }
+}
+
 function buyerConfirmationHtml(email: string, receiptUrl: string | null): string {
   const restoreUrl = `${SITE_URL}/restore-access`;
   return `<!DOCTYPE html>
@@ -165,6 +214,11 @@ export async function POST(req: NextRequest) {
     // Email failures are logged but never fail the webhook (Stripe would retry forever).
     if (session.payment_status === "paid") {
       await sendSaleEmails(session);
+      // Guard on the real address rather than the "unknown" fallback above: a
+      // literal "unknown" would be rejected by MailerLite anyway, and a bad row
+      // is worse than a missing one.
+      const buyerEmail = session.customer_details?.email ?? session.customer_email;
+      if (buyerEmail) await recordPurchaseInMailerLite(buyerEmail);
     }
   }
 

@@ -105,7 +105,7 @@ function RestoreAccessInner() {
         </div>
         <h1 className="text-xl font-bold text-slate-900 mb-1">Restore your access</h1>
         <p className="text-slate-500 text-sm mb-6">
-          Enter the email address you used to buy the Season Pass. We&apos;ll email you a one-time
+          Enter the email address you used to buy the Season Pass. We&apos;ll email you a 7-day
           link that unlocks access on the device you open it from.
         </p>
         <form onSubmit={handleSubmit} className="space-y-4">
