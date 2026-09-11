@@ -236,6 +236,19 @@ export default function ApprenticeshipOnlineAssessmentsPage() {
             </p>
           </div>
 
+          <PrepCapture
+            context="Before you pay for anything, take the free pack"
+            body={
+              <>
+                The tests are one stage of five, and candidates who fail rarely fail on the maths. The
+                full PwC School Leaver pack is free and walks through the whole process the assessments
+                sit inside: the application stages, what each one scores, real interview questions,
+                commercial awareness and a pre-submission checklist. The timed practice tests themselves
+                are the Season Pass below, not the free pack.
+              </>
+            }
+          />
+
           <h2 className="text-2xl font-extrabold text-slate-900 tracking-tight mt-12 mb-4">
             Timed practice for a specific employer
           </h2>
