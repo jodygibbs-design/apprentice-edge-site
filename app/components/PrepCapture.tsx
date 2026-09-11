@@ -118,8 +118,9 @@ export default function PrepCapture({
                 onChange={(e) => setMarketingOptIn(e.target.checked)}
                 className="mt-0.5 h-4 w-4 rounded border-slate-500 text-[#C4922A] focus:ring-[#C4922A] cursor-pointer"
               />
-              <span className="text-xs text-slate-400 leading-relaxed">
-                I&apos;d like to hear about new packs and offers from ApprenticeEdge.
+              <span className="text-sm text-slate-200 leading-relaxed">
+                Yes, email me interview tips and new packs. A few over the next two weeks, then
+                only when there is something worth sending. Unsubscribe any time.
               </span>
             </label>
 

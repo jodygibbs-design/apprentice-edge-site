@@ -90,8 +90,9 @@ export default function EmailGate({ preview, full }: Props) {
                   onChange={(e) => setMarketingOptIn(e.target.checked)}
                   className="mt-0.5 h-4 w-4 rounded border-slate-300 text-blue-600 focus:ring-blue-500 cursor-pointer"
                 />
-                <span className="text-xs text-slate-500 leading-relaxed">
-                  I&apos;d like to hear about new packs and offers from ApprenticeEdge.
+                <span className="text-sm text-slate-700 leading-relaxed">
+                  Yes, email me interview tips and new packs. A few over the next two weeks, then
+                  only when there is something worth sending. Unsubscribe any time.
                 </span>
               </label>
               {error && <p className="text-red-500 text-xs">{error}</p>}

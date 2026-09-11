@@ -109,7 +109,7 @@ export default function PrivacyPage() {
           <h2 className="text-base font-bold text-slate-900 mb-2">Cookies and local storage</h2>
           <p>
             No third party sets cookies, tags or pixels on this site. Everything below is first-party,
-            meaning it is set by us and shared with no one except where we say so. We use three types of
+            meaning it is set by us and shared with no one except where we say so. We use four types of
             browser storage:
           </p>
           <div className="mt-3 space-y-3">
@@ -117,9 +117,19 @@ export default function PrivacyPage() {
               <p className="font-semibold text-slate-800">Free pack access (localStorage)</p>
               <p>
                 When you unlock the free PwC pack by entering your email, we store a flag in your
-                browser&apos;s localStorage (key: <code className="text-xs bg-slate-100 px-1 py-0.5 rounded">ae_paid</code>).
+                browser&apos;s localStorage (key: <code className="text-xs bg-slate-100 px-1 py-0.5 rounded">ae_email_captured</code>).
                 This stays on your device and is not transmitted to our servers. You can clear it by
                 clearing your browser&apos;s site data.
+              </p>
+            </div>
+            <div>
+              <p className="font-semibold text-slate-800">Season Pass access (localStorage)</p>
+              <p>
+                After a successful Season Pass purchase, we store a flag in your browser&apos;s
+                localStorage (key: <code className="text-xs bg-slate-100 px-1 py-0.5 rounded">ae_paid</code>)
+                so the site can show your unlocked packs without a page reload. It records that you have
+                paid and nothing else: no payment or card data. You can clear it by clearing your
+                browser&apos;s site data.
               </p>
             </div>
             <div>
