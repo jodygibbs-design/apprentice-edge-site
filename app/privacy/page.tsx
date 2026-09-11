@@ -65,7 +65,8 @@ export default function PrivacyPage() {
               <p className="font-semibold text-slate-800">Usage data</p>
               <p>
                 We use Vercel to host this site. Vercel may collect basic request logs (IP address, browser type,
-                pages visited) for security and performance purposes. We do not use analytics cookies or tracking pixels.
+                pages visited) for security and performance purposes. We do not run Google Analytics, advertising
+                tags, or any third-party tracking pixel on this site.
               </p>
             </div>
           </div>
@@ -107,7 +108,9 @@ export default function PrivacyPage() {
         <section>
           <h2 className="text-base font-bold text-slate-900 mb-2">Cookies and local storage</h2>
           <p>
-            This site does not use tracking or advertising cookies. We use three types of browser storage:
+            No third party sets cookies, tags or pixels on this site. Everything below is first-party,
+            meaning it is set by us and shared with no one except where we say so. We use three types of
+            browser storage:
           </p>
           <div className="mt-3 space-y-3">
             <div>

@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Script from "next/script";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -9,24 +8,11 @@ export const metadata: Metadata = {
   robots: { index: false, follow: false },
 };
 
-export default async function SuccessPage({
-  searchParams,
-}: {
-  searchParams: Promise<{ [key: string]: string | string[] | undefined }>;
-}) {
-  const { session_id } = await searchParams;
-  const rawSessionId = Array.isArray(session_id) ? session_id[0] : session_id;
-  const transactionId = rawSessionId && /^[a-zA-Z0-9_]+$/.test(rawSessionId) ? rawSessionId : "";
-
+// Stripe still appends ?session_id= to this URL. Nothing reads it any more: it existed to
+// give the Google Ads purchase conversion a transaction_id, and that tag is gone. Left in the
+// success_url because /api/grant-access uses it on the way here.
+export default function SuccessPage() {
   return (
-    <>
-    <Script id="gtag-purchase" strategy="afterInteractive">{`
-      gtag('event', 'ads_conversion_Purchase_1', {
-        'value': 29.0,
-        'currency': 'GBP',
-        'transaction_id': '${transactionId}'
-      });
-    `}</Script>
     <div className="max-w-2xl mx-auto px-6 py-20 text-center">
       <div className="inline-flex items-center justify-center w-16 h-16 bg-green-50 rounded-full mb-6">
         <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
@@ -60,6 +46,5 @@ export default async function SuccessPage({
         <a href="mailto:admin@deepcutindustries.com" className="underline">admin@deepcutindustries.com</a>
       </p>
     </div>
-    </>
   );
 }

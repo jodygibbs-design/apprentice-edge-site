@@ -7,9 +7,6 @@ import { getAttribution } from "@/lib/attribution";
 // An email capture unlocks this pack only, and must never look like a payment.
 const STORAGE_KEY = "ae_email_captured";
 
-// Google Ads "Lead - Email Signup" conversion action (7742297650).
-const ADS_LEAD_SEND_TO = "AW-18218897830/uacECLKs6OscEKajue9D";
-
 interface Props {
   preview: string;
   full: string;
@@ -41,10 +38,6 @@ export default function EmailGate({ preview, full }: Props) {
         throw new Error(data.error ?? "Something went wrong");
       }
       localStorage.setItem(STORAGE_KEY, "true");
-      const gtag = (window as unknown as { gtag?: (...args: unknown[]) => void }).gtag;
-      if (typeof gtag === "function") {
-        gtag("event", "conversion", { send_to: ADS_LEAD_SEND_TO });
-      }
       setUnlocked(true);
     } catch (err) {
       setError(err instanceof Error ? err.message : "Something went wrong. Try again.");

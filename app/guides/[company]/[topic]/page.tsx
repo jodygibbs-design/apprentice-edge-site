@@ -98,13 +98,11 @@ function PackCTA({ company }: { company: CompanyData }) {
  *
  * Wraps PrepCapture rather than duplicating it, so guide signups land in the same MailerLite
  * group and unlock the pack through the same localStorage key the paid landing pages use.
- * The Ads conversion is switched off here: see the prop's comment in PrepCapture.
  */
 function GuideCapture({ company }: { company: CompanyData }) {
   const isFree = company.packSlug === "pwc";
   return (
     <PrepCapture
-      trackAdsConversion={false}
       context={`Preparing for ${company.name}? Get a full pack free`}
       body={
         isFree ? (
