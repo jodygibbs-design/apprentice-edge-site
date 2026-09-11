@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Script from "next/script";
+import AttributionTracker from "@/app/components/AttributionTracker";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -35,6 +36,7 @@ export default function RootLayout({
         gtag('config', 'AW-18218897830');
       `}</Script>
       <body className="min-h-full flex flex-col bg-slate-50">
+        <AttributionTracker />
         <header className="sticky top-0 z-50 bg-white border-b border-slate-200 shadow-sm">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 py-3 sm:py-3.5 flex items-center justify-between">
             <a href="/" className="flex items-center gap-2 sm:gap-3 tracking-tight shrink-0">

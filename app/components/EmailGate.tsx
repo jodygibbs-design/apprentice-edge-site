@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import { getAttribution } from "@/lib/attribution";
 
 // Distinct from "ae_paid": that flag means a completed Season Pass purchase.
 // An email capture unlocks this pack only, and must never look like a payment.
@@ -33,7 +34,7 @@ export default function EmailGate({ preview, full }: Props) {
       const res = await fetch("/api/subscribe", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email, marketingConsent: marketingOptIn }),
+        body: JSON.stringify({ email, marketingConsent: marketingOptIn, attribution: getAttribution() }),
       });
       if (!res.ok) {
         const data = await res.json();

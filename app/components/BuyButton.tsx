@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { getAttribution } from "@/lib/attribution";
 
 export default function BuyButton() {
   const [loading, setLoading] = useState(false);
@@ -14,7 +15,7 @@ export default function BuyButton() {
       const res = await fetch("/api/checkout", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ promoCode: promoCode.trim() || undefined }),
+        body: JSON.stringify({ promoCode: promoCode.trim() || undefined, attribution: getAttribution() }),
       });
       const data = await res.json();
       if (data.url) {

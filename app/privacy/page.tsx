@@ -10,7 +10,7 @@ export default function PrivacyPage() {
   return (
     <div className="max-w-2xl mx-auto px-6 py-16">
       <h1 className="text-3xl font-bold text-slate-900 mb-2">Privacy Policy</h1>
-      <p className="text-slate-500 text-sm mb-10">Last updated: June 2026</p>
+      <p className="text-slate-500 text-sm mb-10">Last updated: September 2026</p>
 
       <div className="prose prose-slate max-w-none space-y-8 text-slate-700 text-sm leading-relaxed">
 
@@ -107,7 +107,7 @@ export default function PrivacyPage() {
         <section>
           <h2 className="text-base font-bold text-slate-900 mb-2">Cookies and local storage</h2>
           <p>
-            This site does not use tracking or advertising cookies. We use two types of browser storage:
+            This site does not use tracking or advertising cookies. We use three types of browser storage:
           </p>
           <div className="mt-3 space-y-3">
             <div>
@@ -117,6 +117,18 @@ export default function PrivacyPage() {
                 browser&apos;s localStorage (key: <code className="text-xs bg-slate-100 px-1 py-0.5 rounded">ae_paid</code>).
                 This stays on your device and is not transmitted to our servers. You can clear it by
                 clearing your browser&apos;s site data.
+              </p>
+            </div>
+            <div>
+              <p className="font-semibold text-slate-800">Where you came from (localStorage)</p>
+              <p>
+                The first time you arrive we store how you got here in your browser&apos;s localStorage
+                (key: <code className="text-xs bg-slate-100 px-1 py-0.5 rounded">ae_attribution</code>):
+                the site that referred you, the first page you landed on, and any campaign identifier in
+                the link you followed. It records no personal information and is never used to build a
+                profile of you. If you later sign up or buy, it is sent to us with that form so we can
+                tell which pages and campaigns are worth keeping. You can clear it by clearing your
+                browser&apos;s site data.
               </p>
             </div>
             <div>

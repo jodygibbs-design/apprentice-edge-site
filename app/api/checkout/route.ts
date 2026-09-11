@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import Stripe from "stripe";
+import { sanitiseAttribution } from "@/lib/attribution";
 
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!);
 
@@ -13,6 +14,11 @@ export async function POST(req: Request) {
   try {
     const body = await req.json().catch(() => ({}));
     const promoCode = typeof body.promoCode === "string" ? body.promoCode.trim() : "";
+
+    // Where this visitor first came from, carried through from the client. Stripe is the
+    // only record of a sale that we control, so if this is not on the session there is no
+    // way to tell a paid sale from an organic one after the fact.
+    const attribution = sanitiseAttribution(body.attribution);
 
     const base = getBaseUrl();
 
@@ -32,6 +38,10 @@ export async function POST(req: Request) {
       success_url: `${base}/api/grant-access?session_id={CHECKOUT_SESSION_ID}`,
       cancel_url: `${base}/checkout`,
       automatic_tax: { enabled: true },
+      metadata: attribution,
+      // Also on the PaymentIntent, so the attribution survives onto the charge itself and
+      // shows up in Stripe's payments list without having to join back to the session.
+      payment_intent_data: { metadata: attribution },
     };
 
     if (promoCode) {

@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import { getAttribution } from "@/lib/attribution";
 
 /**
  * Inline email capture for the generic Ads landing pages.
@@ -53,7 +54,7 @@ export default function PrepCapture({
       const res = await fetch("/api/subscribe", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email, marketingConsent: marketingOptIn }),
+        body: JSON.stringify({ email, marketingConsent: marketingOptIn, attribution: getAttribution() }),
       });
       if (!res.ok) {
         const data = await res.json();
