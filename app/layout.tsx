@@ -82,6 +82,13 @@ export default function RootLayout({
               <p className="mt-2">
                 <a href="/guides" className="hover:text-slate-300 transition-colors">Free guides</a>
                 {" · "}
+                <a href="/contact" className="hover:text-slate-300 transition-colors">Contact</a>
+              </p>
+              <p>
+                <a href="/terms" className="hover:text-slate-300 transition-colors">Terms</a>
+                {" · "}
+                <a href="/refunds" className="hover:text-slate-300 transition-colors">Refunds</a>
+                {" · "}
                 <a href="/privacy" className="hover:text-slate-300 transition-colors">Privacy Policy</a>
               </p>
             </div>
