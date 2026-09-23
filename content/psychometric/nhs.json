@@ -1,0 +1,243 @@
+{
+  "employer": "NHS",
+  "numerical": [
+    {
+      "id": 1,
+      "question": "A clinic books 450 appointments a week and 6% of patients do not attend. How many appointments are missed?",
+      "options": ["30", "27", "36", "24"],
+      "answer": "B",
+      "explanation": "450 × 0.06 = 27."
+    },
+    {
+      "id": 2,
+      "question": "A ward has 28 beds and 25 are occupied. What is the occupancy rate, to one decimal place?",
+      "options": ["89.3%", "85.7%", "92.0%", "88.0%"],
+      "answer": "A",
+      "explanation": "25 ÷ 28 = 0.8929 = 89.3%."
+    },
+    {
+      "id": 3,
+      "question": "An emergency department has 1,240 attendances and sees 1,116 within four hours. What percentage were seen within four hours?",
+      "options": ["88%", "95%", "92%", "90%"],
+      "answer": "D",
+      "explanation": "1,116 ÷ 1,240 = 0.90 = 90%."
+    },
+    {
+      "id": 4,
+      "question": "A ward runs two 12-hour shifts a day, 7 days a week, with 3 staff on each shift. How many staff hours is that per week?",
+      "options": ["252", "504", "540", "432"],
+      "answer": "B",
+      "explanation": "Per shift: 12 × 3 = 36 hours. Per day: 36 × 2 = 72. Per week: 72 × 7 = 504."
+    },
+    {
+      "id": 5,
+      "question": "A store holds 500 boxes of supplies and uses 35 a day. Stock must be reordered when it reaches 45 boxes. After how many days is the reorder triggered?",
+      "options": ["15", "14", "12", "13"],
+      "answer": "D",
+      "explanation": "500 − 45 = 455 boxes to use. 455 ÷ 35 = 13 days."
+    },
+    {
+      "id": 6,
+      "question": "A £2.4m staffing budget spends 15% on agency staff. Agency spend is then cut by one third. What is the new agency spend?",
+      "options": ["£300,000", "£120,000", "£360,000", "£240,000"],
+      "answer": "D",
+      "explanation": "Agency spend = £2,400,000 × 0.15 = £360,000. Cut by a third: £360,000 × 2/3 = £240,000."
+    },
+    {
+      "id": 7,
+      "question": "A waiting list of 3,600 falls by 12% and then rises by 5%. What is the new figure, to the nearest whole patient?",
+      "options": ["3,326", "3,348", "3,420", "3,294"],
+      "answer": "A",
+      "explanation": "3,600 × 0.88 = 3,168. 3,168 × 1.05 = 3,326.4, which rounds to 3,326. (3,348 wrongly takes 7% off in one step.)"
+    },
+    {
+      "id": 8,
+      "question": "Last month 860 of 1,000 patients gave positive feedback. This month it is 945 of 1,050. By how many percentage points has the positive rate changed?",
+      "options": ["5 points", "8.5 points", "4 points", "3.5 points"],
+      "answer": "C",
+      "explanation": "This month: 945 ÷ 1,050 = 90%. Last month: 86%. Change = 4 percentage points."
+    },
+    {
+      "id": 9,
+      "question": "Mileage is paid at 45p a mile. A community worker drives round trips of 12, 18 and 25 miles. What is the claim?",
+      "options": ["£22.50", "£24.75", "£24.30", "£26.10"],
+      "answer": "B",
+      "explanation": "Total = 55 miles. 55 × £0.45 = £24.75."
+    },
+    {
+      "id": 10,
+      "question": "A ward of 42 staff has nurses and healthcare assistants in the ratio 5:2. How many healthcare assistants are there?",
+      "options": ["14", "16", "8", "12"],
+      "answer": "D",
+      "explanation": "5 + 2 = 7 parts. 42 ÷ 7 = 6 per part. HCAs = 2 × 6 = 12."
+    },
+    {
+      "id": 11,
+      "question": "120 patients spend a combined 540 bed-days in hospital. What is the average length of stay?",
+      "options": ["4.0 days", "4.8 days", "4.5 days", "5.4 days"],
+      "answer": "C",
+      "explanation": "540 ÷ 120 = 4.5 days."
+    },
+    {
+      "id": 12,
+      "question": "5 clinicians each see 4 patients an hour in a 3.5-hour clinic. 10% of slots are kept for urgent cases. How many routine slots are there?",
+      "options": ["63", "56", "70", "60"],
+      "answer": "A",
+      "explanation": "Total slots = 5 × 4 × 3.5 = 70. Routine = 90% of 70 = 63."
+    },
+    {
+      "id": 13,
+      "question": "A hand hygiene audit finds 38 of 40 observations compliant. What is the compliance rate?",
+      "options": ["90%", "95%", "97.5%", "92.5%"],
+      "answer": "B",
+      "explanation": "38 ÷ 40 = 0.95 = 95%."
+    },
+    {
+      "id": 14,
+      "question": "The cost of a test falls from £18.00 to £15.30. What is the percentage reduction?",
+      "options": ["18%", "12%", "17.6%", "15%"],
+      "answer": "D",
+      "explanation": "Reduction = £2.70. £2.70 ÷ £18.00 = 0.15 = 15%. (17.6% divides by the new price instead.)"
+    },
+    {
+      "id": 15,
+      "question": "Gloves come in boxes of 100 at £6.40 a box. A department needs 4,500 gloves. What is the cost?",
+      "options": ["£294.40", "£281.60", "£288.00", "£256.00"],
+      "answer": "C",
+      "explanation": "4,500 ÷ 100 = 45 boxes. 45 × £6.40 = £288.00."
+    }
+  ],
+  "verbal": [
+    {
+      "id": 1,
+      "passage": "The NHS Constitution sets out principles and values for the health service in England, including respect and dignity, compassion and improving lives. Patients have the right to be treated with dignity and respect, and to be involved in decisions about their care. Staff are expected to raise concerns about safety as early as possible.",
+      "question": "Patients have the right to be involved in decisions about their care.",
+      "options": ["True", "False", "Cannot Say"],
+      "answer": "True",
+      "explanation": "The passage states patients have the right 'to be involved in decisions about their care'."
+    },
+    {
+      "id": 2,
+      "passage": "The NHS Constitution sets out principles and values for the health service in England, including respect and dignity, compassion and improving lives. Patients have the right to be treated with dignity and respect, and to be involved in decisions about their care. Staff are expected to raise concerns about safety as early as possible.",
+      "question": "Staff should wait until they are certain before raising a safety concern.",
+      "options": ["True", "False", "Cannot Say"],
+      "answer": "False",
+      "explanation": "The passage says staff are expected to raise safety concerns 'as early as possible'."
+    },
+    {
+      "id": 3,
+      "passage": "A hospital trust introduced a new electronic system for handing over patients between shifts. Before the change, handovers were written on paper and sometimes missed details. Six months after the change, staff surveys reported that handovers felt clearer. The trust has not yet compared the number of handover-related incidents before and after the change.",
+      "question": "Staff reported that handovers felt clearer after the change.",
+      "options": ["True", "False", "Cannot Say"],
+      "answer": "True",
+      "explanation": "The passage states that staff surveys 'reported that handovers felt clearer'."
+    },
+    {
+      "id": 4,
+      "passage": "A hospital trust introduced a new electronic system for handing over patients between shifts. Before the change, handovers were written on paper and sometimes missed details. Six months after the change, staff surveys reported that handovers felt clearer. The trust has not yet compared the number of handover-related incidents before and after the change.",
+      "question": "The new system has reduced the number of handover-related incidents.",
+      "options": ["True", "False", "Cannot Say"],
+      "answer": "Cannot Say",
+      "explanation": "The passage says the trust 'has not yet compared' incident numbers, so this cannot be determined."
+    },
+    {
+      "id": 5,
+      "passage": "Confidentiality is central to patient trust. Information about a patient should be shared only with people directly involved in their care, or where there is a legal basis to do so. Staff should not discuss patients in public areas such as lifts or cafés, even if they do not use the patient's name.",
+      "question": "Staff may discuss patients in public areas as long as they do not use names.",
+      "options": ["True", "False", "Cannot Say"],
+      "answer": "False",
+      "explanation": "The passage says staff should not discuss patients in public areas 'even if they do not use the patient's name'."
+    },
+    {
+      "id": 6,
+      "passage": "Confidentiality is central to patient trust. Information about a patient should be shared only with people directly involved in their care, or where there is a legal basis to do so. Staff should not discuss patients in public areas such as lifts or cafés, even if they do not use the patient's name.",
+      "question": "Patient information can sometimes be shared with people outside the care team.",
+      "options": ["True", "False", "Cannot Say"],
+      "answer": "True",
+      "explanation": "The passage allows sharing 'where there is a legal basis to do so', so in some cases it can go beyond the care team."
+    },
+    {
+      "id": 7,
+      "passage": "A GP practice extended its opening hours to include two evenings a week. The aim was to make appointments easier for people who work during the day. In the first three months, the evening slots were fully booked. The practice is funded to continue the extended hours until the end of the financial year.",
+      "question": "The evening slots were fully booked in the first three months.",
+      "options": ["True", "False", "Cannot Say"],
+      "answer": "True",
+      "explanation": "The passage states that 'the evening slots were fully booked' in the first three months."
+    },
+    {
+      "id": 8,
+      "passage": "A GP practice extended its opening hours to include two evenings a week. The aim was to make appointments easier for people who work during the day. In the first three months, the evening slots were fully booked. The practice is funded to continue the extended hours until the end of the financial year.",
+      "question": "The extended hours will continue permanently.",
+      "options": ["True", "False", "Cannot Say"],
+      "answer": "Cannot Say",
+      "explanation": "The passage says funding runs 'until the end of the financial year' and gives no information about what happens after that."
+    }
+  ],
+  "sjt": [
+    {
+      "id": 1,
+      "scenario": "You notice that a patient's wristband has a different date of birth from their notes.",
+      "question": "Rank the following responses from MOST to LEAST effective.",
+      "options": [
+        "A. Assume it is a typing error and continue.",
+        "B. Check with the patient and correct the notes yourself.",
+        "C. Stop and report it to the nurse in charge before any care or medication is given.",
+        "D. Mention it at the end of your shift."
+      ],
+      "ranking": ["C", "B", "D", "A"],
+      "explanation": "C is best: patient safety comes first and identity must be confirmed properly. B is well meant but you may not be authorised to change records. D delays action on a safety risk. A is worst: a wrong identity can lead to serious harm."
+    },
+    {
+      "id": 2,
+      "scenario": "A relative of a patient is upset and raising their voice at the ward desk because they have been waiting for an update.",
+      "question": "Rank the following responses from MOST to LEAST effective.",
+      "options": [
+        "A. Ignore them until they calm down.",
+        "B. Ask security to attend straight away.",
+        "C. Stay calm, acknowledge their frustration and find out who can give them an update.",
+        "D. Explain that staff are busy and ask them to wait."
+      ],
+      "ranking": ["C", "D", "B", "A"],
+      "explanation": "C is best: it shows compassion and deals with the cause of the upset. D is true but may increase frustration. B may be needed if the situation becomes unsafe, but it is too early here. A is worst: it shows no compassion."
+    },
+    {
+      "id": 3,
+      "scenario": "You overhear two colleagues discussing a patient by name in the hospital café.",
+      "question": "Rank the following responses from MOST to LEAST effective.",
+      "options": [
+        "A. Join the conversation.",
+        "B. Say nothing, as you do not know them well.",
+        "C. Politely remind them that others could overhear.",
+        "D. Mention it to your manager later without speaking to them."
+      ],
+      "ranking": ["C", "D", "B", "A"],
+      "explanation": "C is best: it protects confidentiality immediately and respectfully. D raises it but does not stop the breach at the time. B lets it continue. A is worst: it adds to the breach."
+    },
+    {
+      "id": 4,
+      "scenario": "You think a senior colleague has made a mistake in a patient's care plan.",
+      "question": "Rank the following responses from MOST to LEAST effective.",
+      "options": [
+        "A. Raise it with the nurse in charge without speaking to the colleague first.",
+        "B. Say nothing, as they are more experienced.",
+        "C. Wait to see whether anyone else notices.",
+        "D. Raise your concern with the colleague straight away, and escalate if it is not resolved."
+      ],
+      "ranking": ["D", "A", "C", "B"],
+      "explanation": "D is best: it raises the concern early and escalates if needed, as the NHS expects. A is also acceptable but misses the chance to resolve it quickly. C and B both put the patient at risk; B is worst because you knowingly stay silent."
+    },
+    {
+      "id": 5,
+      "scenario": "A patient refuses help with washing, but you are worried about their hygiene and skin.",
+      "question": "Rank the following responses from MOST to LEAST effective.",
+      "options": [
+        "A. Respect their choice for now, explain your concerns gently and tell the nurse in charge.",
+        "B. Try again later without discussing it further.",
+        "C. Persuade them firmly until they agree.",
+        "D. Wash them anyway, as it is in their interest."
+      ],
+      "ranking": ["A", "B", "C", "D"],
+      "explanation": "A is best: it respects dignity and choice while making sure concerns are shared. B respects choice but does not share the concern. C risks pressuring the patient. D is worst: care without consent disregards the patient's dignity and rights."
+    }
+  ]
+}

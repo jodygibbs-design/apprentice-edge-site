@@ -38,10 +38,10 @@
     },
     {
       "id": 6,
-      "question": "Over Q1, a firm's expenses were £380,000. Over Q2 they fell 5%, then rose 8% in Q3. What were Q3 expenses?",
-      "options": ["£389,340", "£390,204", "£391,044", "£392,160"],
-      "answer": "C",
-      "explanation": "Q2: £380,000 × 0.95 = £361,000. Q3: £361,000 × 1.08 = £389,880. Closest answer is C."
+      "question": "Over Q1, a firm's expenses were £380,000. In Q2 they fell 5%, then in Q3 they rose 8% on Q2. What were Q3 expenses?",
+      "options": ["£410,400", "£389,880", "£391,044", "£387,600"],
+      "answer": "B",
+      "explanation": "Q2: £380,000 × 0.95 = £361,000. Q3: £361,000 × 1.08 = £389,880. (£387,600 wrongly applies a net +3% in one step.)"
     },
     {
       "id": 7,
@@ -80,10 +80,10 @@
     },
     {
       "id": 12,
-      "question": "If total assets are £850,000 and total liabilities are £340,000, what is the debt-to-equity ratio?",
-      "options": ["0.4", "0.5", "0.66", "0.75"],
-      "answer": "C",
-      "explanation": "Equity = £850,000 − £340,000 = £510,000. Debt-to-equity = £340,000 ÷ £510,000 = 0.667 ≈ 0.66."
+      "question": "If total assets are £850,000 and total liabilities are £340,000, what is the debt-to-equity ratio, to two decimal places?",
+      "options": ["0.40", "0.75", "0.50", "0.67"],
+      "answer": "D",
+      "explanation": "Equity = £850,000 − £340,000 = £510,000. Debt-to-equity = £340,000 ÷ £510,000 = 0.667, which rounds to 0.67."
     },
     {
       "id": 13,

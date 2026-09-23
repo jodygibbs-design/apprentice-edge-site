@@ -1,0 +1,243 @@
+{
+  "employer": "BBC",
+  "numerical": [
+    {
+      "id": 1,
+      "question": "5.6 million people are watching TV in a time slot and 4.2 million of them watch one programme. What is that programme's audience share?",
+      "options": ["70%", "60%", "75%", "80%"],
+      "answer": "C",
+      "explanation": "4.2m ÷ 5.6m = 0.75 = 75%."
+    },
+    {
+      "id": 2,
+      "question": "Streaming requests of 12.5 million rise by 18%. What is the new figure?",
+      "options": ["14.25m", "14.75m", "14.5m", "15.0m"],
+      "answer": "B",
+      "explanation": "12.5m × 1.18 = 14.75m."
+    },
+    {
+      "id": 3,
+      "question": "Suppose an annual fee is £174.50. What is the monthly equivalent, to the nearest penny?",
+      "options": ["£14.40", "£15.86", "£13.42", "£14.54"],
+      "answer": "D",
+      "explanation": "£174.50 ÷ 12 = £14.5417, which rounds to £14.54."
+    },
+    {
+      "id": 4,
+      "question": "A £850,000 production budget allocates 40% to crew, 25% to equipment and the rest to post-production. How much goes to post-production?",
+      "options": ["£340,000", "£255,000", "£212,500", "£297,500"],
+      "answer": "D",
+      "explanation": "Post-production = 100% − 65% = 35%. £850,000 × 0.35 = £297,500."
+    },
+    {
+      "id": 5,
+      "question": "A series has 6 episodes of 58 minutes. What is the total running time in hours?",
+      "options": ["5.8 hours", "6.0 hours", "5.6 hours", "6.2 hours"],
+      "answer": "A",
+      "explanation": "6 × 58 = 348 minutes. 348 ÷ 60 = 5.8 hours."
+    },
+    {
+      "id": 6,
+      "question": "A podcast gets 20,000 downloads in week 1, and each week downloads fall by 10% on the week before. How many downloads are there in week 3?",
+      "options": ["16,200", "18,000", "17,000", "16,000"],
+      "answer": "A",
+      "explanation": "Week 2: 20,000 × 0.9 = 18,000. Week 3: 18,000 × 0.9 = 16,200. (16,000 wrongly takes 20% off in one step.)"
+    },
+    {
+      "id": 7,
+      "question": "A website gets 3.6 million visits: 65% on mobile, 25% on desktop and the rest on tablet. How many visits are on tablet?",
+      "options": ["360,000", "300,000", "400,000", "540,000"],
+      "answer": "A",
+      "explanation": "Tablet = 100% − 90% = 10%. 3,600,000 × 0.10 = 360,000."
+    },
+    {
+      "id": 8,
+      "question": "A 450-word story must be cut by 20%, and then a 30-word update is added. How long is the final story?",
+      "options": ["390 words", "360 words", "400 words", "380 words"],
+      "answer": "A",
+      "explanation": "450 × 0.8 = 360 words. 360 + 30 = 390 words."
+    },
+    {
+      "id": 9,
+      "question": "Five episodes draw audiences of 3.1m, 2.8m, 3.4m, 3.0m and 2.7m. What is the mean audience?",
+      "options": ["3.0m", "3.1m", "2.9m", "3.2m"],
+      "answer": "A",
+      "explanation": "Total = 15.0m. 15.0m ÷ 5 = 3.0m."
+    },
+    {
+      "id": 10,
+      "question": "12 crew members each work 6 hours of overtime at £28 an hour. What is the total overtime cost?",
+      "options": ["£2,106", "£1,680", "£2,160", "£2,016"],
+      "answer": "D",
+      "explanation": "12 × 6 = 72 hours. 72 × £28 = £2,016."
+    },
+    {
+      "id": 11,
+      "question": "A radio network reaches 32 million of a 54 million adult population. What percentage is that, to one decimal place?",
+      "options": ["56.4%", "62.5%", "68.8%", "59.3%"],
+      "answer": "D",
+      "explanation": "32 ÷ 54 = 0.5926 = 59.3%."
+    },
+    {
+      "id": 12,
+      "question": "960 hours of programming are split drama:comedy:factual in the ratio 4:3:5. How many hours are factual?",
+      "options": ["480", "360", "320", "400"],
+      "answer": "D",
+      "explanation": "4 + 3 + 5 = 12 parts. 960 ÷ 12 = 80 per part. Factual = 5 × 80 = 400 hours."
+    },
+    {
+      "id": 13,
+      "question": "A newsroom has 25 reporters, 20% of whom are off on any given day. Each reporter on shift files 3 stories a day. How many stories are filed a day?",
+      "options": ["55", "72", "75", "60"],
+      "answer": "D",
+      "explanation": "On shift = 25 × 0.8 = 20. 20 × 3 = 60 stories."
+    },
+    {
+      "id": 14,
+      "question": "Streaming minutes grow from 800 million to 1.1 billion. What is the percentage growth?",
+      "options": ["40%", "27.3%", "30%", "37.5%"],
+      "answer": "D",
+      "explanation": "Increase = 300m. 300m ÷ 800m = 37.5%. (27.3% divides by the new figure instead.)"
+    },
+    {
+      "id": 15,
+      "question": "A co-production owes €46,000 and the rate is £1 = €1.15. How much is that in sterling?",
+      "options": ["£52,900", "£40,000", "£39,100", "£40,500"],
+      "answer": "B",
+      "explanation": "€46,000 ÷ 1.15 = £40,000. (£52,900 wrongly multiplies instead of dividing.)"
+    }
+  ],
+  "verbal": [
+    {
+      "id": 1,
+      "passage": "A public service broadcaster is funded to inform, educate and entertain. It must be impartial in its news coverage, which means presenting a range of significant views fairly and not taking sides on matters of public controversy. Impartiality does not require giving every view equal airtime, but it does require due weight to be given to each.",
+      "question": "Impartiality requires every view to receive exactly equal airtime.",
+      "options": ["True", "False", "Cannot Say"],
+      "answer": "False",
+      "explanation": "The passage says impartiality 'does not require giving every view equal airtime'."
+    },
+    {
+      "id": 2,
+      "passage": "A public service broadcaster is funded to inform, educate and entertain. It must be impartial in its news coverage, which means presenting a range of significant views fairly and not taking sides on matters of public controversy. Impartiality does not require giving every view equal airtime, but it does require due weight to be given to each.",
+      "question": "The broadcaster's purpose includes entertaining its audience.",
+      "options": ["True", "False", "Cannot Say"],
+      "answer": "True",
+      "explanation": "The passage states it is funded 'to inform, educate and entertain'."
+    },
+    {
+      "id": 3,
+      "passage": "A production team is preparing a documentary about a local river. They plan to film over four weekends and interview residents, scientists and a local councillor. The producer has asked the researcher to confirm every factual claim with at least two independent sources before the script is finalised.",
+      "question": "The documentary will include an interview with a local councillor.",
+      "options": ["True", "False", "Cannot Say"],
+      "answer": "True",
+      "explanation": "The passage lists 'a local councillor' among the planned interviewees."
+    },
+    {
+      "id": 4,
+      "passage": "A production team is preparing a documentary about a local river. They plan to film over four weekends and interview residents, scientists and a local councillor. The producer has asked the researcher to confirm every factual claim with at least two independent sources before the script is finalised.",
+      "question": "The script has already been finalised.",
+      "options": ["True", "False", "Cannot Say"],
+      "answer": "False",
+      "explanation": "The passage says claims must be confirmed 'before the script is finalised', so it has not been finalised yet."
+    },
+    {
+      "id": 5,
+      "passage": "Audience research found that younger viewers increasingly watch programmes on demand rather than when they are first broadcast. They also discover content through social media clips. In response, a channel began releasing whole series at once online. The research did not measure whether this change increased total viewing.",
+      "question": "Releasing whole series online increased total viewing among younger audiences.",
+      "options": ["True", "False", "Cannot Say"],
+      "answer": "Cannot Say",
+      "explanation": "The passage says the research 'did not measure whether this change increased total viewing'."
+    },
+    {
+      "id": 6,
+      "passage": "Audience research found that younger viewers increasingly watch programmes on demand rather than when they are first broadcast. They also discover content through social media clips. In response, a channel began releasing whole series at once online. The research did not measure whether this change increased total viewing.",
+      "question": "Younger viewers discover content partly through social media clips.",
+      "options": ["True", "False", "Cannot Say"],
+      "answer": "True",
+      "explanation": "The passage states younger viewers 'discover content through social media clips'."
+    },
+    {
+      "id": 7,
+      "passage": "Before a story is published, a news editor checks that the reporting is accurate, fair and properly sourced. If a significant error is found after publication, it should be corrected promptly and the correction made clear to the audience. Hiding or quietly changing a mistake damages trust more than the original error.",
+      "question": "Significant errors found after publication should be corrected openly.",
+      "options": ["True", "False", "Cannot Say"],
+      "answer": "True",
+      "explanation": "The passage says errors 'should be corrected promptly and the correction made clear to the audience'."
+    },
+    {
+      "id": 8,
+      "passage": "Before a story is published, a news editor checks that the reporting is accurate, fair and properly sourced. If a significant error is found after publication, it should be corrected promptly and the correction made clear to the audience. Hiding or quietly changing a mistake damages trust more than the original error.",
+      "question": "Quietly changing a mistake is the best way to protect trust.",
+      "options": ["True", "False", "Cannot Say"],
+      "answer": "False",
+      "explanation": "The passage says hiding or quietly changing a mistake 'damages trust more than the original error'."
+    }
+  ],
+  "sjt": [
+    {
+      "id": 1,
+      "scenario": "You are researching a story and find that a key claim comes from a single anonymous social media post.",
+      "question": "Rank the following responses from MOST to LEAST effective.",
+      "options": [
+        "A. Use the claim but make clear that it is unverified.",
+        "B. Try to verify the claim with independent sources before it is used.",
+        "C. Use the claim, since it is already public.",
+        "D. Drop the story entirely."
+      ],
+      "ranking": ["B", "A", "D", "C"],
+      "explanation": "B is best: accuracy comes first. A is transparent but still risks spreading misinformation. D may be needed if the claim cannot be verified, but it gives up too early. C is worst: it treats a single anonymous post as fact, which damages trust."
+    },
+    {
+      "id": 2,
+      "scenario": "During a shoot, a member of the public asks not to be filmed, but they are in the background of a key shot.",
+      "question": "Rank the following responses from MOST to LEAST effective.",
+      "options": [
+        "A. Respect the request and reframe or reshoot the scene.",
+        "B. Carry on filming, since they are in a public place.",
+        "C. Blur them in the edit without telling them.",
+        "D. Explain the project and ask whether they would be happy to appear."
+      ],
+      "ranking": ["A", "D", "C", "B"],
+      "explanation": "A is best: it respects their wishes straight away. D is courteous but may pressure someone who has already said no. C protects them to some extent but does not respect their request at the time. B is worst: it ignores a clear request."
+    },
+    {
+      "id": 3,
+      "scenario": "Your team is developing ideas for a new series. A junior colleague's idea is dismissed quickly in a meeting, but you think it has merit.",
+      "question": "Rank the following responses from MOST to LEAST effective.",
+      "options": [
+        "A. Suggest the idea again later as your own.",
+        "B. Say nothing, as the group has moved on.",
+        "C. Tell your colleague afterwards that you liked the idea.",
+        "D. Say what you like about the idea and suggest the group develops it further."
+      ],
+      "ranking": ["D", "C", "B", "A"],
+      "explanation": "D is best: it values creativity and respect for colleagues. C is supportive but the idea stays dismissed. B means a good idea may be lost. A is worst: it takes credit for someone else's work."
+    },
+    {
+      "id": 4,
+      "scenario": "After a programme airs, audience members point out a factual mistake.",
+      "question": "Rank the following responses from MOST to LEAST effective.",
+      "options": [
+        "A. Wait to see whether more people complain.",
+        "B. Tell your editor straight away so a correction can be issued.",
+        "C. Correct the online version quietly.",
+        "D. Check the facts again before telling anyone."
+      ],
+      "ranking": ["B", "D", "C", "A"],
+      "explanation": "B is best: it is accountable and allows a prompt, visible correction. D is careful but delays the correction. C fixes the error but is not open with the audience. A is worst: it leaves the error in place."
+    },
+    {
+      "id": 5,
+      "scenario": "You are working on a tight budget and a supplier offers you a personal gift if you choose them.",
+      "question": "Rank the following responses from MOST to LEAST effective.",
+      "options": [
+        "A. Decline the gift but say nothing.",
+        "B. Accept the gift and choose the supplier.",
+        "C. Decline the gift and report the offer according to the organisation's policy.",
+        "D. Accept the gift but choose the supplier only if they are the best option."
+      ],
+      "ranking": ["C", "A", "D", "B"],
+      "explanation": "C is best: it is transparent and protects public money. A avoids the conflict but does not report it. D creates a conflict of interest even if the decision is fair. B is worst: it is a clear integrity breach."
+    }
+  ]
+}

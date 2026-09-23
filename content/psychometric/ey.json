@@ -1,0 +1,243 @@
+{
+  "employer": "EY",
+  "numerical": [
+    {
+      "id": 1,
+      "question": "A team of 8 each bill 37.5 hours a week. How many hours does the team bill over 4 weeks?",
+      "options": ["1,050", "1,300", "1,200", "1,120"],
+      "answer": "C",
+      "explanation": "8 × 37.5 = 300 hours a week. 300 × 4 = 1,200."
+    },
+    {
+      "id": 2,
+      "question": "A client's revenue is £12m, of which 35% is earned overseas. What is overseas revenue?",
+      "options": ["£4.5m", "£4.2m", "£3.9m", "£3.5m"],
+      "answer": "B",
+      "explanation": "£12m × 0.35 = £4.2m."
+    },
+    {
+      "id": 3,
+      "question": "A share price falls from £48 to £42. What is the percentage fall?",
+      "options": ["12.5%", "12%", "6%", "14.3%"],
+      "answer": "A",
+      "explanation": "Fall = £6. £6 ÷ £48 = 12.5%. (14.3% divides by the new price instead of the original.)"
+    },
+    {
+      "id": 4,
+      "question": "An assurance team finds 3 errors in a sample of 150 transactions. If the sample is representative, how many errors would you expect in a population of 4,500?",
+      "options": ["90", "45", "60", "120"],
+      "answer": "A",
+      "explanation": "Error rate = 3 ÷ 150 = 2%. 2% × 4,500 = 90."
+    },
+    {
+      "id": 5,
+      "question": "A consulting project costs £96,000 and saves the client £3,200 a month. How many months until the saving covers the cost?",
+      "options": ["32", "28", "24", "30"],
+      "answer": "D",
+      "explanation": "£96,000 ÷ £3,200 = 30 months."
+    },
+    {
+      "id": 6,
+      "question": "An invoice totals £2,880 including VAT at 20%. What is the amount before VAT?",
+      "options": ["£2,304", "£2,600", "£2,400", "£2,560"],
+      "answer": "C",
+      "explanation": "Gross = net × 1.2, so net = £2,880 ÷ 1.2 = £2,400. (£2,304 wrongly takes 20% off the gross.)"
+    },
+    {
+      "id": 7,
+      "question": "A candidate scores 70 on an interview weighted 40% and 85 on a test weighted 60%. What is the weighted overall score?",
+      "options": ["77.5", "80", "79", "76"],
+      "answer": "C",
+      "explanation": "(70 × 0.4) + (85 × 0.6) = 28 + 51 = 79."
+    },
+    {
+      "id": 8,
+      "question": "In a staff survey, 540 of 720 respondents say they feel engaged. What percentage is that?",
+      "options": ["70%", "78%", "75%", "72%"],
+      "answer": "C",
+      "explanation": "540 ÷ 720 = 0.75 = 75%."
+    },
+    {
+      "id": 9,
+      "question": "A budget of £450,000 is split between three teams in the ratio 5:3:2. How much does the second team receive?",
+      "options": ["£135,000", "£150,000", "£225,000", "£90,000"],
+      "answer": "A",
+      "explanation": "5 + 3 + 2 = 10 parts. One part = £45,000. Second team = 3 × £45,000 = £135,000."
+    },
+    {
+      "id": 10,
+      "question": "Revenue was £8.0m in 2022, £9.2m in 2023 and £10.35m in 2024. What was the growth rate from 2023 to 2024?",
+      "options": ["12.5%", "11.1%", "15%", "13%"],
+      "answer": "A",
+      "explanation": "Increase = £1.15m. £1.15m ÷ £9.2m = 12.5%."
+    },
+    {
+      "id": 11,
+      "question": "If €1 = £0.85, how much is €34,000 in sterling?",
+      "options": ["£28,050", "£40,000", "£28,900", "£29,750"],
+      "answer": "C",
+      "explanation": "€34,000 × 0.85 = £28,900."
+    },
+    {
+      "id": 12,
+      "question": "A team must complete 48 tasks at 6 tasks a day. After 5 days, two more people join and the rate rises to 9 tasks a day. How many days does the whole job take?",
+      "options": ["9", "7", "6", "8"],
+      "answer": "B",
+      "explanation": "First 5 days: 30 tasks. 18 remain at 9 a day = 2 more days. Total = 7 days."
+    },
+    {
+      "id": 13,
+      "question": "A company's profit after 25% tax is £1.5m. What was its profit before tax?",
+      "options": ["£1.75m", "£1.875m", "£2.0m", "£2.25m"],
+      "answer": "C",
+      "explanation": "After-tax profit = 75% of pre-tax profit. £1.5m ÷ 0.75 = £2.0m. (£1.875m wrongly adds 25% of £1.5m.)"
+    },
+    {
+      "id": 14,
+      "question": "What is the median of these seven values: 12, 15, 9, 22, 18, 15, 11?",
+      "options": ["14.6", "16", "14", "15"],
+      "answer": "D",
+      "explanation": "In order: 9, 11, 12, 15, 15, 18, 22. The middle (4th) value is 15. (14.6 is the mean, not the median.)"
+    },
+    {
+      "id": 15,
+      "question": "A department of 1,250 loses 8% of its staff each year and does not hire. Roughly how many staff remain after two years?",
+      "options": ["1,050", "1,150", "1,058", "1,080"],
+      "answer": "C",
+      "explanation": "Year 1: 1,250 × 0.92 = 1,150. Year 2: 1,150 × 0.92 = 1,058. (1,050 wrongly takes 16% off in one step.)"
+    }
+  ],
+  "verbal": [
+    {
+      "id": 1,
+      "passage": "Assurance teams check that the information a company publishes is reliable. Increasingly, this goes beyond financial statements to areas such as sustainability reporting, where companies disclose data on emissions and energy use. Because standards for sustainability data are still developing, assurance teams often need to agree clear definitions with clients before testing begins.",
+      "question": "Assurance work is limited to a company's financial statements.",
+      "options": ["True", "False", "Cannot Say"],
+      "answer": "False",
+      "explanation": "The passage says assurance 'goes beyond financial statements to areas such as sustainability reporting'."
+    },
+    {
+      "id": 2,
+      "passage": "Assurance teams check that the information a company publishes is reliable. Increasingly, this goes beyond financial statements to areas such as sustainability reporting, where companies disclose data on emissions and energy use. Because standards for sustainability data are still developing, assurance teams often need to agree clear definitions with clients before testing begins.",
+      "question": "Standards for sustainability reporting are now fully settled.",
+      "options": ["True", "False", "Cannot Say"],
+      "answer": "False",
+      "explanation": "The passage states standards for sustainability data 'are still developing'."
+    },
+    {
+      "id": 3,
+      "passage": "A strengths-based assessment asks candidates how they naturally prefer to work, rather than testing what they already know. Questions are often timed, and candidates are encouraged to answer quickly and honestly. Employers use strengths assessments because they believe that people who enjoy a task are more likely to perform it well and to stay motivated.",
+      "question": "Strengths-based assessments are designed mainly to test a candidate's existing technical knowledge.",
+      "options": ["True", "False", "Cannot Say"],
+      "answer": "False",
+      "explanation": "The passage says the assessment asks how candidates prefer to work 'rather than testing what they already know'."
+    },
+    {
+      "id": 4,
+      "passage": "A strengths-based assessment asks candidates how they naturally prefer to work, rather than testing what they already know. Questions are often timed, and candidates are encouraged to answer quickly and honestly. Employers use strengths assessments because they believe that people who enjoy a task are more likely to perform it well and to stay motivated.",
+      "question": "Candidates who score highly on a strengths assessment always perform better in the job.",
+      "options": ["True", "False", "Cannot Say"],
+      "answer": "Cannot Say",
+      "explanation": "The passage says employers 'believe' enjoyment links to performance, but gives no evidence that high scorers always perform better."
+    },
+    {
+      "id": 5,
+      "passage": "A client asks a consulting team to reduce the time its customers wait for refunds. The team maps the current process and finds that most delays occur while claims wait for a manager's approval. They recommend allowing staff to approve refunds below a set value without sign-off. The client agrees to trial the change in one region first.",
+      "question": "The consulting team found that most delays happen while claims wait for approval.",
+      "options": ["True", "False", "Cannot Say"],
+      "answer": "True",
+      "explanation": "The passage states that 'most delays occur while claims wait for a manager's approval'."
+    },
+    {
+      "id": 6,
+      "passage": "A client asks a consulting team to reduce the time its customers wait for refunds. The team maps the current process and finds that most delays occur while claims wait for a manager's approval. They recommend allowing staff to approve refunds below a set value without sign-off. The client agrees to trial the change in one region first.",
+      "question": "The trial successfully reduced refund waiting times.",
+      "options": ["True", "False", "Cannot Say"],
+      "answer": "Cannot Say",
+      "explanation": "The passage only says the client agreed to a trial. It gives no results."
+    },
+    {
+      "id": 7,
+      "passage": "Teaming is valued in large firms because complex client problems often need several specialisms at once, such as tax, technology and audit. Effective teams share information early, agree who owns each task and give each other honest feedback. Research within one firm suggested that teams which held short daily check-ins missed fewer deadlines than those which did not.",
+      "question": "Complex client problems can require several specialisms at the same time.",
+      "options": ["True", "False", "Cannot Say"],
+      "answer": "True",
+      "explanation": "The passage says complex problems 'often need several specialisms at once'."
+    },
+    {
+      "id": 8,
+      "passage": "Teaming is valued in large firms because complex client problems often need several specialisms at once, such as tax, technology and audit. Effective teams share information early, agree who owns each task and give each other honest feedback. Research within one firm suggested that teams which held short daily check-ins missed fewer deadlines than those which did not.",
+      "question": "Teams that hold daily check-ins miss fewer deadlines in every firm.",
+      "options": ["True", "False", "Cannot Say"],
+      "answer": "Cannot Say",
+      "explanation": "The research described was carried out within one firm and only 'suggested' a link, so the passage cannot tell us about every firm."
+    }
+  ],
+  "sjt": [
+    {
+      "id": 1,
+      "scenario": "You are working on a project with colleagues from tax and technology. In meetings, one quieter team member rarely speaks, but you know they have useful experience relevant to the current problem.",
+      "question": "Rank the following responses from MOST to LEAST effective.",
+      "options": [
+        "A. Speak to them after the meeting and ask them to share their thoughts by email.",
+        "B. Present their idea yourself, since you know what they would say.",
+        "C. Leave it, as it is their choice whether to contribute.",
+        "D. Invite them to share their view in the meeting, mentioning their relevant experience."
+      ],
+      "ranking": ["D", "A", "B", "C"],
+      "explanation": "D is best: it includes them in the room and gets their expertise heard, which is inclusive teaming. A helps but keeps them out of the discussion. B takes credit and speaks for them. C is worst: the team loses useful input."
+    },
+    {
+      "id": 2,
+      "scenario": "A client emails late on a Friday asking for an extra analysis by Monday. It is outside the agreed scope of work.",
+      "question": "Rank the following responses from MOST to LEAST effective.",
+      "options": [
+        "A. Ignore the email until Monday.",
+        "B. Acknowledge the email, then check with your manager before agreeing to anything.",
+        "C. Reply that it is out of scope and cannot be done.",
+        "D. Do the work over the weekend without telling your manager."
+      ],
+      "ranking": ["B", "C", "D", "A"],
+      "explanation": "B is best: it is responsive to the client while respecting the agreed scope and your manager's role. C is honest but may harm the relationship without a proper discussion. D may create unbilled work and risk. A is worst: it is unresponsive and unprofessional."
+    },
+    {
+      "id": 3,
+      "scenario": "You made a mistake in a spreadsheet that has already been sent to the client. The error is small but affects one of their totals.",
+      "question": "Rank the following responses from MOST to LEAST effective.",
+      "options": [
+        "A. Tell your manager straight away and suggest how to correct it.",
+        "B. Send the client a corrected version yourself with an apology.",
+        "C. Fix it in the next version and hope nobody notices.",
+        "D. Wait to see whether the client spots it."
+      ],
+      "ranking": ["A", "B", "C", "D"],
+      "explanation": "A is best: it shows integrity and lets the manager handle client communication. B corrects it honestly but bypasses your manager. C is not open about the error. D is worst: it knowingly leaves the client with wrong information."
+    },
+    {
+      "id": 4,
+      "scenario": "You are asked to lead a small internal task. Two team members disagree strongly about the best approach, and the discussion is becoming tense.",
+      "question": "Rank the following responses from MOST to LEAST effective.",
+      "options": [
+        "A. Ask each to explain their reasoning, agree criteria for deciding, and choose together.",
+        "B. Let them argue it out until one gives in.",
+        "C. Take a short break and speak to each person separately.",
+        "D. Pick the approach you prefer to save time."
+      ],
+      "ranking": ["A", "C", "D", "B"],
+      "explanation": "A is best: it is respectful and uses clear criteria to reach a shared decision. C calms things down but delays a decision. D is quick but may leave people feeling unheard. B is worst: it damages relationships and wastes time."
+    },
+    {
+      "id": 5,
+      "scenario": "You are balancing study for a professional exam with a busy client period. Your exam is in two weeks and you are behind on revision.",
+      "question": "Rank the following responses from MOST to LEAST effective.",
+      "options": [
+        "A. Speak to your manager about planning your workload around study leave.",
+        "B. Cancel your exam and sit it at the next opportunity.",
+        "C. Keep quiet and hope it works out.",
+        "D. Revise late every night while keeping all client work."
+      ],
+      "ranking": ["A", "D", "B", "C"],
+      "explanation": "A is best: it is open about the pressure and allows a realistic plan. D shows commitment but risks burnout and poor performance in both. B may be needed as a last resort but delays progress. C is worst: it avoids the problem."
+    }
+  ]
+}

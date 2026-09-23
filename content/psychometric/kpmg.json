@@ -1,0 +1,243 @@
+{
+  "employer": "KPMG",
+  "numerical": [
+    {
+      "id": 1,
+      "question": "An audit fee of £84,000 rises by 7.5% for the new year. What is the new fee?",
+      "options": ["£91,200", "£90,750", "£90,300", "£89,800"],
+      "answer": "C",
+      "explanation": "£84,000 × 1.075 = £90,300."
+    },
+    {
+      "id": 2,
+      "question": "An audit team tests 12% of a client's 2,450 invoices. How many invoices are tested?",
+      "options": ["304", "294", "284", "312"],
+      "answer": "B",
+      "explanation": "2,450 × 0.12 = 294."
+    },
+    {
+      "id": 3,
+      "question": "A client has revenue of £6.4m and total costs of £5.2m. What is its profit margin?",
+      "options": ["17.5%", "18.75%", "23.1%", "19.25%"],
+      "answer": "B",
+      "explanation": "Profit = £1.2m. £1.2m ÷ £6.4m = 0.1875 = 18.75%. (23.1% is profit ÷ costs, a common slip.)"
+    },
+    {
+      "id": 4,
+      "question": "A team's ratio of trainees to qualified staff is 5:3. There are 96 people in total. How many are trainees?",
+      "options": ["60", "36", "54", "64"],
+      "answer": "A",
+      "explanation": "5 + 3 = 8 parts. 96 ÷ 8 = 12 per part. Trainees = 5 × 12 = 60."
+    },
+    {
+      "id": 5,
+      "question": "A company pays corporation tax at 25% on taxable profits of £340,000. How much tax is due?",
+      "options": ["£85,000", "£80,000", "£75,000", "£90,000"],
+      "answer": "A",
+      "explanation": "£340,000 × 0.25 = £85,000."
+    },
+    {
+      "id": 6,
+      "question": "Trade receivables are £420,000 and the client holds a 3% provision against bad debts. What is the net receivables figure?",
+      "options": ["£405,600", "£408,200", "£407,400", "£432,600"],
+      "answer": "C",
+      "explanation": "Provision = £420,000 × 0.03 = £12,600. Net = £420,000 − £12,600 = £407,400."
+    },
+    {
+      "id": 7,
+      "question": "An engagement is budgeted at 360 hours. After three weeks, 62.5% of the hours have been used. How many hours remain?",
+      "options": ["135", "125", "225", "145"],
+      "answer": "A",
+      "explanation": "Used = 360 × 0.625 = 225. Remaining = 360 − 225 = 135."
+    },
+    {
+      "id": 8,
+      "question": "Quarterly revenue was £1.8m, £2.1m, £2.4m and £1.7m. What percentage of the annual total came in Q3?",
+      "options": ["30%", "25%", "28%", "32%"],
+      "answer": "A",
+      "explanation": "Annual total = £8.0m. Q3 = £2.4m. £2.4m ÷ £8.0m = 30%."
+    },
+    {
+      "id": 9,
+      "question": "A stock count finds 4,860 units against 5,000 in the records. What is the shortfall as a percentage of the recorded figure?",
+      "options": ["2.9%", "1.4%", "2.8%", "14%"],
+      "answer": "C",
+      "explanation": "Shortfall = 140. 140 ÷ 5,000 = 0.028 = 2.8%. (2.9% divides by the counted figure instead.)"
+    },
+    {
+      "id": 10,
+      "question": "An advisory day rate is £950. A project takes 18 days and VAT at 20% is added. What is the total invoice?",
+      "options": ["£17,100", "£20,520", "£19,950", "£21,600"],
+      "answer": "B",
+      "explanation": "Net = £950 × 18 = £17,100. With VAT: £17,100 × 1.2 = £20,520."
+    },
+    {
+      "id": 11,
+      "question": "Office A has 240 staff, 15% of whom work remotely. Office B has 160 staff, 40% of whom work remotely. What percentage of all staff work remotely?",
+      "options": ["22.5%", "55%", "27.5%", "25%"],
+      "answer": "D",
+      "explanation": "Remote: 36 + 64 = 100. Total staff = 400. 100 ÷ 400 = 25%. (27.5% is the simple average of 15% and 40%, which ignores the different office sizes.)"
+    },
+    {
+      "id": 12,
+      "question": "A client's cost per unit fell from £75 to £63. What is the percentage decrease?",
+      "options": ["20%", "19%", "16%", "12%"],
+      "answer": "C",
+      "explanation": "Decrease = £12. £12 ÷ £75 = 0.16 = 16%."
+    },
+    {
+      "id": 13,
+      "question": "A client has current assets of £540,000 (including £180,000 of inventory) and current liabilities of £360,000. What is its quick ratio?",
+      "options": ["0.5", "1.5", "1.0", "2.0"],
+      "answer": "C",
+      "explanation": "Quick ratio excludes inventory: (£540,000 − £180,000) ÷ £360,000 = £360,000 ÷ £360,000 = 1.0."
+    },
+    {
+      "id": 14,
+      "question": "A firm's intake grew by 20% one year and 10% the next, reaching 330. What was the intake before both increases?",
+      "options": ["270", "250", "240", "264"],
+      "answer": "B",
+      "explanation": "Combined growth factor = 1.2 × 1.1 = 1.32. 330 ÷ 1.32 = 250."
+    },
+    {
+      "id": 15,
+      "question": "Five audits took 42, 38, 51, 45 and 44 hours. What was the mean time per audit?",
+      "options": ["44", "45", "43", "46"],
+      "answer": "A",
+      "explanation": "Total = 220 hours. 220 ÷ 5 = 44."
+    }
+  ],
+  "verbal": [
+    {
+      "id": 1,
+      "passage": "An external audit gives an independent opinion on whether a company's financial statements present a true and fair view. Auditors do not check every transaction. Instead, they test samples and focus most effort on areas where a material error is more likely, such as revenue or complex estimates. An audit opinion therefore provides reasonable assurance, not absolute certainty, that the statements are free from material misstatement.",
+      "question": "Auditors examine every transaction a company makes.",
+      "options": ["True", "False", "Cannot Say"],
+      "answer": "False",
+      "explanation": "The passage says 'Auditors do not check every transaction. Instead, they test samples.'"
+    },
+    {
+      "id": 2,
+      "passage": "An external audit gives an independent opinion on whether a company's financial statements present a true and fair view. Auditors do not check every transaction. Instead, they test samples and focus most effort on areas where a material error is more likely, such as revenue or complex estimates. An audit opinion therefore provides reasonable assurance, not absolute certainty, that the statements are free from material misstatement.",
+      "question": "An audit opinion guarantees that a company's accounts contain no errors at all.",
+      "options": ["True", "False", "Cannot Say"],
+      "answer": "False",
+      "explanation": "The passage says an audit gives 'reasonable assurance, not absolute certainty', so it cannot guarantee there are no errors."
+    },
+    {
+      "id": 3,
+      "passage": "A firm's apprenticeship programme lets school leavers train towards a professional qualification while earning a salary. Trainees split their time between client work and study, with exam fees paid by the firm. Progression to the next year of the programme depends on passing exams at the first attempt. Trainees who fail an exam may be offered a resit, at the firm's discretion.",
+      "question": "Trainees on the programme pay their own exam fees.",
+      "options": ["True", "False", "Cannot Say"],
+      "answer": "False",
+      "explanation": "The passage states exam fees are 'paid by the firm'."
+    },
+    {
+      "id": 4,
+      "passage": "A firm's apprenticeship programme lets school leavers train towards a professional qualification while earning a salary. Trainees split their time between client work and study, with exam fees paid by the firm. Progression to the next year of the programme depends on passing exams at the first attempt. Trainees who fail an exam may be offered a resit, at the firm's discretion.",
+      "question": "Most trainees on the programme pass all their exams at the first attempt.",
+      "options": ["True", "False", "Cannot Say"],
+      "answer": "Cannot Say",
+      "explanation": "The passage says progression depends on first-time passes, but gives no information on how many trainees actually pass."
+    },
+    {
+      "id": 5,
+      "passage": "Professional services firms are subject to strict independence rules. An audit firm must not provide certain non-audit services, such as some types of consulting, to the companies it audits, because doing so could create a conflict of interest. Staff must also declare personal financial interests, such as shares, in audit clients. Breaches can lead to disciplinary action and regulatory fines.",
+      "question": "Audit firms are restricted in the non-audit services they can offer to their audit clients.",
+      "options": ["True", "False", "Cannot Say"],
+      "answer": "True",
+      "explanation": "The passage states an audit firm 'must not provide certain non-audit services' to companies it audits."
+    },
+    {
+      "id": 6,
+      "passage": "Professional services firms are subject to strict independence rules. An audit firm must not provide certain non-audit services, such as some types of consulting, to the companies it audits, because doing so could create a conflict of interest. Staff must also declare personal financial interests, such as shares, in audit clients. Breaches can lead to disciplinary action and regulatory fines.",
+      "question": "Staff may hold shares in audit clients provided they declare them.",
+      "options": ["True", "False", "Cannot Say"],
+      "answer": "Cannot Say",
+      "explanation": "The passage says interests must be declared, but does not say whether declaring them makes holding the shares acceptable."
+    },
+    {
+      "id": 7,
+      "passage": "A regional office plans to move to hybrid working. Under the proposal, staff will spend at least three days a week either in the office or at client sites. Managers argue that this balance supports both flexibility and on-the-job learning, which is especially important for new joiners. The proposal will be reviewed after six months using staff survey results and client feedback.",
+      "question": "Under the proposal, staff will work from home for no more than two days a week.",
+      "options": ["True", "False", "Cannot Say"],
+      "answer": "True",
+      "explanation": "If staff spend at least three days in the office or at clients, then in a five-day week they work from home for at most two days."
+    },
+    {
+      "id": 8,
+      "passage": "A regional office plans to move to hybrid working. Under the proposal, staff will spend at least three days a week either in the office or at client sites. Managers argue that this balance supports both flexibility and on-the-job learning, which is especially important for new joiners. The proposal will be reviewed after six months using staff survey results and client feedback.",
+      "question": "The proposal has already been reviewed using staff survey results.",
+      "options": ["True", "False", "Cannot Say"],
+      "answer": "False",
+      "explanation": "The passage says the proposal 'will be reviewed after six months', so the review has not yet happened."
+    }
+  ],
+  "sjt": [
+    {
+      "id": 1,
+      "scenario": "You are in your first month as an audit apprentice. While testing expenses, you find a receipt that appears to have been altered. The client's finance manager, who has been friendly and helpful all week, says it is just a copy that printed badly and asks you not to make a fuss.",
+      "question": "Rank the following responses from MOST to LEAST effective.",
+      "options": [
+        "A. Tell other client staff that you think the finance manager has altered a document.",
+        "B. Record exactly what you found and raise it with your senior that day, without accusing anyone.",
+        "C. Accept the explanation, since the amount is small and the manager has been helpful.",
+        "D. Ask the finance manager for the original receipt, then decide whether to mention it."
+      ],
+      "ranking": ["B", "D", "C", "A"],
+      "explanation": "B is best: it shows integrity and puts the judgement with someone experienced, without making accusations. D is reasonable but leaves you deciding alone on a possible fraud issue. C ignores a red flag because of a relationship. A is worst: it breaches confidentiality and makes an unproven accusation."
+    },
+    {
+      "id": 2,
+      "scenario": "Your team has a tight deadline on a client report. A colleague who joined with you is struggling and has quietly asked for help, but you are also behind on your own section.",
+      "question": "Rank the following responses from MOST to LEAST effective.",
+      "options": [
+        "A. Spend your evening helping your colleague, then finish your own section late at night.",
+        "B. Tell your manager that you are both under pressure and ask how to prioritise the work.",
+        "C. Tell your colleague you cannot help and focus only on your own section.",
+        "D. Complete part of your colleague's section without telling the manager, and submit both."
+      ],
+      "ranking": ["B", "A", "C", "D"],
+      "explanation": "B is best: it is honest about capacity and lets the manager decide priorities, which reflects working together. A is helpful but not sustainable and may hurt quality. C protects your deadline but ignores the team. D is worst: it hides the real position from your manager."
+    },
+    {
+      "id": 3,
+      "scenario": "During a meeting, a senior manager presents a figure that you know is out of date because you updated it yesterday. The client is in the room.",
+      "question": "Rank the following responses from MOST to LEAST effective.",
+      "options": [
+        "A. Say nothing, as it is not your place to correct a senior manager.",
+        "B. Quietly pass the manager a note with the updated figure so they can correct it.",
+        "C. Interrupt to correct the figure in front of the client.",
+        "D. Wait until after the meeting and tell the manager straight away."
+      ],
+      "ranking": ["B", "D", "C", "A"],
+      "explanation": "B is best: it takes courage to speak up but does so discreetly, protecting both accuracy and the relationship. D fixes it, but the client may leave with wrong information. C corrects the error but could embarrass the manager in front of the client. A is worst: it lets the client rely on a wrong figure."
+    },
+    {
+      "id": 4,
+      "scenario": "You are asked to complete a task using a spreadsheet template. You notice the template has a formula error that has probably affected previous jobs.",
+      "question": "Rank the following responses from MOST to LEAST effective.",
+      "options": [
+        "A. Fix the formula in your copy and carry on with your task.",
+        "B. Use the template as it is, since everyone else does.",
+        "C. Fix the formula in the shared template without telling anyone.",
+        "D. Tell your supervisor about the error and suggest checking recent work that used the template."
+      ],
+      "ranking": ["D", "A", "C", "B"],
+      "explanation": "D is best: it raises the issue and helps prevent further damage to past and future work. A keeps your own work right but leaves others exposed. C fixes future work but hides the fact that earlier work may be wrong. B is worst: it knowingly repeats an error."
+    },
+    {
+      "id": 5,
+      "scenario": "A client asks you, in a friendly chat over lunch, which other companies in their sector your firm works for.",
+      "question": "Rank the following responses from MOST to LEAST effective.",
+      "options": [
+        "A. Share the names, since the client is trustworthy.",
+        "B. Politely explain that you cannot discuss other clients and change the subject.",
+        "C. Name one or two clients that you think are public knowledge.",
+        "D. Say you are not sure, even though you do know."
+      ],
+      "ranking": ["B", "D", "C", "A"],
+      "explanation": "B is best: it protects client confidentiality honestly and politely. D protects confidentiality but is untruthful. C risks revealing confidential information based on a guess. A is worst: it is a clear breach of confidentiality."
+    }
+  ]
+}

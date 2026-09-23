@@ -3,10 +3,10 @@
   "numerical": [
     {
       "id": 1,
-      "question": "Goldman Sachs reported net revenues of $46.3bn in 2023. The Global Banking & Markets division contributed 65% of revenues. What was the GBM revenue?",
-      "options": ["$28.1bn", "£29.4bn", "$30.1bn", "$30.7bn"],
+      "question": "Suppose a bank reports net revenues of $46.3bn and its Global Banking & Markets division contributes 65% of them. What is that division's revenue?",
+      "options": ["$30.7bn", "$29.4bn", "$30.1bn", "$28.1bn"],
       "answer": "C",
-      "explanation": "$46.3bn × 0.65 = $30.095bn ≈ $30.1bn."
+      "explanation": "$46.3bn × 0.65 = $30.095bn, which rounds to $30.1bn."
     },
     {
       "id": 2,
@@ -32,14 +32,14 @@
     {
       "id": 5,
       "question": "A client portfolio of £2.4m earns a total return of 7.5% in year one and 4.2% in year two. What is the portfolio value at the end of year two?",
-      "options": ["£2,675,340", "£2,686,416", "£2,694,000", "£2,702,880"],
-      "answer": "B",
-      "explanation": "End of year 1: £2,400,000 × 1.075 = £2,580,000. End of year 2: £2,580,000 × 1.042 = £2,688,360. Closest is B."
+      "options": ["£2,702,880", "£2,694,000", "£2,675,340", "£2,688,360"],
+      "answer": "D",
+      "explanation": "End of year 1: £2,400,000 × 1.075 = £2,580,000. End of year 2: £2,580,000 × 1.042 = £2,688,360."
     },
     {
       "id": 6,
-      "question": "Goldman Sachs employs approximately 44,300 people globally. The technology division accounts for 25% of headcount. How many people work in technology?",
-      "options": ["10,075", "10,500", "11,075", "11,500"],
+      "question": "Suppose a bank employs 44,300 people and its technology division accounts for 25% of headcount. How many people work in technology?",
+      "options": ["11,500", "10,075", "11,075", "10,500"],
       "answer": "C",
       "explanation": "44,300 × 0.25 = 11,075."
     },
@@ -66,10 +66,10 @@
     },
     {
       "id": 10,
-      "question": "Goldman Sachs's return on equity was 7.9% in 2023. If shareholders' equity was $110bn, what was net income?",
-      "options": ["$7.4bn", "$8.0bn", "$8.5bn", "$8.7bn"],
-      "answer": "D",
-      "explanation": "$110bn × 7.9% = $8.69bn ≈ $8.7bn."
+      "question": "Suppose a bank's return on equity is 7.9% and shareholders' equity is $110bn. What is its net income?",
+      "options": ["$8.7bn", "$7.4bn", "$8.5bn", "$8.0bn"],
+      "answer": "A",
+      "explanation": "$110bn × 0.079 = $8.69bn, which rounds to $8.7bn."
     },
     {
       "id": 11,
@@ -80,17 +80,17 @@
     },
     {
       "id": 12,
-      "question": "An IPO prices 40 million shares at £6.20 per share. The underwriting fee is 3.5%. What is the net proceeds to the company?",
-      "options": ["£233.5m", "£238.9m", "£241.4m", "£248.0m"],
-      "answer": "B",
-      "explanation": "Gross proceeds: 40m × £6.20 = £248m. Underwriting fee: £248m × 3.5% = £8.68m. Net proceeds: £248m − £8.68m = £239.32m ≈ £238.9m."
+      "question": "An IPO prices 40 million shares at £6.20 per share. The underwriting fee is 3.5%. What are the net proceeds to the company, to one decimal place?",
+      "options": ["£239.3m", "£233.5m", "£241.4m", "£248.0m"],
+      "answer": "A",
+      "explanation": "Gross proceeds: 40m × £6.20 = £248m. Fee: £248m × 0.035 = £8.68m. Net: £248m − £8.68m = £239.32m, which rounds to £239.3m."
     },
     {
       "id": 13,
-      "question": "A currency trader buys €500,000 at a rate of £1 = €1.16. They later sell at £1 = €1.12. What is their profit or loss in sterling?",
-      "options": ["£15,337 profit", "£16,210 profit", "£15,337 loss", "£16,210 loss"],
-      "answer": "A",
-      "explanation": "Buy cost: €500,000 ÷ 1.16 = £431,034. Sell proceeds: €500,000 ÷ 1.12 = £446,429. Profit: £446,429 − £431,034 = £15,395 ≈ £15,337 (A is closest)."
+      "question": "A currency trader buys €500,000 at a rate of £1 = €1.16. They later sell at £1 = €1.12. What is their profit or loss in sterling, to the nearest pound?",
+      "options": ["£16,210 profit", "£16,210 loss", "£15,394 loss", "£15,394 profit"],
+      "answer": "D",
+      "explanation": "Buy cost: €500,000 ÷ 1.16 = £431,034.48. Sell proceeds: €500,000 ÷ 1.12 = £446,428.57. Profit = £15,394.09, which rounds to £15,394."
     },
     {
       "id": 14,

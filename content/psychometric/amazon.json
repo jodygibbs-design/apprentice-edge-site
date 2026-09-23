@@ -1,0 +1,243 @@
+{
+  "employer": "Amazon",
+  "numerical": [
+    {
+      "id": 1,
+      "question": "A fulfilment centre ships 18,000 parcels a day and 2.5% arrive late. How many parcels arrive late each day?",
+      "options": ["450", "480", "360", "720"],
+      "answer": "A",
+      "explanation": "18,000 × 0.025 = 450."
+    },
+    {
+      "id": 2,
+      "question": "A picker handles 120 items an hour over a 7.5-hour shift. How many items is that?",
+      "options": ["840", "1,020", "960", "900"],
+      "answer": "D",
+      "explanation": "120 × 7.5 = 900."
+    },
+    {
+      "id": 3,
+      "question": "Four storage zones hold 3,200, 2,800, 4,100 and 3,900 units. What is the total?",
+      "options": ["14,200", "14,000", "14,800", "13,600"],
+      "answer": "B",
+      "explanation": "3,200 + 2,800 + 4,100 + 3,900 = 14,000."
+    },
+    {
+      "id": 4,
+      "question": "A delivery route has 140 stops and the driver has completed 85% of them. How many stops remain?",
+      "options": ["24", "14", "21", "19"],
+      "answer": "C",
+      "explanation": "Remaining = 15% of 140 = 21."
+    },
+    {
+      "id": 5,
+      "question": "The average order value is £34 and rises by 6%. What is the new average?",
+      "options": ["£36.04", "£35.40", "£36.40", "£36.60"],
+      "answer": "A",
+      "explanation": "£34 × 1.06 = £36.04."
+    },
+    {
+      "id": 6,
+      "question": "Annual cost of goods sold is £9.6m and average inventory is £1.2m. What is inventory turnover?",
+      "options": ["6 times", "7.5 times", "8 times", "12 times"],
+      "answer": "C",
+      "explanation": "Turnover = COGS ÷ average inventory = £9.6m ÷ £1.2m = 8."
+    },
+    {
+      "id": 7,
+      "question": "It costs £27,300 to ship 8,400 units. What is the cost per unit?",
+      "options": ["£3.45", "£3.15", "£3.05", "£3.25"],
+      "answer": "D",
+      "explanation": "£27,300 ÷ 8,400 = £3.25."
+    },
+    {
+      "id": 8,
+      "question": "Of 25,000 orders, 3.2% are returned and 40% of returns can be resold. How many returned items can be resold?",
+      "options": ["320", "800", "280", "480"],
+      "answer": "A",
+      "explanation": "Returns = 25,000 × 0.032 = 800. Resellable = 800 × 0.4 = 320."
+    },
+    {
+      "id": 9,
+      "question": "Three conveyors each process 2,400 items an hour over an 8-hour shift, but one is down for 2 hours. How many items are processed?",
+      "options": ["50,400", "57,600", "52,800", "48,000"],
+      "answer": "C",
+      "explanation": "Full capacity = 2,400 × 8 × 3 = 57,600. Lost = 2,400 × 2 = 4,800. Processed = 52,800."
+    },
+    {
+      "id": 10,
+      "question": "A site has 1,500 staff, split 60:40 permanent to temporary. For peak season it adds 300 temporary staff. What percentage of staff are now temporary?",
+      "options": ["45%", "55%", "50%", "60%"],
+      "answer": "C",
+      "explanation": "Temporary = 600 + 300 = 900. Total = 1,800. 900 ÷ 1,800 = 50%."
+    },
+    {
+      "id": 11,
+      "question": "70% of parcels arrive in 3 days and 30% arrive in 5 days. What is the average delivery time?",
+      "options": ["3.6 days", "4.0 days", "3.4 days", "4.2 days"],
+      "answer": "A",
+      "explanation": "(0.7 × 3) + (0.3 × 5) = 2.1 + 1.5 = 3.6 days."
+    },
+    {
+      "id": 12,
+      "question": "A £240 item is discounted by 15% and then a further 10% comes off the reduced price. What is the final price?",
+      "options": ["£180.00", "£183.60", "£186.00", "£189.00"],
+      "answer": "B",
+      "explanation": "£240 × 0.85 = £204. £204 × 0.9 = £183.60. (£180 wrongly takes 25% off in one go.)"
+    },
+    {
+      "id": 13,
+      "question": "A van uses 42 litres of fuel per 100 km. How much fuel does a 350 km route use?",
+      "options": ["157 litres", "142 litres", "147 litres", "126 litres"],
+      "answer": "C",
+      "explanation": "42 × 3.5 = 147 litres."
+    },
+    {
+      "id": 14,
+      "question": "Throughput rises from 480 to 612 units an hour. What is the percentage increase?",
+      "options": ["25%", "27.5%", "30%", "21.6%"],
+      "answer": "B",
+      "explanation": "Increase = 132. 132 ÷ 480 = 27.5%. (21.6% divides by the new figure instead.)"
+    },
+    {
+      "id": 15,
+      "question": "A product has 1,200 reviews averaging 4.5 stars. It then gets 300 new reviews averaging 3.5 stars. What is the new overall average?",
+      "options": ["4.4", "4.3", "4.0", "4.2"],
+      "answer": "B",
+      "explanation": "Total stars = 5,400 + 1,050 = 6,450. 6,450 ÷ 1,500 = 4.3. (4.0 is the unweighted average.)"
+    }
+  ],
+  "verbal": [
+    {
+      "id": 1,
+      "passage": "A fulfilment centre measures performance using several metrics, including units picked per hour and the accuracy of each order. Managers are told not to focus on speed alone, because errors create returns that cost more to fix than they save. Teams that meet both speed and accuracy targets for a full quarter are recognised at the site's monthly meeting.",
+      "question": "Managers are instructed to judge performance on speed alone.",
+      "options": ["True", "False", "Cannot Say"],
+      "answer": "False",
+      "explanation": "The passage says managers are told 'not to focus on speed alone'."
+    },
+    {
+      "id": 2,
+      "passage": "A fulfilment centre measures performance using several metrics, including units picked per hour and the accuracy of each order. Managers are told not to focus on speed alone, because errors create returns that cost more to fix than they save. Teams that meet both speed and accuracy targets for a full quarter are recognised at the site's monthly meeting.",
+      "question": "Teams need to meet both speed and accuracy targets to be recognised.",
+      "options": ["True", "False", "Cannot Say"],
+      "answer": "True",
+      "explanation": "The passage states teams that meet 'both speed and accuracy targets for a full quarter are recognised'."
+    },
+    {
+      "id": 3,
+      "passage": "Customer obsession means starting with what the customer needs and working backwards. One way teams do this is by writing a short press release for a product before building it, describing the benefit to the customer in plain language. If the benefit cannot be explained simply, the team reconsiders whether the product is worth building.",
+      "question": "Teams write a press release after a product has launched.",
+      "options": ["True", "False", "Cannot Say"],
+      "answer": "False",
+      "explanation": "The passage says the press release is written 'before building it'."
+    },
+    {
+      "id": 4,
+      "passage": "Customer obsession means starting with what the customer needs and working backwards. One way teams do this is by writing a short press release for a product before building it, describing the benefit to the customer in plain language. If the benefit cannot be explained simply, the team reconsiders whether the product is worth building.",
+      "question": "Every product idea that uses this approach is eventually built.",
+      "options": ["True", "False", "Cannot Say"],
+      "answer": "Cannot Say",
+      "explanation": "The passage says the team 'reconsiders' ideas whose benefit cannot be explained simply, but does not say how many ideas are dropped or built."
+    },
+    {
+      "id": 5,
+      "passage": "A delivery station trialled electric vans on ten routes for three months. Drivers reported that the vans were quieter and easier to handle in towns. Charging took longer than refuelling, so the station adjusted shift start times. The trial report did not include a comparison of running costs.",
+      "question": "The trial found electric vans cheaper to run than diesel vans.",
+      "options": ["True", "False", "Cannot Say"],
+      "answer": "Cannot Say",
+      "explanation": "The passage states the trial report 'did not include a comparison of running costs'."
+    },
+    {
+      "id": 6,
+      "passage": "A delivery station trialled electric vans on ten routes for three months. Drivers reported that the vans were quieter and easier to handle in towns. Charging took longer than refuelling, so the station adjusted shift start times. The trial report did not include a comparison of running costs.",
+      "question": "The station changed shift start times because of charging time.",
+      "options": ["True", "False", "Cannot Say"],
+      "answer": "True",
+      "explanation": "The passage says charging took longer than refuelling, 'so the station adjusted shift start times'."
+    },
+    {
+      "id": 7,
+      "passage": "Work style assessments ask candidates to choose between pairs of statements, such as preferring to act quickly or to gather more data first. There are no universally right answers, but responses are compared with the behaviours the employer values. Candidates are advised to answer consistently and honestly rather than guessing what the employer wants.",
+      "question": "Work style assessments have one correct answer for each question.",
+      "options": ["True", "False", "Cannot Say"],
+      "answer": "False",
+      "explanation": "The passage says 'There are no universally right answers'."
+    },
+    {
+      "id": 8,
+      "passage": "Work style assessments ask candidates to choose between pairs of statements, such as preferring to act quickly or to gather more data first. There are no universally right answers, but responses are compared with the behaviours the employer values. Candidates are advised to answer consistently and honestly rather than guessing what the employer wants.",
+      "question": "Candidates are advised to guess what the employer wants to hear.",
+      "options": ["True", "False", "Cannot Say"],
+      "answer": "False",
+      "explanation": "The passage says candidates are advised to answer honestly 'rather than guessing what the employer wants'."
+    }
+  ],
+  "sjt": [
+    {
+      "id": 1,
+      "scenario": "A customer contacts you because their order arrived damaged. Your standard process allows a replacement, but the item is now out of stock.",
+      "question": "Rank the following responses from MOST to LEAST effective.",
+      "options": [
+        "A. Apologise, explain the options (refund or a similar item) and let the customer choose.",
+        "B. Tell them damage is the courier's responsibility.",
+        "C. Issue a refund straight away without asking what the customer would prefer.",
+        "D. Tell them to wait until the item is back in stock."
+      ],
+      "ranking": ["A", "C", "D", "B"],
+      "explanation": "A is best: it puts the customer first and gives them a real choice. C resolves the issue but does not ask what they want. D leaves the customer without a solution. B is worst: it avoids ownership."
+    },
+    {
+      "id": 2,
+      "scenario": "You notice that a process on your shift is regularly causing small delays. Nobody has asked you to look at it.",
+      "question": "Rank the following responses from MOST to LEAST effective.",
+      "options": [
+        "A. Mention it to your manager in passing.",
+        "B. Track the delays for a few days, then take the data and a suggestion to your manager.",
+        "C. Leave it, as it is not your job.",
+        "D. Change the process yourself without telling anyone."
+      ],
+      "ranking": ["B", "A", "D", "C"],
+      "explanation": "B is best: it shows ownership and uses data to back up a suggestion. A raises it but gives the manager little to act on. D shows initiative but could cause safety or quality problems. C is worst: it ignores a known problem."
+    },
+    {
+      "id": 3,
+      "scenario": "Your manager asks you to hit a higher target this week. You believe you can only do it by skipping a safety check.",
+      "question": "Rank the following responses from MOST to LEAST effective.",
+      "options": [
+        "A. Refuse the target without explanation.",
+        "B. Try to meet the target while keeping the safety check.",
+        "C. Explain the concern to your manager and ask how to reach the target safely.",
+        "D. Skip the safety check this week only."
+      ],
+      "ranking": ["C", "B", "A", "D"],
+      "explanation": "C is best: it keeps safety first while being open about the trade-off. B keeps safety but may leave the target unrealistic without saying so. A avoids a safety breach but is unhelpful. D is worst: it puts people at risk, and safety must never be traded for speed."
+    },
+    {
+      "id": 4,
+      "scenario": "You made a decision on a project that turned out to be wrong. The effect is small so far.",
+      "question": "Rank the following responses from MOST to LEAST effective.",
+      "options": [
+        "A. Wait to see whether it causes bigger problems.",
+        "B. Tell your team, explain what you learned and propose how to fix it.",
+        "C. Fix it quietly and move on.",
+        "D. Explain that you were given poor information."
+      ],
+      "ranking": ["B", "C", "A", "D"],
+      "explanation": "B is best: it takes ownership and helps the team learn. C fixes the problem but hides a lesson from others. A risks the problem growing. D shifts blame."
+    },
+    {
+      "id": 5,
+      "scenario": "Two colleagues on your team propose different solutions. One is quick to implement; the other is slower but better for customers in the long term.",
+      "question": "Rank the following responses from MOST to LEAST effective.",
+      "options": [
+        "A. Choose the quicker option to deliver results sooner.",
+        "B. Compare both using data on customer impact and cost, then recommend one.",
+        "C. Choose whichever colleague is more senior.",
+        "D. Ask your manager to decide without giving a view."
+      ],
+      "ranking": ["B", "A", "D", "C"],
+      "explanation": "B is best: it is data-led and works backwards from the customer. A values speed but may not serve customers best. D avoids taking a view. C is worst: it decides on status, not merit."
+    }
+  ]
+}

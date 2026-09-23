@@ -13,11 +13,8 @@ interface Props {
   params: Promise<{ slug: string }>;
 }
 
-// Slugs that have a psychometric question bank
-const PSYCHOMETRIC_SLUGS = ["pwc", "deloitte", "goldman-sachs"];
-
 export async function generateStaticParams() {
-  return PSYCHOMETRIC_SLUGS.map((slug) => ({ slug }));
+  return PACKS.map((p) => ({ slug: p.slug }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {

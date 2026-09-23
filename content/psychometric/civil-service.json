@@ -1,0 +1,243 @@
+{
+  "employer": "Civil Service",
+  "numerical": [
+    {
+      "id": 1,
+      "question": "A department's budget is £4.8bn and 12% is spent on staff. How much is spent on staff?",
+      "options": ["£480m", "£576m", "£560m", "£600m"],
+      "answer": "B",
+      "explanation": "£4,800m × 0.12 = £576m."
+    },
+    {
+      "id": 2,
+      "question": "Applications to a scheme rise from 32,000 to 40,000. What is the percentage rise?",
+      "options": ["20%", "30%", "8%", "25%"],
+      "answer": "D",
+      "explanation": "Increase = 8,000. 8,000 ÷ 32,000 = 25%. (20% divides by the new figure instead.)"
+    },
+    {
+      "id": 3,
+      "question": "A Band D council tax bill is £1,950 and rises by 4.99%. What is the new bill, to the nearest penny?",
+      "options": ["£2,045.00", "£2,050.00", "£2,047.31", "£2,024.00"],
+      "answer": "C",
+      "explanation": "£1,950 × 1.0499 = £2,047.305, which rounds to £2,047.31."
+    },
+    {
+      "id": 4,
+      "question": "Satisfaction was 55% last year. This year 1,000 of 2,000 respondents are satisfied. By how many percentage points has satisfaction fallen?",
+      "options": ["9.1 points", "10 points", "2.5 points", "5 points"],
+      "answer": "D",
+      "explanation": "This year: 1,000 ÷ 2,000 = 50%. 55 − 50 = 5 percentage points. (9.1 is the relative fall as a percentage, a different measure.)"
+    },
+    {
+      "id": 5,
+      "question": "A backlog of 2,700 cases is handled by 5 caseworkers who each clear 36 cases a day. How many working days will it take to clear?",
+      "options": ["20", "15", "18", "12"],
+      "answer": "B",
+      "explanation": "Team rate = 5 × 36 = 180 a day. 2,700 ÷ 180 = 15 days."
+    },
+    {
+      "id": 6,
+      "question": "A town of 200,000 people grows by 1.5% a year. What is its population after two years?",
+      "options": ["209,090", "203,000", "206,045", "206,000"],
+      "answer": "C",
+      "explanation": "Year 1: 200,000 × 1.015 = 203,000. Year 2: 203,000 × 1.015 = 206,045. (206,000 wrongly adds 3% in one step.)"
+    },
+    {
+      "id": 7,
+      "question": "A £3.6m grant is shared among 45,000 residents. How much is that per resident?",
+      "options": ["£72", "£75", "£125", "£80"],
+      "answer": "D",
+      "explanation": "£3,600,000 ÷ 45,000 = £80."
+    },
+    {
+      "id": 8,
+      "question": "A £250m budget is split across four regions: 28%, 22%, 31% and the rest to the fourth. How much does the fourth region receive?",
+      "options": ["£47.5m", "£52.5m", "£55.0m", "£45.0m"],
+      "answer": "A",
+      "explanation": "Fourth region = 100% − 81% = 19%. £250m × 0.19 = £47.5m."
+    },
+    {
+      "id": 9,
+      "question": "A contact centre answered 4,650 of 5,800 calls within 3 minutes. What percentage is that, to one decimal place?",
+      "options": ["79.8%", "81.3%", "80.2%", "78.5%"],
+      "answer": "C",
+      "explanation": "4,650 ÷ 5,800 = 0.8017 = 80.2%."
+    },
+    {
+      "id": 10,
+      "question": "Three offices have 40, 60 and 100 staff, with average salaries of £30,000, £32,000 and £35,000. What is the average salary across all staff?",
+      "options": ["£32,300", "£33,100", "£32,700", "£33,500"],
+      "answer": "B",
+      "explanation": "Total pay = £1,200,000 + £1,920,000 + £3,500,000 = £6,620,000. £6,620,000 ÷ 200 = £33,100. (£32,333 is the unweighted average of the three.)"
+    },
+    {
+      "id": 11,
+      "question": "Prices rise by 9%, then 6%, then 4% over three years. What does a basket that cost £1,000 at the start cost now, to the nearest penny?",
+      "options": ["£1,208.40", "£1,213.30", "£1,190.00", "£1,201.62"],
+      "answer": "D",
+      "explanation": "£1,000 × 1.09 = £1,090. × 1.06 = £1,155.40. × 1.04 = £1,201.616, which rounds to £1,201.62. (£1,190 just adds the three rates together.)"
+    },
+    {
+      "id": 12,
+      "question": "The ratio of staff to managers is 9:1, and there are 850 people in total. How many are managers?",
+      "options": ["95", "80", "85", "94"],
+      "answer": "C",
+      "explanation": "9 + 1 = 10 parts. 850 ÷ 10 = 85 managers."
+    },
+    {
+      "id": 13,
+      "question": "Claims processed rise by 15% to 4,140. How many were processed before the rise?",
+      "options": ["3,700", "3,519", "3,850", "3,600"],
+      "answer": "D",
+      "explanation": "4,140 ÷ 1.15 = 3,600. (3,519 wrongly takes 15% off 4,140.)"
+    },
+    {
+      "id": 14,
+      "question": "A survey gets 1,386 responses from 4,200 invitations. What is the response rate?",
+      "options": ["36%", "31.5%", "33%", "30%"],
+      "answer": "C",
+      "explanation": "1,386 ÷ 4,200 = 0.33 = 33%."
+    },
+    {
+      "id": 15,
+      "question": "A £60m budget is cut by 8% in year one and a further 5% in year two. What is the year-two budget?",
+      "options": ["£52.20m", "£52.80m", "£53.40m", "£52.44m"],
+      "answer": "D",
+      "explanation": "£60m × 0.92 = £55.2m. £55.2m × 0.95 = £52.44m. (£52.20m wrongly takes 13% off in one step.)"
+    }
+  ],
+  "verbal": [
+    {
+      "id": 1,
+      "passage": "Civil servants must follow the Civil Service Code, which sets out four core values: integrity, honesty, objectivity and impartiality. Impartiality means serving the government of the day, whatever its political party, and acting in a way that deserves the confidence of any future government. Civil servants must not use their official position to further their own political views.",
+      "question": "Civil servants should serve the government of the day regardless of its political party.",
+      "options": ["True", "False", "Cannot Say"],
+      "answer": "True",
+      "explanation": "The passage defines impartiality as 'serving the government of the day, whatever its political party'."
+    },
+    {
+      "id": 2,
+      "passage": "Civil servants must follow the Civil Service Code, which sets out four core values: integrity, honesty, objectivity and impartiality. Impartiality means serving the government of the day, whatever its political party, and acting in a way that deserves the confidence of any future government. Civil servants must not use their official position to further their own political views.",
+      "question": "Civil servants may use their official role to promote political views they personally hold.",
+      "options": ["True", "False", "Cannot Say"],
+      "answer": "False",
+      "explanation": "The passage says civil servants 'must not use their official position to further their own political views'."
+    },
+    {
+      "id": 3,
+      "passage": "A department is consulting the public on a proposed change to parking rules. The consultation runs for twelve weeks and responses can be submitted online or by post. The department has said it will publish a summary of responses, but the final decision will be made by ministers, who must consider the evidence alongside other factors.",
+      "question": "Responses to the consultation can only be submitted online.",
+      "options": ["True", "False", "Cannot Say"],
+      "answer": "False",
+      "explanation": "The passage says responses 'can be submitted online or by post'."
+    },
+    {
+      "id": 4,
+      "passage": "A department is consulting the public on a proposed change to parking rules. The consultation runs for twelve weeks and responses can be submitted online or by post. The department has said it will publish a summary of responses, but the final decision will be made by ministers, who must consider the evidence alongside other factors.",
+      "question": "The department will publish a summary of the consultation responses.",
+      "options": ["True", "False", "Cannot Say"],
+      "answer": "True",
+      "explanation": "The passage states the department 'has said it will publish a summary of responses'."
+    },
+    {
+      "id": 5,
+      "passage": "A local office introduced an online booking system for appointments. In the first month, the number of people turning up without an appointment fell. Staff reported that queues were shorter. However, some older customers said they found the system difficult to use and preferred to book by phone, which remains available.",
+      "question": "Customers can still book appointments by phone.",
+      "options": ["True", "False", "Cannot Say"],
+      "answer": "True",
+      "explanation": "The passage states that booking by phone 'remains available'."
+    },
+    {
+      "id": 6,
+      "passage": "A local office introduced an online booking system for appointments. In the first month, the number of people turning up without an appointment fell. Staff reported that queues were shorter. However, some older customers said they found the system difficult to use and preferred to book by phone, which remains available.",
+      "question": "Most customers preferred the online system to phone booking.",
+      "options": ["True", "False", "Cannot Say"],
+      "answer": "Cannot Say",
+      "explanation": "The passage mentions that some older customers preferred phone booking but gives no information about what most customers preferred."
+    },
+    {
+      "id": 7,
+      "passage": "Freedom of information laws give the public the right to request information held by public bodies. Requests must usually be answered within twenty working days. Some information can be withheld under exemptions, for example where release would harm national security or reveal personal data about individuals.",
+      "question": "Public bodies must release all information that is requested.",
+      "options": ["True", "False", "Cannot Say"],
+      "answer": "False",
+      "explanation": "The passage says 'Some information can be withheld under exemptions'."
+    },
+    {
+      "id": 8,
+      "passage": "Freedom of information laws give the public the right to request information held by public bodies. Requests must usually be answered within twenty working days. Some information can be withheld under exemptions, for example where release would harm national security or reveal personal data about individuals.",
+      "question": "Most freedom of information requests are refused.",
+      "options": ["True", "False", "Cannot Say"],
+      "answer": "Cannot Say",
+      "explanation": "The passage describes exemptions but gives no information on how many requests are refused."
+    }
+  ],
+  "sjt": [
+    {
+      "id": 1,
+      "scenario": "A member of the public asks you, as a civil servant, which party you will vote for at the next election.",
+      "question": "Rank the following responses from MOST to LEAST effective.",
+      "options": [
+        "A. Change the subject without explanation.",
+        "B. Say you support no party, even though you do.",
+        "C. Tell them your view, since it is a private matter.",
+        "D. Politely explain that you do not discuss your political views in your role."
+      ],
+      "ranking": ["D", "A", "B", "C"],
+      "explanation": "D is best: it maintains impartiality openly and honestly. A avoids the issue but may seem evasive. B protects impartiality but is dishonest. C is worst: it compromises impartiality in your official role."
+    },
+    {
+      "id": 2,
+      "scenario": "You are preparing a briefing for a minister. The evidence does not support the policy the minister has said they prefer.",
+      "question": "Rank the following responses from MOST to LEAST effective.",
+      "options": [
+        "A. Present the evidence accurately and set out the options, including the risks of each.",
+        "B. Present the evidence but emphasise the points that support the preferred policy.",
+        "C. Refuse to prepare the briefing.",
+        "D. Leave out the evidence that does not support the policy."
+      ],
+      "ranking": ["A", "B", "D", "C"],
+      "explanation": "A is best: it is objective and honest, and leaves the decision with the minister. B is not fully objective. D misleads the minister and breaches the Civil Service Code. C fails to carry out your duty."
+    },
+    {
+      "id": 3,
+      "scenario": "A friend who works for a company bidding for a government contract asks you for information about how bids will be scored.",
+      "question": "Rank the following responses from MOST to LEAST effective.",
+      "options": [
+        "A. Share the information, since it will help the process run smoothly.",
+        "B. Decline, but do not tell anyone.",
+        "C. Share only information you think is already public.",
+        "D. Decline, explain that you cannot share it, and tell your manager about the approach."
+      ],
+      "ranking": ["D", "B", "C", "A"],
+      "explanation": "D is best: it protects the integrity of the process and follows declaration rules. B protects the information but does not declare a potential conflict. C risks sharing something that is not public. A is worst: it is a serious integrity breach."
+    },
+    {
+      "id": 4,
+      "scenario": "You are handling a case and realise that a colleague has given a member of the public incorrect advice.",
+      "question": "Rank the following responses from MOST to LEAST effective.",
+      "options": [
+        "A. Tell your manager and leave it to them.",
+        "B. Leave it, as it was not your case.",
+        "C. Speak to your colleague, then make sure the member of the public is given the correct advice.",
+        "D. Contact the member of the public yourself with the correct advice."
+      ],
+      "ranking": ["C", "D", "A", "B"],
+      "explanation": "C is best: it corrects the advice while giving your colleague the chance to learn and put it right. D fixes the error but bypasses your colleague. A escalates, but more slowly than needed. B is worst: the public is left with wrong advice."
+    },
+    {
+      "id": 5,
+      "scenario": "Your team is under pressure to clear a backlog. A colleague suggests skipping identity checks on low-risk cases to go faster.",
+      "question": "Rank the following responses from MOST to LEAST effective.",
+      "options": [
+        "A. Keep doing the checks yourself but say nothing.",
+        "B. Skip the checks on a few cases to see if it helps.",
+        "C. Agree, since the cases are low risk.",
+        "D. Say you are not comfortable with this and raise the idea with your manager."
+      ],
+      "ranking": ["D", "A", "B", "C"],
+      "explanation": "D is best: it maintains proper process and raises the issue openly. A keeps your own work sound but lets the risk continue. B and C both break process; C is worst because it endorses the shortcut for the whole team."
+    }
+  ]
+}

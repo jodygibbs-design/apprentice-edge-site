@@ -9,8 +9,6 @@ import type { Metadata } from "next";
 import fs from "fs";
 import path from "path";
 
-const PSYCHOMETRIC_SLUGS = ["pwc", "deloitte", "goldman-sachs"];
-
 interface Props {
   params: Promise<{ slug: string }>;
 }
@@ -42,8 +40,7 @@ export default async function InterviewPage({ params }: Props) {
     redirect("/checkout");
   }
 
-  const hasPsychometric = PSYCHOMETRIC_SLUGS.includes(slug) &&
-    fs.existsSync(path.join(process.cwd(), "content", "psychometric", `${slug}.json`));
+  const hasPsychometric = fs.existsSync(path.join(process.cwd(), "content", "psychometric", `${slug}.json`));
 
   return (
     <div>

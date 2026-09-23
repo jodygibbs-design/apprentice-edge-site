@@ -1,0 +1,243 @@
+{
+  "employer": "Google",
+  "numerical": [
+    {
+      "id": 1,
+      "question": "An ad campaign gets 250,000 impressions with a click-through rate of 2.4%. How many clicks does it get?",
+      "options": ["6,000", "60,000", "5,400", "6,400"],
+      "answer": "A",
+      "explanation": "250,000 × 0.024 = 6,000."
+    },
+    {
+      "id": 2,
+      "question": "Of 6,000 clicks, 3.5% lead to a sign-up. How many sign-ups is that?",
+      "options": ["200", "180", "210", "240"],
+      "answer": "C",
+      "explanation": "6,000 × 0.035 = 210."
+    },
+    {
+      "id": 3,
+      "question": "Clicks cost £0.45 each. What does 6,000 clicks cost?",
+      "options": ["£2,970", "£27,000", "£2,400", "£2,700"],
+      "answer": "D",
+      "explanation": "6,000 × £0.45 = £2,700."
+    },
+    {
+      "id": 4,
+      "question": "Monthly users grow from 1.6m to 2.0m. What is the percentage growth?",
+      "options": ["20%", "25%", "22.5%", "40%"],
+      "answer": "B",
+      "explanation": "Increase = 0.4m. 0.4m ÷ 1.6m = 25%. (20% divides by the new figure instead.)"
+    },
+    {
+      "id": 5,
+      "question": "A service promises 99.9% uptime over a 30-day month. What is the maximum downtime allowed, in minutes?",
+      "options": ["43.2", "14.4", "4.3", "72"],
+      "answer": "A",
+      "explanation": "Minutes in 30 days = 30 × 24 × 60 = 43,200. 0.1% of 43,200 = 43.2 minutes."
+    },
+    {
+      "id": 6,
+      "question": "A survey has 1,200 respondents: 45% use Android, 40% use iOS and the rest use something else. How many use something else?",
+      "options": ["180", "200", "120", "150"],
+      "answer": "A",
+      "explanation": "Other = 100% − 45% − 40% = 15%. 1,200 × 0.15 = 180."
+    },
+    {
+      "id": 7,
+      "question": "3,000 users average 4.2-minute sessions and 1,000 users average 5.0-minute sessions. What is the average session length across all users?",
+      "options": ["4.5", "4.3", "4.6", "4.4"],
+      "answer": "D",
+      "explanation": "Total minutes = 12,600 + 5,000 = 17,600. 17,600 ÷ 4,000 users = 4.4 minutes. (4.6 is the unweighted average.)"
+    },
+    {
+      "id": 8,
+      "question": "Data storage is 2.5 TB and grows by 20% each quarter. How much is stored after two quarters?",
+      "options": ["3.6 TB", "4.32 TB", "3.0 TB", "3.5 TB"],
+      "answer": "A",
+      "explanation": "After Q1: 2.5 × 1.2 = 3.0 TB. After Q2: 3.0 × 1.2 = 3.6 TB. (3.5 TB wrongly adds 40% in one step.)"
+    },
+    {
+      "id": 9,
+      "question": "A support team of 4 resolves 84 tickets in 6 hours. How many tickets does each person resolve per hour, on average?",
+      "options": ["14", "3.5", "4", "3"],
+      "answer": "B",
+      "explanation": "84 ÷ 6 = 14 tickets per hour for the team. 14 ÷ 4 = 3.5 per person."
+    },
+    {
+      "id": 10,
+      "question": "Average revenue per user is £3.20 and there are 45,000 users. What is total revenue?",
+      "options": ["£140,000", "£144,000", "£124,000", "£154,000"],
+      "answer": "B",
+      "explanation": "45,000 × £3.20 = £144,000."
+    },
+    {
+      "id": 11,
+      "question": "A £18,000 budget is used as follows: 3/8 on ads, then a quarter of what is left on design. How much is left?",
+      "options": ["£7,875.00", "£11,250.00", "£8,437.50", "£9,000.00"],
+      "answer": "C",
+      "explanation": "Ads = £6,750, leaving £11,250. Design = £11,250 ÷ 4 = £2,812.50. Remaining = £8,437.50."
+    },
+    {
+      "id": 12,
+      "question": "Mobile and desktop visits are in the ratio 7:3. There are 12,000 visits in total. How many are on mobile?",
+      "options": ["9,000", "3,600", "8,400", "7,000"],
+      "answer": "C",
+      "explanation": "7 + 3 = 10 parts. 12,000 ÷ 10 = 1,200 per part. Mobile = 7 × 1,200 = 8,400."
+    },
+    {
+      "id": 13,
+      "question": "In an A/B test, version A gets 480 conversions from 12,000 visitors and version B gets 540 from 12,000. What is B's relative uplift over A?",
+      "options": ["12.5%", "15%", "11.1%", "0.5%"],
+      "answer": "A",
+      "explanation": "A converts at 4.0%, B at 4.5%. Relative uplift = (540 − 480) ÷ 480 = 12.5%. (0.5% is the difference in percentage points, not the relative uplift.)"
+    },
+    {
+      "id": 14,
+      "question": "Daily active users are 50,000 and rise by 2,500 each week. How many weeks until they reach 80,000?",
+      "options": ["14", "10", "16", "12"],
+      "answer": "D",
+      "explanation": "Gap = 30,000. 30,000 ÷ 2,500 = 12 weeks."
+    },
+    {
+      "id": 15,
+      "question": "Customer satisfaction rises from 72% to 81%. By how many percentage points has it risen?",
+      "options": ["19 points", "11.1 points", "12.5 points", "9 points"],
+      "answer": "D",
+      "explanation": "81 − 72 = 9 percentage points. (12.5% is the relative increase, which is a different measure.)"
+    }
+  ],
+  "verbal": [
+    {
+      "id": 1,
+      "passage": "Search engines rank web pages using many signals, including how relevant the content is to the query and how useful other sites appear to find it. Ranking systems are updated regularly to reduce the visibility of low-quality pages. Website owners are advised to focus on creating helpful, original content rather than trying to exploit individual ranking signals.",
+      "question": "Search rankings are based on a single signal.",
+      "options": ["True", "False", "Cannot Say"],
+      "answer": "False",
+      "explanation": "The passage says pages are ranked using 'many signals'."
+    },
+    {
+      "id": 2,
+      "passage": "Search engines rank web pages using many signals, including how relevant the content is to the query and how useful other sites appear to find it. Ranking systems are updated regularly to reduce the visibility of low-quality pages. Website owners are advised to focus on creating helpful, original content rather than trying to exploit individual ranking signals.",
+      "question": "Website owners are advised to prioritise helpful, original content.",
+      "options": ["True", "False", "Cannot Say"],
+      "answer": "True",
+      "explanation": "The passage states owners are advised 'to focus on creating helpful, original content'."
+    },
+    {
+      "id": 3,
+      "passage": "A product team runs an A/B test on a sign-up page. Half of visitors see the existing page and half see a version with a shorter form. After two weeks, the shorter form has a higher sign-up rate. The team notes that the test ran during a school holiday, when visitor behaviour may differ from the rest of the year.",
+      "question": "Visitors were split equally between the two versions of the page.",
+      "options": ["True", "False", "Cannot Say"],
+      "answer": "True",
+      "explanation": "The passage states 'Half of visitors see the existing page and half see a version with a shorter form.'"
+    },
+    {
+      "id": 4,
+      "passage": "A product team runs an A/B test on a sign-up page. Half of visitors see the existing page and half see a version with a shorter form. After two weeks, the shorter form has a higher sign-up rate. The team notes that the test ran during a school holiday, when visitor behaviour may differ from the rest of the year.",
+      "question": "The shorter form will produce a higher sign-up rate at all times of year.",
+      "options": ["True", "False", "Cannot Say"],
+      "answer": "Cannot Say",
+      "explanation": "The team notes the test ran in a school holiday when behaviour may differ, so the passage cannot confirm the result holds all year."
+    },
+    {
+      "id": 5,
+      "passage": "Data privacy law in the UK requires organisations to have a lawful basis for processing personal data and to keep only what they need for a stated purpose. Individuals have the right to ask what data is held about them. Organisations that fail to protect personal data can face significant fines from the regulator.",
+      "question": "Organisations may keep as much personal data as they like, provided it is stored securely.",
+      "options": ["True", "False", "Cannot Say"],
+      "answer": "False",
+      "explanation": "The passage says organisations must 'keep only what they need for a stated purpose'."
+    },
+    {
+      "id": 6,
+      "passage": "Data privacy law in the UK requires organisations to have a lawful basis for processing personal data and to keep only what they need for a stated purpose. Individuals have the right to ask what data is held about them. Organisations that fail to protect personal data can face significant fines from the regulator.",
+      "question": "Individuals can ask organisations what personal data they hold about them.",
+      "options": ["True", "False", "Cannot Say"],
+      "answer": "True",
+      "explanation": "The passage states individuals 'have the right to ask what data is held about them'."
+    },
+    {
+      "id": 7,
+      "passage": "A small business owner uses a spreadsheet to track weekly sales. She notices that sales rose sharply in the same week she started advertising online. Before increasing her advertising budget, a colleague suggests checking whether anything else changed that week, such as a local event or a seasonal trend.",
+      "question": "The business owner's sales rose in the week she started online advertising.",
+      "options": ["True", "False", "Cannot Say"],
+      "answer": "True",
+      "explanation": "The passage states sales 'rose sharply in the same week she started advertising online'."
+    },
+    {
+      "id": 8,
+      "passage": "A small business owner uses a spreadsheet to track weekly sales. She notices that sales rose sharply in the same week she started advertising online. Before increasing her advertising budget, a colleague suggests checking whether anything else changed that week, such as a local event or a seasonal trend.",
+      "question": "The advertising was the cause of the rise in sales.",
+      "options": ["True", "False", "Cannot Say"],
+      "answer": "Cannot Say",
+      "explanation": "The colleague suggests other possible causes, and the passage does not establish which one was responsible."
+    }
+  ],
+  "sjt": [
+    {
+      "id": 1,
+      "scenario": "You are working on a team data task. You find that a dataset you have been given contains personal information that the task does not need.",
+      "question": "Rank the following responses from MOST to LEAST effective.",
+      "options": [
+        "A. Continue the task, since the data was given to you.",
+        "B. Remove the personal data from your own copy and continue.",
+        "C. Share the dataset with a friend to ask their advice.",
+        "D. Raise it with your manager and suggest removing the unnecessary data before continuing."
+      ],
+      "ranking": ["D", "B", "A", "C"],
+      "explanation": "D is best: it protects users' privacy and fixes the issue at source. B protects your copy but the problem remains for others. A ignores a privacy risk. C is worst: it spreads personal data further."
+    },
+    {
+      "id": 2,
+      "scenario": "A campaign you helped design is underperforming against its target. Your manager asks for your view in a team meeting.",
+      "question": "Rank the following responses from MOST to LEAST effective.",
+      "options": [
+        "A. Point out that other teams' decisions also affected the results.",
+        "B. Say you need more time before giving any view.",
+        "C. Share what the data shows, including your own part in it, and suggest a test to improve results.",
+        "D. Suggest a new idea without discussing why the current one is underperforming."
+      ],
+      "ranking": ["C", "D", "A", "B"],
+      "explanation": "C is best: it is honest, data-led and forward-looking. D is constructive but skips learning from the result. A may be true but shifts blame. B is worst: it avoids contributing when asked."
+    },
+    {
+      "id": 3,
+      "scenario": "You are new and are asked to use a tool you have never used before. The deadline is tomorrow.",
+      "question": "Rank the following responses from MOST to LEAST effective.",
+      "options": [
+        "A. Use a different tool you already know without telling anyone.",
+        "B. Tell your manager you cannot do it.",
+        "C. Ask a colleague to do it for you.",
+        "D. Look for the documentation, then ask a colleague for a quick walkthrough if you are still stuck."
+      ],
+      "ranking": ["D", "C", "A", "B"],
+      "explanation": "D is best: it shows initiative and uses help sensibly. C gets it done but you learn nothing. A may create problems if others rely on the agreed tool. B is worst: it gives up without trying."
+    },
+    {
+      "id": 4,
+      "scenario": "A colleague shares an idea that you think has a serious flaw. The rest of the team seems enthusiastic.",
+      "question": "Rank the following responses from MOST to LEAST effective.",
+      "options": [
+        "A. Go along with it to avoid conflict.",
+        "B. Raise your concern privately with the colleague after the meeting.",
+        "C. Acknowledge what is good about the idea, then explain your concern with evidence.",
+        "D. Tell another colleague the idea will not work."
+      ],
+      "ranking": ["C", "B", "A", "D"],
+      "explanation": "C is best: it respects the colleague and gives the team the information it needs to decide. B is respectful but the team decides without your input. A avoids conflict at the cost of a better outcome. D is worst: it is unconstructive and undermines a colleague."
+    },
+    {
+      "id": 5,
+      "scenario": "A user sends feedback saying a feature is confusing. Your team is proud of the feature.",
+      "question": "Rank the following responses from MOST to LEAST effective.",
+      "options": [
+        "A. Tell the user they are using it wrongly.",
+        "B. Reply to the user explaining how the feature works.",
+        "C. Assume this user is an exception and move on.",
+        "D. Log the feedback and suggest checking whether other users have the same problem."
+      ],
+      "ranking": ["D", "B", "C", "A"],
+      "explanation": "D is best: it takes the user seriously and looks for a wider pattern. B helps one user but may miss a design problem. C dismisses useful feedback. A is worst: it is unhelpful and disrespectful."
+    }
+  ]
+}
