@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { cookies } from "next/headers";
+import { hasPaidAccess } from "@/lib/access";
 import { PACKS, getPackBySlug, getPackContent, getPackContentSplit, getPackSectionTitles } from "@/lib/packs";
 import EmailGate from "@/app/components/EmailGate";
 import PaymentGate from "@/app/components/PaymentGate";
@@ -37,7 +38,7 @@ export default async function PackPage({ params }: Props) {
   if (!pack) notFound();
 
   const cookieStore = await cookies();
-  const serverPaid = cookieStore.get("ae_access")?.value === "paid";
+  const serverPaid = hasPaidAccess(cookieStore);
 
   const hasPsychometric = PSYCHOMETRIC_SLUGS.includes(slug) &&
     fs.existsSync(path.join(process.cwd(), "content", "psychometric", `${slug}.json`));

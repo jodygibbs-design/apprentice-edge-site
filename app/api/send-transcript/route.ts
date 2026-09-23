@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { cookies } from "next/headers";
+import { hasPaidAccess } from "@/lib/access";
 import { Resend } from "resend";
 import { getPackBySlug } from "@/lib/packs";
 
@@ -68,7 +69,7 @@ function buildEmailHtml(companyName: string, messages: { role: string; content: 
 
 export async function POST(request: Request) {
   const cookieStore = await cookies();
-  if (cookieStore.get("ae_access")?.value !== "paid") {
+  if (!hasPaidAccess(cookieStore)) {
     return NextResponse.json({ error: "Unauthorised" }, { status: 401 });
   }
 

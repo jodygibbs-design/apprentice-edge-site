@@ -151,8 +151,8 @@ export default function PrivacyPage() {
                 (named <code className="text-xs bg-slate-100 px-1 py-0.5 rounded">ae_access</code>) that
                 confirms your paid status. This cookie is sent to our servers on each page request so
                 we can verify your access: it cannot be read by JavaScript. It expires after 12 months.
-                No payment or card data is stored in this cookie; it contains only the value
-                &quot;paid&quot;.
+                No payment, card or personal data is stored in this cookie; it contains only an expiry
+                date and a signature that lets us confirm we issued it.
               </p>
             </div>
           </div>

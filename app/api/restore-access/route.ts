@@ -1,12 +1,11 @@
 import { NextResponse } from "next/server";
 import { cookies } from "next/headers";
+import { grantPaidAccess } from "@/lib/access";
 import crypto from "crypto";
 import Stripe from "stripe";
 import { Resend } from "resend";
 
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!);
-const ONE_YEAR = 60 * 60 * 24 * 365;
-
 // Magic-link lifetime. This is an entitlement unlock for a one-off £29 pass
 // (closer to a licence key than a login token), and the buyer is often not the
 // end user - a parent forwards it to their child. A week removes any "activate
@@ -108,16 +107,6 @@ async function hasPaidPurchase(email: string): Promise<boolean> {
   }
 
   return false;
-}
-
-function grantCookie(cookieStore: Awaited<ReturnType<typeof cookies>>) {
-  cookieStore.set("ae_access", "paid", {
-    httpOnly: true,
-    secure: process.env.NODE_ENV === "production",
-    sameSite: "lax",
-    path: "/",
-    maxAge: ONE_YEAR,
-  });
 }
 
 // --- Observability -------------------------------------------------------
@@ -307,7 +296,7 @@ export async function GET(req: Request) {
   }
 
   const cookieStore = await cookies();
-  grantCookie(cookieStore);
+  grantPaidAccess(cookieStore);
   logLine("AE_RESTORE_CLAIMED", { ip, email: claim.email });
   return NextResponse.redirect(`${base}/restore-access?restored=1`);
 }

@@ -1,6 +1,7 @@
 import { notFound, redirect } from "next/navigation";
 import Link from "next/link";
 import { cookies } from "next/headers";
+import { hasPaidAccess } from "@/lib/access";
 import { getPackBySlug, PACKS } from "@/lib/packs";
 import PsychometricTest from "@/app/components/PsychometricTest";
 import PackTabBar from "@/app/components/PackTabBar";
@@ -36,7 +37,7 @@ export default async function PracticeTestsPage({ params }: Props) {
   if (!pack) notFound();
 
   const cookieStore = await cookies();
-  const paid = cookieStore.get("ae_access")?.value === "paid";
+  const paid = hasPaidAccess(cookieStore);
 
   if (!paid) {
     redirect("/checkout");

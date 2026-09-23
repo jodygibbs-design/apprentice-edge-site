@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { cookies } from "next/headers";
+import { hasPaidAccess } from "@/lib/access";
 import Anthropic from "@anthropic-ai/sdk";
 import { getPackBySlug, getPackRawContent } from "@/lib/packs";
 
@@ -29,7 +30,7 @@ function checkRateLimit(ip: string): boolean {
 export async function POST(request: Request) {
   // Auth
   const cookieStore = await cookies();
-  if (cookieStore.get("ae_access")?.value !== "paid") {
+  if (!hasPaidAccess(cookieStore)) {
     return NextResponse.json({ error: "Unauthorised" }, { status: 401 });
   }
 

@@ -1,6 +1,7 @@
 import { notFound, redirect } from "next/navigation";
 import Link from "next/link";
 import { cookies } from "next/headers";
+import { hasPaidAccess } from "@/lib/access";
 import { getPackBySlug, PACKS } from "@/lib/packs";
 import MockInterview from "@/app/components/MockInterview";
 import PackTabBar from "@/app/components/PackTabBar";
@@ -35,7 +36,7 @@ export default async function InterviewPage({ params }: Props) {
   if (!pack) notFound();
 
   const cookieStore = await cookies();
-  const paid = cookieStore.get("ae_access")?.value === "paid";
+  const paid = hasPaidAccess(cookieStore);
 
   if (!paid) {
     redirect("/checkout");

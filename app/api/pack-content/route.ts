@@ -1,10 +1,11 @@
 import { NextResponse } from "next/server";
 import { cookies } from "next/headers";
+import { hasPaidAccess } from "@/lib/access";
 import { getPackBySlug, getPackContent } from "@/lib/packs";
 
 export async function POST(request: Request) {
   const cookieStore = await cookies();
-  const paid = cookieStore.get("ae_access")?.value === "paid";
+  const paid = hasPaidAccess(cookieStore);
 
   if (!paid) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
