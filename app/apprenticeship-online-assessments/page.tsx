@@ -180,7 +180,24 @@ export default function ApprenticeshipOnlineAssessmentsPage() {
             ))}
           </div>
 
-          <PrepCapture context="Practising is the whole game here" />
+          <PrepCapture
+            context="Practising is the whole game here"
+            upsell={
+              <div className="mt-6 pt-6 border-t border-white/10 max-w-md mx-auto">
+                <p className="text-white font-semibold text-sm mb-1">Want test practice for your employer?</p>
+                <p className="text-slate-400 text-sm mb-4">
+                  The Season Pass includes practice tests for all 10 employers: timed numerical, verbal and
+                  situational judgement questions with a worked explanation for every answer.
+                </p>
+                <Link
+                  href="/checkout"
+                  className="inline-block border border-[#C4922A] text-[#C4922A] font-semibold px-6 py-2.5 rounded-xl hover:bg-[#C4922A] hover:text-white transition-colors text-sm"
+                >
+                  Get all 10 sets of practice tests, £29
+                </Link>
+              </div>
+            }
+          />
 
           <h2 className="text-2xl font-extrabold text-slate-900 tracking-tight mt-12 mb-4">
             How to prepare, in order

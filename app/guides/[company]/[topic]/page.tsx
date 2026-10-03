@@ -99,10 +99,33 @@ function PackCTA({ company }: { company: CompanyData }) {
  * Wraps PrepCapture rather than duplicating it, so guide signups land in the same MailerLite
  * group and unlock the pack through the same localStorage key the paid landing pages use.
  */
-function GuideCapture({ company }: { company: CompanyData }) {
+// Topics whose readers are about to sit an employer's tests. Every pack has practice tests
+// in the Season Pass, so after signup these readers see the ones for the employer they searched.
+const TEST_INTENT_TOPICS = new Set(["online-tests", "situational-judgement", "assessment-centre"]);
+
+function PracticeTestUpsell({ company }: { company: CompanyData }) {
+  return (
+    <div className="mt-6 pt-6 border-t border-white/10 max-w-md mx-auto">
+      <p className="text-white font-semibold text-sm mb-1">Sitting the {company.name} tests?</p>
+      <p className="text-slate-400 text-sm mb-4">
+        The Season Pass includes {company.name} practice tests: timed numerical, verbal and situational
+        judgement questions with a worked explanation for every answer.
+      </p>
+      <Link
+        href="/checkout"
+        className="inline-block border border-[#C4922A] text-[#C4922A] font-semibold px-6 py-2.5 rounded-xl hover:bg-[#C4922A] hover:text-white transition-colors text-sm"
+      >
+        Get the {company.name} practice tests, £29
+      </Link>
+    </div>
+  );
+}
+
+function GuideCapture({ company, topic }: { company: CompanyData; topic: TopicMeta }) {
   const isFree = company.packSlug === "pwc";
   return (
     <PrepCapture
+      upsell={TEST_INTENT_TOPICS.has(topic.slug) ? <PracticeTestUpsell company={company} /> : undefined}
       context={`Preparing for ${company.name}? Get a full pack free`}
       body={
         isFree ? (
@@ -1212,7 +1235,7 @@ export default async function GuidePage({ params }: Props) {
       <section className="bg-white">
         <div className="max-w-3xl mx-auto px-6 py-10">
           {renderContent(company, topic)}
-          <GuideCapture company={company} />
+          <GuideCapture company={company} topic={topic} />
           <PackCTA company={company} />
         </div>
       </section>

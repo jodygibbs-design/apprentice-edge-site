@@ -23,10 +23,16 @@ const STORAGE_KEY = "ae_email_captured";
 export default function PrepCapture({
   context,
   body,
+  upsell,
 }: {
   context: string;
   /** Overrides the default PwC-pack pitch. Used by the organic guide pages. */
   body?: React.ReactNode;
+  /**
+   * Shown under the PwC button once the email is in. Test-intent guide readers are
+   * searching for one employer's tests, and the free PwC pack alone does not answer that.
+   */
+  upsell?: React.ReactNode;
 }) {
   const [email, setEmail] = useState("");
   const [marketingOptIn, setMarketingOptIn] = useState(false);
@@ -78,6 +84,7 @@ export default function PrepCapture({
           >
             Read the free PwC pack
           </Link>
+          {upsell}
         </>
       ) : (
         <>
