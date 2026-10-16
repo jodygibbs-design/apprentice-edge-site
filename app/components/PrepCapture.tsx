@@ -143,7 +143,7 @@ export default function PrepCapture({
           </form>
 
           <div className="mt-5">
-            <Link href="/checkout" className="text-slate-400 text-sm hover:text-white transition-colors">
+            <Link href="/checkout?from=capture-all10" className="text-slate-400 text-sm hover:text-white transition-colors">
               Or get all 10 employers, Season Pass £29
             </Link>
           </div>

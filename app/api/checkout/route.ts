@@ -20,6 +20,12 @@ export async function POST(req: Request) {
     // way to tell a paid sale from an organic one after the fact.
     const attribution = sanitiseAttribution(body.attribution);
 
+    // Which button led to checkout. Same untrusted-input rules as attribution: a short slug,
+    // nothing else, and optional.
+    if (typeof body.cta === "string" && /^[a-z0-9-]{1,40}$/.test(body.cta)) {
+      attribution.ae_cta = body.cta;
+    }
+
     const base = getBaseUrl();
 
     const sessionParams: Stripe.Checkout.SessionCreateParams = {

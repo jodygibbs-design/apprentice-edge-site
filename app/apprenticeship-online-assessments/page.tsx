@@ -190,7 +190,7 @@ export default function ApprenticeshipOnlineAssessmentsPage() {
                   situational judgement questions with a worked explanation for every answer.
                 </p>
                 <Link
-                  href="/checkout"
+                  href="/checkout?from=assess-upsell"
                   className="inline-block border border-[#C4922A] text-[#C4922A] font-semibold px-6 py-2.5 rounded-xl hover:bg-[#C4922A] hover:text-white transition-colors text-sm"
                 >
                   Get all 10 sets of practice tests, £29

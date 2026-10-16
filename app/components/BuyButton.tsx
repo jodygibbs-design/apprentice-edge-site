@@ -12,10 +12,16 @@ export default function BuyButton() {
     setLoading(true);
     setError("");
     try {
+      // Which link brought the buyer here (?from=). Reporting only: the server validates
+      // it, and failing to read it must not block a sale.
+      let cta: string | undefined;
+      try {
+        cta = new URLSearchParams(window.location.search).get("from") ?? undefined;
+      } catch {}
       const res = await fetch("/api/checkout", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ promoCode: promoCode.trim() || undefined, attribution: getAttribution() }),
+        body: JSON.stringify({ promoCode: promoCode.trim() || undefined, attribution: getAttribution(), cta }),
       });
       const data = await res.json();
       if (data.url) {

@@ -1,4 +1,5 @@
 import { notFound } from "next/navigation";
+import React from "react";
 import Link from "next/link";
 import type { Metadata } from "next";
 import PrepCapture from "@/app/components/PrepCapture";
@@ -55,16 +56,75 @@ function StarBox() {
  * slab and the free offer stops being the focal point, which is the wrong way round for a
  * cold organic reader who has never heard of the site.
  */
-function PackCTA({ company }: { company: CompanyData }) {
+type CtaKind = "mock" | "tests" | "application";
+
+// What the reader of this topic is about to do, so the paid ask names the part of the
+// Season Pass that helps with it instead of the same generic pack blurb on all 200 pages.
+const TEST_TOPICS = new Set(["online-tests", "situational-judgement", "assessment-centre", "group-exercise"]);
+const INTERVIEW_TOPICS = new Set([
+  "interview-questions",
+  "video-interview",
+  "star-method",
+  "competency-questions",
+  "competencies",
+  "why-this-company",
+  "commercial-awareness",
+]);
+
+// Readers still researching whether to apply (pay, odds, route in). A sales line this early
+// is premature, so they get only the end-of-page ask.
+const RESEARCH_TOPICS = new Set(["salary", "acceptance-rate", "school-leaver-vs-grad", "how-to-get-in"]);
+
+function ctaKind(topicSlug: string): CtaKind {
+  if (TEST_TOPICS.has(topicSlug)) return "tests";
+  if (INTERVIEW_TOPICS.has(topicSlug)) return "mock";
+  return "application";
+}
+
+function ctaCopy(kind: CtaKind, name: string) {
+  switch (kind) {
+    case "mock":
+      return {
+        title: `Practise with a ${name} AI mock interviewer`,
+        body: `The Season Pass gives you an AI practice interviewer for ${name} with unlimited sessions, plus the full ${name} pack: real questions and what strong answers look like.`,
+        line: `Interview coming up? The Season Pass includes an AI mock interviewer for ${name}.`,
+      };
+    case "tests":
+      return {
+        title: `Practise the ${name} tests under timed conditions`,
+        body: `The Season Pass includes ${name} numerical, verbal and situational judgement practice tests, timed and scored, with a worked explanation for every answer, plus the full ${name} pack.`,
+        line: `Sitting the ${name} tests? The Season Pass includes timed ${name} practice tests.`,
+      };
+    default:
+      return {
+        title: `Get the ${name} application right first time`,
+        body: `The ${name} pack walks through every stage and shows weak against strong answers to the questions that decide who goes through, with an AI mock interviewer and practice tests when you get further.`,
+        line: `Applying to ${name}? The Season Pass pack shows weak against strong answers for each stage.`,
+      };
+  }
+}
+
+/**
+ * The company-specific paid ask.
+ *
+ * Restyled from a dark slab to a light bordered card because it now sits directly beneath
+ * GuideCapture, which is dark. Two dark blocks back to back read as one undifferentiated
+ * slab and the free offer stops being the focal point, which is the wrong way round for a
+ * cold organic reader who has never heard of the site.
+ */
+function PackCTA({ company, topic }: { company: CompanyData; topic: TopicMeta }) {
   const isFree = company.packSlug === "pwc";
+  const copy = ctaCopy(ctaKind(topic.slug), company.name);
   return (
     <div className="border border-slate-200 rounded-2xl p-6 my-8 bg-white">
       <p className="text-slate-400 text-xs font-semibold uppercase tracking-widest mb-2">
         Want the {company.name} pack specifically?
       </p>
-      <h3 className="text-lg font-bold text-slate-900 mb-2">{company.name} Apprenticeship Prep Pack</h3>
+      <h3 className="text-lg font-bold text-slate-900 mb-2">{isFree ? `${company.name} Apprenticeship Prep Pack` : copy.title}</h3>
       <p className="text-slate-600 text-sm mb-5">
-        Application stages, competencies, real interview questions, commercial awareness, and a pre-submission checklist: in one complete pack.
+        {isFree
+          ? "Application stages, competencies, real interview questions, commercial awareness, and a pre-submission checklist: in one complete pack."
+          : copy.body}
       </p>
       {isFree ? (
         <Link
@@ -76,16 +136,43 @@ function PackCTA({ company }: { company: CompanyData }) {
       ) : (
         <div className="flex flex-wrap items-center gap-4">
           <Link
-            href="/checkout"
+            href="/checkout?from=guide-pack"
             className="inline-block bg-[#0D1B2A] text-white font-semibold px-6 py-2.5 rounded-xl hover:bg-[#1E3A5F] transition-colors text-sm"
           >
             Get the Season Pass, £29
           </Link>
-          <span className="text-slate-500 text-sm">All 10 employers included</span>
+          <span className="text-slate-500 text-sm">One payment, all 10 employers, access until 31 August 2027</span>
         </div>
       )}
     </div>
   );
+}
+
+/**
+ * A one-line paid mention early in the guide. Until now the only buy prompt sat after the
+ * whole article, and every buyer so far bought in the visit they arrived on. Deliberately
+ * small: a sentence and a link, so it reads as part of the page rather than an interruption.
+ */
+function InlineBuyLine({ company, topic }: { company: CompanyData; topic: TopicMeta }) {
+  const copy = ctaCopy(ctaKind(topic.slug), company.name);
+  return (
+    <p className="border border-slate-200 bg-slate-50 rounded-xl px-4 py-3 my-6 text-sm text-slate-700">
+      {copy.line}{" "}
+      <Link href="/checkout?from=guide-inline" className="font-semibold text-blue-700 hover:underline whitespace-nowrap">
+        See what is included, £29 →
+      </Link>
+    </p>
+  );
+}
+
+/** Content with the buy line placed just before its second section heading. */
+function withInlineBuyLine(content: React.ReactNode, line: React.ReactNode): React.ReactNode {
+  if (!React.isValidElement(content) || content.type !== React.Fragment) return content;
+  const children = React.Children.toArray((content.props as { children?: React.ReactNode }).children);
+  let h2s = 0;
+  const at = children.findIndex((c) => React.isValidElement(c) && c.type === "h2" && ++h2s === 2);
+  if (at === -1) return content;
+  return [...children.slice(0, at), <React.Fragment key="inline-buy">{line}</React.Fragment>, ...children.slice(at)];
 }
 
 /**
@@ -112,7 +199,7 @@ function PracticeTestUpsell({ company }: { company: CompanyData }) {
         judgement questions with a worked explanation for every answer.
       </p>
       <Link
-        href="/checkout"
+        href="/checkout?from=guide-tests-upsell"
         className="inline-block border border-[#C4922A] text-[#C4922A] font-semibold px-6 py-2.5 rounded-xl hover:bg-[#C4922A] hover:text-white transition-colors text-sm"
       >
         Get the {company.name} practice tests, £29
@@ -1199,6 +1286,12 @@ export default async function GuidePage({ params }: Props) {
 
   const h1 = fillTemplate(topic.h1Template, company);
 
+  const body = renderContent(company, topic);
+  const content =
+    company.packSlug === "pwc" || RESEARCH_TOPICS.has(topic.slug)
+      ? body
+      : withInlineBuyLine(body, <InlineBuyLine company={company} topic={topic} />);
+
   const otherTopics = TOPICS.filter((t) => t.slug !== topic.slug).slice(0, 6);
   const otherCompanies = COMPANIES.filter((c) => c.slug !== company.slug).slice(0, 5);
 
@@ -1234,9 +1327,9 @@ export default async function GuidePage({ params }: Props) {
       {/* Content + Sidebar */}
       <section className="bg-white">
         <div className="max-w-3xl mx-auto px-6 py-10">
-          {renderContent(company, topic)}
+          {content}
           <GuideCapture company={company} topic={topic} />
-          <PackCTA company={company} />
+          <PackCTA company={company} topic={topic} />
         </div>
       </section>
 
